@@ -5,11 +5,12 @@
       <div class="col-lg-4 mr-auto col-sm-6">
         <div class="widget mb-5 mb-lg-0">
           <div class="logo mb-4">
-            <img src="images/logo.png" alt="" class="img-fluid" />
+            <img src="images/logo1.png" alt="" class="img-fluid" />
           </div>
+          <h4> Our Quest</h4>
           <p>
-            Tempora dolorem voluptatum nam vero assumenda voluptate, facilis ad
-            eos obcaecati tenetur veritatis eveniet distinctio possimus.
+          City Eye Hospital is dedicated to delivering top-notch, secure, 
+          and cost-effective eye care services to all patients who rely on our expertise.
           </p>
 
           <ul class="list-inline footer-socials mt-4">
@@ -102,7 +103,7 @@
               <input
                 type="text"
                 class="form-control"
-                placeholder="Your Email address"
+                placeholder="Subscribe to Our News Letters- Your Email"
                 required
               />
               <button type="submit" class="btn btn-main-2 btn-round-full">

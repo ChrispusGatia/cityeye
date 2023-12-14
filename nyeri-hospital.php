@@ -94,12 +94,13 @@
 					<h3 class="mt-5 mb-4">Our Eye Services</h3>
 					<div class="divider my-4"></div>
 					<ul class="list-unstyled department-service">
-						<li><i class="icofont-check mr-2"></i>International Drug Database</li>
-						<li><i class="icofont-check mr-2"></i>Stretchers and Stretcher Accessories</li>
-						<li><i class="icofont-check mr-2"></i>Cushions and Mattresses</li>
-						<li><i class="icofont-check mr-2"></i>Cholesterol and lipid tests</li>
-						<li><i class="icofont-check mr-2"></i>Critical Care Medicine Specialists</li>
-						<li><i class="icofont-check mr-2"></i>Emergency Assistance</li>
+					<li><i class="icofont-check mr-2"></i>General Ophthalmology</li>
+						<li><i class="icofont-check mr-2"></i>Cataract Surgery</li>
+						<li><i class="icofont-check mr-2"></i>Corneal Transplants</li>
+						<li><i class="icofont-check mr-2"></i>Glaucoma Clinics and Surgery</li>
+						<li><i class="icofont-check mr-2"></i>Retina Clinic and Surgery</li>
+						<li><i class="icofont-check mr-2"></i>Pediatric Clinic</li>
+						<li><i class="icofont-check mr-2"></i>Uveitis Clinic</li>
 					</ul>
 
 					<a href="service.html" class="btn btn-main-2 btn-round-full">Explore Our Services<i class="icofont-simple-right ml-2  "></i></a>
@@ -108,22 +109,19 @@
 
 			<div class="col-lg-4">
 				<div class="sidebar-widget schedule-widget mt-5">
-					<h5 class="mb-4">Time Schedule</h5>
+					<h5 class="mb-4">Consulation Fee</h5>
 
 					<ul class="list-unstyled">
 					  <li class="d-flex justify-content-between align-items-center">
-					    <span>Monday - Thur :</span>
-					    <span>7:30 a.m - 3:00 p.m</span>
-					  </li>
-					  <li class="d-flex justify-content-between align-items-center">
-					    <span>Friday :</span>
-					    <span>8:00 a.m - 3:00 p.m</span>
-					  </li>
-					  <li class="d-flex justify-content-between align-items-center">
-					    <span>Weekends & Public Holidays :</span>
-					    <span>Closed</span>
+					    <span>Embark on a visionary journey to eye health excellence with our 
+							specialized consultations at an unbeatable fee👁️💡</span>
 					  </li>
 					</ul>
+
+					<div class="sidebar-contatct-info mt-4">
+						<p class="mb-0">🌟 Fee</p>
+						<h4 class="mb-3">Ksh 500</h4>
+					</div>
 				</div>
 			</div>
 
@@ -137,12 +135,12 @@
 					    <span>Opp. Traffic Police Station, Nairobi.</span>
 					  </li>
 					  <li class="d-flex justify-content-between align-items-center">
-					    <span>Saturday</span>
-					    <span>9:00 - 16:00</span>
+					    <i class="icofont-location-pin"></i>
+					    <span>Opp. Traffic Police Station, Nairobi.</span>
 					  </li>
 					  <li class="d-flex justify-content-between align-items-center">
-					    <span>Sunday</span>
-					    <span>Closed</span>
+					    <i class="icofont-location-pin"></i>
+					    <span>Opp. Traffic Police Station, Nairobi.</span>
 					  </li>
 					</ul>
 
@@ -210,22 +208,22 @@
 
 					<ul class="list-unstyled">
 					  <li class="d-flex justify-content-between align-items-center">
-					    <span>Monday - Friday</span>
-					    <span>9:00 - 17:00</span>
+					    <span>Monday - Thur :</span>
+					    <span>7:30 a.m - 4:00 p.m</span>
 					  </li>
 					  <li class="d-flex justify-content-between align-items-center">
-					    <span>Saturday</span>
-					    <span>9:00 - 16:00</span>
+					    <span>Friday :</span>
+					    <span>8:00 a.m - 4:00 p.m</span>
 					  </li>
 					  <li class="d-flex justify-content-between align-items-center">
-					    <span>Sunday</span>
+					    <span>Weekends & Public Holidays :</span>
 					    <span>Closed</span>
 					  </li>
 					</ul>
 
 					<div class="sidebar-contatct-info mt-4">
-						<p class="mb-0">Need Urgent Help?</p>
-						<h3>+23-4565-65768</h3>
+						<p class="mb-0">Friendly Reception for Everyone!</p>
+						<h3>All Are Welcome!</h3>
 					</div>
 				</div>
 			</div>

@@ -28,7 +28,7 @@
   <nav class="navbar navbar-expand-lg navigation" id="navbar">
     <div class="container">
       <a class="navbar-brand" href="index.html">
-        <img src="images/logo.png" width="150" class="img-fluid" />
+        <img src="images/logo1.png" width="150" class="img-fluid" />
       </a>
 
       <button
@@ -61,10 +61,13 @@
             ></a>
             <ul class="dropdown-menu" aria-labelledby="dropdown02">
               <li>
-                <a class="dropdown-item" href="service.php">Who We Are</a>
+                <a class="dropdown-item" href="whoweare.php">Who We Are</a>
               </li>
               <li>
-                <a class="dropdown-item" href="service.php">Mission & Vision</a
+                <a class="dropdown-item" href="ourhistory.php">Our History</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="mission&vision.php">Mission & Vision</a
                 >
               </li>
 
@@ -103,10 +106,7 @@
     
                     <ul class="dropdown-menu" aria-labelledby="dropdown0501">
                       <li>
-                        <a class="dropdown-item" href="index.html">Submenu 01</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="index.html">Submenu 02</a>
+                        <a class="dropdown-item" href="index.html">CEH Community Vision Center-Ngong</a>
                       </li>
                     </ul>
                   </li>
@@ -206,6 +206,9 @@
                   <li>
                     <a class="dropdown-item" href="service.php">Pediatric Eye Clinic</a>
                   </li>
+                  <li>
+                    <a class="dropdown-item" href="service.php">Uveitis Clinic</a>
+                  </li>
                 </ul>
               </li>
 
@@ -264,7 +267,7 @@
             <ul class="dropdown-menu" aria-labelledby="dropdown03">
               <li><a class="dropdown-item" href="doctor.php">Doctors</a></li>
               <li>
-                <a class="dropdown-item" href="appoinment.php">Book Appoinment</a>
+                <a class="dropdown-item" href="appointment.php">Book Appoinment</a>
               </li>
 
             <!--<li class="dropdown dropdown-submenu dropleft">
@@ -314,7 +317,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="contact.php">Contact</a>
           </li>
         </ul>
       </div>

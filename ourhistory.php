@@ -9,7 +9,7 @@
     <!-- Basic Page Needs
   ================================================== -->
     <meta charset="utf-8" />
-    <title>CityEye- Health Care</title>
+    <title>CityEye- Health Care &amp; Medical template</title>
 
     <!-- Mobile Specific Metas
   ================================================== -->
@@ -57,7 +57,7 @@
       <div class="col-md-12">
         <div class="block text-center">
           <span class="text-white">About Us</span>
-          <h1 class="text-capitalize mb-5 text-lg">Who We Are</h1>
+          <h1 class="text-capitalize mb-5 text-lg">About Us</h1>
 
           <!-- <ul class="list-inline breadcumb-nav">
             <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
@@ -74,21 +74,15 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4">
-				<h2 class="title-color">Who We Are</h2>
+				<h2 class="title-color">Personal care for your healthy living</h2>
 			</div>
 			<div class="col-lg-8">
-				<p>Founded in 2015, City Eye Hospital (CEH) is devoted to providing quality eye care to all patients.
-          Our approach blends a walk-in Main Hospital with an Appointment Clinic and a branch in Nyeri.
-          The Main Hospital is conveniently located on Ngong Road, the Appointment Clinic at Upper Hill Medical Centre,
-          and the Nyeri Branch on Mbuni Road. CEH is the Data Controller for the information it collects and
-          records, uses, and stores about its patients, carers, staff, and the public.
-          CEH processes its data electronically and using paper-based systems.</p>
-				<!--<img src="images/about/sign.png" alt="" class="img-fluid">-->
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, quod laborum alias. Vitae dolorum, officia sit! Saepe ullam facere at, consequatur incidunt, quae esse, quis ut reprehenderit dignissimos, libero delectus.</p>
+				<img src="images/about/sign.png" alt="" class="img-fluid">
 			</div>
 		</div>
 	</div>
 </section>
-
 
 <section class="fetaure-page ">
 	<div class="container">

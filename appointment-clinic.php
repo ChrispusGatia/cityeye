@@ -87,43 +87,44 @@
 				<div class="department-content mt-5">
 					<h3 class="text-md">EyeCare Hospital's Premier Appointment Clinic</h3>
 					<div class="divider my-4"></div>
-					<p class="lead">Welcome to our Main Hospital – a warm and inviting walk-in facility dedicated to prioritizing your eye health.</p>
-					<p>Our board-certified doctors and expert eye care specialists are committed to delivering comprehensive medical and surgical care for a wide spectrum of eye and vision-related conditions. Your vision is our top priority!</p>
+					<p class="lead">Welcome to our Elevated Appointment Clinic- Conveniently situated on the 3rd floor of Upper Hill Medical Centre, Ralph Bunche Road, Nairobi.</p>
+					<p>We prioritize your eye health with certified doctors, offering top-notch medical and surgical care. Your vision is our focus. Book now for an elevated eye care experience!</p>
 
 
 					<h3 class="mt-5 mb-4">Our Eye Services</h3>
 					<div class="divider my-4"></div>
 					<ul class="list-unstyled department-service">
-						<li><i class="icofont-check mr-2"></i>International Drug Database</li>
-						<li><i class="icofont-check mr-2"></i>Stretchers and Stretcher Accessories</li>
-						<li><i class="icofont-check mr-2"></i>Cushions and Mattresses</li>
-						<li><i class="icofont-check mr-2"></i>Cholesterol and lipid tests</li>
-						<li><i class="icofont-check mr-2"></i>Critical Care Medicine Specialists</li>
-						<li><i class="icofont-check mr-2"></i>Emergency Assistance</li>
+					<li><i class="icofont-check mr-2"></i>General Ophthalmology</li>
+						<li><i class="icofont-check mr-2"></i>Cataract Surgery</li>
+						<li><i class="icofont-check mr-2"></i>Corneal Transplants</li>
+						<li><i class="icofont-check mr-2"></i>Glaucoma Clinics and Surgery</li>
+						<li><i class="icofont-check mr-2"></i>Retina Clinic and Surgery</li>
+						<li><i class="icofont-check mr-2"></i>Pediatric Clinic</li>
+						<li><i class="icofont-check mr-2"></i>Uveitis Clinic</li>
 					</ul>
 
-					<a href="service.html" class="btn btn-main-2 btn-round-full">Explore Our Services<i class="icofont-simple-right ml-2  "></i></a>
+					<a href="appointment.php" class="btn btn-main-2 btn-round-full">Make Appointment<i class="icofont-simple-right ml-2  "></i></a>
 				</div>
 			</div>
 
 			<div class="col-lg-4">
 				<div class="sidebar-widget schedule-widget mt-5">
-					<h5 class="mb-4">Time Schedule</h5>
+					<h5 class="mb-4">Appointment Fee</h5>
 
 					<ul class="list-unstyled">
 					  <li class="d-flex justify-content-between align-items-center">
-					    <span>Monday - Thur :</span>
-					    <span>7:30 a.m - 3:00 p.m</span>
+					    <span>Prioritize your vision with unbeatable, specialized consultations 
+							at our clinic! 👁️💡</span>
 					  </li>
-					  <li class="d-flex justify-content-between align-items-center">
-					    <span>Friday :</span>
-					    <span>8:00 a.m - 3:00 p.m</span>
-					  </li>
-					  <li class="d-flex justify-content-between align-items-center">
-					    <span>Weekends & Public Holidays :</span>
-					    <span>Closed</span>
+					  <li>
+					  <span>#EyeHealthExcellence</span>
 					  </li>
 					</ul>
+
+					<div class="sidebar-contatct-info mt-4">
+						<p class="mb-0">🌟 Fee</p>
+						<h4 class="mb-3">Ksh 4000</h4>
+					</div>
 				</div>
 			</div>
 
@@ -134,22 +135,17 @@
 					<ul class="list-unstyled">
 					  <li class="d-flex justify-content-between align-items-center">
 					    <i class="icofont-location-pin"></i>
-					    <span>Opp. Traffic Police Station, Nairobi.</span>
+					    <span>Upper Hill Medical Center, 3rd Floor, Nairobi.</span>
 					  </li>
 					  <li class="d-flex justify-content-between align-items-center">
-					    <span>Saturday</span>
-					    <span>9:00 - 16:00</span>
+					    <i class="icofont-location-pin"></i>
+					    <span>Upper Hill Medical Center, 3rd Floor, Nairobi.</span>
 					  </li>
 					  <li class="d-flex justify-content-between align-items-center">
-					    <span>Sunday</span>
-					    <span>Closed</span>
+					    <i class="icofont-location-pin"></i>
+					    <span>Upper Hill Medical Center, 3rd Floor, Nairobi.</span>
 					  </li>
 					</ul>
-
-					<div class="sidebar-contatct-info mt-4">
-						<p class="mb-0">Need Urgent Help?</p>
-						<h3>+23-4565-65768</h3>
-					</div>
 				</div>
 			</div>
 
@@ -210,22 +206,22 @@
 
 					<ul class="list-unstyled">
 					  <li class="d-flex justify-content-between align-items-center">
-					    <span>Monday - Friday</span>
-					    <span>9:00 - 17:00</span>
+					    <span>Monday - Thur :</span>
+					    <span>7:30 a.m - 4:00 p.m</span>
 					  </li>
 					  <li class="d-flex justify-content-between align-items-center">
-					    <span>Saturday</span>
-					    <span>9:00 - 16:00</span>
+					    <span>Friday :</span>
+					    <span>8:00 a.m - 4:00 p.m</span>
 					  </li>
 					  <li class="d-flex justify-content-between align-items-center">
-					    <span>Sunday</span>
+					    <span>Weekends & Public Holidays :</span>
 					    <span>Closed</span>
 					  </li>
 					</ul>
 
 					<div class="sidebar-contatct-info mt-4">
-						<p class="mb-0">Need Urgent Help?</p>
-						<h3>+23-4565-65768</h3>
+						<p class="mb-0">Friendly Reception for Everyone!</p>
+						<h3>All Are Welcome!</h3>
 					</div>
 				</div>
 			</div>
@@ -242,7 +238,9 @@
 				<div class="section-title text-center">
 					<h2>Partners who support us</h2>
 					<div class="divider mx-auto my-4"></div>
-					<p>Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt molestias nostrum laudantium. Maiores porro cumque quaerat.</p>
+					<p>City Eye Hospital: Your trusted partner for superior vision care, 
+						where precision meets compassion in a community dedicated to clarity 
+						and vibrant partnerships. </p>
 				</div>
 			</div>
 		</div>

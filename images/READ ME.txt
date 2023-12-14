@@ -1,0 +1,10 @@
+Hello Fred,
+
+Please adhere to the following guidelines for the sample pictures/images:
+
+1. Ensure that the size remains consistent across all images.
+2. Use your creativity to design images that you believe will complement each folder.
+3. Each folder should contain images specific to its category (e.g., Services folder should include images related to the services we offer) and these images can vary in design.
+4. The About folder should contain images intended for the navigation bar, and again, designs can vary.
+
+Note: Please refer to the attached zipped file as an example of the desired shape and dimensions. Create your own designs for each specified folder.

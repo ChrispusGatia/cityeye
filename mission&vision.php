@@ -57,7 +57,7 @@
       <div class="col-md-12">
         <div class="block text-center">
           <span class="text-white">About Us</span>
-          <h1 class="text-capitalize mb-5 text-lg">Our History</h1>
+          <h1 class="text-capitalize mb-5 text-lg">Our Goal and Dream</h1>
 
           <!-- <ul class="list-inline breadcumb-nav">
             <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
@@ -70,70 +70,71 @@
   </div>
 </section>
 
+<!-- Our Mission, Vision, and Core Values Section -->
+<section class="section mission-vision-core-values">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- Section Title -->
+            <div class="section-title text-center">
+              <h2 class="mb-4">Our Mission, Vision, and Core Values</h2>
+              <div class="divider mx-auto my-4"></div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                ac blandit quam. Curabitur convallis hendrerit justo, nec
+                tincidunt lorem accumsan a. Vestibulum lacinia ultrices diam,
+                eget faucibus felis rhoncus vitae.
+              </p>
+            </div>
+          </div>
+        </div>
 
-<!-- Section: Our History -->
-<section class="section our-history">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="title-color mb-4">Embarking on a Visionary Journey</h2>
-      </div>
+        <div class="row">
+    <div class="col-lg-4">
+        <!-- Mission Item -->
+        <div class="mission-vision-core-values-item feature-item mb-4">
+            <h3>Our Mission</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                ac blandit quam. Curabitur convallis hendrerit justo, nec
+                tincidunt lorem accumsan a.
+            </p>
+        </div>
     </div>
 
-    <div class="row">
-      <div class="col-md-6">
-        <div class="feature-item mb-4">
-          <div class="year-icon">
-            <i class="fas fa-hourglass-start"></i>
-            <p>Since 1970</p>
+          <div class="col-lg-4">
+            <!-- Vision Item -->
+            <div class="mission-vision-core-values-item feature-item mb-4">
+              <h3>Our Vision</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                ac blandit quam. Curabitur convallis hendrerit justo, nec
+                tincidunt lorem accumsan a.
+              </p>
+            </div>
           </div>
-          <h4>Decades of Excellence</h4>
-          <p>Delivering excellence in healthcare, setting a standard for quality and compassion.</p>
+
+          <div class="col-lg-4">
+            <!-- Core Values Item -->
+            <div class="mission-vision-core-values-item feature-item mb-4">
+              <h3>Our Core Values</h3>
+              <ul>
+                <li>Integrity</li>
+                <li>Compassion</li>
+                <li>Innovation</li>
+                <li>Collaboration</li>
+                <!-- Add more core values as needed -->
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="col-md-6">
-        <div class="feature-item mb-4">
-          <div class="year-icon">
-            <i class="fas fa-calendar-alt"></i>
-            <p>Established in 1985</p>
-          </div>
-          <h4>Years of Compassionate Care</h4>
-          <p>Commitment to compassionate care has been unwavering, ensuring the well-being of our community.</p>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="feature-item mb-4">
-          <div class="year-icon">
-            <i class="fas fa-history"></i>
-            <p>Since 1998</p>
-          </div>
-          <h4>A Legacy of Innovation</h4>
-          <p>Journey includes a legacy of innovation, always pushing boundaries to provide cutting-edge healthcare solutions.</p>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="feature-item mb-4">
-          <div class="year-icon">
-            <i class="fas fa-heartbeat"></i>
-            <p>Since 1990</p>
-          </div>
-          <h4>Years of Trusted Expertise</h4>
-          <p>Over 30 years of trusted expertise, continuing to lead in medical advancements and patient care.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
+    </section>
 
 <!-- footer Start -->
 <?php include ("assets/include/footer.php"); // get footer file?>
 <!-- footer End -->
+
 
    
 

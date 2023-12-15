@@ -8,7 +8,7 @@
 <head>
   <!-- Basic Page Needs -->
   <meta charset="utf-8">
-  <title>CityEye - Health Care</title>
+  <title>CityEye - Who We Are</title>
 
   <!-- Mobile Specific Metas -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">

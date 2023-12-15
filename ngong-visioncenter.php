@@ -8,7 +8,7 @@
 <head>
     <!-- Basic Page Needs ================================================== -->
     <meta charset="utf-8" />
-    <title>CityEye- Nyeri Hospital</title>
+    <title>CityEye - Ngong Vision Center</title>
 
     <!-- Mobile Specific Metas ================================================== -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -44,8 +44,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="block text-center">
-                        <span class="text-white">Branches>Nyeri Hospital</span>
-                        <h1 class="text-capitalize mb-5 text-lg">Nyeri Hospital</h1>
+                        <span class="text-white">Branches>Ngong Vision Center</span>
+                        <h1 class="text-capitalize mb-5 text-lg">Ngong Vision Center</h1>
                     </div>
                 </div>
             </div>
@@ -65,24 +65,23 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="department-content mt-5">
-                        <h3 class="text-md">EyeCare Hospital - Nyeri's Leading Eye Care Center</h3>
+                        <h3 class="text-md">EyeCare Ngong - Excellence in Vision Care</h3>
                         <div class="divider my-4"></div>
-                        <p class="lead">Introducing CEH Nyeri, our latest satellite clinic launched in October 2022.</p>
-                        <p>Committed to extending quality eye care beyond the capital, CEH Nyeri mirrors the clinical excellence of our Main Hospital. Access state-of-the-art diagnostic testing and treatment for both adults and children, upholding our dedication to world-class eye care.</p>
+                        <p class="lead">Welcome to CEH Ngong Vision Center, your trusted partner for superior vision care in the Ngong area.</p>
+                        <p>Our Ngong Vision Center is equipped with state-of-the-art facilities and a dedicated team of eye care professionals to cater to all your vision needs.</p>
 
-                        <h3 class="mt-5 mb-4">Our Eye Services</h3>
+                        <h3 class="mt-5 mb-4">Our Vision Services</h3>
                         <div class="divider my-4"></div>
                         <ul class="list-unstyled department-service">
-                            <li><i class="icofont-check mr-2"></i>General Ophthalmology</li>
-                            <li><i class="icofont-check mr-2"></i>Cataract Surgery</li>
-                            <li><i class="icofont-check mr-2"></i>Corneal Transplants</li>
-                            <li><i class="icofont-check mr-2"></i>Glaucoma Clinics and Surgery</li>
-                            <li><i class="icofont-check mr-2"></i>Retina Clinic and Surgery</li>
-                            <li><i class="icofont-check mr-2"></i>Pediatric Clinic</li>
-                            <li><i class="icofont-check mr-2"></i>Uveitis Clinic</li>
+                            <li><i class="icofont-check mr-2"></i>Comprehensive Eye Exams</li>
+                            <li><i class="icofont-check mr-2"></i>Prescription Glasses</li>
+                            <li><i class="icofont-check mr-2"></i>Contact Lens Fitting</li>
+                            <li><i class="icofont-check mr-2"></i>Eye Health Consultation</li>
+                            <li><i class="icofont-check mr-2"></i>Emergency Eye Care</li>
+                            <li><i class="icofont-check mr-2"></i>Specialized Pediatric Vision Services</li>
                         </ul>
 
-                        <a href="service.html" class="btn btn-main-2 btn-round-full">Explore Our Services<i class="icofont-simple-right ml-2  "></i></a>
+                        <a href="service.html" class="btn btn-main-2 btn-round-full">Explore Our Vision Services<i class="icofont-simple-right ml-2  "></i></a>
                     </div>
                 </div>
 
@@ -104,19 +103,19 @@
 
                 <div class="col-lg-4">
                     <div class="sidebar-widget schedule-widget mt-5">
-                        <h5 class="mb-4">Hospital Directions</h5>
+                        <h5 class="mb-4">Vision Center Directions</h5>
                         <ul class="list-unstyled">
                             <li class="d-flex justify-content-between align-items-center">
                                 <i class="icofont-location-pin"></i>
-                                <span>Opp. Traffic Police Station, Nairobi.</span>
+                                <span>Ngong Road, Ngong Area.</span>
                             </li>
                             <li class="d-flex justify-content-between align-items-center">
                                 <i class="icofont-location-pin"></i>
-                                <span>Opp. Traffic Police Station, Nairobi.</span>
+                                <span>Next to Ngong Hills Mall.</span>
                             </li>
                             <li class="d-flex justify-content-between align-items-center">
                                 <i class="icofont-location-pin"></i>
-                                <span>Opp. Traffic Police Station, Nairobi.</span>
+                                <span>Ample Parking Available.</span>
                             </li>
                         </ul>
 
@@ -173,15 +172,15 @@
                         <ul class="list-unstyled">
                             <li class="d-flex justify-content-between align-items-center">
                                 <span>Monday - Thur :</span>
-                                <span>7:30 a.m - 4:00 p.m</span>
+                                <span>8:00 a.m - 5:00 p.m</span>
                             </li>
                             <li class="d-flex justify-content-between align-items-center">
                                 <span>Friday :</span>
                                 <span>8:00 a.m - 4:00 p.m</span>
                             </li>
                             <li class="d-flex justify-content-between align-items-center">
-                                <span>Weekends & Public Holidays :</span>
-                                <span>Closed</span>
+                                <span>Saturday :</span>
+                                <span>9:00 a.m - 1:00 p.m</span>
                             </li>
                         </ul>
 
@@ -240,26 +239,6 @@
                         <img src="images/about/6.png" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-lg-2">
-                    <div class="client-thumb">
-                        <img src="images/about/3.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="client-thumb">
-                        <img src="images/about/4.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="client-thumb">
-                        <img src="images/about/5.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="client-thumb">
-                        <img src="images/about/6.png" alt="" class="img-fluid">
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -270,9 +249,9 @@
                 <div class="section-title text-center">
                     <h2>Google Map Directions</h2>
                     <div class="divider mx-auto my-4"></div>
-                    <p>Conveniently located along Ngong Road, across from the Traffic Police Station in Nairobi, our Main Hospital boasts a strategic location with convenient access via public transportation and private vehicles.</p>
+                    <p>Conveniently located along Ngong Road, our Ngong Vision Center boasts a strategic location with easy access. Visit us for a comprehensive vision care experience.</p>
                     <div class="google-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15958.826965279353!2d36.9598526!3d-0.42850249999999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18286146732cdb53%3A0x45becfcac6fb63ab!2sCity%20Eye%20Hospital%20-%20Nyeri!5e0!3m2!1sen!2ske!4v1669289149340!5m2!1sen!2ske" width="1300" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.788688278033!2d36.6572366!3d-1.3583221!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f034453812b63%3A0x5b18f2d50bfe9691!2sCity%20Eye%20Hospital%20-%20Ngong%20Milele%20Mall!5e0!3m2!1sen!2ske!4v1685612866572!5m2!1sen!2ske" width="1300" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
             </div>

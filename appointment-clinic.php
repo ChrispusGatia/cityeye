@@ -9,7 +9,7 @@
     <!-- Basic Page Needs
   ================================================== -->
     <meta charset="utf-8" />
-    <title>CityEye- Health Care</title>
+    <title>CityEye- Appointment Clinic</title>
 
     <!-- Mobile Specific Metas
   ================================================== -->

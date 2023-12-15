@@ -106,7 +106,7 @@
     
                     <ul class="dropdown-menu" aria-labelledby="dropdown0501">
                       <li>
-                        <a class="dropdown-item" href="index.html">CEH Community Vision Center-Ngong</a>
+                        <a class="dropdown-item" href="ngong-visioncenter.php">CEH Community Vision Center-Ngong</a>
                       </li>
                     </ul>
                   </li>
@@ -126,10 +126,10 @@
                 >
                 <ul class="dropdown-menu" aria-labelledby="dropdown0301">
                   <li>
-                    <a class="dropdown-item" href="index.html">Board of Management</a>
+                    <a class="dropdown-item" href="management.php">Board of Management</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="index.html">Executive Management</a>
+                    <a class="dropdown-item" href="management.php">Executive Management</a>
                   </li>
                 </ul>
               </li>
@@ -160,7 +160,7 @@
                   <li class="dropdown dropdown-submenu dropright">
                     <a
                       class="dropdown-item dropdown-toggle"
-                      href="#!"
+                      href="medicaloutpatient.php"
                       id="dropdown0301"
                       role="button"
                       data-toggle="dropdown"
@@ -169,13 +169,13 @@
                       >Medical Outpatient Clinc</a>
                       <ul class="dropdown-menu" aria-labelledby="dropdown0301">
                         <li>
-                          <a class="dropdown-item" href="service.php">Diabetic Clinic</a>
+                          <a class="dropdown-item" href="medicaloutpatient.php">Diabetic Clinic</a>
                         </li>
                         <li>
-                          <a class="dropdown-item" href="service.php">Hypertensive Clinic</a>
+                          <a class="dropdown-item" href="medicaloutpatient.php">Hypertensive Clinic</a>
                         </li>
                         <li>
-                          <a class="dropdown-item" href="service.php">Other Medical Conditions</a>
+                          <a class="dropdown-item" href="medicaloutpatient.php">Other Medical Conditions</a>
                         </li>
                       </ul>
                   </li>

@@ -33,6 +33,7 @@
   =====================================-->
     <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="plugins/icofont/icofont.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css" />
     <link
       rel="stylesheet"
@@ -72,6 +73,7 @@
 		</div>
 	</div>
 </section>
+
 <section class="features">
 	<div class="container">
 		<div class="row">
@@ -194,12 +196,12 @@
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="service-item mb-4">
 					<div class="icon d-flex align-items-center">
-						<i class="icofont-laboratory text-lg"></i>
+						<i class="icofont-eye text-lg"></i>
 						<h4 class="mt-3 mb-3">General Ophthalmology</h4>
 					</div>
 
 					<div class="content">
-						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+						<p class="mb-4">Regular eye exams help us detect any problems early and thus treat any arising diseases and condition with greater success</p>
 					</div>
           <a href="service.php" class="btn btn-main btn-round-full">Read More<i class="icofont-simple-right ml-3"></i></a>
 				</div>
@@ -208,11 +210,11 @@
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="service-item mb-4">
 					<div class="icon d-flex align-items-center">
-						<i class="icofont-heart-beat-alt text-lg"></i>
+						<i class="icofont-eye text-lg"></i>
 						<h4 class="mt-3 mb-3">Cataract Surgery</h4>
 					</div>
 					<div class="content">
-						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+						<p class="mb-4">Cataract surgery is one of the safest surgeries. Most cataract procedures take a short time and most patients recover quickly</p>
 					</div>
           <a href="service.php" class="btn btn-main btn-round-full">Read More<i class="icofont-simple-right ml-3"></i></a>
 				</div>
@@ -221,11 +223,11 @@
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="service-item mb-4">
 					<div class="icon d-flex align-items-center">
-						<i class="icofont-tooth text-lg"></i>
+						<i class="icofont-eye text-lg"></i>
 						<h4 class="mt-3 mb-3">Cornea Surgery</h4>
 					</div>
 					<div class="content">
-						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+						<p class="mb-4">Cornea specialists at City Eye Hospital provide advanced medical and surgical treatment of all conditions and disorders of the cornea.</p>
 					</div>
           <a href="service.php" class="btn btn-main btn-round-full">Read More<i class="icofont-simple-right ml-3"></i></a>
 				</div>
@@ -235,12 +237,12 @@
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="service-item mb-4">
 					<div class="icon d-flex align-items-center">
-						<i class="icofont-crutch text-lg"></i>
+						<i class="icofont-eye text-lg"></i>
 						<h4 class="mt-3 mb-3">Glaucoma Treatment</h4>
 					</div>
 
 					<div class="content">
-						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+						<p class="mb-4">Glaucoma, the leading cause of blindness worldwide, leads to irreversible vision loss.</p>
 					</div>
           <a href="service.php" class="btn btn-main btn-round-full">Read More<i class="icofont-simple-right ml-3"></i></a>
 				</div>
@@ -249,11 +251,11 @@
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="service-item mb-4">
 					<div class="icon d-flex align-items-center">
-						<i class="icofont-brain-alt text-lg"></i>
+						<i class="icofont-eye text-lg"></i>
 						<h4 class="mt-3 mb-3">Retina Treatment</h4>
 					</div>
 					<div class="content">
-						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+						<p class="mb-4">The retina, one of the most important parts of the eye, can be affected by a wide range of diseases.</p>
 					</div>
           <a href="service.php" class="btn btn-main btn-round-full">Read More<i class="icofont-simple-right ml-3"></i></a>
 				</div>
@@ -262,11 +264,11 @@
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="service-item mb-4">
 					<div class="icon d-flex align-items-center">
-						<i class="icofont-dna-alt-1 text-lg"></i>
+						<i class="icofont-eye-glasses-alt text-lg"></i>
 						<h4 class="mt-3 mb-3">Optical Services</h4>
 					</div>
 					<div class="content">
-						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+						<p class="mb-4">Explore top brands in eyewear – glasses, lenses, frames, and sunglasses. Elevate your style with in-house glazing services.</p>
 					</div>
           <a href="service.php" class="btn btn-main btn-round-full">Read More<i class="icofont-simple-right ml-3"></i></a>
 				</div>
@@ -274,6 +276,7 @@
 		</div>
 	</div>
 </section>
+
 <section class="section appoinment">
 	<div class="container">
 		<div class="row align-items-center">
@@ -354,6 +357,7 @@
 		</div>
 	</div>
 </section>
+
 <section class="section testimonial-2 gray-bg">
 	<div class="container">
 		<div class="row justify-content-center">

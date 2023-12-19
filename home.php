@@ -264,13 +264,13 @@
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="service-item mb-4">
 					<div class="icon d-flex align-items-center">
-						<i class="icofont-eye-glasses-alt text-lg"></i>
+						<i class="fas fa-glasses" style="font-size:36px;"></i>
 						<h4 class="mt-3 mb-3">Optical Services</h4>
 					</div>
 					<div class="content">
 						<p class="mb-4">Explore top brands in eyewear – glasses, lenses, frames, and sunglasses. Elevate your style with in-house glazing services.</p>
 					</div>
-          <a href="service.php" class="btn btn-main btn-round-full">Read More<i class="icofont-simple-right ml-3"></i></a>
+					<a href="service.php" class="btn btn-main btn-round-full">Read More<i class="icofont-simple-right ml-3"></i></a>
 				</div>
 			</div>
 		</div>

@@ -34,6 +34,7 @@
 </head>
 
 <body id="top">
+    
     <!-- header Start -->
     <?php include("assets/include/header.php"); // get header file?>
     <!-- header End -->
@@ -147,7 +148,7 @@
                     <div class="cta-content">
                         <div class="divider mb-4"></div>
                         <h2 class="mb-5 text-lg">Find the perfect eyewear that suits your style and vision.</h2>
-                        <a href="#contact" class="btn btn-main-2 btn-round-full">Contact Us<i class="icofont-simple-right ml-2"></i></a>
+                        <a href="contact.php" class="btn btn-main-2 btn-round-full">Contact Us<i class="icofont-simple-right ml-2"></i></a>
                         <p class="mt-3"><strong>Call us:</strong> +254 (0) 707 777 707</p>
                         <p><strong>Email:</strong> info@cityeyeoptical.com</p>
                     </div>

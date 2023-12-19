@@ -70,7 +70,6 @@
   </div>
 </section>
 
-
 <section class="section service-2">
 	<div class="container">
 		<div class="row">
@@ -78,78 +77,88 @@
 				<div class="service-block mb-5">
 					<img src="images/service/service-1.jpg" alt="" class="img-fluid">
 					<div class="content">
-						<h4 class="mt-4 mb-2 title-color">Child care</h4>
+						<h4 class="mt-4 mb-2 title-color">General Ophthalmology</h4>
 						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
 					</div>
+					<a href="opticalshop.php" class="btn btn-main btn-round-full">Read More<i class="icofont-simple-right ml-3"></i></a>
 				</div>
 			</div>
 
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="service-block mb-5">
-					<img src="images/service/service-2.jpg" alt="" class="img-fluid">
+					<img src="images/service/cataract.jpg" alt="" class="img-fluid">
 					<div class="content">
-						<h4 class="mt-4 mb-2  title-color">Personal Care</h4>
+						<h4 class="mt-4 mb-2  title-color">Cataract Surgery</h4>
 						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
 					</div>
+					<a href="opticalshop.php" class="btn btn-main btn-round-full">Read More<i class="icofont-simple-right ml-3"></i></a>
 				</div>
 			</div>
 			
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="service-block mb-5">
-					<img src="images/service/service-3.jpg" alt="" class="img-fluid">
+					<img src="images/service/cornea.jpg" alt="" class="img-fluid">
 					<div class="content">
-						<h4 class="mt-4 mb-2 title-color">CT scan</h4>
+						<h4 class="mt-4 mb-2 title-color">Cornea Surgery</h4>
 						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
 					</div>
+					<a href="opticalshop.php" class="btn btn-main btn-round-full">Read More<i class="icofont-simple-right ml-3"></i></a>
 				</div>
 			</div>
 
 
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="service-block mb-5 mb-lg-0">
-					<img src="images/service/service-4.jpg" alt="" class="img-fluid">
+					<img src="images/service/glaucoma.png" alt="" class="img-fluid">
 					<div class="content">
-						<h4 class="mt-4 mb-2 title-color">Joint replacement</h4>
+						<h4 class="mt-4 mb-2 title-color">Glaucoma Treatment</h4>
 						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
 					</div>
+					<a href="opticalshop.php" class="btn btn-main btn-round-full">Read More<i class="icofont-simple-right ml-3"></i></a>
 				</div>
 			</div>
 
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="service-block mb-5 mb-lg-0">
-					<img src="images/service/service-6.jpg" alt="" class="img-fluid">
+					<img src="images/service/retina-1.png" alt="" class="img-fluid">
 					<div class="content">
-						<h4 class="mt-4 mb-2 title-color">Examination & Diagnosis</h4>
+						<h4 class="mt-4 mb-2 title-color">Retina Treatment</h4>
 						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
 					</div>
+					<a href="opticalshop.php" class="btn btn-main btn-round-full">Read More<i class="icofont-simple-right ml-3"></i></a>
 				</div>
 			</div>
 			
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="service-block mb-5 mb-lg-0">
-					<img src="images/service/service-8.jpg" alt="" class="img-fluid">
+					<img src="images/service/optic-4.jpg" alt="" class="img-fluid">
 					<div class="content">
-						<h4 class="mt-4 mb-2 title-color">Alzheimer's disease</h4>
+						<h4 class="mt-4 mb-2 title-color">Optical Services</h4>
 						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
 					</div>
+					<a href="opticalshop.php" class="btn btn-main btn-round-full">Read More<i class="icofont-simple-right ml-3"></i></a>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
+
 <section class="section cta-page">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-7">
-				<div class="cta-content">
-					<div class="divider mb-4"></div>
-					<h2 class="mb-5 text-lg">We are pleased to offer you the <span class="title-color">chance to have the healthy</span></h2>
-					<a href="appoinment.html" class="btn btn-main-2 btn-round-full">Get appoinment<i class="icofont-simple-right  ml-2"></i></a>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="cta-content">
+                    <div class="divider mb-4"></div>
+                    <h2 class="mb-5 text-lg">Discover top-notch eye care services tailored to your needs.</h2>
+                    <a href="contact.php" class="btn btn-main-2 btn-round-full">Contact Us<i class="icofont-simple-right ml-2"></i></a>
+                    <p class="mt-3"><strong>Call us:</strong> +254 (0) 707 777 707</p>
+                    <p><strong>Email:</strong> info@cityeyeoptical.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+
 
 <!-- footer Start -->
 <?php include ("assets/include/footer.php"); // get footer file?>

@@ -46,182 +46,9 @@
   <body id="top"></body>
 </html>
 
-<header>
-  <div class="header-top-bar">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6">
-          <ul class="top-bar-info list-inline-item pl-0 mb-0">
-            <li class="list-inline-item">
-              <a href="mailto:support@gmail.com"
-                ><i class="icofont-support-faq mr-2"></i>support@CityEye.com</a
-              >
-            </li>
-            <li class="list-inline-item">
-              <i class="icofont-location-pin mr-2"></i>Address Ta-134/A, New
-              York, USA
-            </li>
-          </ul>
-        </div>
-        <div class="col-lg-6">
-          <div class="text-lg-right top-right-bar mt-2 mt-lg-0">
-            <a href="tel:+23-345-67890">
-              <span>Call Now : </span>
-              <span class="h4">823-4565-13456</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <nav class="navbar navbar-expand-lg navigation" id="navbar">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">
-        <img src="images/logo.png" alt="" class="img-fluid" />
-      </a>
-
-      <button
-        class="navbar-toggler collapsed"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarmain"
-        aria-controls="navbarmain"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="icofont-navigation-menu"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarmain">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="service.html">Services</a>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="department.html"
-              id="dropdown02"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-              >Department <i class="icofont-thin-down"></i
-            ></a>
-            <ul class="dropdown-menu" aria-labelledby="dropdown02">
-              <li>
-                <a class="dropdown-item" href="department.html">Departments</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="department-single.html"
-                  >Department Single</a
-                >
-              </li>
-
-              <li class="dropdown dropdown-submenu dropright">
-                <a
-                  class="dropdown-item dropdown-toggle"
-                  href="#!"
-                  id="dropdown0301"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  >Sub Menu</a
-                >
-
-                <ul class="dropdown-menu" aria-labelledby="dropdown0301">
-                  <li>
-                    <a class="dropdown-item" href="index.html">Submenu 01</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="index.html">Submenu 02</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="doctor.html"
-              id="dropdown03"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-              >Doctors <i class="icofont-thin-down"></i
-            ></a>
-            <ul class="dropdown-menu" aria-labelledby="dropdown03">
-              <li><a class="dropdown-item" href="doctor.html">Doctors</a></li>
-              <li>
-                <a class="dropdown-item" href="doctor-single.html"
-                  >Doctor Single</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item" href="appoinment.html">Appoinment</a>
-              </li>
-
-              <li class="dropdown dropdown-submenu dropleft">
-                <a
-                  class="dropdown-item dropdown-toggle"
-                  href="#!"
-                  id="dropdown0501"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  >Sub Menu</a
-                >
-
-                <ul class="dropdown-menu" aria-labelledby="dropdown0501">
-                  <li>
-                    <a class="dropdown-item" href="index.html">Submenu 01</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="index.html">Submenu 02</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="blog-sidebar.html"
-              id="dropdown05"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-              >Blog <i class="icofont-thin-down"></i
-            ></a>
-            <ul class="dropdown-menu" aria-labelledby="dropdown05">
-              <li>
-                <a class="dropdown-item" href="blog-sidebar.html"
-                  >Blog with Sidebar</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item" href="blog-single.html">Blog Single</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
+<!-- header Start -->
+<?php include("assets/include/header.php"); // get header file?>
+<!-- header End -->
 
 <section class="page-title bg-1">
   <div class="overlay"></div>
@@ -244,34 +71,6 @@
 </section>
 <!-- contact form start -->
 
-<section class="section contact-info pb-0">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-6">
-        <div class="contact-block mb-4 mb-lg-0">
-          <i class="icofont-live-support"></i>
-          <h5>Call Us</h5>
-          +823-4565-13456
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="contact-block mb-4 mb-lg-0">
-          <i class="icofont-support-faq"></i>
-          <h5>Email Us</h5>
-          contact@mail.com
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-12">
-        <div class="contact-block mb-4 mb-lg-0">
-          <i class="icofont-location-pin"></i>
-          <h5>Location</h5>
-          North Main Street,Brooklyn Australia
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section class="contact-form-wrap section">
   <div class="container">
     <div class="row justify-content-center">
@@ -279,8 +78,9 @@
         <div class="section-title text-center">
           <h2 class="text-md mb-2">Contact us</h2>
           <div class="divider mx-auto my-4"></div>
-          <p class="mb-5">Laboriosam exercitationem molestias beatae eos pariatur, similique, excepturi mollitia sit
-            perferendis maiores ratione aliquam?</p>
+          <p class="mb-5">Feel free to reach out to City Eye for any inquiries, assistance, 
+            or information. Our dedicated team is here to provide prompt and helpful support.
+            Contact us via phone, email, or visit our office – we look forward to hearing from you soon!</p>
         </div>
       </div>
     </div>
@@ -299,7 +99,7 @@
           <div class="row">
             <div class="col-lg-6">
               <div class="form-group">
-                <input name="name" id="name" type="text" class="form-control" placeholder="Your Full Name">
+                <input name="name" id="name" type="text" class="form-control" placeholder="Your Full Name" required>
               </div>
             </div>
 
@@ -333,136 +133,83 @@
   </div>
 </section>
 
+<!-- Contact Information for Branch 1 -->
+<section class="contact-info pb-0">
+        <div class="container">
+            <div class="row">
+              
+            <div class="col-lg-4 col-md-6">
+                  <div class="contact-block mb-4 mb-lg-0">
+                    <i class="icofont-live-support"></i>
+                    <h5>Main Hospital- Call Us</h5>
+                    <p><i class="icofont-support mr-3" style="font-size:12px;"></i>
+                    +254 (0) 111 032 200<br>
+                     <i class="icofont-support mr-3" style="font-size:12px;"></i>
+                     +254 (0) 707 777 707<br>
+                     <i class="icofont-email mr-2" style="font-size:12px;"></i>
+                     info@cityeyehospital.or.ke<br>
+                     <i class="icofont-location-pin" style="font-size:12px;"></i>
+                     Opp. Traffic Police Station, Nairobi.</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <div class="contact-block mb-4 mb-lg-0">
+                    <i class="icofont-live-support"></i>
+                    <h5>Nyeri Hospital- Call Us</h5>
+                    <p><i class="icofont-support mr-3" style="font-size:12px;"></i>
+                    +254 (0) 114 079 245<br>
+                     <i class="icofont-email mr-2" style="font-size:12px;"></i>
+                     info.nyeri@cityeyehospital.or.ke<br>
+                     <i class="icofont-location-pin" style="font-size:12px;"></i>
+                     Asian Quarters, Mbuni Road, Nyeri.</p>
+                  </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+                  <div class="contact-block mb-4 mb-lg-0">
+                    <i class="icofont-live-support"></i>
+                    <h5>Appointment Clinic- Call Us</h5>
+                    <p><i class="icofont-support mr-3" style="font-size:12px;"></i>
+                    +254 (0) 714 617 782<br>
+                     <i class="icofont-support mr-3" style="font-size:12px;"></i>
+                     +254 (0) 736 329 348<br>
+                     <i class="icofont-email mr-2" style="font-size:12px;"></i>
+                     appointments@cityeyehospital.or.ke<br>
+                     <i class="icofont-location-pin" style="font-size:12px;"></i>
+                     Upper Hill Med Centre (3rd Fl), Nairobi.</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <div class="contact-block mb-4 mb-lg-0">
+                    <i class="icofont-live-support"></i>
+                    <h5>VC Ngong- Call Us</h5>
+                    <p><i class="icofont-support mr-3" style="font-size:12px;"></i>
+                    +254 (0) 114 524 718<br>
+                     <i class="icofont-email mr-2" style="font-size:12px;"></i>
+                     optical.ngong@cityeyehospital.or.ke<br>
+                     <i class="icofont-location-pin" style="font-size:12px;"></i>
+                     Milele Mall, Ngong Town, Kajiado.</p>
+                  </div>
+                </div>
+                <!-- ... (Additional branches can be added similarly) ... -->
+            </div>
+        </div>
+    </section>
+
+
 
 <div class="google-map ">
-	<div id="map" data-latitude="40.712776" data-longitude="-74.005974" data-marker="images/marker.png"></div>
+<iframe
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4743.502116636985!2d36.80408283879087!3d-1.2983866077723598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10ea15cd9e7d%3A0x90f3bd97e5159bfc!2sCity%20Eye%20Hospital!5e0!3m2!1sen!2ske"
+width="1300" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </div>
 
 <!-- footer Start -->
-<footer class="footer section gray-bg">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 mr-auto col-sm-6">
-        <div class="widget mb-5 mb-lg-0">
-          <div class="logo mb-4">
-            <img src="images/logo.png" alt="" class="img-fluid" />
-          </div>
-          <p>
-            Tempora dolorem voluptatum nam vero assumenda voluptate, facilis ad
-            eos obcaecati tenetur veritatis eveniet distinctio possimus.
-          </p>
-
-          <ul class="list-inline footer-socials mt-4">
-            <li class="list-inline-item">
-              <a href="https://www.facebook.com/themefisher"
-                ><i class="icofont-facebook"></i
-              ></a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://twitter.com/themefisher"
-                ><i class="icofont-twitter"></i
-              ></a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.pinterest.com/themefisher/"
-                ><i class="icofont-linkedin"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-md-6 col-sm-6">
-        <div class="widget mb-5 mb-lg-0">
-          <h4 class="text-capitalize mb-3">Department</h4>
-          <div class="divider mb-4"></div>
-
-          <ul class="list-unstyled footer-menu lh-35">
-            <li><a href="#!">Surgery </a></li>
-            <li><a href="#!">Wome's Health</a></li>
-            <li><a href="#!">Radiology</a></li>
-            <li><a href="#!">Cardioc</a></li>
-            <li><a href="#!">Medicine</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-md-6 col-sm-6">
-        <div class="widget mb-5 mb-lg-0">
-          <h4 class="text-capitalize mb-3">Support</h4>
-          <div class="divider mb-4"></div>
-
-          <ul class="list-unstyled footer-menu lh-35">
-            <li><a href="#!">Terms & Conditions</a></li>
-            <li><a href="#!">Privacy Policy</a></li>
-            <li><a href="#!">Company Support </a></li>
-            <li><a href="#!">FAQuestions</a></li>
-            <li><a href="#!">Company Licence</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 col-sm-6">
-        <div class="widget widget-contact mb-5 mb-lg-0">
-          <h4 class="text-capitalize mb-3">Get in Touch</h4>
-          <div class="divider mb-4"></div>
-
-          <div class="footer-contact-block mb-4">
-            <div class="icon d-flex align-items-center">
-              <i class="icofont-email mr-3"></i>
-              <span class="h6 mb-0">Support Available for 24/7</span>
-            </div>
-            <h4 class="mt-2">
-              <a href="mailto:support@email.com">Support@email.com</a>
-            </h4>
-          </div>
-
-          <div class="footer-contact-block">
-            <div class="icon d-flex align-items-center">
-              <i class="icofont-support mr-3"></i>
-              <span class="h6 mb-0">Mon to Fri : 08:30 - 18:00</span>
-            </div>
-            <h4 class="mt-2"><a href="tel:+23-345-67890">+23-456-6588</a></h4>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer-btm py-4 mt-5">
-      <div class="row align-items-center justify-content-between">
-        <div class="col-lg-6">
-          <div class="copyright">
-            Copyright &copy; 2021, Designed &amp; Developed by
-            <a href="https://themefisher.com/">Themefisher</a>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="subscribe-form text-lg-right mt-5 mt-lg-0">
-            <form action="#" class="subscribe">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Your Email address"
-                required
-              />
-              <button type="submit" class="btn btn-main-2 btn-round-full">
-                Subscribe
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-4">
-          <a class="backtop scroll-top-to" href="#top">
-            <i class="icofont-long-arrow-up"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
+<?php include("assets/include/footer.php"); // get footer file?>
+<!-- footer End -->
 
    
 

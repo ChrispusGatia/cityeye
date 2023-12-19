@@ -59,25 +59,36 @@ include('assets/include/config.php'); // Get configuration file
     <!-- Section: Our History -->
     <section class="section our-history">
         <div class="container">
+        <div class="row">
+                <div class="col-lg-12">
+                    <!-- Section Title -->
+                    <div class="section-title text-center">
+                        <h2 class="mb-4">Our Journey</h2>
+                        <div class="divider mx-auto my-4"></div> 
+                    </div>
+                </div>
+            </div>
+
+
             <div class="row">
                 <!-- Yearly Features -->
                 <div class="col-md-6">
                     <div class="feature-item mb-4">
                         <div class="year-icon">
                             <i class="far fa-clock"></i>
-                            <p>Since 1970</p>
+                            <p style="font-size:24px">2009</p>
                         </div>
-                        <h4>Decades of Excellence</h4>
-                        <p>Delivering excellence in healthcare, setting a standard for quality and compassion.</p>
+                        <h4>Upper Hill Eye and Laser Centre</h4>
+                        <p>Upper Hill Eye and Laser Centre (UHEAL), a state-of-the-art eye diagnostic centre equipped with an ultramodern eye theatre, opens its doors at 2nd floor, Upper Hill Medical Centre, Nairobi, Kenya.</p>
                     </div>
 
                     <div class="feature-item mb-4">
                         <div class="year-icon">
                             <i class="far fa-calendar-alt"></i>
-                            <p>Established in 1985</p>
+                            <p style="font-size:24px">2015</p>
                         </div>
-                        <h4>Years of Compassionate Care</h4>
-                        <p>Commitment to compassionate care has been unwavering, ensuring the well-being of our community.</p>
+                        <h4>City Eye Hospital, Ngong Road</h4>
+                        <p>Our founding objective of making world-class eye care accessible to patients of all walks of life leads to the establishment of City Eye Hospital on Ngong Road, Nairobi, as an affiliate of UHEAL to serve the growing need for affordable and quality eye care.</p>
                     </div>
                 </div>
 
@@ -85,22 +96,68 @@ include('assets/include/config.php'); // Get configuration file
                     <div class="feature-item mb-4">
                         <div class="year-icon">
                             <i class="far fa-gem"></i>
-                            <p>Since 1998</p>
+                            <p style="font-size:24px">2010</p>
                         </div>
-                        <h4>A Legacy of Innovation</h4>
-                        <p>Journey includes a legacy of innovation, always pushing boundaries to provide cutting-edge healthcare solutions.</p>
+                        <h4>City Eye Foundation</h4>
+                        <p>UHEAL, in conjunction with the World Diabetes Foundation, launches an eye foundation to provide early intervention measures to patients at risk of going blind due to the diabetic eye complications.</p>
                     </div>
 
                     <div class="feature-item mb-4">
                         <div class="year-icon">
                             <i class="far fa-heart"></i>
-                            <p>Since 1990</p>
+                            <p style="font-size:24px">2017</p>
                         </div>
-                        <h4>Years of Trusted Expertise</h4>
-                        <p>Over 30 years of trusted expertise, continuing to lead in medical advancements and patient care.</p>
+                        <h4>KMTC Partnership</h4>
+                        <p>City Eye Hospital partners with the Kenya Medical Training College to provide training to optometry and ophthalmic nursing students in eye health.</p>
                     </div>
                 </div>
+                
+                <!-- Yearly Features -->
+                <div class="col-md-6">
+                    <div class="feature-item mb-4">
+                        <div class="year-icon">
+                            <i class="far fa-clock"></i>
+                            <p style="font-size:24px">2018</p>
+                        </div>
+                        <h4>UHEAL Acquisition</h4>
+                        <p>City Eye Hospital acquires UHEAL to provide the most comprehensive and
+                            extensive eye care to Kenyans of all backgrounds. The Upper Hill facility
+                            becomes our Appointment Clinic and our Ngong Road facility becomes our
+                            walk-in Main Hospital.</p>
+                    </div>
+
+                    <div class="feature-item mb-4">
+                        <div class="year-icon">
+                            <i class="far fa-calendar-alt"></i>
+                            <p style="font-size:24px">2021</p>
+                        </div>
+                        <h4>Decade Celebration</h4>
+                        <p>As we celebrate a decade of providing first-class eye care to our patients and community, we soldier forward still as determined as ever to end preventable blindness in Kenya and the East African region.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="feature-item mb-4">
+                        <div class="year-icon">
+                            <i class="far fa-gem"></i>
+                            <p style="font-size:24px">2019</p>
+                        </div>
+                        <h4>University of Nairobi Partnership</h4>
+                        <p>City Eye Hospital and the University of Nairobi partner to provide training to ophthalmology students at the institution.</p>
+                    </div>
+
+                    <div class="feature-item mb-4">
+                        <div class="year-icon">
+                            <i class="far fa-gem"></i>
+                            <p style="font-size:24px">2022</p>
+                        </div>
+                        <h4>CEH Embarks on a Visionary Expansion</h4>
+                        <p>CEH Opens two new branches (Nyeri and Ngong) as part of the hospital's 
+                            expansion plan that seeks to improve access to quality and 
+                            affordable eye care for those residing outside the capital.</p>
+                    </div>
             </div>
+          
         </div>
     </section>
 

@@ -87,19 +87,19 @@
       <div class="col-12 text-center  mb-5">
 	        <div class="btn-group btn-group-toggle " data-toggle="buttons">
 	          <label class="btn active ">
-	            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All Department
+	            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All Doctors
 	          </label>
 	          <label class="btn ">
-	            <input type="radio" name="shuffle-filter" value="cat1" />Cardiology
+	            <input type="radio" name="shuffle-filter" value="cat1" />Retina
 	          </label>
 	          <label class="btn">
-	            <input type="radio" name="shuffle-filter" value="cat2" />Dental
+	            <input type="radio" name="shuffle-filter" value="cat2" />Cornea
 	          </label>
 	          <label class="btn">
-	            <input type="radio" name="shuffle-filter" value="cat3" />Neurology
+	            <input type="radio" name="shuffle-filter" value="cat3" />Glaucoma
 	          </label>
 	          <label class="btn">
-	            <input type="radio" name="shuffle-filter" value="cat4" />Medicine
+	            <input type="radio" name="shuffle-filter" value="cat4" />Cataract
 	          </label>
 	           <label class="btn">
 	            <input type="radio" name="shuffle-filter" value="cat5" />Pediatric
@@ -275,7 +275,7 @@
 				<div class="cta-content">
 					<div class="divider mb-4"></div>
 					<h2 class="mb-5 text-lg">We are pleased to offer you the <span class="title-color">chance to have the healthy</span></h2>
-					<a href="appoinment.html" class="btn btn-main-2 btn-round-full">Get appoinment<i class="icofont-simple-right  ml-2"></i></a>
+					<a href="appointment.php" class="btn btn-main-2 btn-round-full">Get appoinment<i class="icofont-simple-right  ml-2"></i></a>
 				</div>
 			</div>
 		</div>

@@ -160,11 +160,11 @@
 					  </li>
             <li class="d-flex justify-content-between align-items-center">
               <i class="icofont-support mr-3"></i>
-					    <a href="tel:+254-111-032200">+254 (0) 111 032 200</a>             
+					    <a href="tel:+254-111-032200">+254 (0) 714 617 782</a>             
             </li>
             <li class="d-flex justify-content-between align-items-center">
               <i class="icofont-support mr-3"></i>
-					    <a href="tel:+254-707-777707">+254 (0) 707 777 707</a>
+					    <a href="tel:+254-707-777707">+254 (0) 736 329 348</a>
             </li>
 					</ul>
 

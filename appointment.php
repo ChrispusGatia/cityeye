@@ -1,178 +1,160 @@
 <?php
     session_start();
-    include('assets/include/config.php');//get configuration file
+    include('assets/include/config.php');
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Basic Page Needs
-  ================================================== -->
-    <meta charset="utf-8" />
-    <title>CityEye- Health Care &amp; Medical template</title>
 
-    <!-- Mobile Specific Metas
-  ================================================== -->
+<head>
+    <meta charset="utf-8" />
+    <title>CityEye- Book Appointment</title>
+    <!-- Mobile Specific Metas -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Health Care Medical Html5 Template" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
-    />
+    <meta name="description" content="Health Care Medical HTML5 Template" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
     <meta name="author" content="Themefisher" />
     <meta name="generator" content="Themefisher CityEye HTML Template v1.0" />
-
-    <!-- theme meta -->
+    <!-- Theme Meta -->
     <meta name="theme-name" content="CityEye" />
-
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
-
-    <!-- 
-  Essential stylesheets
-  =====================================-->
+    <!-- Essential Stylesheets -->
     <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="plugins/icofont/icofont.min.css" />
     <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css" />
-    <link
-      rel="stylesheet"
-      href="plugins/slick-carousel/slick/slick-theme.css"
-    />
-
+    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css" />
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css" />
-  </head>
+</head>
 
-  <body id="top"></body>
-</html>
+<body id="top">
 
-<!-- header Start -->
-<?php include ("assets/include/header.php"); // get header file?>
-<!-- header End -->
+    <!-- Header Start -->
+    <?php include ("assets/include/header.php"); ?>
+    <!-- Header End -->
 
-<section class="page-title bg-1">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block text-center">
-          <span class="text-white">Book your Seat</span>
-          <h1 class="text-capitalize mb-5 text-lg">Appoinment</h1>
-
-          <!-- <ul class="list-inline breadcumb-nav">
-            <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
-            <li class="list-inline-item"><span class="text-white">/</span></li>
-            <li class="list-inline-item"><a href="#" class="text-white-50">Book your Seat</a></li>
-          </ul> -->
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="appoinment section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-          <div class="mt-3">
-            <div class="feature-icon mb-3">
-              <i class="icofont-support text-lg"></i>
-            </div>
-             <span class="h3">Call for an Emergency Service!</span>
-              <h2 class="text-color mt-3">+84 789 1256 </h2>
-          </div>
-      </div>
-
-      <div class="col-lg-8">
-           <div class="appoinment-wrap mt-5 mt-lg-0 pl-lg-5">
-            <h2 class="mb-2 title-color">Book an appoinment</h2>
-            <p class="mb-4">Mollitia dicta commodi est recusandae iste, natus eum asperiores corrupti qui velit . Iste dolorum atque similique praesentium soluta.</p>
-               <form id="#" class="appoinment-form" method="post" action="#">
-                    <div class="row">
-                         <div class="col-lg-6">
-                            <div class="form-group">
-                                <select class="form-control" id="exampleFormControlSelect1">
-                                  <option>Choose Department</option>
-                                  <option>Software Design</option>
-                                  <option>Development cycle</option>
-                                  <option>Software Development</option>
-                                  <option>Maintenance</option>
-                                  <option>Process Query</option>
-                                  <option>Cost and Duration</option>
-                                  <option>Modal Delivery</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="form-group">
-                                <select class="form-control" id="exampleFormControlSelect2">
-                                  <option>Select Doctors</option>
-                                  <option>Software Design</option>
-                                  <option>Development cycle</option>
-                                  <option>Software Development</option>
-                                  <option>Maintenance</option>
-                                  <option>Process Query</option>
-                                  <option>Cost and Duration</option>
-                                  <option>Modal Delivery</option>
-                                </select>
-                            </div>
-                        </div>
-
-                         <div class="col-lg-6">
-                            <div class="form-group">
-                                <input name="date" id="date" type="text" class="form-control" placeholder="dd/mm/yyyy">
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6">
-                            <div class="form-group">
-                                <input name="time" id="time" type="text" class="form-control" placeholder="Time">
-                            </div>
-                        </div>
-                         <div class="col-lg-6">
-                            <div class="form-group">
-                                <input name="name" id="name" type="text" class="form-control" placeholder="Full Name">
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6">
-                            <div class="form-group">
-                                <input name="phone" id="phone" type="Number" class="form-control" placeholder="Phone Number">
-                            </div>
-                        </div>
+    <section class="page-title bg-1">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block text-center">
+                        <span class="text-white">Book your Seat</span>
+                        <h1 class="text-capitalize mb-5 text-lg">Appointment at AP Clinic</h1>
                     </div>
-                    <div class="form-group-2 mb-4">
-                        <textarea name="message" id="message" class="form-control" rows="6" placeholder="Your Message"></textarea>
-                    </div>
-
-                    <a class="btn btn-main btn-round-full" href="confirmation.html">Make Appoinment<i class="icofont-simple-right ml-2"></i></a>
-                </form>
+                </div>
             </div>
         </div>
-      </div>
+    </section>
+
+    <!-- ... (previous code) ... -->
+
+<section class="appointment section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="mt-3">
+                    <div class="feature-icon mb-3">
+                        <i class="icofont-support text-lg"></i>
+                    </div>
+                    <span class="h3">Call For More Information</span>
+                    <h4 class="text-color mt-3">+254 (0) 714 617 782 </h4>
+                    <h4 class="text-color mt-3">+254 (0) 736 329 348 </h4>
+                </div>
+            </div>
+
+            <div class="col-lg-8">
+                <div class="appointment-wrap mt-5 mt-lg-0 pl-lg-5">
+                    <h2 class="mb-2 title-color">Book an Appointment at AP Clinic</h2>
+                    <p class="mb-4">Please note that appointment bookings are exclusively available at our AP Clinic branch. Schedule your appointment below:</p>
+                    <form id="appointment-form" class="appointment-form" method="post" action="#">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <select class="form-control" id="department" name="department">
+                                        <option>Choose Department</option>
+                                        <option>Software Design</option>
+                                        <option>Development cycle</option>
+                                        <!-- Add more options as needed -->
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <select class="form-control" id="doctor" name="doctor">
+                                        <option>Select Doctors</option>
+                                        <option>Dr. Kibata</option>
+                                        <option>Dr. Muchai</option>
+                                        <option>Dr. Kareko</option>
+                                        <option>Dr. Njoya</option>
+                                        <option>Dr. Njuguna</option>
+                                        <option>Dr. Mashep</option>
+                                        <option>Dr. Korir</option>
+                                        <!-- Add more options as needed -->
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input name="date" id="date" type="date" class="form-control" placeholder="dd/mm/yyyy" min="<?php echo date('Y-m-d'); ?>">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                <select class="form-control" id="time" name="time">
+                                        <option>Select Preffered Time</option>
+                                        <option>Anytime</option>
+                                        <option>Morning Hours</option>
+                                        <option>Afternoon Hours</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input name="name" id="name" type="text" class="form-control" placeholder="Full Name">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input name="phone" id="phone" type="tel" class="form-control" placeholder="Phone Number">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <textarea name="message" id="message" class="form-control" rows="6" placeholder="Your Message"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-main btn-round-full">Make Appointment <i class="icofont-simple-right ml-2"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
 
+<!-- ... (remaining code) ... -->
 
-<!-- footer Start -->
-<?php include ("assets/include/footer.php"); // get footer file?>
-<!-- footer End -->
-   
 
-    <!-- 
-    Essential Scripts
-    =====================================-->
+    <!-- Footer Start -->
+    <?php include ("assets/include/footer.php"); ?>
+    <!-- Footer End -->
+
+    <!-- Essential Scripts -->
     <script src="plugins/jquery/jquery.js"></script>
     <script src="plugins/bootstrap/bootstrap.min.js"></script>
     <script src="plugins/slick-carousel/slick/slick.min.js"></script>
     <script src="plugins/shuffle/shuffle.min.js"></script>
-
     <!-- Google Map -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY"></script>
     <script src="plugins/google-map/gmap.js"></script>
-    
     <script src="js/script.js"></script>
 
-  </body>
-  </html>
+</body>
+
+</html>

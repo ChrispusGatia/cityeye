@@ -120,7 +120,7 @@
 	            </div>
                 <div class="content mt-3">
                 	<h4 class="mb-0"><a href="doctor-single.html">Thomas Henry</a></h4>
-                	<p>Cardiology</p>
+                	<p><i class="icofont-eye"></i> Retina Specialist</p>
                 </div> 
 	      	</div>
       	</div>
@@ -134,7 +134,7 @@
 	            </div>
                 <div class="content mt-3">
                 	<h4 class="mb-0"><a href="doctor-single.html">Harrision Samuel</a></h4>
-                	<p>Radiology</p>
+                	<p><i class="icofont-eye"></i> Retina Specialist</p>
                 </div> 
 	      	</div>
       </div>
@@ -148,7 +148,7 @@
 	            </div>
                 <div class="content mt-3">
                 	<h4 class="mb-0"><a href="doctor-single.html">Alexandar James</a></h4>
-                	<p>Dental</p>
+                	<p><i class="icofont-eye"></i> Retina Specialist</p>
                 </div> 
 	      	</div>
       </div>
@@ -162,7 +162,7 @@
 	            </div>
                 <div class="content mt-3">
                 	<h4 class="mb-0"><a href="doctor-single.html">Edward john</a></h4>
-                	<p>Pediatry</p>
+                	<p><i class="icofont-eye"></i> Glaucoma Specialist</p>
                 </div> 
 	      	</div>
       </div>
@@ -176,7 +176,7 @@
 	            </div>
                 <div class="content mt-3">
                 	<h4 class="mb-0"><a href="doctor-single.html">Thomas Henry</a></h4>
-                	<p>Neurology</p>
+                	<p><i class="icofont-eye"></i> Cornea Specialist</p>
                 </div> 
 	      	</div>
       	</div>
@@ -190,7 +190,7 @@
 	            </div>
                 <div class="content mt-3">
                 	<h4 class="mb-0"><a href="doctor-single.html">Henry samuel</a></h4>
-                	<p>Palmology</p>
+                	<p><i class="icofont-eye"></i> Cataract Specialist</p>
                 </div> 
 	      	</div>
       </div>
@@ -204,7 +204,7 @@
 	            </div>
                 <div class="content mt-3">
                 	<h4 class="mb-0"><a href="doctor-single.html">Thomas alexandar</a></h4>
-                	<p>Cardiology</p>
+                	<p><i class="icofont-eye"></i> pediatric Specialist</p>
                 </div> 
 	        </div>
       </div>
@@ -218,7 +218,7 @@
 	             </div>
                 <div class="content mt-3">
                 	<h4 class="mb-0"><a href="doctor-single.html">HarissonThomas </a></h4>
-                	<p>Traumatology</p>
+                	<p><i class="icofont-eye"></i> Glaucoma Specialist</p>
                 </div> 
 	      	</div>
       </div>

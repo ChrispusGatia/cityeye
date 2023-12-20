@@ -201,11 +201,23 @@
 
 
 
-<div class="google-map ">
-<iframe
-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4743.502116636985!2d36.80408283879087!3d-1.2983866077723598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10ea15cd9e7d%3A0x90f3bd97e5159bfc!2sCity%20Eye%20Hospital!5e0!3m2!1sen!2ske"
-width="1300" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-</div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12.5">
+                <div class="section-title text-center">
+                    <h2>Google Map Directions</h2>
+                    <div class="divider mx-auto my-4"></div>
+                    
+                    <div class="google-map ">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4743.502116636985!2d36.80408283879087!3d-1.2983866077723598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10ea15cd9e7d%3A0x90f3bd97e5159bfc!2sCity%20Eye%20Hospital!5e0!3m2!1sen!2ske"
+                            width="1300" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 <!-- footer Start -->
 <?php include("assets/include/footer.php"); // get footer file?>

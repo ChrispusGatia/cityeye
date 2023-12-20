@@ -29,6 +29,16 @@
                 ><i class="icofont-linkedin"></i
               ></a>
             </li>
+            <li class="list-inline-item">
+              <a href="https://www.pinterest.com/themefisher/"
+                ><i class="icofont-youtube"></i
+              ></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.pinterest.com/themefisher/"
+                ><i class="icofont-instagram"></i
+              ></a>
+            </li>
           </ul>
         </div>
       </div>

@@ -27,8 +27,8 @@
   </div>
   <nav class="navbar navbar-expand-lg navigation" id="navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.html">
-        <img src="images/logo1.png" width="150" class="img-fluid" />
+      <a class="navbar-brand" href="home.php">
+        <img src="images/logo1.png" width="200" class="img-fluid" />
       </a>
 
       <button
@@ -249,7 +249,7 @@
                 <a class="dropdown-item" href="testimonials.php">Testimonials</a>
               </li>
               <li>
-                <a class="dropdown-item" href="directions&location.php">Directions & Location</a>
+                <!--<a class="dropdown-item" href="directions&location.php">Directions & Location</a>-->
               </li>
             </ul>
           </li>

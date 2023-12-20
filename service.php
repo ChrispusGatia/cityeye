@@ -75,10 +75,10 @@
 		<div class="row">
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="service-block mb-5">
-					<img src="images/service/service-1.jpg" alt="" class="img-fluid">
+					<img src="images/service/general.jpg" alt="" class="img-fluid">
 					<div class="content">
 						<h4 class="mt-4 mb-2 title-color">General Ophthalmology</h4>
-						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+						<p class="mb-4">Regular eye exams help us detect any problems early and thus treat any arising diseases and condition with greater success.</p>
 					</div>
 					<a href="opticalshop.php" class="btn btn-main btn-round-full">Read More<i class="icofont-simple-right ml-3"></i></a>
 				</div>
@@ -89,7 +89,7 @@
 					<img src="images/service/cataract.jpg" alt="" class="img-fluid">
 					<div class="content">
 						<h4 class="mt-4 mb-2  title-color">Cataract Surgery</h4>
-						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+						<p class="mb-4">Cataract surgery is one of the safest surgeries. Most cataract procedures take a short time and most patients recover quickly.</p>
 					</div>
 					<a href="opticalshop.php" class="btn btn-main btn-round-full">Read More<i class="icofont-simple-right ml-3"></i></a>
 				</div>
@@ -100,7 +100,7 @@
 					<img src="images/service/cornea.jpg" alt="" class="img-fluid">
 					<div class="content">
 						<h4 class="mt-4 mb-2 title-color">Cornea Surgery</h4>
-						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+						<p class="mb-4">Cornea specialists at City Eye Hospital provide advanced medical and surgical treatment of all conditions and disorders of the cornea.</p>
 					</div>
 					<a href="opticalshop.php" class="btn btn-main btn-round-full">Read More<i class="icofont-simple-right ml-3"></i></a>
 				</div>
@@ -112,7 +112,7 @@
 					<img src="images/service/glaucoma.png" alt="" class="img-fluid">
 					<div class="content">
 						<h4 class="mt-4 mb-2 title-color">Glaucoma Treatment</h4>
-						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+						<p class="mb-4">Glaucoma, the leading cause of blindness worldwide, leads to irreversible vision loss.</p>
 					</div>
 					<a href="opticalshop.php" class="btn btn-main btn-round-full">Read More<i class="icofont-simple-right ml-3"></i></a>
 				</div>
@@ -123,7 +123,7 @@
 					<img src="images/service/retina-1.png" alt="" class="img-fluid">
 					<div class="content">
 						<h4 class="mt-4 mb-2 title-color">Retina Treatment</h4>
-						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+						<p class="mb-4">The retina, one of the most important parts of the eye, can be affected by a wide range of diseases.</p>
 					</div>
 					<a href="opticalshop.php" class="btn btn-main btn-round-full">Read More<i class="icofont-simple-right ml-3"></i></a>
 				</div>
@@ -134,7 +134,7 @@
 					<img src="images/service/optic-4.jpg" alt="" class="img-fluid">
 					<div class="content">
 						<h4 class="mt-4 mb-2 title-color">Optical Services</h4>
-						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+						<p class="mb-4">Explore top brands in eyewear – glasses, lenses, frames, and sunglasses. Elevate your style with in-house glazing services.</p>
 					</div>
 					<a href="opticalshop.php" class="btn btn-main btn-round-full">Read More<i class="icofont-simple-right ml-3"></i></a>
 				</div>

@@ -127,7 +127,7 @@
 			</div>
 			<div class="col-lg-4 col-sm-6">
 				<div class="about-img mt-4 mt-lg-0">
-					<img src="images/about/img-3.jpg" alt="" class="img-fluid">
+					<img src="images/about/cityeye.jpg" alt="" class="img-fluid">
 				</div>
 			</div>
 			<div class="col-lg-4">
@@ -284,7 +284,7 @@
 				<div class="appoinment-content">
 					<img src="images/about/img-3.jpg" alt="" class="img-fluid">
 					<div class="emergency">
-						<h2 class="text-lg"><i class="icofont-phone-circle text-lg"></i>+23 345 67980</h2>
+						<h2 class="text-lg"><i class="icofont-phone-circle text-lg"></i>+254(0)714617782</h2>
 					</div>
 				</div>
 			</div>

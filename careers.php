@@ -5,6 +5,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Basic Page Needs ================================================== -->
     <meta charset="utf-8" />
@@ -46,7 +47,7 @@
                 <div class="col-md-12">
                     <div class="block text-center">
                         <span class="text-white">Careers</span>
-                        <h1 class="text-capitalize mb-5 text-lg">Join Our Team</h1>
+                        <h1 class="text-capitalize mb-5 text-lg">Join Our Team</h1>                       
                     </div>
                 </div>
             </div>
@@ -57,30 +58,75 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="title-color mb-4">Current Job Openings</h2>
-                </div>
-            </div>
-            <!-- Improved Job Listings -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="job-listing">
-                        <div class="job-item">
-                            <h3>Senior Web Developer</h3>
-                            <p>Description: We are looking for an experienced web developer to join our dynamic team...</p>
-                            <a href="application_form.php" class="btn btn-primary">Apply Now</a>
-                        </div>
-                        <div class="row">
-                <div class="col-lg-12">
-                    <div class="job-listing">
-                        <div class="job-item">
-                            <h3>Senior Web Developer</h3>
-                            <p>Description: We are looking for an experienced web developer to join our dynamic team...</p>
-                            <a href="application_form.php" class="btn btn-primary">Apply Now</a>
-                        </div>
-                        <!-- Add more job listings as needed -->
+                    <!-- Careers Section Title -->
+                    <div class="section-title text-center">
+                        <h2 class="mb-4">Explore our opportunities!</h2>
+                        <div class="divider mx-auto my-4"></div>
+                        <p>
+                            City Eye Hospital is committed to providing accessible, high-quality eye care in East Africa.
+                            Guided by our core values of faith, people-centricity, and excellence,
+                            we aim to minimize needless blindness, fostering a culture of compassion
+                            and continuous improvement.
+                        </p>
+                        <!-- Privacy Policy Link -->
+                        <p class="mb-0">
+                            Before applying, please read <a href="gdprstatement.php" class="text-primary">Our Privacy & GDPR Statement</a>.
+                        </p>
                     </div>
                 </div>
             </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="title-color mb-4 text-center">Current Job Openings</h3>
+                </div>
+            </div>
+            
+            <!-- Improved Job Listings (Card-based and Side-by-Side) -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="feature-item mb-4">
+                        <div class="job-item">
+                            <h3>Senior Web Developer</h3>
+                            <p>Description: We are looking for an experienced web developer to join our dynamic team...</p>
+                            <a href="application_form.php" class="btn btn-primary">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="feature-item mb-4">
+                        <div class="job-item">
+                            <h3>Ophthalmology Consultant (Retina)</h3>
+                            <p>Description: Exciting opportunity for an Ophthalmology Consultant specializing in Retina...</p>
+                            <a href="application_form.php" class="btn btn-primary">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="feature-item mb-4">
+                        <div class="job-item">
+                            <h3>Business Development Manager</h3>
+                            <p>Description: We are seeking a highly motivated Business Development Manager to drive growth...</p>
+                            <a href="application_form.php" class="btn btn-primary">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="feature-item mb-4">
+                        <div class="job-item">
+                            <h3>Ophthalmic Assistant Trainee-2024</h3>
+                            <p>Description: Join our training program for Ophthalmic Assistant Trainees in the year 2024...</p>
+                            <a href="application_form.php" class="btn btn-primary">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -101,4 +147,5 @@
     <script src="js/script.js"></script>
 
 </body>
+
 </html>

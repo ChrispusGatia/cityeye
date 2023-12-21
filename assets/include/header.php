@@ -216,7 +216,7 @@
                 <a class="dropdown-item" href="opticalshop.php">Optical Shop</a>
               </li>
               <li>
-                <a class="dropdown-item" href="outreachcamps.php">Outreach Camps</a>
+                <a class="dropdown-item" href="outreachcamps.php">Outreach Program</a>
               </li>
             </ul>
           </li>

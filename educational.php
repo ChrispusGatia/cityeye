@@ -72,40 +72,47 @@
                 </div>
             </div>
 
-           <!-- Educational Content -->
+      <!-- Educational Content -->
 <div class="row">
     <div class="col-lg-4">
-        <div class="mb-5 text-center">
-            <img src="images/educational/anatomy.jpg" alt="Eye Anatomy" class="img-fluid w-100">
-            <h4 class="mt-3">Understanding Eye Anatomy</h4>
-            <p>Explore the intricacies of the eye's anatomy and learn about each part's functions for better understanding of eye health.</p>
-            <button class="btn btn-primary btn-sm mt-3" onclick="openVideoModal('r_dXLAvoEfg')">
-                <i class="icofont-play-circle"></i> Watch Video
-            </button>
+        <div class="feature-item mb-4">
+            <div class="mb-5 text-center">
+                <img src="images/educational/anatomy.jpg" alt="Eye Anatomy" class="img-fluid w-100">
+                <h4 class="mt-3">Understanding Eye Anatomy</h4>
+                <p>Explore the intricacies of the eye's anatomy and learn about each part's functions for better understanding of eye health.</p>
+                <button class="btn btn-primary btn-sm mt-3" onclick="openVideoModal('r_dXLAvoEfg')">
+                    <i class="icofont-play-circle"></i> Watch Video
+                </button>
+            </div>
         </div>
     </div>
     <div class="col-lg-4">
-        <div class="mb-5 text-center">
-            <img src="images/educational/anatomy.jpg" alt="Eye Care Tips" class="img-fluid w-100">
-            <h4 class="mt-3">Essential Eye Care Tips</h4>
-            <p>Discover practical tips and habits to maintain optimal eye health and prevent common eye issues. Your eyes deserve the best care!</p>
-            <button class="btn btn-primary btn-sm mt-3" onclick="openVideoModal('r_dXLAvoEfg')">
-                <i class="icofont-play-circle"></i> Watch Video
-            </button>
+        <div class="feature-item mb-4">
+            <div class="mb-5 text-center">
+                <img src="images/educational/anatomy.jpg" alt="Eye Care Tips" class="img-fluid w-100">
+                <h4 class="mt-3">Essential Eye Care Tips</h4>
+                <p>Discover practical tips and habits to maintain optimal eye health and prevent common eye issues. Your eyes deserve the best care!</p>
+                <button class="btn btn-primary btn-sm mt-3" onclick="openVideoModal('r_dXLAvoEfg')">
+                    <i class="icofont-play-circle"></i> Watch Video
+                </button>
+            </div>
         </div>
     </div>
     <div class="col-lg-4">
-        <div class="text-center">
-            <img src="images/educational/anatomy.jpg" alt="Common Eye Diseases" class="img-fluid w-100">
-            <h4 class="mt-3">Common Eye Diseases</h4>
-            <p>Gain insights into various eye diseases, their symptoms, and available treatment options. Knowledge is the first step towards prevention and care.</p>
-            <button class="btn btn-primary btn-sm mt-3" onclick="openVideoModal('r_dXLAvoEfg')">
-                <i class="icofont-play-circle"></i> Watch Video
-            </button>
+        <div class="feature-item mb-4">
+            <div class="text-center">
+                <img src="images/educational/anatomy.jpg" alt="Common Eye Diseases" class="img-fluid w-100">
+                <h4 class="mt-3">Common Eye Diseases</h4>
+                <p>Gain insights into various eye diseases, their symptoms, and available treatment options. Knowledge is the first step towards prevention and care.</p>
+                <button class="btn btn-primary btn-sm mt-3" onclick="openVideoModal('r_dXLAvoEfg')">
+                    <i class="icofont-play-circle"></i> Watch Video
+                </button>
+            </div>
         </div>
     </div>
 </div>
 <!-- End Educational Content -->
+
 
 <!-- Video Modal -->
 <div id="videoModal" class="modal">
@@ -131,6 +138,8 @@
         modal.style.display = 'none';
     }
 </script>
+</div>
+</section>
 
     <!-- Footer Section -->
     <?php include("assets/include/footer.php"); // Include footer file ?>

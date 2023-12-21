@@ -70,14 +70,9 @@
                     <p class="mb-4">Please note that appointment bookings are exclusively available at our AP Clinic branch. Schedule your appointment below:</p>
                     <form id="appointment-form" class="appointment-form" method="post" action="#">
                         <div class="row">
-                            <div class="col-lg-6">
+                        <div class="col-lg-6">
                                 <div class="form-group">
-                                    <select class="form-control" id="department" name="department">
-                                        <option>Choose Department</option>
-                                        <option>Software Design</option>
-                                        <option>Development cycle</option>
-                                        <!-- Add more options as needed -->
-                                    </select>
+                                    <input name="email" id="email" type="text" class="form-control" placeholder="Your Email" required>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -98,13 +93,13 @@
 
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <input name="date" id="date" type="date" class="form-control" placeholder="dd/mm/yyyy" min="<?php echo date('Y-m-d'); ?>">
+                                    <input name="date" id="date" type="date" class="form-control" placeholder="dd/mm/yyyy" min="<?php echo date('Y-m-d'); ?>" required>
                                 </div>
                             </div>
 
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                <select class="form-control" id="time" name="time">
+                                <select class="form-control" id="time" name="time" required>
                                         <option>Select Preffered Time</option>
                                         <option>Anytime</option>
                                         <option>Morning Hours</option>
@@ -115,13 +110,13 @@
 
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <input name="name" id="name" type="text" class="form-control" placeholder="Full Name">
+                                    <input name="name" id="name" type="text" class="form-control" placeholder="Full Name" required>
                                 </div>
                             </div>
 
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <input name="phone" id="phone" type="tel" class="form-control" placeholder="Phone Number">
+                                    <input name="phone" id="phone" type="tel" class="form-control" placeholder="Phone Number" required>
                                 </div>
                             </div>
                         </div>

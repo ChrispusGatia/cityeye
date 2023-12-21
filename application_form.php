@@ -62,30 +62,34 @@
                         <h2 class="title-color mb-4 text-center">Job Application Form</h2>
                         <form action="submit_application.php" method="post" enctype="multipart/form-data">
                             <div class="form-group">
-                                <label for="email">Email</label>
+                                <label for="email">Email<sup style="color: red;">*</sup></label>
                                 <input type="email" name="email" id="email" class="form-control" required>
                             </div>
 
                             <div class="form-group">
-                                <label for="position">Position Applying For</label>
+                                <label for="position">Position Applying For<sup style="color: red;">*</sup></label>
                                 <select name="position" id="position" class="form-control" required>
                                     <option value="senior_web_developer">Senior Web Developer</option>
+                                    <option value="ophthalmology_consultant_retina">Ophthalmology Consultant (Retina)</option>
+                                    <option value="business_development_manager">Business Development Manager</option>
+                                    <option value="ophthalmic_assistant_trainee_2024">Ophthalmic Assistant Trainee-2024</option>
                                     <!-- Add other positions as needed -->
                                 </select>
                             </div>
 
+
                             <div class="form-group">
-                                <label for="name">Name</label>
+                                <label for="name">Name<sup style="color: red;">*</sup></label>
                                 <input type="text" name="name" id="name" class="form-control" required>
                             </div>
 
                             <div class="form-group">
-                                <label for="nationality">Nationality</label>
+                                <label for="nationality">Nationality<sup style="color: red;">*</sup></label>
                                 <input type="text" name="nationality" id="nationality" class="form-control" required>
                             </div>
 
                             <div class="form-group">
-                                <label>Gender</label>
+                                <label>Gender<sup style="color: red;">*</sup></label>
                                 <div class="form-check form-check-inline">
                                     <input type="radio" name="gender" id="male" class="form-check-input" value="Male" required>
                                     <label for="male" class="form-check-label">Male</label>
@@ -97,32 +101,97 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="address">Address/Location</label>
+                                <label for="address">Address/Location<sup style="color: red;">*</sup></label>
                                 <textarea name="address" id="address" class="form-control" rows="3" required></textarea>
                             </div>
 
                             <div class="form-group">
-                                <label for="phone">Phone number</label>
+                                <label for="phone">Phone number<sup style="color: red;">*</sup></label>
                                 <input type="tel" name="phone" id="phone" class="form-control" required>
                             </div>
 
                             <!-- Additional fields aligned side by side -->
                             <div class="form-row">
                                 <div class="form-group col-md-6">
-                                    <label for="highest_qualification">Highest academic qualifications</label>
+                                    <label for="highest_qualification">Highest academic qualifications<sup style="color: red;">*</sup></label>
                                     <select name="highest_qualification" id="highest_qualification" class="form-control" required>
                                         <option value="PhD">PhD</option>
                                         <option value="Masters">Master's Degree</option>
+                                        <option value="Bachelor">Bachelor's Degree</option>
+                                        <option value="Higher">Higher Diploma</option>
+                                        <option value="Diploma">Diploma</option>
+                                        <option value="Certificate">Certificate Course</option>
                                         <!-- Add other options as needed -->
                                     </select>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="major">Major field of academic Study</label>
+                                    <label for="major">Major field of academic Study<sup style="color: red;">*</sup></label>
                                     <input type="text" name="major" id="major" class="form-control" required>
                                 </div>
                             </div>
 
-                            <!-- Add additional fields as needed -->
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="graduation_date">Graduation Date<sup style="color: red;">*</sup></label>
+                                    <input type="date" name="graduation_date" id="graduation_date" class="form-control" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="professional_qualification">Professional Qualification/Certification<sup style="color: red;">*</sup></label>
+                                    <input type="text" name="professional_qualification" id="professional_qualification" class="form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Are you currently employed?<sup style="color: red;">*</sup></label>
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" name="currently_employed" id="yes" class="form-check-input" value="Yes" required>
+                                    <label for="yes" class="form-check-label">Yes</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" name="currently_employed" id="no" class="form-check-input" value="No" required>
+                                    <label for="no" class="form-check-label">No</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="current_role">Current Role<sup style="color: red;">*</sup></label>
+                                <input type="text" name="current_role" id="current_role" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="current_employer">Name of Current Employer<sup style="color: red;">*</sup></label>
+                                <input type="text" name="current_employer" id="current_employer" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="experience_years">Years of Experience<sup style="color: red;">*</sup></label>
+                                <input type="number" name="experience_years" id="experience_years" class="form-control" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="current_gross_pay">Current Gross Monthly Pay (KES)</label>
+                                <input type="number" name="current_gross_pay" id="current_gross_pay" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="expected_gross_pay">Expected Gross Monthly Pay (KES)</label>
+                                <input type="number" name="expected_gross_pay" id="expected_gross_pay" class="form-control" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="notice_period">Notice Period</label>
+                                <input type="text" name="notice_period" id="notice_period" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="resume">Attach Your Resume</label>
+                                <input type="file" name="resume" id="resume" class="form-control-file" accept=".pdf,.doc,.docx" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="academic_certificate">Attach Your Academic Certificates</label>
+                                <input type="file" name="academic_certificate" id="academic_certificate" class="form-control-file" accept=".pdf,.doc,.docx" required>
+                            </div>
 
                             <button type="submit" class="btn btn-primary">Submit Application</button>
                         </form>

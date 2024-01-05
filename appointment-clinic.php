@@ -123,7 +123,7 @@
 
 					<div class="sidebar-contatct-info mt-4">
 						<p class="mb-0">🌟 Fee</p>
-						<h4 class="mb-3">Ksh 4000</h4>
+						<h4 class="mb-3">Affordable Fee</h4>
 					</div>
 				</div>
 			</div>

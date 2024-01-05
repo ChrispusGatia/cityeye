@@ -110,26 +110,42 @@
 
             <div class="row">
 
-                <!-- Appointment Clinic Branch -->
-                <div class="col-lg-6 mb-4">
-                    <div class="card">
-                        <img src="images/service/services-1.jpg" class="card-img-top" alt="Appointment Clinic Branch Image">
-                        <div class="card-body">
-                            <h2 class="card-title mb-4">Appointment Clinic Branch</h2>
-                            <p class="card-text">Our Main Branch is equipped to accept a variety of insurance plans to ensure that you can access quality healthcare.</p>
-                            <ul class="list-unstyled">
-                                <li>Insurance Company A</li>
-                                <li>Insurance Company B</li>
-                                <li>Insurance Company C</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-              </div>
-
-            <!-- Add more branch cards as needed -->
-
+    <!-- Appointment Clinic Branch -->
+    <div class="col-lg-6 mb-4">
+        <div class="card">
+            <img src="images/service/services-1.jpg" class="card-img-top" alt="Appointment Clinic Branch Image">
+            <div class="card-body">
+                <h2 class="card-title mb-4">Appointment Clinic Branch</h2>
+                <p class="card-text">Our Main Branch is equipped to accept a variety of insurance plans to ensure that you can access quality healthcare.</p>
+                <ul class="list-unstyled">
+                    <li>Insurance Company A</li>
+                    <li>Insurance Company B</li>
+                    <li>Insurance Company C</li>
+                </ul>
+            </div>
         </div>
+    </div>
+
+    <!-- Ngong Vision Center Branch -->
+    <div class="col-lg-6 mb-4">
+        <div class="card">
+            <img src="images/service/services-1.jpg" class="card-img-top" alt="Ngong Vision Center Branch Image">
+            <div class="card-body">
+                <h2 class="card-title mb-4">Ngong Vision Center</h2>
+                <p class="card-text">Our Ngong Vision Center Branch is also equipped to accept various insurance plans, ensuring convenient access to high-quality healthcare services.</p>
+                <ul class="list-unstyled">
+                    <li>Insurance Company X</li>
+                    <li>Insurance Company Y</li>
+                    <li>Insurance Company Z</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add more branch cards as needed -->
+
+</div>
+
     </section>
 
     <section class="section clients">

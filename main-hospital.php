@@ -104,7 +104,7 @@
 
                         <div class="sidebar-contatct-info mt-4">
                             <p class="mb-0">🌟 Fee</p>
-                            <h4 class="mb-3">Ksh 600</h4>
+                            <h4 class="mb-3">Affordable Fee</h4>
                         </div>
                     </div>
                 </div>
@@ -130,7 +130,7 @@
 
                         <div class="sidebar-contatct-info mt-4">
                             <p class="mb-0">Need Urgent Help?</p>
-                            <h3>+23-4565-65768</h3>
+                            <h3>+254(0)111 032 200</h3>
                         </div>
                     </div>
                 </div>

@@ -291,47 +291,44 @@
 			<div class="col-lg-6 col-md-10 ">
 				<div class="appoinment-wrap mt-5 mt-lg-0">
 					<h2 class="mb-2 title-color">Book appoinment</h2>
-					<p class="mb-4">Mollitia dicta commodi est recusandae iste, natus eum asperiores corrupti qui velit . Iste dolorum atque similique praesentium soluta.</p>
+					<p class="mb-4">Please note that appointment bookings are exclusively available at our AP Clinic branch. Schedule your appointment below:</p>
 					     <form id="#" class="appoinment-form" method="post" action="#">
                     <div class="row">
                          <div class="col-lg-6">
-                            <div class="form-group">
-                                <select class="form-control" id="exampleFormControlSelect1">
-                                  <option>Choose Department</option>
-                                  <option>Software Design</option>
-                                  <option>Development cycle</option>
-                                  <option>Software Development</option>
-                                  <option>Maintenance</option>
-                                  <option>Process Query</option>
-                                  <option>Cost and Duration</option>
-                                  <option>Modal Delivery</option>
-                                </select>
-                            </div>
+						 <div class="form-group">
+                            <input name="email" id="email" type="text" class="form-control" placeholder="Your Email" required>
+                        </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group">
-                                <select class="form-control" id="exampleFormControlSelect2">
-                                  <option>Select Doctors</option>
-                                  <option>Software Design</option>
-                                  <option>Development cycle</option>
-                                  <option>Software Development</option>
-                                  <option>Maintenance</option>
-                                  <option>Process Query</option>
-                                  <option>Cost and Duration</option>
-                                  <option>Modal Delivery</option>
-                                </select>
+							<select class="form-control" id="doctor" name="doctor">
+                               <option>Select Doctors</option>
+                               <option>Dr. Kibata</option>
+                               <option>Dr. Muchai</option>
+                               <option>Dr. Kareko</option>
+                               <option>Dr. Njoya</option>
+                               <option>Dr. Njuguna</option>
+                               <option>Dr. Mashep</option>
+                               <option>Dr. Korir</option>
+                              <!-- Add more options as needed -->
+                            </select>
                             </div>
                         </div>
 
                          <div class="col-lg-6">
                             <div class="form-group">
-                                <input name="date" id="date" type="text" class="form-control" placeholder="dd/mm/yyyy">
+							<input name="date" id="date" type="date" class="form-control" placeholder="dd/mm/yyyy" min="<?php echo date('Y-m-d'); ?>" required>
                             </div>
                         </div>
 
                         <div class="col-lg-6">
                             <div class="form-group">
-                                <input name="time" id="time" type="text" class="form-control" placeholder="Time">
+							<select class="form-control" id="time" name="time" required>
+                                <option>Select Preffered Time</option>
+                                <option>Anytime</option>
+                                <option>Morning Hours</option>
+                                <option>Afternoon Hours</option>
+                            </select>
                             </div>
                         </div>
                          <div class="col-lg-6">

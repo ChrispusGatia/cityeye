@@ -18,7 +18,7 @@
           <div class="text-lg-right top-right-bar mt-2 mt-lg-0">
             <a href="tel:+254707 777 707">
               <span>Call Now : </span>
-              <span class="h4">+254707 777 707</span>
+              <span class="h4">+254(0)111 032 200</span>
             </a>
           </div>
         </div>
@@ -27,7 +27,7 @@
   </div>
   <nav class="navbar navbar-expand-lg navigation" id="navbar">
     <div class="container">
-      <a class="navbar-brand" href="home.php">
+      <a class="navbar-brand" href="index.php">
         <img src="images/logo1.png" width="200" class="img-fluid" />
       </a>
 
@@ -46,7 +46,7 @@
       <div class="collapse navbar-collapse" id="navbarmain">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="home.php">Home</a>
+            <a class="nav-link" href="index.php">Home</a>
           </li>
           
           <li class="nav-item dropdown">
@@ -169,13 +169,13 @@
                       >Medical Outpatient Clinc</a>
                       <ul class="dropdown-menu" aria-labelledby="dropdown0301">
                         <li>
-                          <a class="dropdown-item" href="medicaloutpatient.php">Diabetic Clinic</a>
+                          <a class="dropdown-item" href="medical-outpatient.php">Diabetic Clinic</a>
                         </li>
                         <li>
-                          <a class="dropdown-item" href="medicaloutpatient.php">Hypertensive Clinic</a>
+                          <a class="dropdown-item" href="medical-outpatient.php">Hypertensive Clinic</a>
                         </li>
                         <li>
-                          <a class="dropdown-item" href="medicaloutpatient.php">Other Medical Conditions</a>
+                          <a class="dropdown-item" href="medical-outpatient.php">Other Medical Conditions</a>
                         </li>
                       </ul>
                   </li>
@@ -236,9 +236,11 @@
                 <a class="dropdown-item" href="privacypolicy.php">Privacy Policy</a>
               </li>
               <li>
-                <a class="dropdown-item" href="insuarances.php">Insuarance & Billing</a>
+                <a class="dropdown-item" href="insuarances.php">Insuarance</a>
               </li>
               <li>
+                <a class="dropdown-item" href="hospital-locations.php">Hospital Locations</a>
+              </li>
               <li>
                 <a class="dropdown-item" href="patientfeedback.php">Patient Feedback</a>
               </li> 
@@ -268,6 +270,9 @@
               <li><a class="dropdown-item" href="doctor.php">Doctors</a></li>
               <li>
                 <a class="dropdown-item" href="appointment.php">Book Appoinment</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="gallery.php">Gallery</a>
               </li>
 
             <!--<li class="dropdown dropdown-submenu dropleft">
@@ -309,7 +314,10 @@
                 <a class="dropdown-item" href="careers.php">Careers</a>
               </li>
               <li>
-                <a class="dropdown-item" href="news&events.php">News & Events</a>
+                <a class="dropdown-item" href="news&events.php">Newsletters</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="news&events.php">Events & Celebrations</a>
               </li>
               <li>
                 <a class="dropdown-item" href="educational.php">Educational Materials</a>

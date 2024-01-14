@@ -74,7 +74,7 @@
                                 <div class="card-header" id="headingOne">
                                     <h5 class="mb-0">
                                         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                            <h4>1. Purpose of this policy</h4>
+                                            1. Purpose of this policy
                                         </button>
                                     </h5>
                                 </div>
@@ -98,7 +98,7 @@
                                 <div class="card-header" id="headingTwo">
                                     <h5 class="mb-0">
                                         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            <h4>2. Legal notification</h4>
+                                            2. Legal notification
                                         </button>
                                     </h5>
                                 </div>
@@ -112,115 +112,116 @@
                                 </div>
                             </div>
 
-                            <!-- Section 3 -->
-                            <div class="card">
-                                <div class="card-header" id="headingThree">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            <h4>3. Lawful Basis for Processing</h4>
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
-                                    <div class="card-body">
-                                        <!-- Replace with your complete content for Section 3 -->
-                                        <p>We will only process information relating to you as long as there is a lawful basis as described in the DPA 2019 and it is necessary to do so. Where you consent to the processing for one or more specified purposes where the processing is necessary:
-                                            <h6> 3.1 Processing Necessity:</h6>
-                                            <ul>
-                                                <li>Linked to a product/service agreement or legal obligation.</li>
-                                                <li>Legitimate interest or obtained prior consent.</li>
-                                                <li>Necessary to protect vital interests or public interest.</li>
-                                    </ul>
-                                    <h5>3.2 Specific Purposes:</h5>
-                                    <p>Historical, statistical, journalistic, literary, artistic, or scientific research.</p>
-                                    </div>
-                                </div>
-                            </div>
+                           <!-- Section 3 -->
+<div class="card">
+    <div class="card-header" id="headingThree">
+        <h5 class="mb-0">
+            <a class="btn btn-link collapsed" role="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                3. Lawful Basis for Processing
+            </a>
+        </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
+        <div class="card-body">
+            <!-- Replace with your complete content for Section 3 -->
+            <p>We will only process information relating to you as long as there is a lawful basis as described in the DPA 2019 and it is necessary to do so. Where you consent to the processing for one or more specified purposes where the processing is necessary:</p>
+            3.1 Processing Necessity:
+            <ul>
+                <li>Linked to a product/service agreement or legal obligation.</li>
+                <li>Legitimate interest or obtained prior consent.</li>
+                <li>Necessary to protect vital interests or public interest.</li>
+            </ul>
+            3.2 Specific Purposes:
+            <ul><p>Historical, statistical, journalistic, literary, artistic, or scientific research.</p></ul>
+        </div>
+    </div>
+</div>
 
-                            <!-- Section 4 -->
-                            <div class="card">
-                                <div class="card-header" id="headingFour">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                            <h4>4. Data Protection and Security</h4>
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqAccordion">
-                                    <div class="card-body">
-                                        <!-- Replace with your complete content for Section 4 -->
-                                        <p>We take data protection seriously and have implemented measures to safeguard your personal information...</p>
-                                    </div>
-                                </div>
-                            </div>
+<!-- Sections 4 to 8 (similar modifications) -->
+<!-- Section 4 -->
+<div class="card">
+    <div class="card-header" id="headingFour">
+        <h5 class="mb-0">
+            <a class="btn btn-link collapsed" role="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                4. Data Protection and Security
+            </a>
+        </h5>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqAccordion">
+        <div class="card-body">
+            <!-- Replace with your complete content for Section 4 -->
+            <p>We take data protection seriously and have implemented measures to safeguard your personal information...</p>
+        </div>
+    </div>
+</div>
 
-                            <!-- Section 5 -->
-                            <div class="card">
-                                <div class="card-header" id="headingFive">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                            <h4>5. Individual Rights</h4>
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#faqAccordion">
-                                    <div class="card-body">
-                                        <!-- Replace with your complete content for Section 5 -->
-                                        <p>You have certain rights regarding your personal data under the GDPR...</p>
-                                    </div>
-                                </div>
-                            </div>
+<!-- Section 5 -->
+<div class="card">
+    <div class="card-header" id="headingFive">
+        <h5 class="mb-0">
+            <a class="btn btn-link collapsed" role="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                5. Individual Rights
+            </a>
+        </h5>
+    </div>
+    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#faqAccordion">
+        <div class="card-body">
+            <!-- Replace with your complete content for Section 5 -->
+            <p>You have certain rights regarding your personal data under the GDPR...</p>
+        </div>
+    </div>
+</div>
 
-                            <!-- Section 6 -->
-                            <div class="card">
-                                <div class="card-header" id="headingSix">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                            <h4>6. Disclosure to Third Parties</h4>
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#faqAccordion">
-                                    <div class="card-body">
-                                        <!-- Replace with your complete content for Section 6 -->
-                                        <p>We do not sell or disclose your personal information to third parties unless required by law or with your explicit consent...</p>
-                                    </div>
-                                </div>
-                            </div>
+<!-- Section 6 -->
+<div class="card">
+    <div class="card-header" id="headingSix">
+        <h5 class="mb-0">
+            <a class="btn btn-link collapsed" role="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                6. Disclosure to Third Parties
+            </a>
+        </h5>
+    </div>
+    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#faqAccordion">
+        <div class="card-body">
+            <!-- Replace with your complete content for Section 6 -->
+            <p>We do not sell or disclose your personal information to third parties unless required by law or with your explicit consent...</p>
+        </div>
+    </div>
+</div>
 
-                            <!-- Section 7 -->
-                            <div class="card">
-                                <div class="card-header" id="headingSeven">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                            <h4>7. Changes to this Statement</h4>
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#faqAccordion">
-                                    <div class="card-body">
-                                        <!-- Replace with your complete content for Section 7 -->
-                                        <p>We may update this Privacy Policy from time to time. Please check this page for any changes or updates...</p>
-                                    </div>
-                                </div>
-                            </div>
+<!-- Section 7 -->
+<div class="card">
+    <div class="card-header" id="headingSeven">
+        <h5 class="mb-0">
+            <a class="btn btn-link collapsed" role="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                7. Changes to this Statement
+            </a>
+        </h5>
+    </div>
+    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#faqAccordion">
+        <div class="card-body">
+            <!-- Replace with your complete content for Section 7 -->
+            <p>We may update this Privacy Policy from time to time. Please check this page for any changes or updates...</p>
+        </div>
+    </div>
+</div>
 
-                            <!-- Section 8 -->
-                            <div class="card">
-                                <div class="card-header" id="headingEight">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                            <h4>8. Contact Us</h4>
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#faqAccordion">
-                                    <div class="card-body">
-                                        <!-- Replace with your complete content for Section 8 -->
-                                        <p>If you wish to exercise any of our rights above, please contact us on <a href="mailto:dpo@cityeyehospital.or.ke">dpo@cityeyehospital.or.ke</a>...</p>
-                                    </div>
-                                </div>
-                            </div>
+<!-- Section 8 -->
+<div class="card">
+    <div class="card-header" id="headingEight">
+        <h5 class="mb-0">
+            <a class="btn btn-link collapsed" role="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                8. Contact Us
+            </a>
+        </h5>
+    </div>
+    <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#faqAccordion">
+        <div class="card-body">
+            <!-- Replace with your complete content for Section 8 -->
+            <p>If you wish to exercise any of our rights above, please contact us on <a href="mailto:dpo@cityeyehospital.or.ke">dpo@cityeyehospital.or.ke</a>...</p>
+        </div>
+    </div>
+</div>
 
                         </div>
 

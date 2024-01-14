@@ -1,62 +1,70 @@
 <?php
-    session_start();
-    include('assets/include/config.php'); // get configuration file
+  session_start();
+  include('assets/include/config.php'); // get configuration file
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Basic Page Needs
-    ================================================== -->
-    <meta charset="utf-8" />
-    <title>CityEye- Donate</title>
+  <!-- Basic Page Needs -->
+  <meta charset="utf-8">
+  <title>CityEye - Who We Are</title>
 
-    <!-- Mobile Specific Metas
-    ================================================== -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="CityEye Hospital Donation Page" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
-    <meta name="author" content="Themefisher" />
-    <meta name="generator" content="Themefisher CityEye HTML Template v1.0" />
+  <!-- Mobile Specific Metas -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Health Care Medical Html5 Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Themefisher CityEye HTML Template v1.0">
 
-    <!-- theme meta -->
-    <meta name="theme-name" content="CityEye" />
+  <!-- Theme Meta -->
+  <meta name="theme-name" content="CityEye">
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png">
 
-    <!-- Essential stylesheets -->
-    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="plugins/icofont/icofont.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <style>
-        .donation-card {
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            padding: 15px;
-            margin-bottom: 30px;
-        }
+  <!-- Essential Stylesheets -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/icofont/icofont.min.css">
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
 
-        .donation-card img {
-            max-width: 100%;
-            border-radius: 8px;
-            margin-bottom: 15px;
-        }
+  <!-- Additional Stylesheets for Donation Page -->
+  <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
 
-        .donation-sidebar {
-            background-color: #f8f9fa;
-            padding: 20px;
-            border-radius: 10px;
-        }
-    </style>
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Donation Page Styles -->
+  <style>
+    .donation-form {
+      background: #f9f9f9;
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    .donation-method {
+      margin-bottom: 20px;
+    }
+
+    .donation-method img {
+      max-width: 50px;
+      margin-right: 10px;
+    }
+
+    .paypal-image {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+  </style>
 </head>
 
 <body id="top">
-    <!-- header Start -->
-    <?php include("assets/include/header.php"); // get header file ?>
-    <!-- header End -->
+  <!-- Header Start -->
+  <?php include("assets/include/header.php"); // get header file ?>
+  <!-- Header End -->
 
-    <section class="page-title bg-1">
+   <section class="page-title bg-1">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -70,10 +78,10 @@
         </div>
     </section>
 
-    <section class="section donation-page">
-        <div class="container">
-
-            <div class="row">
+  <!-- Section: Support Us (Donation Page) -->
+  <section class="section about-page">
+    <div class="container">
+      <div class="row">
                 <div class="col-lg-12">
                     <!-- Section Title -->
                     <div class="section-title text-center">
@@ -86,39 +94,56 @@
                     </div>
                 </div>
             </div>
-
-            <div class="row">
-                <!-- Donation Cards -->
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="donation-card mb-5 feature-item">
-                        <img src="images/about/img-1.jpg" alt="Support Patient Care" class="img-fluid">
-                        <h2 class="mb-3">Support Our Patient Care Services</h2>
-                        <p>Join us in the journey of providing the gift of sight. Your contribution will be used to support the treatment of many underprivileged patients who cannot afford treatment costs and remain blind.</p>
-                        <p>Donations made to Govel Trust are eligible for income tax exemption of 50% under IT Section 80G.</p>
-                        <a href="donation-checkout.php" class="btn btn-primary">Donate Now</a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="donation-card feature-item mb-4">
-                        <img src="images/about/img-2.jpg" alt="Support Research" class="img-fluid">
-                        <h2 class="mb-3">Support Our Research</h2>
-                        <p>Join our mission to unravel the mystery of blindness. Your contribution will be used for research in eye care which will help evolve newer treatment modalities to address the problem of blindness.</p>
-                        <p>Donations made to AMRF are eligible for income tax exemption of 100% under IT Section 35.</p>
-                        <a href="donation-checkout.php" class="btn btn-primary">Donate Now</a>
-                    </div>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="subtitle-color mb-3">Why Donate?</h3>
+          <p class="mb-4">Your donation helps us continue our mission to provide quality eye care. Watch the video below to learn more about how your support can make a difference.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
         </div>
-    </section>
+        <div class="col-lg-6">
+          <div class="donation-form">
+            <h3 class="subtitle-color mb-3">Make a Donation</h3>
+            <div class="donation-method">
+              <img src="images/mpesa-icon.png" alt="Mpesa">
+              <!-- Mpesa Donation Form - Add your form elements here -->
+            </div>
+            <div class="donation-method">
+              <img src="images/bank-icon.png" alt="Bank">
+              <!-- Bank Donation Form - Add your form elements here -->
+            </div>
+            <div class="donation-method">
+              <img src="images/paypal-icon.png" alt="PayPal">
+              <!-- PayPal Donation Form -->
+              <img class="paypal-image" src="images/paypal-image.jpg" alt="PayPal Image" />
+              <!-- Add your PayPal donation form elements here -->
+              <form>
+                <label for="paypal-email">PayPal Email:</label>
+                <input type="email" id="paypal-email" name="paypal-email" class="form-control" required>
+                <!-- Add other PayPal form elements here -->
+                <button type="submit" class="btn btn-primary mt-3">Donate via PayPal</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- footer Start -->
-    <?php include ("assets/include/footer.php"); // get footer file?>
-    <!-- footer End -->
 
-    <!-- Essential Scripts -->
-    <script src="plugins/jquery/jquery.js"></script>
-    <script src="plugins/bootstrap/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+  <!-- Footer Start -->
+  <?php include("assets/include/footer.php"); // get footer file ?>
+  <!-- Footer End -->
+
+  <!-- Essential Scripts -->
+  <script src="plugins/jquery/jquery.js"></script>
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="plugins/slick-carousel/slick/slick.min.js"></script>
+  <script src="plugins/shuffle/shuffle.min.js"></script>
+
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+  <script src="plugins/google-map/gmap.js"></script>
+
+  <script src="js/script.js"></script>
 </body>
 </html>

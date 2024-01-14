@@ -50,7 +50,7 @@
 
           <ul class="list-unstyled footer-menu lh-35">
           <li><a href="service.php">Our Services</a></li>
-          <li><a href="#!">Our Foundation</a></li>
+          <li><a href="ourfoundation.php">Our Foundation</a></li>
             <li><a href="donate.php">Donate</a></li>
             <li><a href="hospital-locations.php">Hospital Locations</a></li>
             <li><a href="#!">Medicine</a></li>

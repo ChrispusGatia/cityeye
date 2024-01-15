@@ -12,24 +12,24 @@ Welcome to the extensive documentation for the CityEye Hospital web application,
 
 Welcome to the extensive documentation for the CityEye Hospital web application, a cutting-edge project built on Laravel 10.0.0. This comprehensive guide aims to provide an in-depth understanding of the infrastructure architecture, covering file structures, database setup, testing procedures, and the meticulous design philosophy that shapes the CityEye Hospital experience.
 
-## Get Started
+## INSTALLATION
 
 To get started with the CityEye Hospital web application, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone repo-link.git
+   git clone https://github.com/ChrispusGatia/cityeye.git
    
-1. **Install  the Dependencies from composer.json file:**
+2. **Install  the Dependencies from composer.json file:**
 ```bash
 composer install
 ```
-1. **Migrate the database infrastructure ( Default : Mysql ) :**
+3 **Migrate the database infrastructure ( Default : Mysql ) :**
 
 ```bash
 php artisan migrate
 ```
-1. **Run the Project on Your LocalHost:**
+4. **Run the Project on Your LocalHost:**
 
 ```bash
 php artisan serve

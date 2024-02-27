@@ -16,7 +16,7 @@
                 
             //sql to insert captured values
 			$query="INSERT INTO his_equipments (eqp_code, eqp_name, eqp_vendor, eqp_desc, eqp_dept, eqp_status, eqp_qty) VALUES (?,?,?,?,?,?,?)";
-			$stmt = $mysqli->prepare($query);
+			$stmt = $conn->prepare($query);
 			$rc=$stmt->bind_param('sssssss', $eqp_code, $eqp_name, $eqp_vendor, $eqp_desc, $eqp_dept, $eqp_status, $eqp_qty);
 			$stmt->execute();
 			/*

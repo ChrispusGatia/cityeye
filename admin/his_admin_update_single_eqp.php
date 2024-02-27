@@ -16,7 +16,7 @@
                 
             //sql to insert captured values
 			$query="UPDATE  his_equipments SET  eqp_name = ?, eqp_vendor = ?, eqp_desc = ?, eqp_dept = ?, eqp_status = ?, eqp_qty = ? WHERE eqp_code = ?";
-			$stmt = $mysqli->prepare($query);
+			$stmt = $conn->prepare($query);
 			$rc=$stmt->bind_param('sssssss',  $eqp_name, $eqp_vendor, $eqp_desc, $eqp_dept, $eqp_status, $eqp_qty, $eqp_code);
 			$stmt->execute();
 			/*
@@ -61,7 +61,7 @@
             <?php
                 $eqp_code=$_GET['eqp_code'];
                 $ret="SELECT  * FROM his_equipments WHERE eqp_code=?";
-                $stmt= $mysqli->prepare($ret) ;
+                $stmt= $conn->prepare($ret) ;
                 $stmt->bind_param('i',$eqp_code);
                 $stmt->execute() ;//ok
                 $res=$stmt->get_result();

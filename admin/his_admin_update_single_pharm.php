@@ -13,7 +13,7 @@
                 
             //sql to insert captured values
 			$query="UPDATE  his_pharmaceuticals SET phar_name = ?, phar_desc = ?, phar_qty = ?, phar_cat = ?, phar_vendor = ? WHERE phar_bcode = ?";
-			$stmt = $mysqli->prepare($query);
+			$stmt = $conn->prepare($query);
 			$rc=$stmt->bind_param('ssssss', $phar_name, $phar_desc, $phar_qty, $phar_cat, $phar_vendor, $phar_bcode);
 			$stmt->execute();
 			/*
@@ -58,7 +58,7 @@
             <?php
                 $phar_bcode = $_GET['phar_bcode'];
                 $ret="SELECT  * FROM his_pharmaceuticals WHERE phar_bcode=?";
-                $stmt= $mysqli->prepare($ret) ;
+                $stmt= $conn->prepare($ret) ;
                 $stmt->bind_param('s',$phar_bcode);
                 $stmt->execute() ;//ok
                 $res=$stmt->get_result();
@@ -124,7 +124,7 @@
                                                         <?php
                                                     
                                                             $ret="SELECT * FROM  his_pharmaceuticals_categories ORDER BY RAND() "; 
-                                                            $stmt= $mysqli->prepare($ret) ;
+                                                            $stmt= $conn->prepare($ret) ;
                                                             $stmt->execute() ;//ok
                                                             $res=$stmt->get_result();
                                                             $cnt=1;

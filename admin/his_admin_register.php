@@ -10,7 +10,7 @@
 			$ad_pwd=sha1(md5($_POST['ad_pwd']));//double encrypt to increase security
             //sql to insert captured values
 			$query="insert into his_admin (ad_fname, ad_lname, ad_email, ad_pwd) values(?,?,?,?)";
-			$stmt = $mysqli->prepare($query);
+			$stmt = $conn->prepare($query);
 			$rc=$stmt->bind_param('ssss', $ad_fname, $ad_lname, $ad_email, $ad_pwd);
 			$stmt->execute();
 			/*

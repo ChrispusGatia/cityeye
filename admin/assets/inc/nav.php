@@ -1,7 +1,7 @@
 <?php
     $aid=$_SESSION['ad_id'];
     $ret="select * from his_admin where ad_id=?";
-    $stmt= $mysqli->prepare($ret) ;
+    $stmt= $conn->prepare($ret) ;
     $stmt->bind_param('i',$aid);
     $stmt->execute() ;//ok
     $res=$stmt->get_result();
@@ -9,6 +9,10 @@
     while($row=$res->fetch_object())
     {
 ?>
+
+
+
+
     <div class="navbar-custom">
         <ul class="list-unstyled topnav-menu float-right mb-0">
 

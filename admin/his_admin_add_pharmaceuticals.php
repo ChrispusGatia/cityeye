@@ -13,7 +13,7 @@
                 
             //sql to insert captured values
 			$query="INSERT INTO his_pharmaceuticals (phar_name, phar_bcode, phar_desc, phar_qty, phar_cat, phar_vendor) VALUES (?,?,?,?,?,?)";
-			$stmt = $mysqli->prepare($query);
+			$stmt = $conn->prepare($query);
 			$rc=$stmt->bind_param('ssssss', $phar_name, $phar_bcode, $phar_desc, $phar_qty, $phar_cat, $phar_vendor);
 			$stmt->execute();
 			/*
@@ -104,7 +104,7 @@
                                                     <?php
                                                    
                                                         $ret="SELECT * FROM  his_pharmaceuticals_categories ORDER BY RAND() "; 
-                                                        $stmt= $mysqli->prepare($ret) ;
+                                                        $stmt= $conn->prepare($ret) ;
                                                         $stmt->execute() ;//ok
                                                         $res=$stmt->get_result();
                                                         $cnt=1;
@@ -122,7 +122,7 @@
                                                     
                                                         $ret="SELECT * FROM  his_vendor ORDER BY RAND() "; 
                                                         //sql code to get to ten docs  randomly
-                                                        $stmt= $mysqli->prepare($ret) ;
+                                                        $stmt= $conn->prepare($ret) ;
                                                         $stmt->execute() ;//ok
                                                         $res=$stmt->get_result();
                                                         $cnt=1;

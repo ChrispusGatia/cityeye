@@ -9,7 +9,7 @@
   {
         $id=intval($_GET['delete']);
         $adn="delete from his_patients where pat_id=?";
-        $stmt= $mysqli->prepare($adn);
+        $stmt= $conn->prepare($adn);
         $stmt->bind_param('i',$id);
         $stmt->execute();
         $stmt->close();	 
@@ -112,7 +112,7 @@
                                             */
                                                 $ret="SELECT * FROM  his_patients WHERE  pat_type = 'InPatient' "; 
                                                
-                                                $stmt= $mysqli->prepare($ret) ;
+                                                $stmt= $conn->prepare($ret) ;
                                                 $stmt->execute() ;//ok
                                                 $res=$stmt->get_result();
                                                 $cnt=1;
@@ -190,7 +190,7 @@
                                             */
                                                 $ret="SELECT * FROM  his_patient_transfers "; 
                                                
-                                                $stmt= $mysqli->prepare($ret) ;
+                                                $stmt= $conn->prepare($ret) ;
                                                 $stmt->execute() ;//ok
                                                 $res=$stmt->get_result();
                                                 $cnt=1;

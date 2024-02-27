@@ -33,7 +33,7 @@
                 $pat_number=$_GET['pat_number'];
                 $pat_id=$_GET['pat_id'];
                 $ret="SELECT  * FROM his_patients WHERE pat_id=?";
-                $stmt= $mysqli->prepare($ret) ;
+                $stmt= $conn->prepare($ret) ;
                 $stmt->bind_param('i',$pat_id);
                 $stmt->execute() ;//ok
                 $res=$stmt->get_result();
@@ -120,7 +120,7 @@
                                                 <?php
                                                     $pres_pat_number =$_GET['pat_number'];
                                                     $ret="SELECT  * FROM his_prescriptions WHERE pres_pat_number ='$pres_pat_number'";
-                                                    $stmt= $mysqli->prepare($ret) ;
+                                                    $stmt= $conn->prepare($ret) ;
                                                     // $stmt->bind_param('i',$pres_pat_number );
                                                     $stmt->execute() ;//ok
                                                     $res=$stmt->get_result();
@@ -160,7 +160,7 @@
                                                     <?php
                                                         $vit_pat_number =$_GET['pat_number'];
                                                         $ret="SELECT  * FROM his_vitals WHERE vit_pat_number ='$vit_pat_number'";
-                                                        $stmt= $mysqli->prepare($ret) ;
+                                                        $stmt= $conn->prepare($ret) ;
                                                         // $stmt->bind_param('i',$vit_pat_number );
                                                         $stmt->execute() ;//ok
                                                         $res=$stmt->get_result();
@@ -191,7 +191,7 @@
                                                 <?php
                                                     $lab_pat_number =$_GET['pat_number'];
                                                     $ret="SELECT  * FROM his_laboratory WHERE lab_pat_number  = '$lab_pat_number'";
-                                                    $stmt= $mysqli->prepare($ret) ;
+                                                    $stmt= $conn->prepare($ret) ;
                                                     // $stmt->bind_param('i',$lab_pat_number);
                                                     $stmt->execute() ;//ok
                                                     $res=$stmt->get_result();

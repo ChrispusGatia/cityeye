@@ -11,7 +11,7 @@
             
             //sql to update captured values
 			$query="UPDATE  his_pharmaceuticals_categories SET  pharm_cat_vendor=?, pharm_cat_desc=? WHERE pharm_cat_name = ?";
-			$stmt = $mysqli->prepare($query);
+			$stmt = $conn->prepare($query);
 			$rc=$stmt->bind_param('sss',   $pharm_cat_vendor, $pharm_cat_desc, $pharm_cat_name);
 			$stmt->execute();
 			/*
@@ -56,7 +56,7 @@
             <?php
                 $pharm_cat_name=$_GET['pharm_cat_name'];
                 $ret="SELECT  * FROM his_pharmaceuticals_categories WHERE pharm_cat_name=?";
-                $stmt= $mysqli->prepare($ret) ;
+                $stmt= $conn->prepare($ret) ;
                 $stmt->bind_param('s',$pharm_cat_name);
                 $stmt->execute() ;//ok
                 $res=$stmt->get_result();

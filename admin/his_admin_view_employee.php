@@ -91,7 +91,7 @@
                                             */
                                                 $ret="SELECT * FROM  his_docs ORDER BY RAND() "; 
                                                 //sql code to get to ten docs  randomly
-                                                $stmt= $mysqli->prepare($ret) ;
+                                                $stmt= $conn->prepare($ret) ;
                                                 $stmt->execute() ;//ok
                                                 $res=$stmt->get_result();
                                                 $cnt=1;

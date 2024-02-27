@@ -9,7 +9,7 @@
 
             //sql to insert captured values
 			$query="UPDATE his_docs SET doc_dept=? WHERE doc_number = ?";
-			$stmt = $mysqli->prepare($query);
+			$stmt = $conn->prepare($query);
 			$rc=$stmt->bind_param('ss', $doc_dept, $doc_number);
 			$stmt->execute();
 			/*
@@ -78,7 +78,7 @@
                         <?php
                             $doc_number=$_GET['doc_number'];
                             $ret="SELECT  * FROM his_docs WHERE doc_number=?";
-                            $stmt= $mysqli->prepare($ret) ;
+                            $stmt= $conn->prepare($ret) ;
                             $stmt->bind_param('i',$doc_number);
                             $stmt->execute() ;//ok
                             $res=$stmt->get_result();

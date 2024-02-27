@@ -8,7 +8,7 @@
   {
         $id=intval($_GET['delete_pharm_name']);
         $adn="delete from his_pharmaceuticals where phar_id=?";
-        $stmt= $mysqli->prepare($adn);
+        $stmt= $conn->prepare($adn);
         $stmt->bind_param('i',$id);
         $stmt->execute();
         $stmt->close();	 
@@ -110,7 +110,7 @@
                                                 *
                                             */
                                                 $ret="SELECT * FROM  his_pharmaceuticals ORDER BY RAND() "; 
-                                                $stmt= $mysqli->prepare($ret) ;
+                                                $stmt= $conn->prepare($ret) ;
                                                 $stmt->execute() ;//ok
                                                 $res=$stmt->get_result();
                                                 $cnt=1;

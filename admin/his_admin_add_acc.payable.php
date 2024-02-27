@@ -13,7 +13,7 @@
 
             //sql to insert captured values
 			$query="INSERT INTO his_accounts (acc_name, acc_desc, acc_type, acc_number, acc_amount) values(?,?,?,?,?)";
-			$stmt = $mysqli->prepare($query);
+			$stmt = $conn->prepare($query);
 			$rc=$stmt->bind_param('sssss', $acc_name, $acc_desc, $acc_type, $acc_number, $acc_amount);
 			$stmt->execute();
 			/*

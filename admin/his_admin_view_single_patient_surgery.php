@@ -29,7 +29,7 @@
             <?php
                 $s_number=$_GET['s_number'];
                 $ret="SELECT  * FROM his_surgery WHERE s_number = ?";
-                $stmt= $mysqli->prepare($ret) ;
+                $stmt= $conn->prepare($ret) ;
                 $stmt->bind_param('i',$s_number);
                 $stmt->execute() ;//ok
                 $res=$stmt->get_result();

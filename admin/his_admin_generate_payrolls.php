@@ -9,7 +9,7 @@
   {
         $id=intval($_GET['delete_pay_number']);
         $adn="delete from his_payrolls where pay_number=?";
-        $stmt= $mysqli->prepare($adn);
+        $stmt= $conn->prepare($adn);
         $stmt->bind_param('i',$id);
         $stmt->execute();
         $stmt->close();	 
@@ -111,7 +111,7 @@
                                             
                                                 $ret="SELECT * FROM  his_payrolls ORDER BY RAND() "; 
                                                 //sql code to get to ten docs  randomly
-                                                $stmt= $mysqli->prepare($ret) ;
+                                                $stmt= $conn->prepare($ret) ;
                                                 $stmt->execute() ;//ok
                                                 $res=$stmt->get_result();
                                                 $cnt=1;

@@ -13,7 +13,7 @@
 
             //sql to insert captured values
 			$query="UPDATE his_admin SET ad_fname=?, ad_lname=?,  ad_email=?, ad_dpic=? WHERE ad_id = ?";
-			$stmt = $mysqli->prepare($query);
+			$stmt = $conn->prepare($query);
 			$rc=$stmt->bind_param('ssssi', $ad_fname, $ad_lname, $ad_email, $ad_dpic, $ad_id);
 			$stmt->execute();
 			/*
@@ -39,7 +39,7 @@
             
             //sql to insert captured values
 			$query="UPDATE his_admin SET ad_pwd =? WHERE ad_id = ?";
-			$stmt = $mysqli->prepare($query);
+			$stmt = $conn->prepare($query);
 			$rc=$stmt->bind_param('si', $ad_pwd, $ad_id);
 			$stmt->execute();
 			/*
@@ -80,7 +80,7 @@
             <?php
                 $aid=$_SESSION['ad_id'];
                 $ret="select * from his_admin where ad_id=?";
-                $stmt= $mysqli->prepare($ret) ;
+                $stmt= $conn->prepare($ret) ;
                 $stmt->bind_param('i',$aid);
                 $stmt->execute() ;//ok
                 $res=$stmt->get_result();

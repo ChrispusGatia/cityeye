@@ -30,7 +30,7 @@
                 $pres_number=$_GET['pres_number'];
                 $pres_id = $_GET['pres_id'];
                 $ret="SELECT  * FROM his_prescriptions WHERE pres_number = ? AND pres_id = ?";
-                $stmt= $mysqli->prepare($ret) ;
+                $stmt= $conn->prepare($ret) ;
                 $stmt->bind_param('ii',$pres_number,$pres_id);
                 //$stmt->bind_param('i',$pres_id);
                 $stmt->execute() ;//ok

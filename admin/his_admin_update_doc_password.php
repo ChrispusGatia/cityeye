@@ -10,8 +10,8 @@
             //sql to insert captured values
             $query="UPDATE his_docs SET doc_pwd =? WHERE doc_email = ?";
             $query1 = "UPDATE his_pwdresets SET status =? WHERE email = ?";
-            $stmt = $mysqli->prepare($query);
-            $stmt1 = $mysqli->prepare($query1);
+            $stmt = $conn->prepare($query);
+            $stmt1 = $conn->prepare($query1);
             $rc=$stmt->bind_param('ss', $pwd, $email);
             $rs=$stmt1->bind_param('ss', $status, $email);
             $stmt->execute();
@@ -77,7 +77,7 @@
                         <?php
                             $email=$_GET['email'];
                             $ret="SELECT  * FROM his_pwdresets WHERE email=?";
-                            $stmt= $mysqli->prepare($ret) ;
+                            $stmt= $conn->prepare($ret) ;
                             $stmt->bind_param('i',$email);
                             $stmt->execute() ;//ok
                             $res=$stmt->get_result();

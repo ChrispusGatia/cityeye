@@ -14,7 +14,7 @@
             //$pres_pat_ailment = $_POST['pres_pat_ailment'];
             //sql to insert captured values
 			$query="INSERT INTO  his_vitals  (vit_number, vit_pat_number, vit_bodytemp, vit_heartpulse, vit_resprate, vit_bloodpress) VALUES(?,?,?,?,?,?)";
-			$stmt = $mysqli->prepare($query);
+			$stmt = $conn->prepare($query);
 			$rc=$stmt->bind_param('ssssss', $vit_number, $vit_pat_number, $vit_bodytemp, $vit_heartpulse, $vit_resprate, $vit_bloodpress);
 			$stmt->execute();
 			/*
@@ -59,7 +59,7 @@
             <?php
                 $doc_number = $_GET['doc_number'];
                 $ret = "SELECT  * FROM his_docs WHERE doc_number=?";
-                $stmt= $mysqli->prepare($ret) ;
+                $stmt= $conn->prepare($ret) ;
                 $stmt->bind_param('s',$doc_number);
                 $stmt->execute() ;//ok
                 $res=$stmt->get_result();

@@ -8,7 +8,7 @@
   {
         $id=intval($_GET['delete_account']);
         $adn="delete from his_accounts where acc_number=?";
-        $stmt= $mysqli->prepare($adn);
+        $stmt= $conn->prepare($adn);
         $stmt->bind_param('i',$id);
         $stmt->execute();
         $stmt->close();	 
@@ -105,7 +105,7 @@
                                             <?php
                                             
                                                 $ret="SELECT * FROM  his_accounts WHERE acc_type = 'Receivable Account' ORDER BY RAND() "; 
-                                                $stmt= $mysqli->prepare($ret) ;
+                                                $stmt= $conn->prepare($ret) ;
                                                 $stmt->execute() ;//ok
                                                 $res=$stmt->get_result();
                                                 $cnt=1;

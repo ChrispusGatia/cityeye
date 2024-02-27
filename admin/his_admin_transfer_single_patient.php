@@ -13,7 +13,7 @@
             
             //sql to insert captured values
 			$query="INSERT INTO  his_patient_transfers (t_pat_number, t_pat_name, t_date, t_hospital, t_status) VALUES(?,?,?,?,?)";
-			$stmt = $mysqli->prepare($query);
+			$stmt = $conn->prepare($query);
 			$rc=$stmt->bind_param('sssss', $t_pat_number, $t_pat_name, $t_date, $t_hospital, $t_status);
 			$stmt->execute();
 			/*
@@ -83,7 +83,7 @@
                         <?php
                             $pat_number=$_GET['pat_number'];
                             $ret="SELECT  * FROM his_patients WHERE pat_number=?";
-                            $stmt= $mysqli->prepare($ret) ;
+                            $stmt= $conn->prepare($ret) ;
                             $stmt->bind_param('i',$pat_number);
                             $stmt->execute() ;//ok
                             $res=$stmt->get_result();

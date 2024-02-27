@@ -30,7 +30,7 @@
                 $lab_id=$_GET['lab_id'];
                 $lab_number=$_GET['lab_number'];
                 $ret="SELECT  * FROM his_laboratory WHERE lab_id = ?";
-                $stmt= $mysqli->prepare($ret) ;
+                $stmt= $conn->prepare($ret) ;
                 $stmt->bind_param('i',$lab_id);
                 $stmt->execute() ;//ok
                 $res=$stmt->get_result();

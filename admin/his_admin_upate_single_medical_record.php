@@ -14,7 +14,7 @@
             $mdr_pat_ailment = $_POST['mdr_pat_ailment'];
             //sql to insert captured values
 			$query="UPDATE  his_medical_records SET  mdr_pat_adr = ?, mdr_pat_age = ?,  mdr_pat_prescr = ?, mdr_pat_ailment = ? WHERE mdr_number = ?";
-			$stmt = $mysqli->prepare($query);
+			$stmt = $conn->prepare($query);
 			$rc=$stmt->bind_param('sssss',  $mdr_pat_adr, $mdr_pat_age, $mdr_pat_prescr, $mdr_pat_ailment, $mdr_number);
 			$stmt->execute();
 			/*
@@ -59,7 +59,7 @@
             <?php
                 $mdr_number = $_GET['mdr_number'];
                 $ret="SELECT  * FROM his_medical_records WHERE mdr_number=?";
-                $stmt= $mysqli->prepare($ret) ;
+                $stmt= $conn->prepare($ret) ;
                 $stmt->bind_param('s',$mdr_number);
                 $stmt->execute() ;//ok
                 $res=$stmt->get_result();

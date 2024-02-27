@@ -89,7 +89,7 @@
                                             <?php
                                             
                                                 $ret="SELECT * FROM  his_accounts  ORDER BY RAND() "; 
-                                                $stmt= $mysqli->prepare($ret) ;
+                                                $stmt= $conn->prepare($ret) ;
                                                 $stmt->execute() ;//ok
                                                 $res=$stmt->get_result();
                                                 $cnt=1;

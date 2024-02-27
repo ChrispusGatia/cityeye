@@ -14,7 +14,7 @@
             //$mdr_pat_ailment = $_POST['mdr_pat_ailment'];
             //sql to insert captured values
 			$query="INSERT INTO  his_payrolls  (pay_number, pay_doc_name, pay_doc_number, pay_doc_email, pay_emp_salary, pay_descr) VALUES(?,?,?,?,?,?)";
-			$stmt = $mysqli->prepare($query);
+			$stmt = $conn->prepare($query);
 			$rc=$stmt->bind_param('ssssss', $pay_number, $pay_doc_name, $pay_doc_number, $pay_doc_email, $pay_emp_salary, $pay_descr);
 			$stmt->execute();
 			/*
@@ -59,7 +59,7 @@
             <?php
                 $doc_number = $_GET['doc_number'];
                 $ret="SELECT  * FROM his_docs WHERE doc_number=?";
-                $stmt= $mysqli->prepare($ret) ;
+                $stmt= $conn->prepare($ret) ;
                 $stmt->bind_param('s',$doc_number);
                 $stmt->execute() ;//ok
                 $res=$stmt->get_result();

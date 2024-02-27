@@ -14,7 +14,7 @@
     <!-- Mobile Specific Metas
   ================================================== -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Health Care Medical Html5 Template" />
+    <meta name="description" content="Health Care Medical" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
@@ -42,6 +42,35 @@
 
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css" />
+
+	<style>
+    /* Updated styles for testimonial notifications */
+    .testimonial-notifications {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        z-index: 1000;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .testimonial-notification {
+        background-color: #3498db;
+        border: 1px solid #2980b9;
+        padding: 15px;
+        margin-right: 10px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        color: #fff;
+        max-width: 300px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+</style>
+
+
   </head>
 
   <body id="top"></body>
@@ -52,27 +81,34 @@
 <!-- header End -->
 
 <!-- Slider Start -->
-<section class="banner">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-6 col-md-12 col-xl-7">
-				<div class="block">
-					<div class="divider mb-3"></div>
-					<span class="text-uppercase text-sm letter-spacing ">CITY EYE HOSPITAL - LEADING EYECARE HOSPITAL</span>
-					<h1 class="mb-3 mt-3">Your most trusted health partner</h1>
-					
-					<p class="mb-4 pr-5">City Eye Hospital (CEH): Precision. Compassion. Excellence.
-            Unite ethics, expertise, and cutting-edge tech for top-tier, affordable eye care.
-            Our commitment: Prompt, professional, effective treatment in a safe, caring space.
-            Your vision, our priority. CEH: Elevating Eye Care.</p>
-					<div class="btn-container ">
-						<a href="appoinment.php" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Make appoinment <i class="icofont-simple-right ml-2  "></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+<section class="slider" style="max-height: 550px; overflow: hidden;">
+    <div class="slick-carousel">
+        <!-- Slider Item 1 -->
+		<div class="slider-item position-relative">
+		<img src="images/bg/bg-5.jpg" alt="Slider Image 1">
+            
+        </div>
+
+		<div class="slider-item position-relative">
+		<img src="images/bg/bg-3.jpg" alt="Slider Image 1">
+            
+        </div>
+
+        <div class="slider-item position-relative">
+		<img src="images/bg/bg-22.jpg" alt="Slider Image 1">
+            
+        </div>
+        <!-- Slider Item 2 -->
+        <div class="slider-item position-relative">
+		<img src="images/bg/bg-6.jpg" alt="Slider Image 2">
+           
+        </div>
+        <!-- Add more slider items as needed -->
+    </div>
 </section>
+<!-- Slider End -->
+
+
 
 <section class="features">
 	<div class="container">
@@ -121,8 +157,8 @@
 		<div class="row align-items-center">
 			<div class="col-lg-4 col-sm-6">
 				<div class="about-img">
-					<img src="images/about/img-1.jpg" alt="" class="img-fluid">
-					<img src="images/about/img-2.jpg" alt="" class="img-fluid mt-4">
+					<img src="images/about/img-4.jpg" alt="" class="img-fluid">
+					<img src="images/about/img-5.jpg" alt="" class="img-fluid mt-4">
 				</div>
 			</div>
 			<div class="col-lg-4 col-sm-6">
@@ -132,53 +168,17 @@
 			</div>
 			<div class="col-lg-4">
 				<div class="about-content pl-4 mt-4 mt-lg-0">
-					<h2 class="title-color">Personal care <br>& healthy living</h2>
-					<p class="mt-4 mb-5">We provide best leading medicle service Nulla perferendis veniam deleniti ipsum officia dolores repellat laudantium obcaecati neque.</p>
+					<h2 class="title-color">LEADING EYECARE HOSPITAL</h2>
+					<p class="mt-4 mb-5">City Eye Hospital (CEH): Precision. Compassion. Excellence.
+            Unite ethics, expertise, and cutting-edge tech for top-tier, affordable eye care.
+            Our commitment: Prompt, professional, effective treatment in a safe, caring space.
+            Your vision, our priority. CEH: Elevating Eye Care.</p>
 
-					<a href="service.php" class="btn btn-main-2 btn-round-full btn-icon">Services<i class="icofont-simple-right ml-3"></i></a>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-
-<!--<section class="cta-section ">
-	<div class="container">
-		<div class="cta position-relative">
-			<div class="row">
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="counter-stat">
-						<i class="icofont-doctor"></i>
-						<span class="h3 counter" data-count="58">0</span>k
-						<p>Happy People</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="counter-stat">
-						<i class="icofont-flag"></i>
-						<span class="h3 counter" data-count="700">0</span>+
-						<p>Surgery Comepleted</p>
-					</div>
-				</div>
-				
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="counter-stat">
-						<i class="icofont-badge"></i>
-						<span class="h3 counter" data-count="40">0</span>+
-						<p>Expert Doctors</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="counter-stat">
-						<i class="icofont-globe"></i>
-						<span class="h3 counter" data-count="20">0</span>
-						<p>Worldwide Branch</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>-->
 
 <section class="section service gray-bg">
 	<div class="container">
@@ -282,7 +282,7 @@
 		<div class="row align-items-center">
 			<div class="col-lg-6 ">
 				<div class="appoinment-content">
-					<img src="images/about/img-3.jpg" alt="" class="img-fluid">
+					<img src="images/service/img-1.jpg" alt="" class="img-fluid">
 					<div class="emergency">
 						<h2 class="text-lg"><i class="icofont-phone-circle text-lg"></i>+254(0)714617782</h2>
 					</div>
@@ -347,7 +347,7 @@
                         <textarea name="message" id="message" class="form-control" rows="6" placeholder="Your Message"></textarea>
                     </div>
 
-                    <a class="btn btn-main btn-round-full" href="appoinment.php" >Make Appoinment <i class="icofont-simple-right ml-2  "></i></a>
+                    <button type="submit" class="btn btn-main btn-round-full">Make Appointment <i class="icofont-simple-right ml-2"></i></button>
                 </form>
             </div>
 			</div>
@@ -356,102 +356,50 @@
 </section>
 
 <section class="section testimonial-2 gray-bg">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-lg-7">
-				<div class="section-title text-center">
-					<h2>We served over 5000+ Patients</h2>
-					<div class="divider mx-auto my-4"></div>
-					<p>Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt molestias nostrum laudantium. Maiores porro cumque quaerat.</p>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <div class="section-title text-center">
+                    <h2>We served over 5000+ Patients</h2>
+                    <div class="divider mx-auto my-4"></div>
+                </div>
+            </div>
+        </div>
 
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-lg-12 testimonial-wrap-2">
-				<div class="testimonial-block style-2  gray-bg">
-					<i class="icofont-quote-right"></i>
+        <!-- Counting Numbers and Icons Section -->
+        <div class="row text-center">
+            <!-- Patients Served -->
+            <div class="col-lg-4 col-md-4">
+                <div class="counter-stat">
+                    <i class="icofont-users"></i>
+                    <span class="h3 counter" data-count="5000" style="color: #223a66;">0</span>+
+                    <p style="color: #223a66;">Patients Served</p>
+                </div>
+            </div>
 
-					<div class="testimonial-thumb">
-						<img src="images/team/test-thumb1.jpg" alt="" class="img-fluid">
-					</div>
+            <!-- Doctors/Experts -->
+            <div class="col-lg-4 col-md-4">
+                <div class="counter-stat">
+                    <i class="icofont-doctor"></i>
+                    <span class="h3 counter" data-count="50" style="color: #223a66;">0</span>+
+                    <p style="color: #223a66;">Doctors/Experts</p>
+                </div>
+            </div>
 
-					<div class="client-info ">
-						<h4>Amazing service!</h4>
-						<span>John Partho</span>
-						<p>
-							They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.
-						</p>
-					</div>
-				</div>
-
-				<div class="testimonial-block style-2  gray-bg">
-					<div class="testimonial-thumb">
-						<img src="images/team/test-thumb2.jpg" alt="" class="img-fluid">
-					</div>
-
-					<div class="client-info">
-						<h4>Expert doctors!</h4>
-						<span>Mullar Sarth</span>
-						<p>
-							They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.
-						</p>
-					</div>
-					
-					<i class="icofont-quote-right"></i>
-				</div>
-
-				<div class="testimonial-block style-2  gray-bg">
-					<div class="testimonial-thumb">
-						<img src="images/team/test-thumb3.jpg" alt="" class="img-fluid">
-					</div>
-
-					<div class="client-info">
-						<h4>Good Support!</h4>
-						<span>Kolis Mullar</span>
-						<p>
-							They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.
-						</p>
-					</div>
-					
-					<i class="icofont-quote-right"></i>
-				</div>
-
-				<div class="testimonial-block style-2  gray-bg">
-					<div class="testimonial-thumb">
-						<img src="images/team/test-thumb4.jpg" alt="" class="img-fluid">
-					</div>
-
-					<div class="client-info">
-						<h4>Nice Environment!</h4>
-						<span>Partho Sarothi</span>
-						<p class="mt-4">
-							They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.
-						</p>
-					</div>
-					<i class="icofont-quote-right"></i>
-				</div>
-
-				<div class="testimonial-block style-2  gray-bg">
-					<div class="testimonial-thumb">
-						<img src="images/team/test-thumb1.jpg" alt="" class="img-fluid">
-					</div>
-
-					<div class="client-info">
-						<h4>Modern Service!</h4>
-						<span>Kolis Mullar</span>
-						<p>
-							They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.
-						</p>
-					</div>
-					<i class="icofont-quote-right"></i>
-				</div>
-			</div>
-		</div>
-	</div>
+            <!-- Outreach Programs -->
+            <div class="col-lg-4 col-md-4">
+                <div class="counter-stat">
+                    <i class="icofont-flag"></i>
+                    <span class="h3 counter" data-count="20" style="color: #223a66;">0</span>+
+                    <p style="color: #223a66;">Outreach Programs</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Counting Numbers and Icons Section -->
+    </div>
 </section>
+
+
 <section class="section clients">
 	<div class="container">
 		<div class="row justify-content-center">
@@ -537,7 +485,52 @@
     <!-- Google Map -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA"></script>
     <script src="plugins/google-map/gmap.js"></script>
-    
+
+	<script>
+    $(document).ready(function(){
+        $('.slick-carousel').slick({
+            autoplay: true,
+            autoplaySpeed: 3000,
+            dots: true,
+            arrows: false
+        });
+    });
+</script>
+
+<script>
+        document.addEventListener('DOMContentLoaded', function () {
+            setTimeout(function () {
+                showTestimonials();
+            }, 5000); // Wait for 5 seconds before showing testimonials
+
+            function showTestimonials() {
+                // Create a container for notifications
+                var notificationContainer = document.createElement('div');
+                notificationContainer.className = 'testimonial-notifications';
+                document.body.appendChild(notificationContainer);
+
+                // Create a notification div
+                var notification = document.createElement('div');
+                notification.className = 'testimonial-notification';
+
+                // Add testimonial content to the notification
+                notification.innerHTML = '<h4>Amazing service!</h4><span>John Partho</span><p>They provide great service facility consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.</p>';
+				
+
+                // Append the notification to the container
+                notificationContainer.appendChild(notification);
+
+                // After a delay, remove the notification
+                setTimeout(function () {
+                    notificationContainer.removeChild(notification);
+                    // Remove the container if no notifications are left
+                    if (notificationContainer.childNodes.length === 0) {
+                        document.body.removeChild(notificationContainer);
+                    }
+                }, 5000); // Display the notification for 5 seconds
+            }
+        });
+    </script>
     <script src="js/script.js"></script>
 
   </body>

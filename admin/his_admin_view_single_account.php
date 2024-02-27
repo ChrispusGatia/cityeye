@@ -29,7 +29,7 @@
             <?php
                 $acc_number=$_GET['acc_number'];
                 $ret="SELECT  * FROM his_accounts WHERE acc_number = ?";
-                $stmt= $mysqli->prepare($ret) ;
+                $stmt= $conn->prepare($ret) ;
                 $stmt->bind_param('i',$acc_number);
                 $stmt->execute() ;//ok
                 $res=$stmt->get_result();

@@ -80,7 +80,7 @@
                 <img src="images/educational/anatomy.jpg" alt="Eye Anatomy" class="img-fluid w-100">
                 <h4 class="mt-3">Understanding Eye Anatomy</h4>
                 <p>Explore the intricacies of the eye's anatomy and learn about each part's functions for better understanding of eye health.</p>
-                <button class="btn btn-primary btn-sm mt-3" onclick="openVideoModal('r_dXLAvoEfg')">
+                <button class="btn btn-primary btn-sm mt-3" onclick="openVideoModal('1JdtuB6VLiQ')">
                     <i class="icofont-play-circle"></i> Watch Video
                 </button>
             </div>

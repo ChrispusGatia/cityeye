@@ -12,7 +12,7 @@
             $s_doc = $_POST['s_doc'];
             //sql to insert captured values
 			$query="UPDATE  his_surgery SET  s_pat_number=?,  s_pat_name=?, s_pat_status=?, s_pat_ailment=?, s_doc=?   WHERE  s_number=?";
-			$stmt = $mysqli->prepare($query);
+			$stmt = $conn->prepare($query);
 			$rc=$stmt->bind_param('ssssss', $s_pat_number, $s_pat_name, $s_pat_status, $s_pat_ailment, $s_doc, $s_number);
 			$stmt->execute();
 			/*
@@ -82,7 +82,7 @@
                         <?php
                             $s_number=$_GET['s_number'];
                             $ret="SELECT  * FROM his_surgery WHERE s_number=?";
-                            $stmt= $mysqli->prepare($ret) ;
+                            $stmt= $conn->prepare($ret) ;
                             $stmt->bind_param('i',$s_number);
                             $stmt->execute() ;//ok
                             $res=$stmt->get_result();
@@ -120,7 +120,7 @@
                                                     
                                                         $ret="SELECT * FROM  his_docs WHERE doc_dept = 'Surgery | Theatre' ORDER BY RAND() "; 
                                                         //sql code to get to ten docs  randomly
-                                                        $stmt= $mysqli->prepare($ret) ;
+                                                        $stmt= $conn->prepare($ret) ;
                                                         $stmt->execute() ;//ok
                                                         $res=$stmt->get_result();
                                                         $cnt=1;

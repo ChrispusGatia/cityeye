@@ -166,7 +166,7 @@
                       data-toggle="dropdown"
                       aria-haspopup="true"
                       aria-expanded="false"
-                      >Medical Outpatient Clinc</a>
+                      >Medical Outpatient Clinic</a>
                       <ul class="dropdown-menu" aria-labelledby="dropdown0301">
                         <li>
                           <a class="dropdown-item" href="medical-outpatient.php">Diabetic Clinic</a>
@@ -177,9 +177,12 @@
                         <li>
                           <a class="dropdown-item" href="medical-outpatient.php">Other Medical Conditions</a>
                         </li>
+                        
                       </ul>
                   </li>
-                  
+                  <li>
+                    <a class="dropdown-item" href="labservices.php">Laboratory Services</a>
+                  </li>
                 </ul>
               </li>
 
@@ -194,6 +197,9 @@
                   aria-expanded="false"
                   >Eye Unit</a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown0301">
+                  <li>
+                    <a class="dropdown-item" href="service.php">Priority Clinic</a>
+                  </li>
                   <li>
                     <a class="dropdown-item" href="service.php">Retina & Diabetic Eye Specialist Clinics</a>
                   </li>
@@ -314,10 +320,10 @@
                 <a class="dropdown-item" href="careers.php">Careers</a>
               </li>
               <li>
-                <a class="dropdown-item" href="news&events.php">Newsletters</a>
+                <a class="dropdown-item" href="newsletter.php">Newsletters</a>
               </li>
               <li>
-                <a class="dropdown-item" href="news&events.php">Events & Celebrations</a>
+                <!--<a class="dropdown-item" href="news&events.php">Events & Celebrations</a>-->
               </li>
               <li>
                 <a class="dropdown-item" href="educational.php">Educational Materials</a>

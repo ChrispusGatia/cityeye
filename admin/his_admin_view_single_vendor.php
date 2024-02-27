@@ -29,7 +29,7 @@
             <?php
                 $v_number=$_GET['v_number'];
                 $ret="SELECT  * FROM his_vendor WHERE v_number = ?";
-                $stmt= $mysqli->prepare($ret) ;
+                $stmt= $conn->prepare($ret) ;
                 $stmt->bind_param('i',$v_number);
                 $stmt->execute() ;//ok
                 $res=$stmt->get_result();

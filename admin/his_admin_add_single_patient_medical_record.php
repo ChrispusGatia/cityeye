@@ -14,7 +14,7 @@
             $mdr_pat_ailment = $_POST['mdr_pat_ailment'];
             //sql to insert captured values
 			$query="INSERT INTO  his_medical_records  (mdr_pat_name, mdr_pat_number, mdr_pat_adr, mdr_pat_age, mdr_number, mdr_pat_prescr, mdr_pat_ailment) VALUES(?,?,?,?,?,?,?)";
-			$stmt = $mysqli->prepare($query);
+			$stmt = $conn->prepare($query);
 			$rc=$stmt->bind_param('sssssss', $mdr_pat_name, $mdr_pat_number, $mdr_pat_adr, $mdr_pat_age, $mdr_number, $mdr_pat_prescr, $mdr_pat_ailment);
 			$stmt->execute();
 			/*
@@ -59,7 +59,7 @@
             <?php
                 $pat_number = $_GET['pat_number'];
                 $ret="SELECT  * FROM his_patients WHERE pat_number=?";
-                $stmt= $mysqli->prepare($ret) ;
+                $stmt= $conn->prepare($ret) ;
                 $stmt->bind_param('s',$pat_number);
                 $stmt->execute() ;//ok
                 $res=$stmt->get_result();
@@ -145,7 +145,7 @@
                                                 <?php
                                                     $pres_pat_number = $_GET['pat_number'];
                                                     $ret="SELECT  * FROM his_prescriptions WHERE pres_pat_number = ?";
-                                                    $stmt= $mysqli->prepare($ret) ;
+                                                    $stmt= $conn->prepare($ret) ;
                                                     $stmt->bind_param('s',$pres_pat_number);
                                                     $stmt->execute() ;//ok
                                                     $res=$stmt->get_result();

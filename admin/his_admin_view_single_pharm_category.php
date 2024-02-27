@@ -29,7 +29,7 @@
             <?php
                 $pharm_cat_id=$_GET['pharm_cat_id'];
                 $ret="SELECT  * FROM his_pharmaceuticals_categories WHERE pharm_cat_id = ?";
-                $stmt= $mysqli->prepare($ret) ;
+                $stmt= $conn->prepare($ret) ;
                 $stmt->bind_param('i',$pharm_cat_id);
                 $stmt->execute() ;//ok
                 $res=$stmt->get_result();

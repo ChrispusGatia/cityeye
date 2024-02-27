@@ -183,13 +183,13 @@
                             <!-- Video 1 -->
                             <div class="carousel-item">
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/r_dXLAvoEfg" allowfullscreen></iframe>
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gDw6yv4m_Rc" allowfullscreen></iframe>
                                 </div>
                             </div>
                             <!-- Video 2 -->
                             <div class="carousel-item">
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/r_dXLAvoEfg" allowfullscreen></iframe>
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eCpZWe30PNo" allowfullscreen></iframe>
                                 </div>
                             </div>
                         </div>
@@ -208,7 +208,9 @@
         </div>
     </div>
 
-    <!-- ... (footer and scripts) ... -->
+ <!-- Footer Start -->
+ <?php include("assets/include/footer.php"); // get footer file ?>
+  <!-- Footer End -->
 
     <!-- Essential Scripts =====================================-->
     <script src="plugins/jquery/jquery.js"></script>

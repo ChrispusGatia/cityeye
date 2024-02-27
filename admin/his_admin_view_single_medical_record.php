@@ -30,7 +30,7 @@
                 $mdr_number=$_GET['mdr_number'];
                 $mdr_id=$_GET['mdr_id'];
                 $ret="SELECT  * FROM his_medical_records WHERE mdr_id = ?";
-                $stmt= $mysqli->prepare($ret) ;
+                $stmt= $conn->prepare($ret) ;
                 $stmt->bind_param('i',$mdr_id);
                 $stmt->execute() ;//ok
                 $res=$stmt->get_result();

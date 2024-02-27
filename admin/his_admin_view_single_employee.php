@@ -32,7 +32,7 @@
             <?php
                 $doc_id=$_GET['doc_id'];
                 $ret="SELECT  * FROM his_docs WHERE doc_id=?";
-                $stmt= $mysqli->prepare($ret) ;
+                $stmt= $conn->prepare($ret) ;
                 $stmt->bind_param('i',$doc_id);
                 $stmt->execute() ;//ok
                 $res=$stmt->get_result();
@@ -100,7 +100,7 @@
                                         <?php
                                             $vit_pat_number =$_GET['doc_number'];
                                             $ret="SELECT * FROM his_vitals WHERE vit_pat_number = '$vit_pat_number'";
-                                            $stmt= $mysqli->prepare($ret) ;
+                                            $stmt= $conn->prepare($ret) ;
                                             // $stmt->bind_param('i',$vit_pat_number );
                                             $stmt->execute() ;//ok
                                             $res=$stmt->get_result();

@@ -29,7 +29,7 @@
             <?php
                 $pay_number = $_GET['pay_number'];
                 $ret="SELECT  * FROM his_payrolls WHERE pay_number = ?";
-                $stmt= $mysqli->prepare($ret) ;
+                $stmt= $conn->prepare($ret) ;
                 $stmt->bind_param('s',$pay_number);
                 $stmt->execute() ;//ok
                 $res=$stmt->get_result();
@@ -120,7 +120,7 @@
                                                                 <?php
                                                                     $doc_number = $_GET['pay_doc_number'];
                                                                     $ret="SELECT  * FROM his_docs WHERE doc_number = ?";
-                                                                    $stmt= $mysqli->prepare($ret) ;
+                                                                    $stmt= $conn->prepare($ret) ;
                                                                     $stmt->bind_param('s',$doc_number);
                                                                     $stmt->execute() ;//ok
                                                                     $res=$stmt->get_result();
@@ -134,7 +134,7 @@
                                                                 <?php
                                                                     $pay_number = $_GET['pay_number'];
                                                                     $ret="SELECT  * FROM his_payrolls WHERE pay_number = ?";
-                                                                    $stmt= $mysqli->prepare($ret) ;
+                                                                    $stmt= $conn->prepare($ret) ;
                                                                     $stmt->bind_param('s',$pay_number);
                                                                     $stmt->execute() ;//ok
                                                                     $res=$stmt->get_result();

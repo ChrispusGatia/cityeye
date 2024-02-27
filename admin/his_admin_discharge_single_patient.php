@@ -20,7 +20,7 @@
             $pat_discharge_status = $_POST['pat_discharge_status'];
             //sql to insert captured values
 			$query="UPDATE  his_patients  SET pat_discharge_status=?  WHERE pat_id = ?";
-			$stmt = $mysqli->prepare($query);
+			$stmt = $conn->prepare($query);
 			$rc=$stmt->bind_param('si', $pat_discharge_status, $pat_id);
 			$stmt->execute();
 			/*
@@ -90,7 +90,7 @@
                         <?php
                             $pat_id=$_GET['pat_id'];
                             $ret="SELECT  * FROM his_patients WHERE pat_id=?";
-                            $stmt= $mysqli->prepare($ret) ;
+                            $stmt= $conn->prepare($ret) ;
                             $stmt->bind_param('i',$pat_id);
                             $stmt->execute() ;//ok
                             $res=$stmt->get_result();

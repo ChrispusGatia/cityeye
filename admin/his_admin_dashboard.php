@@ -61,7 +61,7 @@
                                                 <?php
                                                     //code for summing up number of out patients 
                                                     $result ="SELECT count(*) FROM his_patients WHERE pat_type = 'OutPatient' ";
-                                                    $stmt = $mysqli->prepare($result);
+                                                    $stmt = $conn->prepare($result);
                                                     $stmt->execute();
                                                     $stmt->bind_result($outpatient);
                                                     $stmt->fetch();
@@ -91,7 +91,7 @@
                                                 <?php
                                                     //code for summing up number of in / admitted  patients 
                                                     $result ="SELECT count(*) FROM his_patients WHERE pat_type = 'InPatient' ";
-                                                    $stmt = $mysqli->prepare($result);
+                                                    $stmt = $conn->prepare($result);
                                                     $stmt->execute();
                                                     $stmt->bind_result($inpatient);
                                                     $stmt->fetch();
@@ -120,7 +120,7 @@
                                                 <?php
                                                     //code for summing up number of employees in the certain Hospital 
                                                     $result ="SELECT count(*) FROM his_docs ";
-                                                    $stmt = $mysqli->prepare($result);
+                                                    $stmt = $conn->prepare($result);
                                                     $stmt->execute();
                                                     $stmt->bind_result($doc);
                                                     $stmt->fetch();
@@ -155,7 +155,7 @@
                                                      *pharms or any other equipments
                                                      */ 
                                                     $result ="SELECT count(*) FROM his_vendor ";
-                                                    $stmt = $mysqli->prepare($result);
+                                                    $stmt = $conn->prepare($result);
                                                     $stmt->execute();
                                                     $stmt->bind_result($vendor);
                                                     $stmt->fetch();
@@ -186,7 +186,7 @@
                                                      * code for summing up number of assets,
                                                      */ 
                                                     $result ="SELECT count(*) FROM his_equipments ";
-                                                    $stmt = $mysqli->prepare($result);
+                                                    $stmt = $conn->prepare($result);
                                                     $stmt->execute();
                                                     $stmt->bind_result($assets);
                                                     $stmt->fetch();
@@ -217,7 +217,7 @@
                                                      * code for summing up number of pharmaceuticals,
                                                      */ 
                                                     $result ="SELECT count(*) FROM his_pharmaceuticals ";
-                                                    $stmt = $mysqli->prepare($result);
+                                                    $stmt = $conn->prepare($result);
                                                     $stmt->execute();
                                                     $stmt->bind_result($phar);
                                                     $stmt->fetch();
@@ -257,7 +257,7 @@
                                             <?php
                                                 $ret="SELECT * FROM his_docs ORDER BY RAND() LIMIT 10 "; 
                                                 //sql code to get to ten docs  randomly
-                                                $stmt= $mysqli->prepare($ret) ;
+                                                $stmt= $conn->prepare($ret) ;
                                                 $stmt->execute() ;//ok
                                                 $res=$stmt->get_result();
                                                 $cnt=1;

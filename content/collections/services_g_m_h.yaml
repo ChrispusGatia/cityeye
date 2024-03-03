@@ -1,0 +1,14 @@
+title: 'Services | G| M | H'
+template: services_g_m_h/show
+layout: layout
+revisions: false
+route: '/services_gmh/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true

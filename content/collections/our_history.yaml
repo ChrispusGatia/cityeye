@@ -1,0 +1,14 @@
+title: 'Our History'
+template: our_history/show
+layout: layout
+revisions: false
+route: /our_history
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true

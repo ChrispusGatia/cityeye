@@ -1,0 +1,81 @@
+<x-layout>
+
+    <body id="top">
+
+        <!-- Header Start -->
+        <!-- Header End -->
+
+        <section class="page-title bg-1">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="block text-center">
+                            <span class="text-white">What We Do</span>
+                            <h1 class="text-capitalize mb-5 text-lg">{{ $title }}</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section laboratory">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="department-content mt-5">
+                            <h1 class="text-md">{{ $body_title }}</h1>
+                            <div class="divider my-4"></div>
+                            {!! $body_description !!}
+
+                            <h3 class="mt-5 mb-4">Key Features</h3>
+                            <div class="divider my-4"></div>
+                            <ul class="list-unstyled department-service">
+                                @foreach ($features as $content)
+                                    <li><i class="icofont-check mr-2"></i>{{ $content->feature_name }}</li>
+                                @endforeach
+                            </ul>
+
+                            <a href="appointment" class="btn btn-main-2 btn-round-full">Schedule a Test <i
+                                    class="icofont-simple-right ml-2  "></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="sidebar-widget schedule-widget mt-5">
+                            <h5 class="mb-4">Operating Hours</h5>
+
+                            <ul class="list-unstyled">
+                                <li class="d-flex justify-content-between align-items-center">
+                                    <span>Monday - Friday</span>
+                                    <span>9:00 AM - 5:00 PM</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center">
+                                    <span>Sunday</span>
+                                    <span>Closed</span>
+                                </li>
+                            </ul>
+
+                            <div class="sidebar-contatct-info mt-4">
+                                <p class="mb-0">Need Assistance?</p>
+                                <h3>+23-4565-65768</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="mt-5 mb-4 text-center">Advanced Diagnostic Equipment</h3>
+                <div class="row">
+                    <!-- Showcase image 1 -->
+                    @foreach ($card_images as $asset)
+                        <div class="col-md-4 mb-4">
+                            <img src="{{ $asset->image }}" alt="Lab Equipment 1" class="img-fluid rounded">
+                        </div>
+                    @endforeach
+                </div>
+            </div>
+        </section>
+
+    </body>
+
+</x-layout>

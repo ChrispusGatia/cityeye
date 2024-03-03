@@ -1,0 +1,65 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: email
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: email
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: date
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: date
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: full_name
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Full name'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: phone_number
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'phone number'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: message
+            field:
+              antlers: false
+              type: textarea
+              display: message
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false

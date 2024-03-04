@@ -60,13 +60,13 @@
                                     class="icofont-thin-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown02">
                                 <li>
-                                    <a class="dropdown-item" href="whoweare">Who We Are</a>
+                                    <a class="dropdown-item" href="/about_us/whoweare">Who We Are</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="ourhistory">Our History</a>
+                                    <a class="dropdown-item" href="/our_history">Our History</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="mission&vision">Mission & Vision</a>
+                                    <a class="dropdown-item" href="mission/our-goal-and-dream">Mission & Vision</a>
                                 </li>
 
                                 <li class="dropdown dropdown-submenu dropright">
@@ -105,10 +105,13 @@
                                         aria-expanded="false">Management</a>
                                     <ul class="dropdown-menu" aria-labelledby="dropdown0301">
                                         <li>
-                                            <a class="dropdown-item" href="management">Board of Management</a>
+                                            <a class="dropdown-item" href="/board/board-of-management">Board of
+                                                Management</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="management">Executive Management</a>
+                                            <a class="dropdown-item"
+                                                href="executive-management/executive-management">Executive
+                                                Management</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -131,22 +134,26 @@
                                                 Clinic</a>
                                             <ul class="dropdown-menu" aria-labelledby="dropdown0301">
                                                 <li>
-                                                    <a class="dropdown-item" href="medical-outpatient">Diabetic
+                                                    <a class="dropdown-item"
+                                                        href="services_gmd/medical-outpatient-clinic">Diabetic
                                                         Clinic</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="medical-outpatient">Hypertensive
+                                                    <a class="dropdown-item"
+                                                        href="services_gmh/hypertensive-clinic">Hypertensive
                                                         Clinic</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="medical-outpatient">Other
+                                                    <a class="dropdown-item"
+                                                        href="othermedicalconditions/other-medical-conditions">Other
                                                         Medical Conditions</a>
                                                 </li>
 
                                             </ul>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="labservices">Laboratory Services</a>
+                                            <a class="dropdown-item" href="labs/laboratory-services">Laboratory
+                                                Services</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -182,7 +189,8 @@
                                     <a class="dropdown-item" href="opticalshop">Optical Shop</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="outreachcamps">Outreach Program</a>
+                                    <a class="dropdown-item" href="outreach/outreach-eye-care-activities">Outreach
+                                        Program</a>
                                 </li>
                             </ul>
                         </li>
@@ -193,10 +201,11 @@
                                 <i class="icofont-thin-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown02">
                                 <li>
-                                    <a class="dropdown-item" href="privacypolicy">Privacy Policy</a>
+                                    <a class="dropdown-item" href="/privacy/privacy-policy">Privacy Policy</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="insuarances">Insuarance</a>
+                                    <a class="dropdown-item"
+                                        href="insurance/explore-our-accepted-insurances">Insuarance</a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="hospital-locations">Hospital Locations</a>
@@ -205,7 +214,7 @@
                                     <a class="dropdown-item" href="patientfeedback">Patient Feedback</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="faqs">FAQuestions</a>
+                                    <a class="dropdown-item" href="/faq/faq">FAQuestions</a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="testimonials">Testimonials</a>
@@ -226,7 +235,7 @@
                                     <a class="dropdown-item" href="appointment">Book Appoinment</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="gallery">Gallery</a>
+                                    <a class="dropdown-item" href="gallery/explore-eye-hospital-moments">Gallery</a>
                                 </li>
 
                                 <!--<li class="dropdown dropdown-submenu dropleft">
@@ -268,7 +277,8 @@
                                     <!--<a class="dropdown-item" href="news&events">Events & Celebrations</a>-->
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="educational">Educational Materials</a>
+                                    <a class="dropdown-item"
+                                        href="/education/embark-on-vision-care-education">Educational Materials</a>
                                 </li>
                             </ul>
                         </li>

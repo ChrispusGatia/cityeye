@@ -161,11 +161,7 @@
                     <div class="section-title">
                         <h2>Our Eye Care Services</h2>
                         <div class="divider mx-auto my-4"></div>
-                        <p>You do not have to worry about seeking out specialists, at City Eye Hospital, you will find
-                            the
-                            personalised and specialised eye care you need to treat your condition and improve your
-                            vision.
-                        </p>
+                        <p>Providing the specialised eye care you need to treat your condition and improve your vision.</p>
                     </div>
                 </div>
             </div>
@@ -205,9 +201,10 @@
                 <div class="col-lg-6 col-md-10 ">
                     <div class="appoinment-wrap mt-5 mt-lg-0">
                         <h2 class="mb-2 title-color">Book appoinment</h2>
-                        <p class="mb-4">Please note that appointment bookings are exclusively available at our AP
-                            Clinic
-                            branch. Schedule your appointment below:</p>
+                        <p class="mb-4">Thank you for choosing City Eye Hospital. You can schedule an 
+                            appointment at our Appointment Clinic (located on the 3rd Floor of Upper Hill
+                            Medical Centre, Ralph Bunche Road, Nairobi) by
+                            filling in the form below.</p>
                         <form id="#" class="appoinment-form" method="post" action="#">
                             <div class="row">
                                 <div class="col-lg-6">
@@ -294,7 +291,7 @@
                     <div class="counter-stat">
                         <i class="icofont-users"></i>
                         <span class="h3 counter" data-count="10000" style="color: #223a66;">0</span>+
-                        <p style="color: #223a66;">Patients Served</p>
+                        <p style="color: #223a66;">PATIENTS SERVED<br>ANNUALLY</p>
                     </div>
                 </div>
 
@@ -303,7 +300,7 @@
                     <div class="counter-stat">
                         <i class="icofont-doctor"></i>
                         <span class="h3 counter" data-count="5" style="color: #223a66;">0</span>+
-                        <p style="color: #223a66;">Doctors/Experts</p>
+                        <p style="color: #223a66;">EYE SPECIALISTS AT<br>YOUR SERVICE</p>
                     </div>
                 </div>
 
@@ -312,7 +309,7 @@
                     <div class="counter-stat">
                         <i class="icofont-flag"></i>
                         <span class="h3 counter" data-count="10" style="color: #223a66;">0</span>+
-                        <p style="color: #223a66;">Outreach Programs</p>
+                        <p style="color: #223a66;">FREE EYE CLINICS<br>CONDUCTED</p>
                     </div>
                 </div>
             </div>

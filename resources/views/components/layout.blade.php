@@ -337,8 +337,8 @@
                             <li><a href="service">Our Services</a></li>
                             <li><a href="ourfoundation">Our Foundation</a></li>
                             <li><a href="donate">Donate</a></li>
-                            <li><a href="hospital-locations">Hospital Locations</a></li>
-                            <li><a href="#!">Medicine</a></li>
+                            <li><a href="hospital-locations">Our Branches</a></li>
+                            <li><a href="newsletter">News & Insights</a></li>
                         </ul>
                     </div>
                 </div>

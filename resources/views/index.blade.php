@@ -281,7 +281,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-7">
                     <div class="section-title text-center">
-                        <h2>We served over 5000+ Patients</h2>
+                        <h2>CEH IN NUMBERS</h2>
                         <div class="divider mx-auto my-4"></div>
                     </div>
                 </div>
@@ -293,7 +293,7 @@
                 <div class="col-lg-4 col-md-4">
                     <div class="counter-stat">
                         <i class="icofont-users"></i>
-                        <span class="h3 counter" data-count="70000" style="color: #223a66;">0</span>+
+                        <span class="h3 counter" data-count="10000" style="color: #223a66;">0</span>+
                         <p style="color: #223a66;">Patients Served</p>
                     </div>
                 </div>
@@ -302,7 +302,7 @@
                 <div class="col-lg-4 col-md-4">
                     <div class="counter-stat">
                         <i class="icofont-doctor"></i>
-                        <span class="h3 counter" data-count="50" style="color: #223a66;">0</span>+
+                        <span class="h3 counter" data-count="5" style="color: #223a66;">0</span>+
                         <p style="color: #223a66;">Doctors/Experts</p>
                     </div>
                 </div>
@@ -311,7 +311,7 @@
                 <div class="col-lg-4 col-md-4">
                     <div class="counter-stat">
                         <i class="icofont-flag"></i>
-                        <span class="h3 counter" data-count="20" style="color: #223a66;">0</span>+
+                        <span class="h3 counter" data-count="10" style="color: #223a66;">0</span>+
                         <p style="color: #223a66;">Outreach Programs</p>
                     </div>
                 </div>

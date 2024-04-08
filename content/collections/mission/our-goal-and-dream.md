@@ -9,24 +9,26 @@ card_section:
     id: ltbsds26
     description: |-
       **Our Mission**
-      To provide accessible and quality eye care.
+      - To provide accessible and quality eye care.
     type: new_set
     enabled: true
   -
     id: ltbslt2b
     description: |-
-      **Our Mission**
-      To provide accessible and quality eye care.
+      **Our Vision**
+      - To reduce needless blindness in the East African region.
     type: new_set
     enabled: true
   -
     id: ltbslx3c
     description: |-
-      **Our Mission**
-      To provide accessible and quality eye care.
+      **Our Values**
+      - Value for God
+      - Value for People
+      - Value for Excellence
     type: new_set
     enabled: true
 author: 14d3b439-c1ca-4786-8ce7-59caffb630ff
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1709487317
+updated_at: 1712578215
 ---

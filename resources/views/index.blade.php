@@ -90,10 +90,10 @@
                                 <i class="icofont-surgeon-alt"></i>
                             </div>
                             <span> Elite doctors</span>
-                            <h4 class="mb-3">World Class Professionals.</h4>
-                            <p class="mb-4">We have highly trained and experienced eye surgeons supported by an
-                                equally
-                                well trained and dedicated staff.</p>
+                            <h4 class="mb-3">Specialised</h4>
+                            <p class="mb-4">CEH is home to leading ophthalmologists
+                                committed to excellence in eye care delivery and
+                                supported by a highly trained and dedicated staff..</p>
                         </div>
 
                         <div class="feature-item mb-5 mb-lg-0">
@@ -103,9 +103,9 @@
                             <span>Timing schedule</span>
                             <h4 class="mb-3">Working Hours</h4>
                             <ul class="w-hours list-unstyled">
-                                <li class="d-flex justify-content-between">Mon - Thu : <span>7:30 a.m - 3:00 p.m</span>
+                                <li class="d-flex justify-content-between">Mon - Fri : <span>6:30 a.m - 5:00 p.m</span>
                                 </li>
-                                <li class="d-flex justify-content-between">Friday : <span>8:00 a.m - 3:00 p.m</span>
+                                <li class="d-flex justify-content-between">Saturday : <span>8:00 a.m - 12:00 p.m</span>
                                 </li>
                                 <li class="d-flex justify-content-between">Weekends & Public Holidays :
                                     <span>Closed</span>
@@ -118,9 +118,10 @@
                                 <i class="icofont-support"></i>
                             </div>
                             <span>Extensive Care</span>
-                            <h4 class="mb-3">Comprehensive Services.</h4>
-                            <p>We provide the full range of eye care services to ensure we can meet you at your point of
-                                need.</p>
+                            <h4 class="mb-3">Comprehensive</h4>
+                            <p>CEH facilities are easily accessible through private 
+                                and public means and are equipped to offer world-class
+                                care for the full range of eye symptoms and conditions.</p>
                         </div>
                     </div>
                 </div>
@@ -194,8 +195,12 @@
                     <div class="appoinment-content">
                         <img src="images/service/img-1.jpg" alt="" class="img-fluid">
                         <div class="emergency">
-                            <h2 class="text-lg"><i class="icofont-phone-circle text-lg"></i>+254(0)714617782</h2>
+                            <h2 style="font-size: 22px; font-weight: bold;">Contact CEH Appointment Clinic</h2>
+                            <p><i class="icofont-phone" style="color: white; font-weight: bold;"></i>
+                             <span style="color: white; font-weight: bold; font-size: 20px;">+254 0714 617 782</span>
+                              / <span style="color: white; font-weight: bold; font-size: 20px;">+254 0736 329 348</span></p>
                         </div>
+
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-10 ">

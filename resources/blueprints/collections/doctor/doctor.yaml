@@ -11,3 +11,5 @@ tabs:
             field:
               type: text
               required: true
+              validate:
+                - required

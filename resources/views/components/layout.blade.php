@@ -230,7 +230,7 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors/Team <i
                                     class="icofont-thin-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown03">
-                                <li><a class="dropdown-item" href="doctor">Doctors</a></li>
+                                <li><a class="dropdown-item" href="doctors">Doctors</a></li>
                                 <li>
                                     <a class="dropdown-item" href="bookappointment">Book Appoinment</a>
                                 </li>

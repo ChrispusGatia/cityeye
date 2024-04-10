@@ -2,7 +2,7 @@ title: Careers
 template: careers/show
 layout: layout
 revisions: false
-route: '/careers/{slug}'
+route: /careers
 sort_dir: asc
 date_behavior:
   past: public

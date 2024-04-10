@@ -52,7 +52,6 @@
                         <div class="section-title text-center">
                             <h2 class="mb-4">Explore our opportunities!</h2>
                             <div class="divider mx-auto my-4"></div>
-
                             <!-- Privacy Policy Link -->
                             <p class="mb-0">
                                 Before applying, please read <a href="gdprstatement" class="text-primary">Our Privacy &
@@ -69,56 +68,28 @@
                 </div>
 
                 <!-- Improved Job Listings (Card-based and Side-by-Side) -->
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="feature-item mb-4">
-                            <div class="job-item">
-                                <h3>Senior Web Developer</h3>
-                                <p>Description: We are looking for an experienced web developer to join our dynamic
-                                    team...
-                                </p>
-                                <a href="application_form" class="btn btn-primary">Apply Now</a>
+                <div class="container">
+                    @php $count = 0 @endphp
+                    @foreach ($careers as $career)
+                        @if ($count % 2 == 0)
+                            <div class="row">
+                        @endif
+                        <div class="col-lg-6">
+                            <div class="feature-item mb-4">
+                                <div class="job-item">
+                                    <h3>{{ $career->title }}</h3>
+                                    <p>{!! $career->description !!}</p>
+                                    <a href="{{ $career->apply_link }}" class="btn btn-primary">Apply Now</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="feature-item mb-4">
-                            <div class="job-item">
-                                <h3>Ophthalmology Consultant (Retina)</h3>
-                                <p>Description: Exciting opportunity for an Ophthalmology Consultant specializing in
-                                    Retina...</p>
-                                <a href="application_form" class="btn btn-primary">Apply Now</a>
-                            </div>
-                        </div>
-                    </div>
+                        @php $count++ @endphp
+                        @if ($count % 2 == 0 || $loop->last)
                 </div>
-
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="feature-item mb-4">
-                            <div class="job-item">
-                                <h3>Business Development Manager</h3>
-                                <p>Description: We are seeking a highly motivated Business Development Manager to drive
-                                    growth...</p>
-                                <a href="application_form" class="btn btn-primary">Apply Now</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="feature-item mb-4">
-                            <div class="job-item">
-                                <h3>Ophthalmic Assistant Trainee-2024</h3>
-                                <p>Description: Join our training program for Ophthalmic Assistant Trainees in the year
-                                    2024...</p>
-                                <a href="application_form" class="btn btn-primary">Apply Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+                @endif
+                @endforeach
             </div>
+
         </section>
 
         <!-- Footer Start -->

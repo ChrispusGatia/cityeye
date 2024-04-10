@@ -2,7 +2,7 @@ title: 'About us | who we are'
 template: about_us/show
 layout: layout
 revisions: false
-route: '/about_us/{slug}'
+route: /about_us
 sort_dir: asc
 date_behavior:
   past: public

@@ -1,0 +1,22 @@
+---
+id: 6ab92c10-802b-4e89-a66f-1dffa29127fb
+blueprint: careers
+title: 'Working at City eye'
+careers:
+  -
+    id: lusf652z
+    title: 'Software Senior Engineer'
+    description: 'Seeking a skilled PHP developer to contribute to the design, development, and maintenance of web-based applications, ensuring high performance, scalability, and security.'
+    apply_link: 'https://www.youtube.com/watch?v=laXhTcko-lg'
+    type: new_set
+    enabled: true
+  -
+    id: lusfmq8k
+    title: 'Working at City eye'
+    description: 'Working at City eye'
+    apply_link: 'https://www.youtube.com/watch?v=laXhTcko-lg'
+    type: new_set
+    enabled: true
+updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
+updated_at: 1712670246
+---

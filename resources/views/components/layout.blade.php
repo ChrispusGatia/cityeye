@@ -60,7 +60,7 @@
                                     class="icofont-thin-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown02">
                                 <li>
-                                    <a class="dropdown-item" href="/about_us/whoweare">Who We Are</a>
+                                    <a class="dropdown-item" href="/about_us">Who We Are</a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="/our_history">Our History</a>
@@ -211,13 +211,13 @@
                                     <a class="dropdown-item" href="hospital-locations">Hospital Locations</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="patientfeedback">Patient Feedback</a>
+                                    <a class="dropdown-item" href="patience-feedback">Patient Feedback</a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="/faq/faq">FAQuestions</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="/testimonials">Testimonials</a>
+                                    <a class="dropdown-item" href="/testimonial">Testimonials</a>
                                 </li>
                                 <li>
                                     <!--<a class="dropdown-item" href="directions&location">Directions & Location</a>-->
@@ -232,7 +232,7 @@
                             <ul class="dropdown-menu" aria-labelledby="dropdown03">
                                 <li><a class="dropdown-item" href="doctor">Doctors</a></li>
                                 <li>
-                                    <a class="dropdown-item" href="appointment">Book Appoinment</a>
+                                    <a class="dropdown-item" href="bookappointment">Book Appoinment</a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="/gallery/explore-eye-hospital-moments">Gallery</a>
@@ -270,15 +270,14 @@
                                 <li>
                                     <a class="dropdown-item" href="careers">Careers</a>
                                 </li>
-                                <li>
+                                {{-- <li>
                                     <a class="dropdown-item" href="newsletter">Newsletters</a>
-                                </li>
+                                </li> --}}
                                 <li>
                                     <!--<a class="dropdown-item" href="news&events">Events & Celebrations</a>-->
                                 </li>
                                 <li>
-                                    <a class="dropdown-item"
-                                        href="/education/embark-on-vision-care-education">Educational Materials</a>
+                                    <a class="dropdown-item" href="/education">Educational Materials</a>
                                 </li>
                             </ul>
                         </li>

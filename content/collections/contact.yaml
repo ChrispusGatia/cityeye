@@ -1,8 +1,9 @@
-title: 'Educational Material'
-template: educational_material/show
+title: Contact
+template: contact/show
 layout: layout
 revisions: false
-route: /education
+route: /contact
+slugs: false
 sort_dir: asc
 date_behavior:
   past: public

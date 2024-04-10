@@ -182,8 +182,7 @@
                             <div class="content">
                                 <p class="mb-4">{{ $card->service_subtitle }}</p>
                             </div>
-                            <a href="service" class="btn btn-main btn-round-full">{{ $card->read_more }}<i
-                                    class="icofont-simple-right ml-3"></i></a>
+
                         </div>
                     </div>
                 @endforeach

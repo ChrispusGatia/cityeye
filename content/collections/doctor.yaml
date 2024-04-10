@@ -1,8 +1,9 @@
-title: 'Educational Material'
-template: educational_material/show
+title: Doctor
+template: doctor/show
 layout: layout
 revisions: false
-route: /education
+route: doctors
+slugs: false
 sort_dir: asc
 date_behavior:
   past: public

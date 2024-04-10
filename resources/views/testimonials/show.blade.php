@@ -54,61 +54,27 @@
                     <div class="col-lg-6 offset-lg-6">
                         <div class="section-title">
                             <h2 class="mb-4">Real Stories, Real People</h2>
-
+                            <div class="divider my-4"></div>
+                            <p>Read and watch what our valued patients have to say about their experiences with CityEye
+                                Hospital.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row align-items-center">
                     <div class="col-lg-6 testimonial-wrap offset-lg-6">
-
-                        <!-- Video Testimony 1 -->
-                        <div class="testimonial-block">
-                            <div class="client-info">
-                                <h4>Life-Changing Experience</h4>
-                                <span>Emily Johnson</span>
+                        @foreach ($testimonials as $test)
+                            <!-- Text Testimony 1 -->
+                            <div class="testimonial-block">
+                                <div class="client-info">
+                                    <h4>{{ $test->title }}</h4>
+                                    <span>{{ $test->subtitle }}</span>
+                                </div>
+                                <p>
+                                    "{{ $test->description }}"
+                                </p>
                             </div>
-                            <p>
-                                "CityEye Hospital transformed my life. Watch my journey and experience with the amazing
-                                team."
-                            </p>
+                        @endforeach
 
-                        </div>
-
-                        <!-- Text Testimony 1 -->
-                        <div class="testimonial-block">
-                            <div class="client-info">
-                                <h4>Great Service!</h4>
-                                <span>John Doe</span>
-                            </div>
-                            <p>
-                                "I received great service at CityEye Hospital. The staff is caring and professional.
-                                Highly
-                                recommended!"
-                            </p>
-                        </div>
-
-                        <!-- Video Testimony 2 -->
-                        <div class="testimonial-block">
-                            <div class="client-info">
-                                <h4>Grateful for the Care</h4>
-                                <span>David Smith</span>
-                            </div>
-                            <p>
-                                "I am forever grateful for the care I received at CityEye Hospital. Watch my story."
-                            </p>
-                        </div>
-
-                        <!-- Text Testimony 2 -->
-                        <div class="testimonial-block">
-                            <div class="client-info">
-                                <h4>Amazing Team!</h4>
-                                <span>Jane Doe</span>
-                            </div>
-                            <p>
-                                "The team at CityEye Hospital is amazing. They provided excellent care and support
-                                throughout my treatment."
-                            </p>
-                        </div>
 
                         <!-- Add more video and text testimonial blocks as needed -->
 

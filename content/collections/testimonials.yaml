@@ -1,8 +1,8 @@
-title: 'Educational Material'
-template: educational_material/show
+title: Testimonials
+template: testimonials/show
 layout: layout
 revisions: false
-route: /education
+route: testimonial
 sort_dir: asc
 date_behavior:
   past: public

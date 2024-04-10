@@ -1,4 +1,4 @@
-title: Career
+title: Careers
 tabs:
   main:
     display: Main
@@ -13,46 +13,7 @@ tabs:
               validate:
                 - required
           -
-            handle: body_title
-            field:
-              input_type: text
-              antlers: false
-              type: text
-              display: 'Body title'
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
-          -
-            handle: body_description
-            field:
-              restrict: false
-              buttons:
-                - bold
-                - italic
-                - unorderedlist
-                - orderedlist
-                - quote
-                - link
-                - image
-                - table
-              automatic_line_breaks: true
-              automatic_links: false
-              escape_markup: false
-              heading_anchors: false
-              smartypants: false
-              table_of_contents: false
-              antlers: false
-              type: markdown
-              display: 'Body description'
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
-          -
-            handle: card_section
+            handle: careers
             field:
               collapse: false
               previews: true
@@ -69,19 +30,19 @@ tabs:
                       icon: null
                       fields:
                         -
-                          handle: card_title
+                          handle: title
                           field:
                             input_type: text
                             antlers: false
                             type: text
-                            display: 'card title'
+                            display: Title
                             listable: hidden
                             instructions_position: above
                             visibility: visible
                             replicator_preview: true
                             hide_display: false
                         -
-                          handle: card_description
+                          handle: description
                           field:
                             restrict: false
                             buttons:
@@ -101,14 +62,24 @@ tabs:
                             table_of_contents: false
                             antlers: false
                             type: markdown
-                            display: 'Card description'
+                            display: Description
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                        -
+                          handle: apply_link
+                          field:
+                            type: link
+                            display: 'Apply Link'
                             listable: hidden
                             instructions_position: above
                             visibility: visible
                             replicator_preview: true
                             hide_display: false
               type: replicator
-              display: 'Card section'
+              display: Careers
               listable: hidden
               instructions_position: above
               visibility: visible

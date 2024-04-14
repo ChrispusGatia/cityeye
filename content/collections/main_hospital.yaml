@@ -1,8 +1,8 @@
-title: 'Privacy Policy'
-template: privacy_policy/show
+title: 'Main Hospital'
+template: main_hospital/show
 layout: layout
 revisions: false
-route: /privacy
+route: /main_hospital
 sort_dir: asc
 date_behavior:
   past: public

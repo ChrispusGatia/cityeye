@@ -2,7 +2,7 @@ title: 'Services | G| M |D'
 template: services_g_m_d/show
 layout: layout
 revisions: false
-route: '/services_gmd/{slug}'
+route: /services_gmd
 sort_dir: asc
 date_behavior:
   past: public

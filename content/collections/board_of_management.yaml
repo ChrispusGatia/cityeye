@@ -2,7 +2,7 @@ title: 'Board of Management'
 template: board_of_management/show
 layout: layout
 revisions: false
-route: '/board/{slug}'
+route: /board
 sort_dir: asc
 date_behavior:
   past: public

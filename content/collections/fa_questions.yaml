@@ -2,7 +2,7 @@ title: 'FA questions'
 template: fa_questions/show
 layout: layout
 revisions: false
-route: '/Faq/{slug}'
+route: /Faq
 sort_dir: asc
 date_behavior:
   past: public

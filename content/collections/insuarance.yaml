@@ -2,7 +2,7 @@ title: Insuarance
 template: insuarance/show
 layout: layout
 revisions: false
-route: '/insurance/{slug}'
+route: /insurance
 sort_dir: asc
 date_behavior:
   past: public

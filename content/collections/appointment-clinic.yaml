@@ -1,8 +1,8 @@
-title: 'Privacy Policy'
-template: privacy_policy/show
+title: Appointment-Clinic
+template: appointment-clinic/show
 layout: layout
 revisions: false
-route: /privacy
+route: /appointment-clinic
 sort_dir: asc
 date_behavior:
   past: public

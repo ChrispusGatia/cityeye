@@ -1,8 +1,8 @@
-title: 'Privacy Policy'
-template: privacy_policy/show
+title: 'CEH Community'
+template: ceh_community/show
 layout: layout
 revisions: false
-route: /privacy
+route: /ceh_community
 sort_dir: asc
 date_behavior:
   past: public

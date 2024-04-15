@@ -2,7 +2,7 @@ title: Mission
 template: mission/show
 layout: layout
 revisions: false
-route: '/mission/{slug}'
+route: /mission
 sort_dir: asc
 date_behavior:
   past: public

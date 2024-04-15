@@ -2,7 +2,7 @@ title: 'Other medical conditions'
 template: other_medical_conditions/show
 layout: layout
 revisions: false
-route: '/othermedicalconditions/{slug}'
+route: /othermedicalconditions
 sort_dir: asc
 date_behavior:
   past: public

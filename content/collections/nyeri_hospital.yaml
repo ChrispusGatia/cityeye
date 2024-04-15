@@ -1,8 +1,8 @@
-title: 'Privacy Policy'
-template: privacy_policy/show
+title: 'Nyeri Hospital'
+template: nyeri_hospital/show
 layout: layout
 revisions: false
-route: /privacy
+route: /nyeri_hospital
 sort_dir: asc
 date_behavior:
   past: public

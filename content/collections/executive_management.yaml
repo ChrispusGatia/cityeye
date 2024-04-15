@@ -2,7 +2,7 @@ title: 'Executive Management'
 template: executive_management/show
 layout: layout
 revisions: false
-route: '/Executive-management/{slug}'
+route: /Executive-management
 sort_dir: asc
 date_behavior:
   past: public

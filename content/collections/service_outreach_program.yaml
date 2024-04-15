@@ -2,7 +2,7 @@ title: 'Service | Outreach Program'
 template: service_outreach_program/show
 layout: layout
 revisions: false
-route: '/outreach/{slug}'
+route: /outreach
 sort_dir: asc
 date_behavior:
   past: public

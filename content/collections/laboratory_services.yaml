@@ -2,7 +2,7 @@ title: 'Laboratory  Services'
 template: laboratory_services/show
 layout: layout
 revisions: false
-route: '/labs/{slug}'
+route: /labs
 sort_dir: asc
 date_behavior:
   past: public

@@ -2,7 +2,7 @@ title: Gallery
 template: gallery/show
 layout: layout
 revisions: false
-route: '/gallery/{slug}'
+route: /gallery
 sort_dir: asc
 date_behavior:
   past: public

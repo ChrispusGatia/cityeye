@@ -7,27 +7,8 @@
         <title>CityEye- Our History</title>
 
         <!-- Mobile Specific Metas ================================================== -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="Explore the rich history of CityEye Hospital" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
-        <meta name="author" content="Themefisher" />
-        <meta name="generator" content="Themefisher CityEye HTML Template v1.0" />
+        @include('_links')
 
-        <!-- Theme Meta -->
-        <meta name="theme-name" content="CityEye" />
-
-        <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
-
-        <!-- Essential stylesheets =====================================-->
-        <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css" />
-        <link rel="stylesheet" href="plugins/icofont/icofont.min.css" />
-        <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css" />
-        <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css" />
-
-        <!-- Custom Styles -->
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/our-history.css" /> <!-- Custom styles for Our History page -->
     </head>
 
     <body id="top">

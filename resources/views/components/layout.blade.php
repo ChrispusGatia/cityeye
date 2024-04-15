@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CityEye- Health Care</title>
     <!-- Add your CSS links here -->
+    <link href="{{ asset('plugins/bootstrap/bootstrap.min.css') }}" rel="stylesheet">
 
+    <!-- JavaScript -->
+    <script src="{{ asset('plugins/bootstrap/bootstrap.min.js') }}"></script>
+    @include('_links')
 </head>
-@include('_links')
 
 <body>
     <header>
@@ -66,7 +69,7 @@
                                     <a class="dropdown-item" href="/our_history">Our History</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="/mission/our-goal-and-dream">Mission & Vision</a>
+                                    <a class="dropdown-item" href="/mission">Mission & Vision</a>
                                 </li>
 
                                 <li class="dropdown dropdown-submenu dropright">
@@ -75,13 +78,13 @@
                                         aria-expanded="false">Branches</a>
                                     <ul class="dropdown-menu" aria-labelledby="dropdown0301">
                                         <li>
-                                            <a class="dropdown-item" href="main-hospital">Main Hospital</a>
+                                            <a class="dropdown-item" href="/main_hospital">Main Hospital</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="nyeri-hospital">Nyeri Hospital</a>
+                                            <a class="dropdown-item" href="/nyeri_hospital">Nyeri Hospital</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="appointment-clinic">Appointment
+                                            <a class="dropdown-item" href="/appointment-clinic">Appointment
                                                 Clinic</a>
                                         </li>
                                         <li class="dropdown dropdown-submenu dropleft">
@@ -91,7 +94,7 @@
 
                                             <ul class="dropdown-menu" aria-labelledby="dropdown0501">
                                                 <li>
-                                                    <a class="dropdown-item" href="ngong-visioncenter">CEH Community
+                                                    <a class="dropdown-item" href="/ceh_community">CEH Community
                                                         Vision Center-Ngong</a>
                                                 </li>
                                             </ul>
@@ -105,12 +108,11 @@
                                         aria-expanded="false">Management</a>
                                     <ul class="dropdown-menu" aria-labelledby="dropdown0301">
                                         <li>
-                                            <a class="dropdown-item" href="/board/board-of-management">Board of
+                                            <a class="dropdown-item" href="/board">Board of
                                                 Management</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item"
-                                                href="/executive-management/executive-management">Executive
+                                            <a class="dropdown-item" href="/executive-management">Executive
                                                 Management</a>
                                         </li>
                                     </ul>
@@ -118,8 +120,8 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">Services <i
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown02"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services <i
                                     class="icofont-thin-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown02">
                                 <li class="dropdown dropdown-submenu dropright">
@@ -134,25 +136,22 @@
                                                 Clinic</a>
                                             <ul class="dropdown-menu" aria-labelledby="dropdown0301">
                                                 <li>
-                                                    <a class="dropdown-item"
-                                                        href="/services_gmd/medical-outpatient-clinic">Diabetic
+                                                    <a class="dropdown-item" href="/services_gmd">Diabetic
                                                         Clinic</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item"
-                                                        href="/services_gmh/hypertensive-clinic">Hypertensive
+                                                    <a class="dropdown-item" href="/services_gmh">Hypertensive
                                                         Clinic</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item"
-                                                        href="/othermedicalconditions/other-medical-conditions">Other
+                                                    <a class="dropdown-item" href="/othermedicalconditions">Other
                                                         Medical Conditions</a>
                                                 </li>
 
                                             </ul>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="/labs/laboratory-services">Laboratory
+                                            <a class="dropdown-item" href="/labs">Laboratory
                                                 Services</a>
                                         </li>
                                     </ul>
@@ -164,31 +163,25 @@
                                         aria-expanded="false">Eye Unit</a>
                                     <ul class="dropdown-menu" aria-labelledby="dropdown0301">
                                         <li>
-                                            <a class="dropdown-item"
-                                                href="/services_gmd/medical-outpatient-clinic">Priority Clinic</a>
+                                            <a class="dropdown-item" href="/services_gmd">Priority Clinic</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item"
-                                                href="/services_gmd/medical-outpatient-clinic">Retina & Diabetic Eye
+                                            <a class="dropdown-item" href="/services_gmd">Retina & Diabetic Eye
                                                 Specialist Clinics</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item"
-                                                href="/services_gmd/medical-outpatient-clinic">Glaucoma & Cornea
+                                            <a class="dropdown-item" href="/services_gmd">Glaucoma & Cornea
                                                 Clinics</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item"
-                                                href="/services_gmd/medical-outpatient-clinic">Eye Surgeries &
+                                            <a class="dropdown-item" href="/services_gmd">Eye Surgeries &
                                                 Procedures</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item"
-                                                href="/services_gmd/medical-outpatient-clinic">Pediatric Eye Clinic</a>
+                                            <a class="dropdown-item" href="/services_gmd">Pediatric Eye Clinic</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item"
-                                                href="/services_gmd/medical-outpatient-clinic">Uveitis Clinic</a>
+                                            <a class="dropdown-item" href="/services_gmd">Uveitis Clinic</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -197,7 +190,7 @@
                                     <a class="dropdown-item" href="/opticalshop">Optical Shop</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="/outreach/outreach-eye-care-activities">Outreach
+                                    <a class="dropdown-item" href="/outreach">Outreach
                                         Program</a>
                                 </li>
                             </ul>
@@ -209,20 +202,17 @@
                                 <i class="icofont-thin-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown02">
                                 <li>
-                                    <a class="dropdown-item" href="/privacy/privacy-policy">Privacy Policy</a>
+                                    <a class="dropdown-item" href="/privacy">Privacy Policy</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item"
-                                        href="/insurance/explore-our-accepted-insurances">Insuarance</a>
+                                    <a class="dropdown-item" href="/insurance">Insuarance</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="/patience-feedback">Patient Feedback</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="hospital-locations">Hospital Locations</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="patience-feedback">Patient Feedback</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="/faq/faq">FAQuestions</a>
+                                    <a class="dropdown-item" href="/faq">FAQuestions</a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="/testimonial">Testimonials</a>
@@ -243,7 +233,7 @@
                                     <a class="dropdown-item" href="bookappointment">Book Appoinment</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="/gallery/explore-eye-hospital-moments">Gallery</a>
+                                    <a class="dropdown-item" href="/gallery">Gallery</a>
                                 </li>
 
                                 <!--<li class="dropdown dropdown-submenu dropleft">

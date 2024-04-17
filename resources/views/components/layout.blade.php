@@ -310,8 +310,11 @@
                                 <a href="https://www.facebook.com/themefisher"><i class="icofont-facebook"></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="https://twitter.com/themefisher"><i class="icofont-twitter"></i></a>
+                                <a href="#" target="_blank" rel="me nofollow noopener noreferrer" title="X (Twitter)">
+                                <i class="icofont" style="font-family: 'IcoFont'; font-size: inherit;">X</i>
+                                </a>
                             </li>
+
                             <li class="list-inline-item">
                                 <a href="https://www.pinterest.com/themefisher/"><i class="icofont-linkedin"></i></a>
                             </li>
@@ -373,7 +376,7 @@
                         <div class="footer-contact-block">
                             <div class="icon d-flex align-items-center">
                                 <i class="icofont-support mr-3"></i>
-                                <span class="h6 mb-0">Mon to Fri : 08:00 a.m - 3:00 p.m</span>
+                                <span class="h6 mb-0">Mon to Fri : 06:30 a.m - 05:00 p.m</span>
                             </div>
                             <h4 class="mt-2"><a href="tel:+254 0111 032 200">+254(0)111 032 200</a></h4>
                         </div>

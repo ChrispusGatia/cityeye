@@ -5,7 +5,7 @@ title: Home
 template: index
 author: 14d3b439-c1ca-4786-8ce7-59caffb630ff
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1712582401
+updated_at: 1713444185
 subtitle: 'Founded by leading eye specialists, City Eye Hospital [CEH] is a premier specialty eye hospital in Kenya dedicated to making quality eye care accessible and affordable for patients of all ages and background across all our branches:'
 teaser: 'EXPERT EXCEPTIONAL EYE CARE'
 services_cards:
@@ -18,7 +18,7 @@ services_cards:
     enabled: true
   -
     id: lt8pvwah
-    service_title: 'Cataract Surgery'
+    service_title: 'CATARACT SURGERY'
     service_subtitle: 'Cataract surgery is one of the safest surgeries. Most cataract procedures take a short time and most patients recover quickly'
     read_more: 'Read More'
     type: new_set
@@ -39,7 +39,7 @@ services_cards:
     enabled: true
   -
     id: luqgdedc
-    service_title: 'Glacauma Treatmeant'
+    service_title: 'GLAUCOMA TREATMENT'
     service_subtitle: 'Glaucoma care at CEH aim to prevent vision loss from glaucoma: a leading cause of blindness'
     read_more: 'Read More'
     type: new_set
@@ -60,7 +60,7 @@ services_cards:
     enabled: true
   -
     id: luqggr1t
-    service_title: Uveitis
+    service_title: UVEITIS
     service_subtitle: 'Uveitis refers to a spectrum of eye problems that involves inflammation of the uvea'
     read_more: 'Read More'
     type: new_set

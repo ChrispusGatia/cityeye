@@ -68,9 +68,9 @@
                                 <li>
                                     <a class="dropdown-item" href="/our_history">Our History</a>
                                 </li>
-                                <li>
+                                <!--<li>
                                     <a class="dropdown-item" href="/mission">Mission & Vision</a>
-                                </li>
+                                </li>-->
                                 <li>
                                     <a class="dropdown-item" href="ourfoundation">Our Foundation</a>
                                 </li>

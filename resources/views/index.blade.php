@@ -89,35 +89,29 @@
                             <div class="feature-icon mb-4">
                                 <i class="icofont-surgeon-alt"></i>
                             </div>
-                            <span> Elite doctors</span>
+                            <span> ELITE DOCTORS</span>
                             <h4 class="mb-3">Specialised</h4>
                             <p class="mb-4">CEH is home to leading ophthalmologists
                                 committed to excellence in eye care delivery and
-                                supported by a highly trained and dedicated staff..</p>
+                                supported by a highly trained and dedicated staff.</p>
                         </div>
 
                         <div class="feature-item mb-5 mb-lg-0">
                             <div class="feature-icon mb-4">
-                                <i class="icofont-ui-clock"></i>
+                                <i class="icofont-surgeon-alt"></i>
                             </div>
-                            <span>Timing schedule</span>
-                            <h4 class="mb-3">Working Hours</h4>
-                            <ul class="w-hours list-unstyled">
-                                <li class="d-flex justify-content-between">Mon - Fri : <span>6:30 a.m - 5:00 p.m</span>
-                                </li>
-                                <li class="d-flex justify-content-between">Saturday : <span>8:00 a.m - 12:00 p.m</span>
-                                </li>
-                                <li class="d-flex justify-content-between">Weekends & Public Holidays :
-                                    <span>Closed</span>
-                                </li>
-                            </ul>
+                            <span>THE CARE TO EXPECT </span>
+                            <h4 class="mb-3">Personalised</h4>
+                            <p class="mb-4">At CEH, you will receive a tailored treatment plan in a
+                                calm and confortable environment where you can freely ask questions
+                                and seek clarification.</p>
                         </div>
 
                         <div class="feature-item mb-5 mb-lg-0">
                             <div class="feature-icon mb-4">
-                                <i class="icofont-support"></i>
+                                <i class="icofont-surgeon-alt"></i>
                             </div>
-                            <span>Extensive Care</span>
+                            <span>EXTENSIVE CARE</span>
                             <h4 class="mb-3">Comprehensive</h4>
                             <p>CEH facilities are easily accessible through private 
                                 and public means and are equipped to offer world-class

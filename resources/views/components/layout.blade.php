@@ -71,59 +71,79 @@
                                 <li>
                                     <a class="dropdown-item" href="/mission">Mission & Vision</a>
                                 </li>
+                                <li>
+                                    <a class="dropdown-item" href="ourfoundation">Our Foundation</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="careers">Careers</a>
+                                </li>
+                            </ul>
+                        </li>
 
-                                <li class="dropdown dropdown-submenu dropright">
-                                    <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301"
-                                        role="button" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false">Branches</a>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdown0301">
-                                        <li>
-                                            <a class="dropdown-item" href="/main_hospital">Main Hospital</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/nyeri_hospital">Nyeri Hospital</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/appointment-clinic">Appointment
-                                                Clinic</a>
-                                        </li>
-                                        <li class="dropdown dropdown-submenu dropleft">
-                                            <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0501"
-                                                role="button" data-toggle="dropdown" aria-haspopup="true"
-                                                aria-expanded="false">Vision Centers</a>
-
-                                            <ul class="dropdown-menu" aria-labelledby="dropdown0501">
-                                                <li>
-                                                    <a class="dropdown-item" href="/ceh_community">CEH Community
-                                                        Vision Center-Ngong</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="department.html" id="dropdown02"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Branches
+                                <i class="icofont-thin-down"></i></a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown02">
+                                <li>
+                                    <a class="dropdown-item" href="/main_hospital">Main Hospital</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/nyeri_hospital">Nyeri Hospital</a>
                                 </li>
 
+                                <li>
+                                    <a class="dropdown-item" href="/appointment-clinic">Appointment Clinic</a>
+                                </li>
                                 <li class="dropdown dropdown-submenu dropright">
                                     <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301"
                                         role="button" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false">Management</a>
+                                        aria-expanded="false">Vision Centers</a>
                                     <ul class="dropdown-menu" aria-labelledby="dropdown0301">
                                         <li>
-                                            <a class="dropdown-item" href="/board">Board of
-                                                Management</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/executive-management">Executive
-                                                Management</a>
+                                            <a class="dropdown-item" href="/ceh_community">CEH Community Vision Center-Ngong</a>
                                         </li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
+
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="dropdown02"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services <i
                                     class="icofont-thin-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown02">
+                            <li class="dropdown dropdown-submenu dropright">
+                                    <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">Eye Unit</a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdown0301">
+                                        <li>
+                                            <a class="dropdown-item" href="/services_gmd">Priority Clinic</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="/services_gmd">Retina & Diabetic Eye
+                                                Specialist Clinics</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="/services_gmd">Glaucoma & Cornea
+                                                Clinics</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="/services_gmd">Eye Surgeries &
+                                                Procedures</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="/services_gmd">Pediatric Eye Clinic</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="/services_gmd">Uveitis Clinic</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+
                                 <li class="dropdown dropdown-submenu dropright">
                                     <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301"
                                         role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -157,34 +177,7 @@
                                     </ul>
                                 </li>
 
-                                <li class="dropdown dropdown-submenu dropright">
-                                    <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301"
-                                        role="button" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false">Eye Unit</a>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdown0301">
-                                        <li>
-                                            <a class="dropdown-item" href="/services_gmd">Priority Clinic</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services_gmd">Retina & Diabetic Eye
-                                                Specialist Clinics</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services_gmd">Glaucoma & Cornea
-                                                Clinics</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services_gmd">Eye Surgeries &
-                                                Procedures</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services_gmd">Pediatric Eye Clinic</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services_gmd">Uveitis Clinic</a>
-                                        </li>
-                                    </ul>
-                                </li>
+                               
 
                                 <li>
                                     <a class="dropdown-item" href="/opticalshop">Optical Shop</a>
@@ -225,16 +218,19 @@
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="doctor.html" id="dropdown03"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors/Team <i
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Team <i
                                     class="icofont-thin-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown03">
                                 <li><a class="dropdown-item" href="doctors">Doctors</a></li>
+                                <li><a class="dropdown-item" href="gallery">Care Team</a></li>
+                                {{--<li><a class="dropdown-item" href="board">Board of Management</a></li>
+                                <li><a class="dropdown-item" href="executive-management">Executive Management</a></li>
                                 <li>
                                     <a class="dropdown-item" href="bookappointment">Book Appoinment</a>
-                                </li>
+                                </li> 
                                 <li>
                                     <a class="dropdown-item" href="/gallery">Gallery</a>
-                                </li>
+                                </li> --}}
 
                                 <!--<li class="dropdown dropdown-submenu dropleft">
                       <a
@@ -262,15 +258,15 @@
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="blog-sidebar.html" id="dropdown05"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog/News <i
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News <i
                                     class="icofont-thin-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown05">
-                                <li>
+                            {{--<li>
                                     <a class="dropdown-item" href="careers">Careers</a>
-                                </li>
-                                {{-- <li>
-                                    <a class="dropdown-item" href="newsletter">Newsletters</a>
                                 </li> --}}
+                                <li>
+                                    <a class="dropdown-item" href="newsletter">Newsletters</a>
+                                </li> 
                                 <li>
                                     <!--<a class="dropdown-item" href="news&events">Events & Celebrations</a>-->
                                 </li>
@@ -351,9 +347,9 @@
                         <ul class="list-unstyled footer-menu lh-35">
                             <li><a href="careers">Careers</a></li>
                             <li><a href="contact">Contact US </a></li>
-                            <li><a href="privacypolicy">Privacy Policy</a></li>
-                            <li><a href="faqs">FAQuestions</a></li>
-                            <li><a href="appointment">Book Appointment</a></li>
+                            <li><a href="/privacy">Privacy Policy</a></li>
+                            <li><a href="/faq">FAQuestions</a></li>
+                            <li><a href="bookappointment">Book Appointment</a></li>
                         </ul>
                     </div>
                 </div>

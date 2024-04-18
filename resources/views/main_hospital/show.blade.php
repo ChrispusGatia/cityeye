@@ -59,23 +59,25 @@
                     <div class="department-content mt-5">
                         <h3 class="text-md">Leading EyeCare Hospital</h3>
                         <div class="divider my-4"></div>
-                        <p class="lead">Welcome to our Main Hospital – a warm and inviting walk-in facility
-                            dedicated
-                            to prioritizing your eye health.</p>
-                        <p>Our board-certified doctors and expert eye care specialists are committed to delivering
-                            comprehensive medical and surgical care for a wide spectrum of eye and vision-related
-                            conditions. Your vision is our top priority!</p>
+                        <p class="lead">In line with our founding mission to provide accessible and quality eye care,
+                            we opened our CEH - General Hospital on Ngong Road, Nairobi, in 2015.
+                        </p>
+                        <p>Our General Hospital is a walk-in facility offering comprehensive inpatient and outpatient care.
+                            In addition to eye exams and vision testing for glasses and contacts, 
+                            our General Hospital offers comprehensive medical and surgical care for eye-related concerns
+                             and conditions, including advanced eye treatment for cataracts, glaucoma, retinal detachment,
+                              corneal disease and macular degeneration.</p>
 
-                        <h3 class="mt-5 mb-4">Our Eye Services</h3>
+                        <h3 class="mt-5 mb-4">Eye Care Services Offered</h3>
                         <div class="divider my-4"></div>
                         <ul class="list-unstyled department-service">
                             <li><i class="icofont-check mr-2"></i>General Ophthalmology</li>
                             <li><i class="icofont-check mr-2"></i>Cataract Surgery</li>
-                            <li><i class="icofont-check mr-2"></i>Corneal Transplants</li>
+                            <li><i class="icofont-check mr-2"></i>Corneal Clinic and Transplant</li>
                             <li><i class="icofont-check mr-2"></i>Glaucoma Clinics and Surgery</li>
                             <li><i class="icofont-check mr-2"></i>Retina Clinic and Surgery</li>
-                            <li><i class="icofont-check mr-2"></i>Pediatric Clinic</li>
                             <li><i class="icofont-check mr-2"></i>Uveitis Clinic</li>
+                            <li><i class="icofont-check mr-2"></i>Optical Shop</li>
                         </ul>
 
                         <a href="service" class="btn btn-main-2 btn-round-full">Explore Our Services<i
@@ -108,15 +110,15 @@
                         <ul class="list-unstyled">
                             <li class="d-flex justify-content-between align-items-center">
                                 <i class="icofont-location-pin"></i>
-                                <span>Opp. Traffic Police Station, Nairobi.</span>
+                                <span>Ngong Road,</span>
                             </li>
                             <li class="d-flex justify-content-between align-items-center">
                                 <i class="icofont-location-pin"></i>
-                                <span>Opp. Traffic Police Station, Nairobi.</span>
+                                <span>Opposite Traffic Police Station,</span>
                             </li>
                             <li class="d-flex justify-content-between align-items-center">
                                 <i class="icofont-location-pin"></i>
-                                <span>Opp. Traffic Police Station, Nairobi.</span>
+                                <span>Nairobi.</span>
                             </li>
                         </ul>
 
@@ -178,14 +180,14 @@
                         <ul class="list-unstyled">
                             <li class="d-flex justify-content-between align-items-center">
                                 <span>Monday - Thur :</span>
-                                <span>7:30 a.m - 4:00 p.m</span>
+                                <span>6:30 a.m - 5:00 p.m</span>
                             </li>
                             <li class="d-flex justify-content-between align-items-center">
-                                <span>Friday :</span>
-                                <span>8:00 a.m - 4:00 p.m</span>
+                                <span>Saturday :</span>
+                                <span>8:00 a.m - 12:00 p.m</span>
                             </li>
                             <li class="d-flex justify-content-between align-items-center">
-                                <span>Weekends & Public Holidays :</span>
+                                <span>Sunday's & Public Holidays :</span>
                                 <span>Closed</span>
                             </li>
                         </ul>

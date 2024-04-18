@@ -3,7 +3,7 @@
     <head>
         <!-- Basic Page Needs ================================================== -->
         <meta charset="utf-8" />
-        <title>CityEye- Main Hospital</title>
+        <title>CityEye- General Hospital</title>
 
         <!-- Mobile Specific Metas ================================================== -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -36,8 +36,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="block text-center">
-                        <span class="text-white">Branches>Main Hospital</span>
-                        <h1 class="text-capitalize mb-5 text-lg">Our Main Hospital</h1>
+                        <span class="text-white">Branches>General Hospital</span>
+                        <h1 class="text-capitalize mb-5 text-lg">Our General Hospital</h1>
                     </div>
                 </div>
             </div>
@@ -59,12 +59,14 @@
                     <div class="department-content mt-5">
                         <h3 class="text-md">Leading EyeCare Hospital</h3>
                         <div class="divider my-4"></div>
-                        <p class="lead">Welcome to our Main Hospital – a warm and inviting walk-in facility
-                            dedicated
-                            to prioritizing your eye health.</p>
-                        <p>Our board-certified doctors and expert eye care specialists are committed to delivering
-                            comprehensive medical and surgical care for a wide spectrum of eye and vision-related
-                            conditions. Your vision is our top priority!</p>
+                        <p class="lead">In line with our founding mission to provide accessible and quality eye care,
+                            we opened our CEH - General Hospital on Ngong Road, Nairobi, in 2015.
+                        </p>
+                        <p>Our General Hospital is a walk-in facility offering comprehensive inpatient and outpatient care.
+                            In addition to eye exams and vision testing for glasses and contacts, 
+                            our General Hospital offers comprehensive medical and surgical care for eye-related concerns
+                             and conditions, including advanced eye treatment for cataracts, glaucoma, retinal detachment,
+                              corneal disease and macular degeneration.</p>
 
                         <h3 class="mt-5 mb-4">Our Eye Services</h3>
                         <div class="divider my-4"></div>

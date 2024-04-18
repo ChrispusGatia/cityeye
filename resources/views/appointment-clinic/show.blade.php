@@ -1,147 +1,311 @@
 <x-layout>
 
     <head>
+        <!-- Basic Page Needs ================================================== -->
         <meta charset="utf-8" />
-        <title>CityEye- Book Appointment</title>
-        <!-- Mobile Specific Metas -->
+        <title>CityEye- UpperHill Branch</title>
+
+        <!-- Mobile Specific Metas ================================================== -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="Health Care Medical HTML5 Template" />
+        <meta name="description" content="Health Care Medical Html5 Template" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
         <meta name="author" content="Themefisher" />
         <meta name="generator" content="Themefisher CityEye HTML Template v1.0" />
-        <!-- Theme Meta -->
+
+        <!-- theme meta ================================================== -->
         <meta name="theme-name" content="CityEye" />
-        <!-- Favicon -->
+
+        <!-- Favicon ================================================== -->
         <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
-        <!-- Essential Stylesheets -->
+
+        <!-- Essential stylesheets ================================================== -->
         <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css" />
         <link rel="stylesheet" href="plugins/icofont/icofont.min.css" />
         <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css" />
         <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css" />
-        <!-- Main Stylesheet -->
+
+        <!-- Main Stylesheet ================================================== -->
         <link rel="stylesheet" href="css/style.css" />
     </head>
 
-    <body id="top">
 
-        <section class="page-title bg-1">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="block text-center">
-                            <span class="text-white">Book your Seat</span>
-                            <h1 class="text-capitalize mb-5 text-lg">Appointment at AP Clinic</h1>
+
+    <section class="page-title bg-1">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block text-center">
+                        <span class="text-white">Branches>Upper Hill Branch</span>
+                        <h1 class="text-capitalize mb-5 text-lg">Upper Hill Branch (Nairobi)</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section department-single">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="department-img">
+                        <!--<img src="images/service/bg-1.jpg" alt="" class="img-fluid">-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="department-content mt-5">
+                        <h3 class="text-md">Leading EyeCare Hospital</h3>
+                        <div class="divider my-4"></div>
+                        <p class="lead">City Eye Hospital (CEH) began as an Appointment Clinic in Upper Hill Medical Centre Nairobi in 2009.</p>
+                        <p>Our founding ultra-modern branch has stood the test of time and continues to serve as our appointment clinic 
+                            for those who prefer to schedule their clinic visits.
+                            The Upper Hill branch handles routine visits and check-ups as well as urgent appointments and referrals.
+                            It offers the same comprehensive primary and specialised eye care services found at our 
+                            <a href="/main_hospital">walk-in branch.</a></p>
+
+                        <h3 class="mt-5 mb-4">Eye Care Services Offered</h3>
+                        <div class="divider my-4"></div>
+                        <ul class="list-unstyled department-service">
+                            <li><i class="icofont-check mr-2"></i>General Ophthalmology</li>
+                            <li><i class="icofont-check mr-2"></i>Cataract Surgery</li>
+                            <li><i class="icofont-check mr-2"></i>Corneal Clinic and Transplant</li>
+                            <li><i class="icofont-check mr-2"></i>Glaucoma Clinics and Surgery</li>
+                            <li><i class="icofont-check mr-2"></i>Retina Clinic and Surgery</li>
+                            <li><i class="icofont-check mr-2"></i>Uveitis Clinic</li>
+                            <li><i class="icofont-check mr-2"></i>Optical Shop</li>
+                        </ul>
+
+                        <a href="service" class="btn btn-main-2 btn-round-full">Explore Our Services<i
+                                class="icofont-simple-right ml-2  "></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="sidebar-widget schedule-widget mt-5">
+                        <h5 class="mb-4">Consulation Fee</h5>
+
+                        <ul class="list-unstyled">
+                            <li class="d-flex justify-content-between align-items-center">
+                                <span>Embark on a visionary journey to eye health excellence with our specialized
+                                    consultations at an unbeatable fee👁️💡</span>
+                            </li>
+                        </ul>
+
+                        <div class="sidebar-contatct-info mt-4">
+                            <p class="mb-0">🌟 Fee</p>
+                            <h4 class="mb-3">Affordable Fee</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="sidebar-widget schedule-widget mt-5">
+                        <h5 class="mb-4">Hospital Directions</h5>
+
+                        <ul class="list-unstyled">
+                            <li class="d-flex justify-content-between align-items-center">
+                                <i class="icofont-location-pin"></i>
+                                <span>Upper Hill Medical Centre,</span>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center">
+                                <i class="icofont-location-pin"></i>
+                                <span>3rd Floor, Ralph Bunche Road,</span>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center">
+                                <i class="icofont-location-pin"></i>
+                                <span>Nairobi.</span>
+                            </li>
+                        </ul>
+
+                        <div class="sidebar-contatct-info mt-4">
+                            <p class="mb-0">Need Urgent Help?</p>
+                            <h3>+254(0)111 032 200</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="sidebar-widget schedule-widget mt-5">
+                        <h5 class="mb-4">Contact Us</h5>
+
+                        <ul class="list-unstyled">
+                            <li class="d-flex justify-content-between align-items-center">
+                                <i class="icofont-email mr-3"></i>
+                                <a href="mailto:info@cityeyehospital.or.ke">info@cityeyehospital.or.ke</a>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center">
+                                <i class="icofont-support mr-3"></i>
+                                <a href="tel:+254-111-032200">+254 (0) 111 032 200</a>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center">
+                                <i class="icofont-support mr-3"></i>
+                                <a href="tel:+254-707-777707">+254 (0) 707 777 707</a>
+                            </li>
+                        </ul>
+
+                        <div class="sidebar-contatct-info mt-4">
+                            <ul class="list-inline footer-socials mt-4">
+                                <li class="list-inline-item">
+                                    <a href="https://www.facebook.com/themefisher"><i class="icofont-facebook"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://twitter.com/themefisher"><i class="icofont-twitter"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.pinterest.com/themefisher/"><i
+                                            class="icofont-linkedin"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.pinterest.com/themefisher/"><i
+                                            class="icofont-youtube"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.pinterest.com/themefisher/"><i
+                                            class="icofont-instagram"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="sidebar-widget schedule-widget mt-5">
+                        <h5 class="mb-4">Time Schedule</h5>
+
+                        <ul class="list-unstyled">
+                            <li class="d-flex justify-content-between align-items-center">
+                                <span>Monday - Thur :</span>
+                                <span>7:30 a.m - 4:00 p.m</span>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center">
+                                <span>Friday :</span>
+                                <span>8:00 a.m - 4:00 p.m</span>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center">
+                                <span>Weekends & Public Holidays :</span>
+                                <span>Closed</span>
+                            </li>
+                        </ul>
+
+                        <div class="sidebar-contatct-info mt-4">
+                            <p class="mb-0">Friendly Reception for Everyone!</p>
+                            <h3>All Are Welcome!</h3>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- ... (previous code) ... -->
-
-        <section class="appointment section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="mt-3">
-                            <div class="feature-icon mb-3">
-                                <i class="icofont-support text-lg"></i>
-                            </div>
-                            <span class="h3">Call For More Information</span>
-                            <h4 class="text-color mt-3">+254 (0) 714 617 782 </h4>
-                            <h4 class="text-color mt-3">+254 (0) 736 329 348 </h4>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-8">
-                        <div class="appointment-wrap mt-5 mt-lg-0 pl-lg-5">
-                            <h2 class="mb-2 title-color">Book an Appointment at AP Clinic</h2>
-                            <p class="mb-4">Please note that appointment bookings are exclusively available at our AP
-                                Clinic branch. Schedule your appointment below:</p>
-                            <form id="appointment-form" class="appointment-form" method="post" action="#">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <input name="email" id="email" type="text" class="form-control"
-                                                placeholder="Your Email" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <select class="form-control" id="doctor" name="doctor">
-                                                <option>Select Doctors</option>
-                                                <option>Dr. Kibata</option>
-                                                <option>Dr. Muchai</option>
-                                                <option>Dr. Kareko</option>
-                                                <option>Dr. Njoya</option>
-                                                <option>Dr. Njuguna</option>
-                                                <option>Dr. Mashep</option>
-                                                <option>Dr. Korir</option>
-                                                <!-- Add more options as needed -->
-                                            </select>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <input name="date" id="date" type="date" class="form-control"
-                                                placeholder="dd/mm/yyyy" min="<?php echo date('Y-m-d'); ?>" required>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <select class="form-control" id="time" name="time" required>
-                                                <option>Select Preffered Time</option>
-                                                <option>Anytime</option>
-                                                <option>Morning Hours</option>
-                                                <option>Afternoon Hours</option>
-                                            </select>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <input name="name" id="name" type="text" class="form-control"
-                                                placeholder="Full Name" required>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <input name="phone" id="phone" type="tel" class="form-control"
-                                                placeholder="Phone Number" required>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="form-group mb-4">
-                                    <textarea name="message" id="message" class="form-control" rows="6" placeholder="Your Message"></textarea>
-                                </div>
-
-                                <button type="submit" class="btn btn-main btn-round-full">Make Appointment <i
-                                        class="icofont-simple-right ml-2"></i></button>
-                            </form>
-                        </div>
+    <section class="section clients">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="section-title text-center">
+                        <h2>Partners who support us</h2>
+                        <div class="divider mx-auto my-4"></div>
+                        <p>City Eye Hospital: Your trusted partner for superior vision care, where precision meets
+                            compassion in a community dedicated to clarity and vibrant partnerships.</p>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <!-- ... (remaining code) ... -->
+        <div class="container">
+            <div class="row clients-logo">
+                <div class="col-lg-2">
+                    <div class="client-thumb">
+                        <img src="images/about/1.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="client-thumb">
+                        <img src="images/about/2.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="client-thumb">
+                        <img src="images/about/3.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="client-thumb">
+                        <img src="images/about/4.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="client-thumb">
+                        <img src="images/about/5.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="client-thumb">
+                        <img src="images/about/6.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="client-thumb">
+                        <img src="images/about/3.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="client-thumb">
+                        <img src="images/about/4.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="client-thumb">
+                        <img src="images/about/5.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="client-thumb">
+                        <img src="images/about/6.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12.5">
+                <div class="section-title text-center">
+                    <h2>Google Map Directions</h2>
+                    <div class="divider mx-auto my-4"></div>
+                    <p>Conveniently located along Ngong Road, across from the Traffic Police Station in Nairobi,
+                        <br>our Main Hospital boasts a strategic location with convenient access via public
+                        transportation and private vehicles.
+                    </p>
+                    <div class="google-map ">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3553.615025574336!2d36.8044979838882!3d-1.2958189771624877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10c1c8deb29f%3A0x1addc640ec7641a0!2sRalph%20Bunche%20Rd%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1631535375080!5m2!1sen!2ske"
+                            width="1300" height="450" style="border:0;" allowfullscreen=""
+                            loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <!-- Essential Scripts -->
-        <script src="plugins/jquery/jquery.js"></script>
-        <script src="plugins/bootstrap/bootstrap.min.js"></script>
-        <script src="plugins/slick-carousel/slick/slick.min.js"></script>
-        <script src="plugins/shuffle/shuffle.min.js"></script>
-        <!-- Google Map -->
-        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY"></script>
-        <script src="plugins/google-map/gmap.js"></script>
-        <script src="js/script.js"></script>
+    <!-- footer Start -->
 
+    <!-- footer End -->
+
+    <!--
+    Essential Scripts
+    =====================================-->
+    <script src="plugins/jquery/jquery.js"></script>
+    <script src="plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="plugins/slick-carousel/slick/slick.min.js"></script>
+    <script src="plugins/shuffle/shuffle.min.js"></script>
+
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA"></script>
+    <script src="plugins/google-map/gmap.js"></script>
+    <script src="js/script.js"></script>
     </body>
-
 </x-layout>

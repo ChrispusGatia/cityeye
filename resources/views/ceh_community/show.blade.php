@@ -59,22 +59,23 @@
                         <div class="department-content mt-5">
                             <h3 class="text-md">EyeCare Ngong - Excellence in Vision Care</h3>
                             <div class="divider my-4"></div>
-                            <p class="lead">Welcome to CEH Ngong Vision Center, your trusted partner for superior
-                                vision
-                                care in the Ngong area.</p>
-                            <p>Our Ngong Vision Center is equipped with state-of-the-art facilities and a dedicated team
-                                of
-                                eye care professionals to cater to all your vision needs.</p>
+                            <p class="lead">City Eye Hospital’s Vision Centre in Ngong Town, Kajiado County, is a community-focused 
+                                eye care clinic launched in 2022.</p>
+                            <p>The centre provides an extensive selection of lenses, glasses, sunglasses and frames, 
+                                comprehensive eye exams and consultation services, eyewear repair and exemplary sales support.
+                                Our Ngong Branch, like the Nyeri Branch, is part of our founding aim to improve access to timely
+                                and first-class diagnostic testing and eye care treatment to all, including those residing outside the capital.</p>
 
-                            <h3 class="mt-5 mb-4">Our Vision Services</h3>
+                            <h3 class="mt-5 mb-4">Eye Care Services Offered</h3>
                             <div class="divider my-4"></div>
                             <ul class="list-unstyled department-service">
-                                <li><i class="icofont-check mr-2"></i>Comprehensive Eye Exams</li>
-                                <li><i class="icofont-check mr-2"></i>Prescription Glasses</li>
-                                <li><i class="icofont-check mr-2"></i>Contact Lens Fitting</li>
-                                <li><i class="icofont-check mr-2"></i>Eye Health Consultation</li>
-                                <li><i class="icofont-check mr-2"></i>Emergency Eye Care</li>
-                                <li><i class="icofont-check mr-2"></i>Specialized Pediatric Vision Services</li>
+                                <li><i class="icofont-check mr-2"></i>Eye Exams: Regular eye exams and vision screening for common eye conditions.</li>
+                                <li><i class="icofont-check mr-2"></i>Extensive Eyewear: A wide selection of lenses, glasses, sunglasses and frames available, 
+                                enabling you to find the fit that suits your style, comfort and prescription.</li>
+                                <li><i class="icofont-check mr-2"></i>Eyewear Repair/Replacement: Have your glasses/lenses been scratched, damaged or need to be replaced?
+                                CEH-Ngong offers same-day repairs and replacement.</li>
+                                <li><i class="icofont-check mr-2"></i>Eye Prescription: The consultant at CEH-Ngong can take you through a thorough eye consultation to identify the glasses,
+                                contacts or prescription sunglasses you need.</li>
                             </ul>
 
                             <a href="service.html" class="btn btn-main-2 btn-round-full">Explore Our Vision Services<i
@@ -105,11 +106,11 @@
                             <ul class="list-unstyled">
                                 <li class="d-flex justify-content-between align-items-center">
                                     <i class="icofont-location-pin"></i>
-                                    <span>Ngong Road, Ngong Area.</span>
+                                    <span>Milele Mall, Ngong Town.</span>
                                 </li>
                                 <li class="d-flex justify-content-between align-items-center">
                                     <i class="icofont-location-pin"></i>
-                                    <span>Next to Ngong Hills Mall.</span>
+                                    <span>Kajiado County.</span>
                                 </li>
                                 <li class="d-flex justify-content-between align-items-center">
                                     <i class="icofont-location-pin"></i>

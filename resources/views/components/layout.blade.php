@@ -120,25 +120,22 @@
                                         aria-expanded="false">Eye Unit</a>
                                     <ul class="dropdown-menu" aria-labelledby="dropdown0301">
                                         <li>
+                                            <a class="dropdown-item" href="/services_gmd">Eye Consultation</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="/services_gmd">Eye Surgeries & Procedures</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="/services_gmd">Retina & Diabetic Eye Specialist Clinics</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="/services_gmd">Pharmacy</a>
+                                        </li>
+                                        <li>
                                             <a class="dropdown-item" href="/services_gmd">Priority Clinic</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="/services_gmd">Retina & Diabetic Eye
-                                                Specialist Clinics</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services_gmd">Glaucoma & Cornea
-                                                Clinics</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services_gmd">Eye Surgeries &
-                                                Procedures</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services_gmd">Pediatric Eye Clinic</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services_gmd">Uveitis Clinic</a>
+                                            <a class="dropdown-item" href="/services_gmd">Paediatric Clinic</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -152,8 +149,7 @@
                                         <li class="dropdown dropdown-submenu dropright">
                                             <a class="dropdown-item dropdown-toggle" href="/medicaloutpatient"
                                                 id="dropdown0301" role="button" data-toggle="dropdown"
-                                                aria-haspopup="true" aria-expanded="false">Medical Outpatient
-                                                Clinic</a>
+                                                aria-haspopup="true" aria-expanded="false">Outpatient Medical Services</a>
                                             <ul class="dropdown-menu" aria-labelledby="dropdown0301">
                                                 <li>
                                                     <a class="dropdown-item" href="/services_gmd">Diabetic

@@ -134,7 +134,7 @@
                         <ul class="list-unstyled">
                             <li class="d-flex justify-content-between align-items-center">
                                 <i class="icofont-email mr-3"></i>
-                                <a href="mailto:info@cityeyehospital.or.ke">info@cityeyehospital.or.ke</a>
+                                <a href="mailto:appointments@cityeyehospital.or.ke">appointments@cityeyehospital.or.ke</a>
                             </li>
                             <li class="d-flex justify-content-between align-items-center">
                                 <i class="icofont-support mr-3"></i>

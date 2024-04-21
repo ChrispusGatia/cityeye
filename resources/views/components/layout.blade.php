@@ -266,7 +266,7 @@
                                     class="icofont-thin-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown05">
                                 <li>
-                                    <a class="dropdown-item" href="careers">Careers</a>
+                                    <a class="dropdown-item" href="/careers">Careers</a>
                                 </li>
                                 {{-- <li>
                                     <a class="dropdown-item" href="newsletter">Newsletters</a>
@@ -280,7 +280,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact">Contact</a>
+                            <a class="nav-link" href="/contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -307,19 +307,24 @@
 
                         <ul class="list-inline footer-socials mt-4">
                             <li class="list-inline-item">
-                                <a href="https://www.facebook.com/themefisher"><i class="icofont-facebook"></i></a>
+                                <a href="https://web.facebook.com/cityeyehospital/?_rdc=1&_rdr"><i
+                                        class="icofont-facebook"></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="https://twitter.com/themefisher"><i class="icofont-twitter"></i></a>
+                                <a href="https://twitter.com/cityeyehospital?lang=en"><i
+                                        class="icofont-twitter"></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="https://www.pinterest.com/themefisher/"><i class="icofont-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/company/city-eye-hospital/"><i
+                                        class="icofont-linkedin"></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="https://www.pinterest.com/themefisher/"><i class="icofont-youtube"></i></a>
+                                <a href="https://www.youtube.com/@cityeyehospital4018"><i
+                                        class="icofont-youtube"></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="https://www.pinterest.com/themefisher/"><i class="icofont-instagram"></i></a>
+                                <a href="https://www.instagram.com/cityeyehospital_kenya/"><i
+                                        class="icofont-instagram"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -331,11 +336,10 @@
                         <div class="divider mb-4"></div>
 
                         <ul class="list-unstyled footer-menu lh-35">
-                            <li><a href="service">Our Services</a></li>
+                            <li><a href="/services_gmd">Our Services</a></li>
                             <li><a href="ourfoundation">Our Foundation</a></li>
-                            <li><a href="donate">Donate</a></li>
-                            <li><a href="hospital-locations">Hospital Locations</a></li>
-                            <li><a href="#!">Medicine</a></li>
+                            <li><a href="/donate">Donate</a></li>
+                            <li><a href="/hospital-location">Hospital Locations</a></li>
                         </ul>
                     </div>
                 </div>
@@ -346,11 +350,11 @@
                         <div class="divider mb-4"></div>
 
                         <ul class="list-unstyled footer-menu lh-35">
-                            <li><a href="careers">Careers</a></li>
-                            <li><a href="contact">Contact US </a></li>
-                            <li><a href="privacypolicy">Privacy Policy</a></li>
-                            <li><a href="faqs">FAQuestions</a></li>
-                            <li><a href="appointment">Book Appointment</a></li>
+                            <li><a href="/careers">Careers</a></li>
+                            <li><a href="/contact">Contact US </a></li>
+                            <li><a href="/privacy">Privacy Policy</a></li>
+                            <li><a href="/faq">FAQuestions</a></li>
+                            <li><a href="/bookappointment">Book Appointment</a></li>
                         </ul>
                     </div>
                 </div>

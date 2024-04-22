@@ -151,21 +151,23 @@
                         <div class="sidebar-contatct-info mt-4">
                             <ul class="list-inline footer-socials mt-4">
                                 <li class="list-inline-item">
-                                    <a href="https://www.facebook.com/themefisher"><i class="icofont-facebook"></i></a>
+                                    <a href="https://web.facebook.com/cityeyehospital/?_rdc=1&_rdr"><i
+                                            class="icofont-facebook"></i></a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="https://twitter.com/themefisher"><i class="icofont-twitter"></i></a>
+                                    <a href="https://twitter.com/cityeyehospital?lang=en"><i
+                                            class="icofont-twitter"></i></a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="https://www.pinterest.com/themefisher/"><i
+                                    <a href="https://www.linkedin.com/company/city-eye-hospital/"><i
                                             class="icofont-linkedin"></i></a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="https://www.pinterest.com/themefisher/"><i
+                                    <a href="https://www.youtube.com/@cityeyehospital4018"><i
                                             class="icofont-youtube"></i></a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="https://www.pinterest.com/themefisher/"><i
+                                    <a href="https://www.instagram.com/cityeyehospital_kenya/"><i
                                             class="icofont-instagram"></i></a>
                                 </li>
                             </ul>

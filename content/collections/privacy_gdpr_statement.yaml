@@ -1,0 +1,15 @@
+title: 'Privacy & GDPR Statement'
+template: privacy_gdpr_statement/show
+layout: layout
+revisions: false
+route: /gdprstatement
+slugs: false
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true

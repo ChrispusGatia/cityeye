@@ -68,7 +68,7 @@
                 </div>
             </section>
         @endforeach
-        
+        @include('mission.show')
         <!-- Essential Scripts -->
         <script src="plugins/jquery/jquery.js"></script>
         <script src="plugins/bootstrap/bootstrap.min.js"></script>

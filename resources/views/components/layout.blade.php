@@ -256,15 +256,12 @@
                             <a class="nav-link dropdown-toggle" href="blog-sidebar.html" id="dropdown05"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News <i
                                     class="icofont-thin-down"></i></a>
-                            <ul class="dropdown-menu" aria-labelledby="dropdown05">
-                                <li>
-                                    <a class="dropdown-item" href="/careers">Careers</a>
-                                </li>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown05">           
                                 {{-- <li>
                                     <a class="dropdown-item" href="newsletter">Newsletters</a>
                                 </li> --}}
                                 <li>
-                                    <a class="dropdown-item" href="newsletter">Newsletters</a>
+                                    <a class="dropdown-item" href="news&events">Newsletters</a>
                                 </li> 
                                 <li>
                                     <!--<a class="dropdown-item" href="news&events">Events & Celebrations</a>-->
@@ -350,7 +347,7 @@
                             <li><a href="contact">Contact US </a></li>
                             <li><a href="privacypolicy">Privacy Policy</a></li>
                             <li><a href="faqs">FAQuestions</a></li>
-                            <li><a href="appointment">Book Appointment</a></li>
+                            <li><a href="/bookappointment">Book Appointment</a></li>
                         </ul>
                     </div>
                 </div>

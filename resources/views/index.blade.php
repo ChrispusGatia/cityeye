@@ -203,7 +203,8 @@
                             appointment at our Appointment Clinic (located on the 3rd Floor of Upper Hill
                             Medical Centre, Ralph Bunche Road, Nairobi) by
                             filling in the form below.</p>
-                        <form id="#" class="appoinment-form" method="post" action="#">
+                        <form id="#" class="appoinment-form" enctype="multipart/form-data" method="post" action="mail">
+                        @csrf
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form-group">

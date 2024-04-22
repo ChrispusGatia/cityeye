@@ -196,6 +196,7 @@
 
                     </div>
                 </div>
+                
                 <div class="col-lg-6 col-md-10 ">
                     <div class="appoinment-wrap mt-5 mt-lg-0">
                         <h2 class="mb-2 title-color">Book appoinment</h2>

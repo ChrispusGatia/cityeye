@@ -57,14 +57,14 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="department-content mt-5">
-                        <h3 class="text-md">Leading EyeCare Hospital</h3>
+                        <h3 class="text-md">Our Ngong Road Branch (Nairobi) </h3>
                         <div class="divider my-4"></div>
                         <p class="lead">In line with our founding mission to provide accessible and quality eye care,
-                            we opened our CEH - General Hospital on Ngong Road, Nairobi, in 2015.
+                            we opened our CEH - Main Hospital on Ngong Road, Nairobi, in 2015.
                         </p>
-                        <p>Our General Hospital is a walk-in facility offering comprehensive inpatient and outpatient care.
+                        <p>Our Main Hospital is a walk-in facility offering comprehensive inpatient and outpatient care.
                             In addition to eye exams and vision testing for glasses and contacts, 
-                            our General Hospital offers comprehensive medical and surgical care for eye-related concerns
+                            our main Hospital offers comprehensive medical and surgical care for eye-related concerns
                              and conditions, including advanced eye treatment for cataracts, glaucoma, retinal detachment,
                               corneal disease and macular degeneration.</p>
 

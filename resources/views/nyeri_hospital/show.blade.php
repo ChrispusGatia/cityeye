@@ -57,7 +57,7 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="department-content mt-5">
-                            <h3 class="text-md">EyeCare Hospital - Nyeri's Leading Eye Care Center</h3>
+                            <h3 class="text-md">Our Mbuni Road Branch (Nyeri Town)</h3>
                             <div class="divider my-4"></div>
                             <p class="lead">City Eye Hospital (CEH) opened its first satellite branch in Nyeri in 2022.       
                             </p>

@@ -204,80 +204,39 @@
 
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdown02"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services <i
-                                    class="icofont-thin-down"></i></a>
-                            <ul class="dropdown-menu" aria-labelledby="dropdown02">
-                            <li class="dropdown dropdown-submenu dropright">
-                                    <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301"
-                                        role="button" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false">Eye Unit</a>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdown0301">
-                                        <li>
-                                            <a class="dropdown-item" href="/services_gmd">Eye Consultation</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services_gmd">Eye Surgeries & Procedures</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services_gmd">Retina & Diabetic Eye Specialist Clinics</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services_gmd">Pharmacy</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services_gmd">Priority Clinic</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services_gmd">Paediatric Clinic</a>
-                                        </li>
-                                    </ul>
-                                </li>
-
-
-                                <li class="dropdown dropdown-submenu dropright">
-                                    <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301"
-                                        role="button" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false">General Unit</a>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdown0301">
-                                        <li class="dropdown dropdown-submenu dropright">
-                                            <a class="dropdown-item dropdown-toggle" href="/medicaloutpatient"
-                                                id="dropdown0301" role="button" data-toggle="dropdown"
-                                                aria-haspopup="true" aria-expanded="false">Outpatient Medical Services</a>
-                                            <ul class="dropdown-menu" aria-labelledby="dropdown0301">
-                                                <li>
-                                                    <a class="dropdown-item" href="/services_gmd">Diabetic
-                                                        Clinic</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="/services_gmh">Hypertensive
-                                                        Clinic</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="/othermedicalconditions">Other
-                                                        Medical Conditions</a>
-                                                </li>
-
+                            <a class="mega-menu-link nav-link dropdown-toggle" href="#" id="dropdown02"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services <span class="icofont-thin-down"></span></a>
+                            <div class="dropdown-menu mega-menu text-left" aria-labelledby="dropdown02" style="width: 500px; padding: 10px;">
+                                <div class="container">
+                                    <div class="row justify-content-center"> <!-- Center the row content -->
+                                        <div class="col-md-6">
+                                            <h6>Eye Services</h6>
+                                            <ul class="list-unstyled">
+                                                <li><a class="dropdown-item" href="/services_gmd">Eye Consultation</a></li>
+                                                <li><a class="dropdown-item" href="/services_gmd">Eye Surgeries & Procedures</a></li>
+                                                <li><a class="dropdown-item" href="/services_gmd">Retina & Diabetic Eye Specialists </a></li>
+                                                <li><a class="dropdown-item" href="/services_gmd">Pharmacy</a></li>
+                                                <li><a class="dropdown-item" href="/opticalshop">Optical Shop</a></li>
+                                                <li><a class="dropdown-item" href="outreach">Outreach Programme</a></li>
                                             </ul>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/labs">Laboratory
-                                                Services</a>
-                                        </li>
-                                    </ul>
-                                </li>
-
-                               
-
-                                <li>
-                                    <a class="dropdown-item" href="/opticalshop">Optical Shop</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="/outreach">Outreach
-                                        Program</a>
-                                </li>
-                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h6>General Services</h6>
+                                            <ul class="list-unstyled">
+                                                <li><a class="dropdown-item" href="/services_gmd">Diabetic Clinic</a></li>
+                                                <li><a class="dropdown-item" href="/services_gmh">Hypertensive Clinic</a></li>
+                                                <li><a class="dropdown-item" href="/othermedicalconditions">Other Medical Conditions</a></li>
+                                                <li><a class="dropdown-item" href="/labs">Laboratory Services</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
+                        
+                        
+                        
+                        
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="department.html" id="dropdown02"

@@ -256,7 +256,7 @@
                                     <a class="dropdown-item" href="/patience-feedback">Patient Feedback</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="/faq">FAQuestions</a>
+                                    <a class="dropdown-item" href="/faq">FAQs</a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="/testimonial">Testimonials</a>
@@ -400,8 +400,8 @@
                         <ul class="list-unstyled footer-menu lh-35">
                             <li><a href="careers">Careers</a></li>
                             <li><a href="contact">Contact US </a></li>
-                            <li><a href="privacypolicy">Privacy Policy</a></li>
-                            <li><a href="faqs">FAQuestions</a></li>
+                            <li><a href="/privacy">Privacy Policy</a></li>
+                            <li><a href="/faq">FAQs</a></li>
                             <li><a href="/bookappointment">Book Appointment</a></li>
                         </ul>
                     </div>

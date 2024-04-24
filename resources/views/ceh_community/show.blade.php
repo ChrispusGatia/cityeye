@@ -57,7 +57,7 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="department-content mt-5">
-                            <h3 class="text-md">EyeCare Ngong - Excellence in Vision Care</h3>
+                            <h3 class="text-md">Community Vision Center</h3>
                             <div class="divider my-4"></div>
                             <p class="lead">City Eye Hospital’s Vision Centre in Ngong Town, Kajiado County, is a community-focused 
                                 eye care clinic launched in 2022.</p>

@@ -57,7 +57,7 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="department-content mt-5">
-                        <h3 class="text-md">Leading EyeCare Hospital</h3>
+                        <h3 class="text-md">Our Upper Hill Branch (Nairobi)</h3>
                         <div class="divider my-4"></div>
                         <p class="lead">City Eye Hospital (CEH) began as an Appointment Clinic in Upper Hill Medical Centre Nairobi in 2009.</p>
                         <p>Our founding ultra-modern branch has stood the test of time and continues to serve as our appointment clinic 

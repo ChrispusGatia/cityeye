@@ -66,7 +66,7 @@
                                 CEH-Nyeri, a walk-in facility at the heart of Nyeri town, is part of our continued effort
                                 to make first-class diagnostic testing and eye care treatment easily accessible to all,
                                 including those residing outside the capital. The Nyeri branch offers the complete range
-                                of eye care services found at our General Hospital and Appointment Clinic in Nairobi.</p>
+                                of eye care services found at our <a href="/main_hospital"> General Hospital</a> and <a href="/appointment-clinic"> Appointment Clinic in Nairobi</a>.</p>
 
                             <h3 class="mt-5 mb-4">Eye Care Services Offered</h3>
                             <div class="divider my-4"></div>

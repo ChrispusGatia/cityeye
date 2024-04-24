@@ -33,7 +33,7 @@
                         <div class="text-lg-right top-right-bar mt-2 mt-lg-0">
                             <a href="tel:+254707 777 707">
                                 <span>Call Now : </span>
-                                <span class="h4">+254(0)111 032 200</span>
+                                <span>+254(0)111 032 200</span>
                             </a>
                             <button type="button" class="btn btn-danger btn-lg ml-2" data-toggle="modal" data-target="#appointmentModal">
                                 Book Appointment
@@ -206,7 +206,7 @@
                         <li class="nav-item dropdown">
                             <a class="mega-menu-link nav-link dropdown-toggle" href="#" id="dropdown02"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services <span class="icofont-thin-down"></span></a>
-                            <div class="dropdown-menu mega-menu text-left" aria-labelledby="dropdown02" style="width: 500px; padding: 10px;">
+                            <div class="dropdown-menu mega-menu text-center" aria-labelledby="dropdown02" style="width: 500px; padding: 10px;">
                                 <div class="container">
                                     <div class="row justify-content-center"> <!-- Center the row content -->
                                         <div class="col-md-6">
@@ -233,6 +233,8 @@
                                 </div>
                             </div>
                         </li>
+                        
+                        
                         
                         
                         

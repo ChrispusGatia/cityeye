@@ -1,0 +1,15 @@
+title: 'Eye Consultation'
+template: eye_consultation/show
+layout: layout
+revisions: false
+route: /eye_consultations
+slugs: false
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true

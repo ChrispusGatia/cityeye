@@ -229,11 +229,13 @@
                                         <div class="col-md-6">
                                             <h6>Eye Services</h6>
                                             <ul class="list-unstyled">
-                                                <li><a class="dropdown-item" href="/services_gmd">Eye Consultation</a>
+                                                <li><a class="dropdown-item" href="/eye_consultations">Eye
+                                                        Consultation</a>
                                                 </li>
-                                                <li><a class="dropdown-item" href="/services_gmd">Eye Surgeries &
+                                                <li><a class="dropdown-item" href="/eye_surgery">Eye Surgeries &
                                                         Procedures</a></li>
-                                                <li><a class="dropdown-item" href="/services_gmd">Retina & Diabetic
+                                                <li><a class="dropdown-item" href="/retina_specialist">Retina &
+                                                        Diabetic
                                                         Eye Specialists </a></li>
                                                 <li><a class="dropdown-item" href="/services_gmd">Pharmacy</a></li>
                                                 <li><a class="dropdown-item" href="/opticalshop">Optical Shop</a></li>

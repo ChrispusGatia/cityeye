@@ -88,8 +88,7 @@
                                     class="icofont-simple-right ml-3"></i></a>
                         </div>
                     </div>
-
-
+                @endforeach
 
 
             </div>

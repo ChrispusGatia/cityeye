@@ -1,0 +1,15 @@
+title: 'Eye surgery and Procedures'
+template: eye_surgery_and_procedures/show
+layout: layout
+revisions: false
+route: /eye_surgery
+slugs: false
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true

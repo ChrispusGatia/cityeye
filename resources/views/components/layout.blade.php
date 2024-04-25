@@ -222,24 +222,20 @@
                             <a class="mega-menu-link nav-link dropdown-toggle" href="#" id="dropdown02"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services <span
                                     class="icofont-thin-down"></span></a>
-                            <div class="dropdown-menu mega-menu text-center" aria-labelledby="dropdown02"
+                            <div class="dropdown-menu mega-menu text-left" aria-labelledby="dropdown02"
                                 style="width: 500px; padding: 10px;">
                                 <div class="container">
                                     <div class="row justify-content-center"> <!-- Center the row content -->
                                         <div class="col-md-6">
                                             <h6>Eye Services</h6>
                                             <ul class="list-unstyled">
-                                                <li><a class="dropdown-item" href="/eye_consultations">Eye
-                                                        Consultation</a>
+                                                <li><a class="dropdown-item" href="/eye_consultations">General Ophthalmology</a>
                                                 </li>
-                                                <li><a class="dropdown-item" href="/eye_surgery">Eye Surgeries &
-                                                        Procedures</a></li>
-                                                <li><a class="dropdown-item" href="/retina_specialist">Retina &
-                                                        Diabetic
-                                                        Eye Specialists </a></li>
-                                                <li><a class="dropdown-item" href="/services_gmd">Pharmacy</a></li>
+                                                <li><a class="dropdown-item" href="/eye_surgery">Cataract Surgery</a></li>
+                                                <li><a class="dropdown-item" href="/retina_specialist">Corneal Clinic and Transplant</a></li>
+                                                <li><a class="dropdown-item" href="/services_gmd">Glaucoma Clinic and Surgery</a></li>
+                                                <li><a class="dropdown-item" href="/services_gmd">Retina Clinic and Surgery</a></li>
                                                 <li><a class="dropdown-item" href="/opticalshop">Optical Shop</a></li>
-                                                <li><a class="dropdown-item" href="outreach">Outreach Programme</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -260,14 +256,7 @@
                                 </div>
                             </div>
                         </li>
-
-
-
-
-
-
-
-                        <li class="nav-item dropdown">
+                    <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="department.html" id="dropdown02"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Patient Resources
                                 <i class="icofont-thin-down"></i></a>
@@ -361,6 +350,8 @@
             </div>
         </nav>
     </header>
+
+
 
     {{ $slot }}
     <!-- Add your page content here -->

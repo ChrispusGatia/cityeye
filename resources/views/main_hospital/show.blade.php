@@ -100,6 +100,7 @@
                             <p class="mb-0">🌟 Fee</p>
                             <h4 class="mb-3">Affordable Fee</h4>
                         </div>
+                        <img src="images/gallery/main-reception.png" alt="Main Hospital Image" class="img-fluid mt-3">
                     </div>
                 </div>
 

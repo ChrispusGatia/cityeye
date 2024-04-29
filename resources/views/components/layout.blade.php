@@ -236,6 +236,7 @@
                                                 <li><a class="dropdown-item" href="/services_gmd">Glaucoma Clinic and Surgery</a></li>
                                                 <li><a class="dropdown-item" href="/services_gmd">Retina Clinic and Surgery</a></li>
                                                 <li><a class="dropdown-item" href="/opticalshop">Optical Shop</a></li>
+                                                <li><a class="dropdown-item" href="outreach">Outreach Program</a></li>
                                                 </li>
                                             </ul>
                                         </div>

@@ -229,69 +229,76 @@
                                         <div class="col-md-6">
                                             <h6>Eye Services</h6>
                                             <ul class="list-unstyled">
-                                                <li><a class="dropdown-item" href="/eye_consultations">General Ophthalmology</a>
+                                                <li><a class="dropdown-item" href="/eye_consultations">General
+                                                        Ophthalmology</a>
                                                 </li>
-                                                <li><a class="dropdown-item" href="/eye_surgery">Cataract Surgery</a></li>
-                                                <li><a class="dropdown-item" href="/retina_specialist">Corneal Clinic and Transplant</a></li>
-                                                <li><a class="dropdown-item" href="/services_gmd">Glaucoma Clinic and Surgery</a></li>
-                                                <li><a class="dropdown-item" href="/services_gmd">Retina Clinic and Surgery</a></li>
+                                                <li><a class="dropdown-item" href="/cataract_surgery">Cataract
+                                                        Surgery</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="/eye_surgery">Corneal Clinic
+                                                        and Transplant</a></li>
+                                                <li><a class="dropdown-item" href="/services_gmd">Glaucoma Clinic and
+                                                        Surgery</a></li>
+                                                <li><a class="dropdown-item" href="/retina_specialist">Retina Clinic
+                                                        and
+                                                        Surgery</a></li>
                                                 <li><a class="dropdown-item" href="/opticalshop">Optical Shop</a></li>
-                                                <li><a class="dropdown-item" href="outreach">Outreach Program</a></li>
+                                                <li><a class="dropdown-item" href="/outreach">Outreach Program</a>
                                                 </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <h6>General Services</h6>
-                                            <ul class="list-unstyled">
-                                                <li><a class="dropdown-item" href="/services_gmd">Diabetic Clinic</a>
-                                                </li>
-                                                <li><a class="dropdown-item" href="/services_gmh">Hypertensive
-                                                        Clinic</a></li>
-                                                <li><a class="dropdown-item" href="/othermedicalconditions">Other
-                                                        Medical Conditions</a></li>
-                                                <li><a class="dropdown-item" href="/labs">Laboratory Services</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </li>
-                    <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="department.html" id="dropdown02"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Patient Resources
-                                <i class="icofont-thin-down"></i></a>
-                            <ul class="dropdown-menu" aria-labelledby="dropdown02">
-                                <li>
-                                    <a class="dropdown-item" href="/privacy">Privacy Policy</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="/insurance">Insuarance</a>
-                                </li>
-
-                                <li>
-                                    <a class="dropdown-item" href="/patience-feedback">Patient Feedback</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="/faq">FAQs</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="/testimonial">Testimonials</a>
-                                </li>
-                                <li>
-                                    <!--<a class="dropdown-item" href="directions&location">Directions & Location</a>-->
-                                </li>
-                            </ul>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h6>General Services</h6>
+                    <ul class="list-unstyled">
+                        <li><a class="dropdown-item" href="/diabetic_clinic">Diabetic Clinic</a>
                         </li>
+                        <li><a class="dropdown-item" href="/services_gmh">Hypertensive
+                                Clinic</a></li>
+                        <li><a class="dropdown-item" href="/othermedicalconditions">Other
+                                Medical Conditions</a></li>
+                        <li><a class="dropdown-item" href="/labs">Laboratory Services</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="department.html" id="dropdown02" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">Patient Resources
+                    <i class="icofont-thin-down"></i></a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown02">
+                    <li>
+                        <a class="dropdown-item" href="/privacy">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="/insurance">Insuarance</a>
+                    </li>
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="doctor.html" id="dropdown03"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Team <i
-                                    class="icofont-thin-down"></i></a>
-                            <ul class="dropdown-menu" aria-labelledby="dropdown03">
-                                <li><a class="dropdown-item" href="doctors">Doctors</a></li>
-                                <li><a class="dropdown-item" href="gallery">Care Team</a></li>
-                                {{-- <li><a class="dropdown-item" href="board">Board of Management</a></li>
+                    <li>
+                        <a class="dropdown-item" href="/patience-feedback">Patient Feedback</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="/faq">FAQs</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="/testimonial">Testimonials</a>
+                    </li>
+                    <li>
+                        <!--<a class="dropdown-item" href="directions&location">Directions & Location</a>-->
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="doctor.html" id="dropdown03" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">Our Team <i class="icofont-thin-down"></i></a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                    <li><a class="dropdown-item" href="doctors">Doctors</a></li>
+                    <li><a class="dropdown-item" href="gallery">Care Team</a></li>
+                    {{-- <li><a class="dropdown-item" href="board">Board of Management</a></li>
                                 <li><a class="dropdown-item" href="executive-management">Executive Management</a></li>
                                 <li>
                                     <a class="dropdown-item" href="bookappointment">Book Appoinment</a>
@@ -300,7 +307,7 @@
                                     <a class="dropdown-item" href="/gallery">Gallery</a>
                                 </li> --}}
 
-                                <!--<li class="dropdown dropdown-submenu dropleft">
+                    <!--<li class="dropdown dropdown-submenu dropleft">
                       <a
                         class="dropdown-item dropdown-toggle"
                         href="#!"
@@ -321,33 +328,32 @@
                         </li>
                       </ul>
                     </li>-->
-                            </ul>
-                        </li>
+                </ul>
+            </li>
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="blog-sidebar.html" id="dropdown05"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News <i
-                                    class="icofont-thin-down"></i></a>
-                            <ul class="dropdown-menu" aria-labelledby="dropdown05">
-                                {{-- <li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="blog-sidebar.html" id="dropdown05" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">News <i class="icofont-thin-down"></i></a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown05">
+                    {{-- <li>
                                     <a class="dropdown-item" href="newsletter">Newsletters</a>
                                 </li> --}}
-                                <li>
-                                    <a class="dropdown-item" href="/newsletter">Newsletters</a>
-                                </li>
-                                <li>
-                                    <!--<a class="dropdown-item" href="news&events">Events & Celebrations</a>-->
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="/education">Educational Materials</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+                    <li>
+                        <a class="dropdown-item" href="/newsletter">Newsletters</a>
+                    </li>
+                    <li>
+                        <!--<a class="dropdown-item" href="news&events">Events & Celebrations</a>-->
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="/education">Educational Materials</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/contact">Contact</a>
+            </li>
+            </ul>
+            </div>
             </div>
         </nav>
     </header>
@@ -403,10 +409,9 @@
 
                         <ul class="list-unstyled footer-menu lh-35">
                             <li><a href="/services_gmd">Our Services</a></li>
-                            <li><a href="ourfoundation">Our Foundation</a></li>
-                            <li><a href="donate">Donate</a></li>
-                            <li><a href="hospital-locations">Hospital Locations</a></li>
-                            <li><a href="#!">Our </a></li>
+                            <li><a href="/ourfoundation">Our Foundation</a></li>
+                            <li><a href="/donate">Donate</a></li>
+                            <li><a href="/hospital-location">Hospital Locations</a></li>
                         </ul>
                     </div>
                 </div>

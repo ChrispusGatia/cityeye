@@ -1,4 +1,4 @@
-title: 'Eye Consultation'
+title: 'Cataract Surgery'
 tabs:
   main:
     display: Main
@@ -10,9 +10,15 @@ tabs:
             field:
               type: text
               required: true
+              validate:
+                - required
+          -
+            handle: subtitle
+            field:
               input_type: text
               antlers: false
-              display: Title
+              type: text
+              display: subtitle
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -29,14 +35,3 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
-  sidebar:
-    display: Sidebar
-    sections:
-      -
-        fields:
-          -
-            handle: slug
-            field:
-              type: slug
-              localizable: true
-              validate: 'max:200'

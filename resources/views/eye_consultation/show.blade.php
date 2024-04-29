@@ -160,7 +160,7 @@
                         <div class="contact-card">
                             <h3>Contact Us</h3>
                             <p><strong>Call:</strong> +254 (0) 707 777 707</p>
-                            <p><strong>Email:</strong> info@cityeyeoptical.com</p>
+                            <p><strong>Email:</strong> info@cityeyehospital.or.ke</p>
                         </div>
                     </div>
                     <div class="col-lg-9">

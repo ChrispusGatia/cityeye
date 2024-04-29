@@ -406,7 +406,7 @@
                             <li><a href="ourfoundation">Our Foundation</a></li>
                             <li><a href="donate">Donate</a></li>
                             <li><a href="hospital-locations">Hospital Locations</a></li>
-                            <li><a href="#!">Medicine</a></li>
+                            <li><a href="#!">Our </a></li>
                         </ul>
                     </div>
                 </div>

@@ -4,7 +4,7 @@
         <!-- Basic Page Needs
   ================================================== -->
         <meta charset="utf-8" />
-        <title>CityEye- Health Care &amp; Medical template</title>
+        <title>CityEye- Health Care</title>
 
         <!-- Mobile Specific Metas
   ================================================== -->

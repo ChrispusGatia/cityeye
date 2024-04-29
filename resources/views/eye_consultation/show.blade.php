@@ -1,137 +1,199 @@
 <x-layout>
 
     <head>
-        <!-- Basic Page Needs ================================================== -->
+        <!-- Basic Page Needs -->
         <meta charset="utf-8" />
-        <title>City Eye - Our services </title>
+        <title>City Eye - General Ophthalmology</title>
 
-        <!-- Mobile Specific Metas ================================================== -->
+        <!-- Mobile Specific Metas -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="Medical Outpatient Clinic - YourClinic" />
+        <meta name="description" content="City Eye - General Ophthalmology Services" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
         <meta name="author" content="YourClinic Team" />
 
-        <!-- theme meta ================================================== -->
-        <meta name="theme-name" content="YourClinic" />
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
 
-        <!-- Favicon ================================================== -->
+        <!-- Essential stylesheets -->
+        <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css" />
+        <link rel="stylesheet" href="plugins/icofont/icofont.min.css" />
+        <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css" />
+        <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css" />
+        <link rel="stylesheet" href="css/style.css" />
 
-        <head>
-            <!-- Basic Page Needs
-          ================================================== -->
-            <meta charset="utf-8" />
-            <title>CityEye- Health Care &amp; Medical template</title>
+        <!-- Page-specific styles -->
+        <style>
+            /* Custom styles for service details */
+            .service-header {
+                text-align: center;
+                padding: 100px 0;
+                background-color: #f8f9fa;
+            }
 
-            <!-- Mobile Specific Metas
-          ================================================== -->
-            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-            <meta name="description" content="Health Care Medical Html5 Template" />
-            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
-            <meta name="author" content="Themefisher" />
-            <meta name="generator" content="Themefisher CityEye HTML Template v1.0" />
+            .service-header img {
+                max-width: 100%;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
 
-            <!-- theme meta -->
-            <meta name="theme-name" content="CityEye" />
+            .service-description {
+                padding: 40px 0;
+            }
 
-            <!-- Favicon -->
-            <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
+            .service-description h2 {
+                font-size: 28px;
+                color: #333;
+            }
 
-            <!--
-          Essential stylesheets
-          =====================================-->
-            <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css" />
-            <link rel="stylesheet" href="plugins/icofont/icofont.min.css" />
-            <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css" />
-            <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css" />
+            .service-description p {
+                font-size: 16px;
+                line-height: 1.6;
+                color: #666;
+            }
 
-            <!-- Main Stylesheet -->
-            <link rel="stylesheet" href="css/style.css" />
-        </head>
+            .service-navigation {
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                background-color: #fff;
+                margin-bottom: 20px;
+            }
 
-    <body id="top"></body>
+            .service-navigation h3 {
+                font-size: 20px;
+                color: #333;
+                margin-bottom: 15px;
+            }
 
-    </html>
+            .service-navigation ul {
+                list-style: none;
+                padding-left: 0;
+            }
 
+            .service-navigation li {
+                margin-bottom: 10px;
+                border-bottom: 1px solid #ddd; /* Add border bottom to each list item */
+                padding-bottom: 5px; /* Optional: Add padding for spacing */
+            }
 
-    <section class="page-title bg-1">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block text-center">
-                        <span class="text-white">Our services</span>
-                        <h1 class="text-capitalize mb-5 text-lg">{{ $title }}</h1>
+            .service-navigation a {
+                color: #223a66;
+                text-decoration: none;
+                transition: color 0.3s ease;
+            }
 
-                        <!-- <ul class="list-inline breadcumb-nav">
-                    <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
-                    <li class="list-inline-item"><span class="text-white">/</span></li>
-                    <li class="list-inline-item"><a href="#" class="text-white-50">Our services</a></li>
-                  </ul> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+            .service-navigation a:hover {
+                color: #e12454;
+                text-decoration: none;
+            }
 
-    <section class="section service-2">
-        <div class="container">
-            <div class="row">
-                @foreach ($contents as $card)
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="service-block mb-5">
-                            <img src="{{ asset($card->image) }}" alt="" class="img-fluid">
-                            <div class="content">
-                                <h4 class="mt-4 mb-2 title-color">{{ $card->title }}</h4>
-                                <p class="mb-4">{{ $card->description }}</p>
-                            </div>
-                            <a href="/{{ $card->link }}" class="btn btn-main btn-round-full">Read More<i
-                                    class="icofont-simple-right ml-3"></i></a>
+            .contact-card {
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            .contact-card h3 {
+                font-size: 20px;
+                color: #333;
+                margin-bottom: 15px;
+            }
+
+            .divider {
+                border-top: 1px solid #ccc;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            .btn-main-2 {
+                background-color: #e12454;
+                color: #fff;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 5px;
+                text-decoration: none;
+                display: inline-block;
+                transition: background-color 0.3s ease;
+            }
+
+            .btn-main-2:hover {
+                background-color: #c81e47;
+            }
+        </style>
+    </head>
+
+    <body id="top">
+
+        <section class="page-title bg-1">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="block text-center">
+                            <span class="text-white">Our Services</span>
+                            <h1 class="text-capitalize mb-5 text-lg">General Ophthalmology</h1>
                         </div>
                     </div>
-                @endforeach
-
-
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="section cta-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7">
-                    <div class="cta-content">
-                        <div class="divider mb-4"></div>
-                        <h2 class="mb-5 text-lg">Discover top-notch eye care services tailored to your needs.</h2>
-                        <a href="contact" class="btn btn-main-2 btn-round-full">Contact Us<i
-                                class="icofont-simple-right ml-2"></i></a>
-                        <p class="mt-3"><strong>Call us:</strong> +254 (0) 707 777 707</p>
-                        <p><strong>Email:</strong> info@cityeyeoptical.com</p>
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="service-navigation">
+                            <h3>All Services</h3>
+                            <div class="divider my-4"></div>
+                            <ul>
+                                <li><a href="#">General Ophthalmology<i class="icofont-simple-right ml-2"></i></a></li>
+                                <li><a href="#">Cataract Surgery<i class="icofont-simple-right ml-2"></i></a></li>
+                                <li><a href="#">Corneal Clinic and Transplant<i class="icofont-simple-right ml-2"></i></a></li>
+                                <li><a href="#">Glaucoma Clinic and Surgery<i class="icofont-simple-right ml-2"></i></a></li>
+                                <li><a href="#">Retina Clinic and Surgery<i class="icofont-simple-right ml-2"></i></a></li>
+                                <li><a href="/opticalshop">Optical Shop<i class="icofont-simple-right ml-2"></i></a></li>
+                                <li><a href="outreach">Outreach Program<i class="icofont-simple-right ml-2"></i></a></li>
+                                <!-- Add more services here -->
+                            </ul>
+                        </div>
+                        <div class="contact-card">
+                            <h3>Contact Us</h3>
+                            <p><strong>Call:</strong> +254 (0) 707 777 707</p>
+                            <p><strong>Email:</strong> info@cityeyeoptical.com</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div id="general-ophthalmology" class="service-description">
+                            <h2>General Ophthalmology Services</h2>
+                            <div class="divider my-4"></div>
+                            <p>City Eye Hospital (CEH) offers regular eye exams that help detect any problems early. Most eye diseases can be treated or managed with greater success if detected early on. Our comprehensive eye exam helps determine your overall eye health and also screens for any eye conditions or diseases, including glaucoma, cataracts, and diabetic retinopathy. Eye exams can also reveal a range of other undiagnosed health issues, such as hypertension, diabetes, and cardiovascular disease, as these conditions affect your vision as well.</p>
+                            <p>Our Services Include:</p>
+                            <ul>
+                                <li>Comprehensive eye exams</li>
+                                <li>Diagnosis and treatment of eye diseases</li>
+                                <li>Glasses and contact lens prescriptions</li>
+                                <li>Management of common eye conditions</li>
+                                <!-- Add more services here -->
+                            </ul>  
+                            <a href="service" class="btn btn-main-2 btn-round-full">Explore Our Services <i class="icofont-simple-right ml-2"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
+        <!-- Footer Section -->
+        <!-- Include your footer section here -->
 
-    <!-- footer Start -->
-
-    <!-- footer End -->
-
-
-
-    <!--
-            Essential Scripts
-            =====================================-->
-    <script src="plugins/jquery/jquery.js"></script>
-    <script src="plugins/bootstrap/bootstrap.min.js"></script>
-    <script src="plugins/slick-carousel/slick/slick.min.js"></script>
-    <script src="plugins/shuffle/shuffle.min.js"></script>
-
-    <!-- Google Map -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA"></script>
-    <script src="plugins/google-map/gmap.js"></script>
-
-    <script src="js/script.js"></script>
+        <!-- Essential Scripts -->
+        <script src="plugins/jquery/jquery.js"></script>
+        <script src="plugins/bootstrap/bootstrap.min.js"></script>
+        <script src="plugins/slick-carousel/slick/slick.min.js"></script>
+        <script src="plugins/shuffle/shuffle.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY"></script>
+        <script src="plugins/google-map/gmap.js"></script>
+        <script src="js/script.js"></script>
 
     </body>
 </x-layout>

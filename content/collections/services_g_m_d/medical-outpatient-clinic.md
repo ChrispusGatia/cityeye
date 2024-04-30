@@ -1,7 +1,7 @@
 ---
 id: e7e08ac9-06f0-4ffd-96bf-21165903439a
 blueprint: services_g_m_d
-title: 'Medical Outpatient Clinic'
+title: 'Glacauma Clinic and Surgery'
 body_title: 'Comprehensive Outpatient Services'
 body_description: |-
   Welcome to City Eye Medical Outpatient Clinic – your dedicated facility for high-quality outpatient care.
@@ -24,7 +24,7 @@ list_items:
     type: new_set
     enabled: true
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1709489909
+updated_at: 1714458450
 sidebar_title: 'Consulation Fee'
 sidebar_description: |-
   Embark on a journey to optimal health with our expert consultations at a fee that makes quality care accessible to everyone👁️💡

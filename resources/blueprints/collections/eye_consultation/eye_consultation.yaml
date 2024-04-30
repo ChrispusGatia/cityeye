@@ -1,4 +1,4 @@
-title: 'Eye Consultation'
+title: 'General Ophthalmology'
 tabs:
   main:
     display: Main
@@ -18,6 +18,8 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+              validate:
+                - required
           -
             handle: description
             field:

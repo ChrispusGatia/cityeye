@@ -1,27 +1,31 @@
-title: "Eye Surgery and Procedures"
+title: 'Corneal Clinic and Transplant'
 tabs:
   main:
     display: Main
     sections:
-      - fields:
-          - handle: title
+      -
+        fields:
+          -
+            handle: title
             field:
               type: text
               required: true
               validate:
                 - required
-          - handle: sub_title
+          -
+            handle: sub_title
             field:
               input_type: text
               antlers: false
               type: text
-              display: "Sub Title"
+              display: 'Sub Title'
               listable: hidden
               instructions_position: above
               visibility: visible
               replicator_preview: true
               hide_display: false
-          - handle: description
+          -
+            handle: description
             field:
               antlers: false
               type: textarea
@@ -34,9 +38,11 @@ tabs:
   sidebar:
     display: Sidebar
     sections:
-      - fields:
-          - handle: slug
+      -
+        fields:
+          -
+            handle: slug
             field:
               type: slug
               localizable: true
-              validate: "max:200"
+              validate: 'max:200'

@@ -1,30 +1,128 @@
 <x-layout>
 
     <head>
-        <!-- Basic Page Needs ================================================== -->
+        <!-- Basic Page Needs -->
         <meta charset="utf-8" />
-        <title>City Eye - Medical Outpatient Clinic</title>
+        <title>City Eye - General Ophthalmology</title>
 
-        <!-- Mobile Specific Metas ================================================== -->
+        <!-- Mobile Specific Metas -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="Medical Outpatient Clinic - YourClinic" />
+        <meta name="description" content="City Eye - General Ophthalmology Services" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
         <meta name="author" content="YourClinic Team" />
 
-        <!-- theme meta ================================================== -->
-        <meta name="theme-name" content="YourClinic" />
-
-        <!-- Favicon ================================================== -->
+        <!-- Favicon -->
         <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
 
-        <!-- Essential stylesheets ================================================== -->
+        <!-- Essential stylesheets -->
         <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css" />
         <link rel="stylesheet" href="plugins/icofont/icofont.min.css" />
         <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css" />
         <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css" />
-
-        <!-- Main Stylesheet ================================================== -->
         <link rel="stylesheet" href="css/style.css" />
+
+        <!-- Page-specific styles -->
+        <style>
+            /* Custom styles for service details */
+            .service-header {
+                text-align: center;
+                padding: 100px 0;
+                background-color: #f8f9fa;
+            }
+
+            .service-header img {
+                max-width: 100%;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            .service-description {
+                padding: 40px 0;
+            }
+
+            .service-description h2 {
+                font-size: 28px;
+                color: #333;
+            }
+
+            .service-description p {
+                font-size: 16px;
+                line-height: 1.6;
+                color: #666;
+            }
+
+            .service-navigation {
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                background-color: #fff;
+                margin-bottom: 20px;
+            }
+
+            .service-navigation h3 {
+                font-size: 20px;
+                color: #333;
+                margin-bottom: 15px;
+            }
+
+            .service-navigation ul {
+                list-style: none;
+                padding-left: 0;
+            }
+
+            .service-navigation li {
+                margin-bottom: 10px;
+                border-bottom: 1px solid #ddd;
+                /* Add border bottom to each list item */
+                padding-bottom: 5px;
+                /* Optional: Add padding for spacing */
+            }
+
+            .service-navigation a {
+                color: #223a66;
+                text-decoration: none;
+                transition: color 0.3s ease;
+            }
+
+            .service-navigation a:hover {
+                color: #e12454;
+                text-decoration: none;
+            }
+
+            .contact-card {
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            .contact-card h3 {
+                font-size: 20px;
+                color: #333;
+                margin-bottom: 15px;
+            }
+
+            .divider {
+                border-top: 1px solid #ccc;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            .btn-main-2 {
+                background-color: #e12454;
+                color: #fff;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 5px;
+                text-decoration: none;
+                display: inline-block;
+                transition: background-color 0.3s ease;
+            }
+
+            .btn-main-2:hover {
+                background-color: #c81e47;
+            }
+        </style>
     </head>
 
     <body id="top">
@@ -35,264 +133,77 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="block text-center">
-                            <h1 class="text-capitalize mb-5 text-lg"> {{ $title }}</h1>
+                            <span class="text-white">Our Services</span>
+                            <h1 class="text-capitalize mb-5 text-lg">Corneal Clinic and Transplant</h1>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section department-single">
+        <section class="section">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8">
-                        <div class="department-content mt-5">
-                            <h3 class="text-md">{{ $sub_title }}</h3>
+                    <div class="col-lg-3">
+                        <div class="service-navigation">
+                            <h3>All Services</h3>
                             <div class="divider my-4"></div>
-                            <p class="lead">{{ $description }}</p>
-
-                            <h3 class="mt-5 mb-4">Our Medical Services</h3>
+                            <ul>
+                                <li><a href="#">General Ophthalmology<i class="icofont-simple-right ml-2"></i></a>
+                                </li>
+                                <li><a href="cataract_surgery">Cataract Surgery<i
+                                            class="icofont-simple-right ml-2"></i></a></li>
+                                <li><a href="/eye_surgery">Corneal Clinic and Transplant<i
+                                            class="icofont-simple-right ml-2"></i></a></li>
+                                <li><a href="/services_gmd">Glaucoma Clinic and Surgery<i
+                                            class="icofont-simple-right ml-2"></i></a></li>
+                                <li><a href="/retina_specialist">Retina Clinic and Surgery<i
+                                            class="icofont-simple-right ml-2"></i></a></li>
+                                <li><a href="/opticalshop">Optical Shop<i class="icofont-simple-right ml-2"></i></a>
+                                </li>
+                                <li><a href="/outreach">Outreach Program<i class="icofont-simple-right ml-2"></i></a>
+                                </li>
+                                <!-- Add more services here -->
+                            </ul>
+                        </div>
+                        <div class="contact-card">
+                            <h3>Contact Us</h3>
+                            <p><strong>Call:</strong> +254 (0) 707 777 707</p>
+                            <p><strong>Email:</strong> info@cityeyehospital.or.ke</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div id="general-ophthalmology" class="service-description">
+                            <h2>{{ $title }}</h2>
                             <div class="divider my-4"></div>
-                            <ul class="list-unstyled department-service">
-                                <li><i class="icofont-check mr-2"></i>Diabetic Care</li>
-                                <li><i class="icofont-check mr-2"></i>Hypertensive Management</li>
-                                <li><i class="icofont-check mr-2"></i>Laboratory Testing</li>
-                                <li><i class="icofont-check mr-2"></i>Cardiology Consultations</li>
-                                <li><i class="icofont-check mr-2"></i>Gastroenterology Services</li>
-                                <li><i class="icofont-check mr-2"></i>Women's Health Clinic</li>
-                                <li><i class="icofont-check mr-2"></i>Respiratory Care</li>
+                            <p>{{ $description }}</p>
+                            <p>Our Services Include:</p>
+                            <ul>
+                                <li>Comprehensive eye exams</li>
+                                <li>Diagnosis and treatment of eye diseases</li>
+                                <li>Glasses and contact lens prescriptions</li>
+                                <li>Management of common eye conditions</li>
+                                <!-- Add more services here -->
                             </ul>
-
-                            <a href="outpatient-services" class="btn btn-main-2 btn-round-full">Explore Our Services<i
-                                    class="icofont-simple-right ml-2  "></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4">
-                        <div class="sidebar-widget schedule-widget mt-5">
-                            <h5 class="mb-4">Consulation Fee</h5>
-
-                            <p>Embark on a journey to optimal health with our expert consultations at a fee that makes
-                                quality care
-                                accessible to everyone👁️💡</p>
-                            <div class="sidebar-contatct-info mt-4">
-                                <p class="mb-0">🌟 Fee</p>
-                                <h4 class="mb-3">Affordable Fee</h4>
-                            </div>
-
-                            <img src="images/gallery/img-2.jpg" alt="Clinic About Image" class="img-fluid mt-3">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4">
-                        <div class="sidebar-widget schedule-widget mt-5">
-                            <h5 class="mb-4">Clinic Directions</h5>
-
-                            <ul class="list-unstyled">
-                                <li class="d-flex justify-content-between align-items-center">
-                                    <i class="icofont-location-pin"></i>
-                                    <span>Opp. Traffic Police Station, Nairobi.</span>
-                                </li>
-                                <li class="d-flex justify-content-between align-items-center">
-                                    <i class="icofont-location-pin"></i>
-                                    <span>Opp. Traffic Police Station, Nairobi.</span>
-                                </li>
-                                <li class="d-flex justify-content-between align-items-center">
-                                    <i class="icofont-location-pin"></i>
-                                    <span>Opp. Traffic Police Station, Nairobi.</span>
-                                </li>
-                            </ul>
-
-                            <div class="sidebar-contatct-info mt-4">
-                                <p class="mb-0">Need Urgent Help?</p>
-                                <h3>+254(0)111 032 244</h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4">
-                        <div class="sidebar-widget schedule-widget mt-5">
-                            <h5 class="mb-4">Contact Us</h5>
-
-                            <ul class="list-unstyled">
-                                <li class="d-flex justify-content-between align-items-center">
-                                    <i class="icofont-email mr-3"></i>
-                                    <a href="mailto:info@cityeyehospital.or.ke">info@cityeyehospital.or.ke</a>
-                                </li>
-                                <li class="d-flex justify-content-between align-items-center">
-                                    <i class="icofont-support mr-3"></i>
-                                    <a href="tel:+254-111-032200">+254(0) 111 032 244</a>
-                                </li>
-                                <li class="d-flex justify-content-between align-items-center">
-                                    <i class="icofont-support mr-3"></i>
-                                    <a href="tel:+254-707-777707">+254 (0) 111 032 200</a>
-                                </li>
-                            </ul>
-
-                            <div class="sidebar-contatct-info mt-4">
-                                <ul class="list-inline footer-socials mt-4">
-                                    <li class="list-inline-item">
-                                        <a href="https://web.facebook.com/cityeyehospital/?_rdc=1&_rdr"><i
-                                                class="icofont-facebook"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="https://twitter.com/cityeyehospital?lang=en"><i
-                                                class="icofont-twitter"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="https://www.linkedin.com/company/city-eye-hospital/"><i
-                                                class="icofont-linkedin"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="https://www.youtube.com/@cityeyehospital4018"><i
-                                                class="icofont-youtube"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="https://www.instagram.com/cityeyehospital_kenya/"><i
-                                                class="icofont-instagram"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4">
-                        <div class="sidebar-widget schedule-widget mt-5">
-                            <h5 class="mb-4">Time Schedule</h5>
-
-                            <ul class="list-unstyled">
-                                <li class="d-flex justify-content-between align-items-center">
-                                    <span>Monday - Thur :</span>
-                                    <span>7:30 a.m - 4:00 p.m</span>
-                                </li>
-                                <li class="d-flex justify-content-between align-items-center">
-                                    <span>Friday :</span>
-                                    <span>8:00 a.m - 4:00 p.m</span>
-                                </li>
-                                <li class="d-flex justify-content-between align-items-center">
-                                    <span>Weekends & Public Holidays :</span>
-                                    <span>Closed</span>
-                                </li>
-                            </ul>
-
-                            <div class="sidebar-contatct-info mt-4">
-                                <p class="mb-0">Friendly Reception for Everyone!</p>
-                                <h3>All Are Welcome!</h3>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-        </section>
-
-        <section class="section clients">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-7">
-                        <div class="section-title text-center">
-                            <h2>Partners who support us</h2>
-                            <div class="divider mx-auto my-4"></div>
-                            <p>City Eye Hospital: Your trusted partner for superior vision care, where precision meets
-                                compassion in a community dedicated to clarity and vibrant partnerships.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="row clients-logo">
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/1.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/2.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/3.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/4.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/5.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/6.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/3.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/4.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/5.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/6.png" alt="" class="img-fluid">
+                            <a href="service" class="btn btn-main-2 btn-round-full">Explore Our Services <i
+                                    class="icofont-simple-right ml-2"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12.5">
-                    <div class="section-title text-center">
-                        <h2>Google Map Directions</h2>
-                        <div class="divider mx-auto my-4"></div>
-                        <p>Conveniently located along Ngong Road, across from the Traffic Police Station in Nairobi,
-                            <br>our Main Hospital boasts a strategic location with convenient access via public
-                            transportation and private vehicles.
-                        </p>
-                        <div class="google-map ">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4743.502116636985!2d36.80408283879087!3d-1.2983866077723598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10ea15cd9e7d%3A0x90f3bd97e5159bfc!2sCity%20Eye%20Hospital!5e0!3m2!1sen!2ske"
-                                width="1300" height="450" style="border:0;" allowfullscreen=""
-                                loading="lazy"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!-- Footer Section -->
+        <!-- Include your footer section here -->
 
-        <!-- footer Start -->
-
-        <!-- footer End -->
-
-        <!--
-    Essential Scripts
-    =====================================-->
+        <!-- Essential Scripts -->
         <script src="plugins/jquery/jquery.js"></script>
         <script src="plugins/bootstrap/bootstrap.min.js"></script>
         <script src="plugins/slick-carousel/slick/slick.min.js"></script>
         <script src="plugins/shuffle/shuffle.min.js"></script>
-
-        <!-- Google Map -->
         <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY"></script>
         <script src="plugins/google-map/gmap.js"></script>
         <script src="js/script.js"></script>
+
     </body>
 </x-layout>

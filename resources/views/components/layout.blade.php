@@ -408,7 +408,7 @@
                         <div class="divider mb-4"></div>
 
                         <ul class="list-unstyled footer-menu lh-35">
-                            <li><a href="/eye_consultations">Our Services</a></li>
+                            <li><a href="/all-services">Our Services</a></li>
                             <li><a href="/ourfoundation">Our Foundation</a></li>
                             <li><a href="/donate">Donate</a></li>
                             <li><a href="/hospital-location">Hospital Locations</a></li>

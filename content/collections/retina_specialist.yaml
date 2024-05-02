@@ -1,4 +1,4 @@
-title: "Retina Specialist"
+title: 'Retina Clinic and Surgery'
 template: retina_specialist/show
 layout: layout
 revisions: false
@@ -9,6 +9,7 @@ date_behavior:
   past: public
   future: private
 preview_targets:
-  - label: Entry
-    url: "{permalink}"
+  -
+    label: Entry
+    url: '{permalink}'
     refresh: true

@@ -13,6 +13,12 @@ card_section:
     card_description: 'Your privacy is important to us. This Privacy Notice (the "Policy") explains the personal data City Eye Hospital (CEH) collects, how CEH processes it, and for what purposes. This statement applies to all patients, customers, suppliers, and all visitors to any of CEH''s premises. Personal data in this context means information relating to an identified or identifiable natural person. CEH is committed to ensuring that your personal data is collected and used lawfully and transparently. We process your personal information under the Data Protection Act 2019 and the Data Protection (General) Regulations, 2021. We advise you to read the Notice in its entirety.'
     type: new_set
     enabled: true
+  -
+    id: lvoyeqan
+    card_title: 'Legal notification'
+    card_description: 'We are registered with the Office of the Data Protection Commissioner (ODPC). If you would like to look at our registration, please go to the Data Protection register on the ODPC website or use the link: [https://www.odpc.go.ke/registered-data-processors-and-controllers/](https://www.odpc.go.ke/registered-data-processors-and-controllers/)'
+    type: new_set
+    enabled: true
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1709503104
+updated_at: 1714636820
 ---

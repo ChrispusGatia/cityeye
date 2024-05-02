@@ -44,7 +44,7 @@
                 <div class="col-md-12">
                     <div class="block text-center">
                         <span class="text-white">Our services</span>
-                        <h1 class="text-capitalize mb-5 text-lg">Treatment and Services</h1>
+                        <h1 class="text-capitalize mb-5 text-lg">{{ $title }}</h1>
 
                         <!-- <ul class="list-inline breadcumb-nav">
             <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
@@ -60,88 +60,20 @@
     <section class="section service-2">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="service-block mb-5">
-                        <img src="images/service/general.jpg" alt="" class="img-fluid">
-                        <div class="content">
-                            <h4 class="mt-4 mb-2 title-color">General Ophthalmology</h4>
-                            <p class="mb-4">Regular eye exams help us detect any problems early and thus treat any
-                                arising
-                                diseases and condition with greater success.</p>
+                @foreach ($content as $card)
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="service-block mb-5">
+                            <img src="{{ asset($card->card_image) }}" alt="" class="img-fluid">
+                            <div class="content">
+                                <h4 class="mt-4 mb-2 title-color">{{ $card->card_title }}</h4>
+                                <p class="mb-4">{{ $card->card_description }}</p>
+                            </div>
+                            <a href="/{{ $card->link }}" class="btn btn-main btn-round-full">Read More<i
+                                    class="icofont-simple-right ml-3"></i></a>
                         </div>
-                        <a href="/eye_consultations" class="btn btn-main btn-round-full">Read More<i
-                                class="icofont-simple-right ml-3"></i></a>
                     </div>
-                </div>
+                @endforeach
 
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="service-block mb-5">
-                        <img src="images/service/cataract.jpg" alt="" class="img-fluid">
-                        <div class="content">
-                            <h4 class="mt-4 mb-2  title-color">Cataract Surgery</h4>
-                            <p class="mb-4">Cataract surgery is one of the safest surgeries. Most cataract procedures
-                                take
-                                a short time and most patients recover quickly.</p>
-                        </div>
-                        <a href="/cataract_surgery" class="btn btn-main btn-round-full">Read More<i
-                                class="icofont-simple-right ml-3"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="service-block mb-5">
-                        <img src="images/service/cornea.jpg" alt="" class="img-fluid">
-                        <div class="content">
-                            <h4 class="mt-4 mb-2 title-color">Cornea Surgery</h4>
-                            <p class="mb-4">Cornea specialists at City Eye Hospital provide advanced medical and
-                                surgical
-                                treatment of all conditions and disorders of the cornea.</p>
-                        </div>
-                        <a href="/eye_surgery" class="btn btn-main btn-round-full">Read More<i
-                                class="icofont-simple-right ml-3"></i></a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="service-block mb-5 mb-lg-0">
-                        <img src="images/service/glaucoma.png" alt="" class="img-fluid">
-                        <div class="content">
-                            <h4 class="mt-4 mb-2 title-color">Glaucoma Treatment</h4>
-                            <p class="mb-4">Glaucoma, the leading cause of blindness worldwide, leads to irreversible
-                                vision loss.</p>
-                        </div>
-                        <a href="/services_gmd" class="btn btn-main btn-round-full">Read More<i
-                                class="icofont-simple-right ml-3"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="service-block mb-5 mb-lg-0">
-                        <img src="images/service/retina-1.png" alt="" class="img-fluid">
-                        <div class="content">
-                            <h4 class="mt-4 mb-2 title-color">Retina Treatment</h4>
-                            <p class="mb-4">The retina, one of the most important parts of the eye, can be affected by
-                                a
-                                wide range of diseases.</p>
-                        </div>
-                        <a href="/retina_specialist" class="btn btn-main btn-round-full">Read More<i
-                                class="icofont-simple-right ml-3"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="service-block mb-5 mb-lg-0">
-                        <img src="images/service/optic-4.jpg" alt="" class="img-fluid">
-                        <div class="content">
-                            <h4 class="mt-4 mb-2 title-color">Optical Services</h4>
-                            <p class="mb-4">Explore top brands in eyewear – glasses, lenses, frames, and sunglasses.
-                                Elevate your style with in-house glazing services.</p>
-                        </div>
-                        <a href="/opticalshop" class="btn btn-main btn-round-full">Read More<i
-                                class="icofont-simple-right ml-3"></i></a>
-                    </div>
-                </div>
             </div>
         </div>
     </section>

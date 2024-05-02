@@ -1,7 +1,7 @@
 ---
 id: e7e08ac9-06f0-4ffd-96bf-21165903439a
 blueprint: services_g_m_d
-title: 'Glacauma Clinic and Surgery'
+title: 'Glaucoma Clinic and Surgery'
 body_title: 'Comprehensive Outpatient Services'
 body_description: |-
   Welcome to City Eye Medical Outpatient Clinic – your dedicated facility for high-quality outpatient care.
@@ -24,7 +24,7 @@ list_items:
     type: new_set
     enabled: true
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1714635855
+updated_at: 1714641196
 sidebar_title: 'Consulation Fee'
 sidebar_description: |-
   Embark on a journey to optimal health with our expert consultations at a fee that makes quality care accessible to everyone👁️💡
@@ -34,10 +34,17 @@ sidebar_description: |-
   Affordable Fee
 sidebar_image: img-3.jpg
 description: |-
-  Our Main Hospital is a walk-in facility offering comprehensive inpatient and outpatient care.
-                              In addition to eye exams and vision testing for glasses and contacts,
-                              our main Hospital offers comprehensive medical and surgical care for eye-related concerns
-                              and conditions, including advanced eye treatment for cataracts, glaucoma, retinal
-                              detachment,
-                              corneal disease and macular degeneration.
+  Glaucoma is the leading cause of blindness worldwide. It often has no symptoms in the early stages.
+  Glaucoma can happen to anyone. It occurs when the pressure within the eye (IOP) is high for prolonged periods. This results in painless and progressive damage to the optic nerve, resulting in vision loss.
+
+  Treatment of Glaucoma
+  Vision loss from glaucoma is not reversible with treatment. The symptoms of glaucoma can also be mild or even non-existent until the disease has silently and gradually worsened to a severe stage. This is why regular eye exams are important.
+  The glaucoma specialists at City Eye Hospital provide extensive glaucoma eye care that comprises glaucoma evaluation and testing, and management of intraocular pressure and treatment.
+  Our extensive glaucoma exam includes:
+  Measuring the pressure in your eye (tonometry)
+  Testing your peripheral (side) vision (visual field test)
+  Measuring the thickness of your cornea (pachymetry)
+  Inspecting your eye’s drainage angle (gonioscopy)
+  Examining your optic nerve (ophthalmoscopy)
+  Checking the thickness of your optic nerve fibres
 ---

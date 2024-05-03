@@ -215,58 +215,8 @@
             </div>
 
             <div class="container">
-                <div class="row clients-logo">
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/1.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/2.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/3.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/4.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/5.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/6.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/3.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/4.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/5.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/6.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
+                @include('partners.show')
+
             </div>
         </section>
 

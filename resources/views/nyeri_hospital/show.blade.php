@@ -59,14 +59,18 @@
                         <div class="department-content mt-5">
                             <h3 class="text-md">Our Mbuni Road Branch (Nyeri Town)</h3>
                             <div class="divider my-4"></div>
-                            <p class="lead">City Eye Hospital (CEH) opened its first satellite branch in Nyeri in 2022.       
+                            <p class="lead">City Eye Hospital (CEH) opened its first satellite branch in Nyeri in
+                                2022.
                             </p>
-                            <p>Rural populations are among the most susceptible to preventable blindness due to a lack of 
+                            <p>Rural populations are among the most susceptible to preventable blindness due to a lack
+                                of
                                 proximity to timely and quality eye care.
-                                CEH-Nyeri, a walk-in facility at the heart of Nyeri town, is part of our continued effort
+                                CEH-Nyeri, a walk-in facility at the heart of Nyeri town, is part of our continued
+                                effort
                                 to make first-class diagnostic testing and eye care treatment easily accessible to all,
                                 including those residing outside the capital. The Nyeri branch offers the complete range
-                                of eye care services found at our <a href="/main_hospital"> General Hospital</a> and <a href="/appointment-clinic"> Appointment Clinic in Nairobi</a>.</p>
+                                of eye care services found at our <a href="/main_hospital"> General Hospital</a> and <a
+                                    href="/appointment-clinic"> Appointment Clinic in Nairobi</a>.</p>
 
                             <h3 class="mt-5 mb-4">Eye Care Services Offered</h3>
                             <div class="divider my-4"></div>
@@ -133,7 +137,8 @@
                             <ul class="list-unstyled">
                                 <li class="d-flex justify-content-between align-items-center">
                                     <i class="icofont-email mr-3"></i>
-                                    <a href="mailto:info.nyeri@cityeyehospital.or.ke">info.nyeri@cityeyehospital.or.ke</a>
+                                    <a
+                                        href="mailto:info.nyeri@cityeyehospital.or.ke">info.nyeri@cityeyehospital.or.ke</a>
                                 </li>
                                 <li class="d-flex justify-content-between align-items-center">
                                     <i class="icofont-support mr-3"></i>
@@ -214,82 +219,31 @@
                 </div>
             </div>
 
-            <div class="container">
-                <div class="row clients-logo">
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/1.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/2.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/3.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/4.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/5.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/6.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/3.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/4.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/5.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="images/about/6.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+            @include('partners.show')
+
         </section>
 
         <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-12.5">
-                <div class="section-title text-center">
-                    <h2>Google Map Directions</h2>
-                    <div class="divider mx-auto my-4"></div>
-                    <p>Conveniently located along Ngong Road, across from the Traffic Police Station in Nairobi,
-                        <br>our Main Hospital boasts a strategic location with convenient access via public
-                        transportation and private vehicles.
-                    </p>
-                    <div class="google-map ">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15958.826965279353!2d36.9598526!3d-0.42850249999999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18286146732cdb53%3A0x45becfcac6fb63ab!2sCity%20Eye%20Hospital%20-%20Nyeri!5e0!3m2!1sen!2ske!4v1669289149340!5m2!1sen!2ske"
-                            width="1300" height="450" style="border:0;" allowfullscreen=""
-                            loading="lazy"></iframe>
+            <div class="row justify-content-center">
+                <div class="col-lg-12.5">
+                    <div class="section-title text-center">
+                        <h2>Google Map Directions</h2>
+                        <div class="divider mx-auto my-4"></div>
+                        <p>Conveniently located along Ngong Road, across from the Traffic Police Station in Nairobi,
+                            <br>our Main Hospital boasts a strategic location with convenient access via public
+                            transportation and private vehicles.
+                        </p>
+                        <div class="google-map ">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15958.826965279353!2d36.9598526!3d-0.42850249999999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18286146732cdb53%3A0x45becfcac6fb63ab!2sCity%20Eye%20Hospital%20-%20Nyeri!5e0!3m2!1sen!2ske!4v1669289149340!5m2!1sen!2ske"
+                                width="1300" height="450" style="border:0;" allowfullscreen=""
+                                loading="lazy"></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
         <!-- Essential Scripts =====================================-->

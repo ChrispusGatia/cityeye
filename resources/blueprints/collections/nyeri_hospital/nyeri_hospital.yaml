@@ -1,0 +1,66 @@
+title: 'Nyeri Hospital'
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: partners
+            field:
+              collapse: false
+              previews: true
+              fullscreen: true
+              sets:
+                new_set_group:
+                  display: 'New Set Group'
+                  instructions: null
+                  icon: null
+                  sets:
+                    new_set:
+                      display: 'New Set'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: logo
+                          field:
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: Logo
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                            max_files: 1
+              type: replicator
+              display: Partners
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'

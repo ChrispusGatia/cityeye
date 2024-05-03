@@ -1,0 +1,90 @@
+title: Outpatient-service
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: content
+            field:
+              collapse: false
+              previews: true
+              fullscreen: true
+              sets:
+                new_set_group:
+                  display: 'New Set Group'
+                  instructions: null
+                  icon: null
+                  sets:
+                    new_set:
+                      display: 'New Set'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: card_image
+                          field:
+                            max_files: 1
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: 'Card Image'
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                        -
+                          handle: card_title
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Card title'
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                        -
+                          handle: card_description
+                          field:
+                            antlers: false
+                            type: textarea
+                            display: 'Card Description'
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                        -
+                          handle: llink
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: Llink
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+              type: replicator
+              display: Content
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false

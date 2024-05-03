@@ -5,7 +5,7 @@ title: Home
 template: index
 author: 14d3b439-c1ca-4786-8ce7-59caffb630ff
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1714365728
+updated_at: 1714723368
 subtitle: 'Founded by leading eye specialists, City Eye Hospital [CEH] is a premier specialty eye hospital in Kenya dedicated to making quality eye care accessible and affordable for patients of all ages and background across all our branches:'
 teaser: 'EXPERT EXCEPTIONAL EYE CARE'
 services_cards:
@@ -155,6 +155,6 @@ partners:
     enabled: true
 image_1: website-slide-3-1714365659.png
 image_2: website-image-(1).png
-image_3: cityeye.jpg
+image_3: main-reception.png
 ---
 Hello , I am testing this functionality

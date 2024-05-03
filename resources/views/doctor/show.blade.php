@@ -100,11 +100,11 @@
                     <div class="position-relative doctor-inner-box">
                         <div class="doctor-profile">
                             <div class="doctor-img">
-                                <img src="images/team/1.jpg" alt="doctor-image" class="img-fluid w-100">
+                                <img src="images/team/" alt="doctor-image" class="img-fluid w-100">
                             </div>
                         </div>
                         <div class="content mt-3">
-                            <h4 class="mb-0"><a href="doctor-single.html">Thomas Henry</a></h4>
+                            <h4 class="mb-0"><a href="#">Thomas Henry</a></h4>
                             <p><i class="icofont-eye"></i> Retina Specialist</p>
                         </div>
                     </div>
@@ -114,11 +114,11 @@
                     <div class="position-relative doctor-inner-box">
                         <div class="doctor-profile">
                             <div class="doctor-img">
-                                <img src="images/team/2.jpg" alt="doctor-image" class="img-fluid w-100">
+                                <img src="images/team/" alt="doctor-image" class="img-fluid w-100">
                             </div>
                         </div>
                         <div class="content mt-3">
-                            <h4 class="mb-0"><a href="doctor-single.html">Harrision Samuel</a></h4>
+                            <h4 class="mb-0"><a href="#">Harrision Samuel</a></h4>
                             <p><i class="icofont-eye"></i> Retina Specialist</p>
                         </div>
                     </div>
@@ -128,11 +128,11 @@
                     <div class="position-relative doctor-inner-box">
                         <div class="doctor-profile">
                             <div class="doctor-img">
-                                <img src="images/team/3.jpg" alt="doctor-image" class="img-fluid w-100">
+                                <img src="images/team/" alt="doctor-image" class="img-fluid w-100">
                             </div>
                         </div>
                         <div class="content mt-3">
-                            <h4 class="mb-0"><a href="doctor-single.html">Alexandar James</a></h4>
+                            <h4 class="mb-0"><a href="#">Alexandar James</a></h4>
                             <p><i class="icofont-eye"></i> Retina Specialist</p>
                         </div>
                     </div>
@@ -143,11 +143,11 @@
                     <div class="position-relative doctor-inner-box">
                         <div class="doctor-profile">
                             <div class="doctor-img">
-                                <img src="images/team/4.jpg" alt="doctor-image" class="img-fluid w-100">
+                                <img src="images/team/" alt="doctor-image" class="img-fluid w-100">
                             </div>
                         </div>
                         <div class="content mt-3">
-                            <h4 class="mb-0"><a href="doctor-single.html">Edward john</a></h4>
+                            <h4 class="mb-0"><a href="#">Edward john</a></h4>
                             <p><i class="icofont-eye"></i> Glaucoma Specialist</p>
                         </div>
                     </div>
@@ -157,11 +157,11 @@
                     <div class="position-relative doctor-inner-box">
                         <div class="doctor-profile">
                             <div class="doctor-img">
-                                <img src="images/team/1.jpg" alt="doctor-image" class="img-fluid w-100">
+                                <img src="images/team/" alt="doctor-image" class="img-fluid w-100">
                             </div>
                         </div>
                         <div class="content mt-3">
-                            <h4 class="mb-0"><a href="doctor-single.html">Thomas Henry</a></h4>
+                            <h4 class="mb-0"><a href="#">Thomas Henry</a></h4>
                             <p><i class="icofont-eye"></i> Cornea Specialist</p>
                         </div>
                     </div>
@@ -171,11 +171,11 @@
                     <div class="position-relative doctor-inner-box">
                         <div class="doctor-profile">
                             <div class="doctor-img">
-                                <img src="images/team/3.jpg" alt="doctor-image" class="img-fluid w-100">
+                                <img src="images/team/" alt="doctor-image" class="img-fluid w-100">
                             </div>
                         </div>
                         <div class="content mt-3">
-                            <h4 class="mb-0"><a href="doctor-single.html">Henry samuel</a></h4>
+                            <h4 class="mb-0"><a href="#">Henry samuel</a></h4>
                             <p><i class="icofont-eye"></i> Cataract Specialist</p>
                         </div>
                     </div>
@@ -185,11 +185,11 @@
                     <div class="position-relative doctor-inner-box">
                         <div class="doctor-profile">
                             <div class="doctor-img">
-                                <img src="images/team/1.jpg" alt="doctor-image" class="img-fluid w-100">
+                                <img src="images/team/" alt="doctor-image" class="img-fluid w-100">
                             </div>
                         </div>
                         <div class="content mt-3">
-                            <h4 class="mb-0"><a href="doctor-single.html">Thomas alexandar</a></h4>
+                            <h4 class="mb-0"><a href="#">Thomas alexandar</a></h4>
                             <p><i class="icofont-eye"></i> pediatric Specialist</p>
                         </div>
                     </div>
@@ -200,11 +200,11 @@
                     <div class="position-relative doctor-inner-box">
                         <div class="doctor-profile">
                             <div class="doctor-img">
-                                <img src="images/team/3.jpg" alt="doctor-image" class="img-fluid w-100">
+                                <img src="images/team/" alt="doctor-image" class="img-fluid w-100">
                             </div>
                         </div>
                         <div class="content mt-3">
-                            <h4 class="mb-0"><a href="doctor-single.html">HarissonThomas </a></h4>
+                            <h4 class="mb-0"><a href="#">HarissonThomas </a></h4>
                             <p><i class="icofont-eye"></i> Glaucoma Specialist</p>
                         </div>
                     </div>
@@ -215,11 +215,11 @@
                     <div class="position-relative doctor-inner-box">
                         <div class="doctor-profile">
                             <div class="doctor-img">
-                                <img src="images/team/4.jpg" alt="doctor-image" class="img-fluid w-100">
+                                <img src="images/team/" alt="doctor-image" class="img-fluid w-100">
                             </div>
                         </div>
                         <div class="content mt-3">
-                            <h4 class="mb-0"><a href="doctor-single.html">Jonas Thomson</a></h4>
+                            <h4 class="mb-0"><a href="#">Jonas Thomson</a></h4>
                             <p>Cardiology</p>
                         </div>
                     </div>
@@ -230,11 +230,11 @@
                     <div class="position-relative doctor-inner-box">
                         <div class="doctor-profile">
                             <div class="doctor-img">
-                                <img src="images/team/3.jpg" alt="doctor-image" class="img-fluid w-100">
+                                <img src="images/team/" alt="doctor-image" class="img-fluid w-100">
                             </div>
                         </div>
                         <div class="content mt-3">
-                            <h4 class="mb-0"><a href="doctor-single.html">Henry Forth</a></h4>
+                            <h4 class="mb-0"><a href="#">Henry Forth</a></h4>
                             <p>hematology</p>
                         </div>
                     </div>
@@ -245,11 +245,11 @@
                     <div class="position-relative doctor-inner-box">
                         <div class="doctor-profile">
                             <div class="doctor-img">
-                                <img src="images/team/4.jpg" alt="doctor-image" class="img-fluid w-100">
+                                <img src="images/team/" alt="doctor-image" class="img-fluid w-100">
                             </div>
                         </div>
                         <div class="content mt-3">
-                            <h4 class="mb-0"><a href="doctor-single.html">Thomas Henry</a></h4>
+                            <h4 class="mb-0"><a href="#">Thomas Henry</a></h4>
                             <p>Dental</p>
                         </div>
                     </div>
@@ -267,7 +267,7 @@
                         <h2 class="mb-5 text-lg">We are pleased to offer you the <span class="title-color">chance to
                                 have
                                 the healthy</span></h2>
-                        <a href="appointment" class="btn btn-main-2 btn-round-full">Get appoinment<i
+                        <a href="/bookappointment" class="btn btn-main-2 btn-round-full">Get appoinment<i
                                 class="icofont-simple-right  ml-2"></i></a>
                     </div>
                 </div>

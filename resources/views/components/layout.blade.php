@@ -395,7 +395,7 @@
                                         class="icofont-youtube"></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="https://www.instagram.com/cityeyehospitalKE/"><i
+                                <a href=" https://www.instagram.com/cityeyehospital_kenya/"><i
                                         class="icofont-instagram"></i></a>
                             </li>
                         </ul>
@@ -412,6 +412,7 @@
                             <li><a href="/ourfoundation">Our Foundation</a></li>
                             <li><a href="/donate">Donate</a></li>
                             <li><a href="/hospital-location">Hospital Locations</a></li>
+                            <li><a href="/newsletter">News & Insights</a></li>
                         </ul>
                     </div>
                 </div>

@@ -70,7 +70,7 @@
                     <div class="col-lg-6">
                         <!-- Foundation Impact Details -->
                         <div class="foundation-impact">
-                            {!! $content !!}
+                            {!! $content !!} <a href ="/donate"> Donate Form </a>
                         </div>
                     </div>
                 </div>

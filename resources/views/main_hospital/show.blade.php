@@ -63,10 +63,11 @@
                             we opened our CEH - Main Hospital on Ngong Road, Nairobi, in 2015.
                         </p>
                         <p>Our Main Hospital is a walk-in facility offering comprehensive inpatient and outpatient care.
-                            In addition to eye exams and vision testing for glasses and contacts, 
+                            In addition to eye exams and vision testing for glasses and contacts,
                             our Main Hospital offers comprehensive medical and surgical care for eye-related concerns
-                             and conditions, including advanced eye treatment for cataracts, glaucoma, retinal detachment,
-                              corneal disease and macular degeneration.</p>
+                            and conditions, including advanced eye treatment for cataracts, glaucoma, retinal
+                            detachment,
+                            corneal disease and macular degeneration.</p>
 
                         <h3 class="mt-5 mb-4">Eye Care Services Offered</h3>
                         <div class="divider my-4"></div>
@@ -219,60 +220,9 @@
             </div>
         </div>
 
-        <div class="container">
-            <div class="row clients-logo">
-                <div class="col-lg-2">
-                    <div class="client-thumb">
-                        <img src="images/about/1.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="client-thumb">
-                        <img src="images/about/2.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="client-thumb">
-                        <img src="images/about/3.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="client-thumb">
-                        <img src="images/about/4.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="client-thumb">
-                        <img src="images/about/5.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="client-thumb">
-                        <img src="images/about/6.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="client-thumb">
-                        <img src="images/about/3.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="client-thumb">
-                        <img src="images/about/4.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="client-thumb">
-                        <img src="images/about/5.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="client-thumb">
-                        <img src="images/about/6.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </div>
+
+        @include('partners.show')
+
     </section>
 
     <div class="container">

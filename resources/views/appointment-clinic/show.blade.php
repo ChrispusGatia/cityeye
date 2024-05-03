@@ -59,12 +59,16 @@
                     <div class="department-content mt-5">
                         <h3 class="text-md">Our Upper Hill Branch (Nairobi)</h3>
                         <div class="divider my-4"></div>
-                        <p class="lead">City Eye Hospital (CEH) began as an Appointment Clinic in Upper Hill Medical Centre Nairobi in 2009.</p>
-                        <p>Our founding ultra-modern branch has stood the test of time and continues to serve as our appointment clinic 
+                        <p class="lead">City Eye Hospital (CEH) began as an Appointment Clinic in Upper Hill Medical
+                            Centre Nairobi in 2009.</p>
+                        <p>Our founding ultra-modern branch has stood the test of time and continues to serve as our
+                            appointment clinic
                             for those who prefer to schedule their clinic visits.
-                            The Upper Hill branch handles routine visits and check-ups as well as urgent appointments and referrals.
-                            It offers the same comprehensive primary and specialised eye care services found at our 
-                            <a href="/main_hospital">walk-in branch.</a></p>
+                            The Upper Hill branch handles routine visits and check-ups as well as urgent appointments
+                            and referrals.
+                            It offers the same comprehensive primary and specialised eye care services found at our
+                            <a href="/main_hospital">walk-in branch.</a>
+                        </p>
 
                         <h3 class="mt-5 mb-4">Eye Care Services Offered</h3>
                         <div class="divider my-4"></div>
@@ -134,7 +138,8 @@
                         <ul class="list-unstyled">
                             <li class="d-flex justify-content-between align-items-center">
                                 <i class="icofont-email mr-3"></i>
-                                <a href="mailto:appointments@cityeyehospital.or.ke">appointments@cityeyehospital.or.ke</a>
+                                <a
+                                    href="mailto:appointments@cityeyehospital.or.ke">appointments@cityeyehospital.or.ke</a>
                             </li>
                             <li class="d-flex justify-content-between align-items-center">
                                 <i class="icofont-support mr-3"></i>
@@ -214,60 +219,9 @@
             </div>
         </div>
 
-        <div class="container">
-            <div class="row clients-logo">
-                <div class="col-lg-2">
-                    <div class="client-thumb">
-                        <img src="images/about/1.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="client-thumb">
-                        <img src="images/about/2.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="client-thumb">
-                        <img src="images/about/3.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="client-thumb">
-                        <img src="images/about/4.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="client-thumb">
-                        <img src="images/about/5.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="client-thumb">
-                        <img src="images/about/6.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="client-thumb">
-                        <img src="images/about/3.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="client-thumb">
-                        <img src="images/about/4.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="client-thumb">
-                        <img src="images/about/5.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="client-thumb">
-                        <img src="images/about/6.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </div>
+
+        @include('partners.show')
+
     </section>
 
     <div class="container">

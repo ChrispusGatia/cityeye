@@ -64,10 +64,10 @@
                                                 {{ $item->title }}
                                             </h5>
                                             <p class="card-text">
-                                                ${{ $item->description }}
+                                                {{ $item->description }}
                                             </p>
-                                            <a href="generate-pdf.php?article_id=1" class="btn btn-primary"
-                                                target="{{ $item->link }}">Read More</a>
+                                            <a href="{{ $item->news_link }}" class="btn btn-primary"
+                                                target="_blank">Read More</a>
                                         </div>
                                     </div>
                                 </div>

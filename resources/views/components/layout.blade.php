@@ -379,11 +379,11 @@
 
                         <ul class="list-inline footer-socials mt-4">
                             <li class="list-inline-item">
-                                <a href="https://web.facebook.com/cityeyehospital/?_rdc=1&_rdr"><i
+                                <a href="https://www.facebook.com/cityeyehospital/"><i
                                         class="icofont-facebook"></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="https://twitter.com/themefisher"><i class="icofont-twitter"></i></a>
+                                <a href="https://twitter.com/cityeyehospital"><i class="icofont-twitter"></i></a>
                             </li>
 
                             <li class="list-inline-item">
@@ -391,11 +391,11 @@
                                         class="icofont-linkedin"></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="https://www.youtube.com/@cityeyehospital4018"><i
+                                <a href="https://www.youtube.com/channel/UCd0X1iikHG5ukaHLLcMiVXQ"><i
                                         class="icofont-youtube"></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="https://www.instagram.com/cityeyehospital_kenya/"><i
+                                <a href="https://www.instagram.com/cityeyehospitalKE/"><i
                                         class="icofont-instagram"></i></a>
                             </li>
                         </ul>

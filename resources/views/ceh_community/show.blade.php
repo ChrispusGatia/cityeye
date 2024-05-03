@@ -78,7 +78,7 @@
                                 contacts or prescription sunglasses you need.</li>
                             </ul>
 
-                            <a href="service.html" class="btn btn-main-2 btn-round-full">Explore Our Vision Services<i
+                            <a href="all-services" class="btn btn-main-2 btn-round-full">Explore Our Vision Services<i
                                     class="icofont-simple-right ml-2  "></i></a>
                         </div>
                     </div>

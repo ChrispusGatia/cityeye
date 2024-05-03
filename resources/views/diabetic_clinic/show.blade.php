@@ -75,7 +75,7 @@
                             <li><i class="icofont-check mr-2"></i>Uveitis Clinic</li>
                         </ul>
 
-                        <a href="service" class="btn btn-main-2 btn-round-full">Explore Our Services<i
+                        <a href="outpatient-services" class="btn btn-main-2 btn-round-full">Explore Our Services<i
                                 class="icofont-simple-right ml-2  "></i></a>
                     </div>
                 </div>

@@ -209,6 +209,14 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form-group">
+                                        <input name="name" id="name" type="text" class="form-control"
+                                            placeholder="Patient's Full Name">
+                                    </div>
+                                </div>
+
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
                                         <input name="email" id="email" type="text" class="form-control"
                                             placeholder="Your Email" required>
                                     </div>
@@ -245,13 +253,7 @@
                                             <option>Afternoon Hours</option>
                                         </select>
                                     </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <input name="name" id="name" type="text" class="form-control"
-                                            placeholder="Full Name">
-                                    </div>
-                                </div>
+                                </div>                              
 
                                 <div class="col-lg-6">
                                     <div class="form-group">

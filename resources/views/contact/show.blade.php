@@ -4,7 +4,7 @@
         <!-- Basic Page Needs
   ================================================== -->
         <meta charset="utf-8" />
-        <title>CityEye- Health Care &amp; Medical template</title>
+        <title>CityEye- Health Care</title>
 
         <!-- Mobile Specific Metas
   ================================================== -->
@@ -70,13 +70,17 @@
             </div>
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
-                    <form id="contact-form" class="contact__form " method="post" action="mail">
+                    
+                    <form id="contact-form" action="/contact" method="post">
+                        @csrf
                         <!-- form message -->
                         <div class="row">
                             <div class="col-12">
-                                <div class="alert alert-success contact__msg" style="display: none" role="alert">
-                                    Your message was sent successfully.
+                                @if(session('flash'))
+                                <div class="alert alert-success contact__msg" role="alert">
+                                    {{ session('flash') }}
                                 </div>
+                                @endif
                             </div>
                         </div>
 

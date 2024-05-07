@@ -197,80 +197,24 @@
                     </div>
                 </div>
                 
-                <div class="col-lg-6 col-md-10 ">
+                <div class="col-lg-6 col-md-10">
                     <div class="appoinment-wrap mt-5 mt-lg-0">
-                        <h2 class="mb-2 title-color">Book appoinment</h2>
+                        <h2 class="mb-2 title-color">Book Appointment</h2>
                         <p class="mb-4">Thank you for choosing City Eye Hospital. You can schedule an 
                             appointment at our Appointment Clinic (located on the 3rd Floor of Upper Hill
                             Medical Centre, Ralph Bunche Road, Nairobi) by
-                            filling in the form below.</p>
-                        <form id="#" class="appoinment-form" enctype="multipart/form-data" method="post" action="mail">
-                        @csrf
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <input name="name" id="name" type="text" class="form-control"
-                                            placeholder="Patient's Full Name">
-                                    </div>
-                                </div>
-
-
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <input name="email" id="email" type="text" class="form-control"
-                                            placeholder="Your Email" required>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <select class="form-control" id="doctor" name="doctor">
-                                            <option>Select Doctors</option>
-                                            <option>Dr. Kibata</option>
-                                            <option>Dr. Muchai</option>
-                                            <option>Dr. Kareko</option>
-                                            <option>Dr. Njoya</option>
-                                            <option>Dr. Njuguna</option>
-                                            <option>Dr. Mashep</option>
-                                            <option>Dr. Korir</option>
-                                            <!-- Add more options as needed -->
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <input name="date" id="date" type="date" class="form-control"
-                                            placeholder="dd/mm/yyyy" min="<?php echo date('Y-m-d'); ?>" required>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <select class="form-control" id="time" name="time" required>
-                                            <option>Select Preffered Time</option>
-                                            <option>Anytime</option>
-                                            <option>Morning Hours</option>
-                                            <option>Afternoon Hours</option>
-                                        </select>
-                                    </div>
-                                </div>                              
-
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <input name="phone" id="phone" type="Number" class="form-control"
-                                            placeholder="Phone Number">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group-2 mb-4">
-                                <textarea name="message" id="message" class="form-control" rows="6" placeholder="Your Message"></textarea>
-                            </div>
-
-                            <button type="submit" class="btn btn-main btn-round-full">Make Appointment <i
-                                    class="icofont-simple-right ml-2"></i></button>
-                        </form>
+                            clicking the button below.</p>
+                        
+                        <div class="text-center mb-4">
+                            <!-- Placeholder image or your preferred image -->
+                            <img src="images/service/img2.png" alt="City Eye Hospital" class="img-fluid">
+                        </div>
+                        <div class="text-center">
+                            <a href="/bookappointment" class="btn btn-main-2 btn-round-full">Make Appointment<i class="icofont-simple-right ml-2"></i></a> 
+                        </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     </section>

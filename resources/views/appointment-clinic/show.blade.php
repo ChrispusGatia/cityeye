@@ -78,7 +78,6 @@
                             <li><i class="icofont-check mr-2"></i>Corneal Clinic and Transplant</li>
                             <li><i class="icofont-check mr-2"></i>Glaucoma Clinics and Surgery</li>
                             <li><i class="icofont-check mr-2"></i>Retina Clinic and Surgery</li>
-                            <li><i class="icofont-check mr-2"></i>Uveitis Clinic</li>
                             <li><i class="icofont-check mr-2"></i>Optical Shop</li>
                         </ul>
 
@@ -89,7 +88,7 @@
 
                 <div class="col-lg-4">
                     <div class="sidebar-widget schedule-widget mt-5">
-                        <h5 class="mb-4">Consulation Fee</h5>
+                        <h5 class="mb-4">Consultation Fee</h5>
 
                         <ul class="list-unstyled">
                             <li class="d-flex justify-content-between align-items-center">

@@ -93,7 +93,7 @@
 
                     <div class="col-lg-4">
                         <div class="sidebar-widget schedule-widget mt-5">
-                            <h5 class="mb-4">Consulation Fee</h5>
+                            <h5 class="mb-4">Consultation Fee</h5>
                             <ul class="list-unstyled">
                                 <li class="d-flex justify-content-between align-items-center">
                                     <span>Embark on a visionary journey to eye health excellence with our specialized

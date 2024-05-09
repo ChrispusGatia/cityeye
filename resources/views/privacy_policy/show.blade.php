@@ -74,20 +74,20 @@
                     <div class="col-md-12">
                         <div class="accordion" id="faqAccordion">
                             <div class="feature-item mb-4">
-
+                        
                                 <!-- Section 1 -->
-                                @foreach ($card_section as $content)
+                                @foreach ($card_section as $index => $content)
                                     <div class="card">
-                                        <div class="card-header" id="headingOne">
+                                        <div class="card-header" id="heading{{ $index }}">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button"
-                                                    data-toggle="collapse" data-target="#collapseOne"
-                                                    aria-expanded="false" aria-controls="collapseOne">
+                                                    data-toggle="collapse" data-target="#collapse{{ $index }}"
+                                                    aria-expanded="false" aria-controls="collapse{{ $index }}">
                                                     {{ $content->card_title }}
                                                 </button>
                                             </h5>
                                         </div>
-                                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                        <div id="collapse{{ $index }}" class="collapse" aria-labelledby="heading{{ $index }}"
                                             data-parent="#faqAccordion">
                                             <div class="card-body">
                                                 {!! $content->card_description !!}
@@ -95,8 +95,10 @@
                                         </div>
                                     </div>
                                 @endforeach
-
+                        
                             </div>
+                        </div>
+                        
 
                             <!-- Read More hyperlink -->
                             <div class="text-center">

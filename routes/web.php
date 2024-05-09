@@ -25,7 +25,7 @@ Route::post('/contact', function () {
     $data = request(['name', 'email', 'subject', 'phone', 'message']);
     
     try {
-        Mail::to('gatiachrispus@gmail.com')->send(new ContactMe($data));
+        Mail::to('crypusgatia@cityeyehospital.or.ke')->send(new ContactMe($data));
         return redirect('/contact')->with('flash', 'Your message was sent successfully!');
     } catch (\Exception $e) {
         // Log the error for debugging
@@ -39,7 +39,7 @@ Route::post('/bookappointment', function () {
     $data = request(['name', 'email', 'doctor', 'date', 'time', 'phone', 'message']);
     
     try {
-        Mail::to('gatiachrispus@gmail.com')->send(new BookMe($data));
+        Mail::to('crypusgatia@cityeyehospital.or.ke')->send(new BookMe($data));
         return redirect('/bookappointment')->with('flash', 'Your request to book an appointment has been sent. 
         A member of our team will get back to you to confirm your appointment booking. Thank you.');
     } catch (\Exception $e) {

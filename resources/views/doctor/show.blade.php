@@ -88,9 +88,7 @@
                     <label class="btn">
                         <input type="radio" name="shuffle-filter" value="cat5" />Paedriatic
                     </label>
-                    <label class="btn">
-                        <input type="radio" name="shuffle-filter" value="cat6" />Traumatology
-                    </label>
+                    
                 </div>
             </div>
 

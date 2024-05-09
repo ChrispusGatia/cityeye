@@ -57,6 +57,7 @@
                 white-space: nowrap;
                 text-overflow: ellipsis;
             }
+            
         </style>
 
 
@@ -149,37 +150,82 @@
         </div>
     </section>
 
-    <section class="section service gray-bg">
+    <section class="section reviews gray-bg">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7 text-center">
                     <div class="section-title">
-                        <h2>Our Eye Care Services</h2>
+                        <h2>Customer Reviews</h2>
                         <div class="divider mx-auto my-4"></div>
-                        <p>Providing the specialised eye care you need to treat your condition and improve your vision.</p>
+                        <p>See what our customers are saying about us.</p>
                     </div>
                 </div>
             </div>
-
+    
             <div class="row">
-                @foreach ($services_cards as $card)
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="service-item mb-4">
-                            <div class="icon d-flex align-items-center">
-                                <i class="icofont-eye text-lg"></i>
-                                <h4 class="mt-3 mb-3">{{ $card->service_title }}</h4>
+                <div class="col-lg-8 mx-auto">
+                    <div id="reviewCarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="review-item text-center">
+                                    <div class="rating">
+                                        <i class="icofont-star" style="color: yellow;"></i>
+                                        <i class="icofont-star" style="color: yellow;"></i>
+                                        <i class="icofont-star" style="color: yellow;"></i>
+                                        <i class="icofont-star" style="color: yellow;"></i>
+                                        <i class="icofont-star" style="color: yellow;"></i>
+                                    </div>
+                                    <h4 class="mt-4 mb-3">John Doe</h4>
+                                    <img src="/images/avatar.png" alt="John Doe" class="avatar" style="width: 80px; height: 80px; border-radius: 50%; margin: 20px auto 10px; display: block;"> 
+                                    <p class="mb-4">&ldquo;Great service and friendly staff! I highly recommend their eye care services.&rdquo;</p>
+                                </div>
                             </div>
-
-                            <div class="content">
-                                <p class="mb-4">{{ $card->service_subtitle }}</p>
+                            <div class="carousel-item">
+                                <div class="review-item text-center">
+                                    <div class="rating">
+                                        <i class="icofont-star" style="color: yellow;"></i>
+                                        <i class="icofont-star" style="color: yellow;"></i>
+                                        <i class="icofont-star" style="color: yellow;"></i>
+                                        <i class="icofont-star" style="color: yellow;"></i>
+                                        <i class="icofont-star" style="color: yellow;"></i>
+                                    </div>
+                                    <h4 class="mt-4 mb-3">Jane Smith</h4>
+                                    <img src="/images/avatar.png" alt="John Doe" class="avatar" style="width: 80px; height: 80px; border-radius: 50%; margin: 20px auto 10px; display: block;"> 
+                                    <p class="mb-4">&ldquo;Excellent experience! The optometrists here are very knowledgeable.&rdquo;</p>
+                                </div>
                             </div>
-
+                            <div class="carousel-item">
+                                <div class="review-item text-center">
+                                    <div class="rating">
+                                        <i class="icofont-star" style="color: yellow;"></i>
+                                        <i class="icofont-star" style="color: yellow;"></i>
+                                        <i class="icofont-star" style="color: yellow;"></i>
+                                        <i class="icofont-star" style="color: yellow;"></i>
+                                    </div>
+                                    <h4 class="mt-4 mb-3">David Johnson</h4>
+                                    <img src="/images/avatar.png" alt="John Doe" class="avatar" style="width: 80px; height: 80px; border-radius: 50%; margin: 20px auto 10px; display: block;"> 
+                                    <p class="mb-4">&ldquo;I had a great eye exam here. Very professional staff.&rdquo;</p>
+                                </div>
+                            </div>
                         </div>
+                        <a class="carousel-control-prev" href="#reviewCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true" style="color: #223a6;"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#reviewCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true" style="color: #223a6;"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                        
+                        </a>
                     </div>
-                @endforeach
+                </div>
             </div>
         </div>
     </section>
+    
+    
+    
 
     <section class="section appoinment">
         <div class="container">

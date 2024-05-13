@@ -11,6 +11,17 @@
     <!-- JavaScript -->
     <script src="{{ asset('plugins/bootstrap/bootstrap.min.js') }}"></script>
     @include('_links')
+
+    <style>
+        .fa.fa-twitter {
+            font-family: sans-serif;
+        }
+    
+        .fa.fa-twitter::before {
+            content: "𝕏";
+            font-size: 1.2em;
+        }
+    </style>
 </head>
 
 <body>
@@ -277,26 +288,22 @@
 
                         <ul class="list-inline footer-socials mt-4">
                             <li class="list-inline-item">
-                                <a href="https://www.facebook.com/cityeyehospital/"><i
-                                        class="icofont-facebook"></i></a>
+                                <a href="https://www.facebook.com/cityeyehospital/"><i class="icofont-facebook"></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="https://twitter.com/cityeyehospital"><i class="icofont-twitter"></i></a>
-                            </li>
-
-                            <li class="list-inline-item">
-                                <a href="https://www.linkedin.com/company/city-eye-hospital/"><i
-                                        class="icofont-linkedin"></i></a>
+                                <a href="https://twitter.com/cityeyehospital"><i class="fa fa-twitter"></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="https://www.youtube.com/channel/UCd0X1iikHG5ukaHLLcMiVXQ"><i
-                                        class="icofont-youtube"></i></a>
+                                <a href="https://www.linkedin.com/company/city-eye-hospital/"><i class="icofont-linkedin"></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href=" https://www.instagram.com/cityeyehospital_kenya/"><i
-                                        class="icofont-instagram"></i></a>
+                                <a href="https://www.youtube.com/channel/UCd0X1iikHG5ukaHLLcMiVXQ"><i class="icofont-youtube"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/cityeyehospital_kenya/"><i class="icofont-instagram"></i></a>
                             </li>
                         </ul>
+                        
                     </div>
                 </div>
 

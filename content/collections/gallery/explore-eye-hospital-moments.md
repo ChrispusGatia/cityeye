@@ -15,22 +15,22 @@ card_section:
     enabled: true
   -
     id: ltcirvg2
-    card_image: img_1341.jpg
+    card_image: img_3077.jpg
     type: new_set
     enabled: true
   -
     id: lvki39oi
-    card_image: img_1319.jpg
+    card_image: img_2847-1715692993.jpg
     type: new_set
     enabled: true
   -
     id: lvki6nuw
-    card_image: img_2033.jpg
+    card_image: optical.jpg
     type: new_set
     enabled: true
   -
     id: lvki75j3
-    card_image: img_2070.jpg
+    card_image: nurses.jpg
     type: new_set
     enabled: true
   -
@@ -44,5 +44,5 @@ card_section:
     type: new_set
     enabled: true
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1714367864
+updated_at: 1715693237
 ---

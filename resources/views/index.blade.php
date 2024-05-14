@@ -57,7 +57,6 @@
                 white-space: nowrap;
                 text-overflow: ellipsis;
             }
-            
         </style>
 
 
@@ -114,7 +113,7 @@
                             </div>
                             <span>EXTENSIVE CARE</span>
                             <h4 class="mb-3">Comprehensive</h4>
-                            <p>CEH facilities are easily accessible through private 
+                            <p>CEH facilities are easily accessible through private
                                 and public means and are equipped to offer world-class
                                 care for the full range of eye symptoms and conditions.</p>
                         </div>
@@ -166,57 +165,36 @@
                 <div class="col-lg-8 mx-auto">
                     <div id="reviewCarousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="review-item text-center">
-                                    <div class="rating">
-                                        <i class="icofont-star" style="color: yellow;"></i>
-                                        <i class="icofont-star" style="color: yellow;"></i>
-                                        <i class="icofont-star" style="color: yellow;"></i>
-                                        <i class="icofont-star" style="color: yellow;"></i>
-                                        <i class="icofont-star" style="color: yellow;"></i>
+                            @foreach ($customer_review as $key => $review)
+                                <div class="carousel-item {{ $key === 0 ? 'active' : '' }}">
+                                    <div class="feature-item mb-4 p-4 border rounded">
+                                        <!-- Display customer name and review -->
+                                        <h4 class="mt-3 mb-2">{{ $review->customer_name }}</h4>
+                                        <p class="mb-3">&ldquo;{{ $review->customer_quote }}&rdquo;</p>
+                                        <!-- Star rating icons -->
+                                        <div class="rating mb-3">
+                                            @for ($i = 0; $i < 5; $i++)
+                                                @if ($i < $review->rating)
+                                                    <i class="icofont-star" style="color: #ffc107;"></i>
+                                                @else
+                                                    <i class="icofont-star" style="color: #ddd;"></i>
+                                                @endif
+                                            @endfor
+                                        </div>
+                                        <!-- Customer profile image -->
+                                        <img src="{{ asset($review->customer_profile) }}" alt="{{ $review->customer_name }}" class="img-fluid rounded-circle customer-img">
                                     </div>
-                                    <h4 class="mt-4 mb-3">John Doe</h4>
-                                    <img src="/images/avatar.png" alt="John Doe" class="avatar" style="width: 80px; height: 80px; border-radius: 50%; margin: 20px auto 10px; display: block;"> 
-                                    <p class="mb-4">&ldquo;Great service and friendly staff! I highly recommend their eye care services.&rdquo;</p>
                                 </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="review-item text-center">
-                                    <div class="rating">
-                                        <i class="icofont-star" style="color: yellow;"></i>
-                                        <i class="icofont-star" style="color: yellow;"></i>
-                                        <i class="icofont-star" style="color: yellow;"></i>
-                                        <i class="icofont-star" style="color: yellow;"></i>
-                                        <i class="icofont-star" style="color: yellow;"></i>
-                                    </div>
-                                    <h4 class="mt-4 mb-3">Jane Smith</h4>
-                                    <img src="/images/avatar.png" alt="John Doe" class="avatar" style="width: 80px; height: 80px; border-radius: 50%; margin: 20px auto 10px; display: block;"> 
-                                    <p class="mb-4">&ldquo;Excellent experience! The optometrists here are very knowledgeable.&rdquo;</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="review-item text-center">
-                                    <div class="rating">
-                                        <i class="icofont-star" style="color: yellow;"></i>
-                                        <i class="icofont-star" style="color: yellow;"></i>
-                                        <i class="icofont-star" style="color: yellow;"></i>
-                                        <i class="icofont-star" style="color: yellow;"></i>
-                                    </div>
-                                    <h4 class="mt-4 mb-3">David Johnson</h4>
-                                    <img src="/images/avatar.png" alt="John Doe" class="avatar" style="width: 80px; height: 80px; border-radius: 50%; margin: 20px auto 10px; display: block;"> 
-                                    <p class="mb-4">&ldquo;I had a great eye exam here. Very professional staff.&rdquo;</p>
-                                </div>
-                            </div>
+                            @endforeach
                         </div>
+                        <!-- Custom styled carousel navigation arrows -->
                         <a class="carousel-control-prev" href="#reviewCarousel" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true" style="color: #223a6;"></span>
+                            <span class="carousel-control-prev-icon" aria-hidden="true" style="color: #223a66;"></span>
                             <span class="sr-only">Previous</span>
                         </a>
                         <a class="carousel-control-next" href="#reviewCarousel" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true" style="color: #223a6;"></span>
+                            <span class="carousel-control-next-icon" aria-hidden="true" style="color: #223a66;"></span>
                             <span class="sr-only">Next</span>
-                        </a>
-                        
                         </a>
                     </div>
                 </div>
@@ -226,6 +204,9 @@
     
     
     
+    
+
+
 
     <section class="section appoinment">
         <div class="container">
@@ -236,31 +217,35 @@
                         <div class="emergency">
                             <h2 style="font-size: 22px; font-weight: bold;">Contact CEH Appointment Clinic</h2>
                             <p><i class="icofont-phone" style="color: white; font-weight: bold;"></i>
-                             <span style="color: white; font-weight: bold; font-size: 20px;">+254 0714 617 782</span>
-                              / <span style="color: white; font-weight: bold; font-size: 20px;">+254 0736 329 348</span></p>
+                                <span style="color: white; font-weight: bold; font-size: 20px;">+254 0714 617
+                                    782</span>
+                                / <span style="color: white; font-weight: bold; font-size: 20px;">+254 0736 329
+                                    348</span>
+                            </p>
                         </div>
 
                     </div>
                 </div>
-                
+
                 <div class="col-lg-6 col-md-10">
                     <div class="appoinment-wrap mt-5 mt-lg-0">
                         <h2 class="mb-2 title-color">Book Appointment</h2>
-                        <p class="mb-4">Thank you for choosing City Eye Hospital. You can schedule an 
+                        <p class="mb-4">Thank you for choosing City Eye Hospital. You can schedule an
                             appointment at our Appointment Clinic (located on the 3rd Floor of Upper Hill
                             Medical Centre, Ralph Bunche Road, Nairobi) by
                             clicking the button below.</p>
-                        
+
                         <div class="text-center mb-4">
                             <!-- Placeholder image or your preferred image -->
                             <img src="images/service/img2.png" alt="City Eye Hospital" class="img-fluid">
                         </div>
                         <div class="text-center">
-                            <a href="/bookappointment" class="btn btn-main-2 btn-round-full">Make Appointment<i class="icofont-simple-right ml-2"></i></a> 
+                            <a href="/bookappointment" class="btn btn-main-2 btn-round-full">Make Appointment<i
+                                    class="icofont-simple-right ml-2"></i></a>
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </section>

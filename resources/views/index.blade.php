@@ -160,48 +160,51 @@
                     </div>
                 </div>
             </div>
-
+    
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <div id="reviewCarousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
-                            @foreach ($customer_review as $review)
-                                <div class="carousel-item active">
-                                    <div class="review-item text-center">
-                                        <div class="rating">
-                                            <i class="icofont-star" style="color: yellow;"></i>
-                                            <i class="icofont-star" style="color: yellow;"></i>
-                                            <i class="icofont-star" style="color: yellow;"></i>
-                                            <i class="icofont-star" style="color: yellow;"></i>
-                                            <i class="icofont-star" style="color: yellow;"></i>
+                            @foreach ($customer_review as $key => $review)
+                                <div class="carousel-item {{ $key === 0 ? 'active' : '' }}">
+                                    <div class="feature-item mb-4 p-4 border rounded">
+                                        <!-- Display customer name and review -->
+                                        <h4 class="mt-3 mb-2">{{ $review->customer_name }}</h4>
+                                        <p class="mb-3">&ldquo;{{ $review->customer_quote }}&rdquo;</p>
+                                        <!-- Star rating icons -->
+                                        <div class="rating mb-3">
+                                            @for ($i = 0; $i < 5; $i++)
+                                                @if ($i < $review->rating)
+                                                    <i class="icofont-star" style="color: #ffc107;"></i>
+                                                @else
+                                                    <i class="icofont-star" style="color: #ddd;"></i>
+                                                @endif
+                                            @endfor
                                         </div>
-                                        <h4 class="mt-4 mb-3">{{ $review->customer_name }}</h4>
-                                        <img src="{{ asset($review->customer_profile) }}" alt=""
-                                            class="img-fluid">
-                                        <p class="mb-4">&ldquo;{{ $review->customer_quote }}&rdquo;</p>
+                                        <!-- Customer profile image -->
+                                        <img src="{{ asset($review->customer_profile) }}" alt="{{ $review->customer_name }}" class="img-fluid rounded-circle customer-img">
                                     </div>
                                 </div>
                             @endforeach
-
                         </div>
+                        <!-- Custom styled carousel navigation arrows -->
                         <a class="carousel-control-prev" href="#reviewCarousel" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"
-                                style="color: #223a6;"></span>
+                            <span class="carousel-control-prev-icon" aria-hidden="true" style="color: #223a66;"></span>
                             <span class="sr-only">Previous</span>
                         </a>
                         <a class="carousel-control-next" href="#reviewCarousel" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"
-                                style="color: #223a6;"></span>
+                            <span class="carousel-control-next-icon" aria-hidden="true" style="color: #223a66;"></span>
                             <span class="sr-only">Next</span>
-                        </a>
-
                         </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
+    
+    
+    
+    
 
 
 

@@ -5,7 +5,7 @@ title: Home
 template: index
 author: 14d3b439-c1ca-4786-8ce7-59caffb630ff
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1715682583
+updated_at: 1715693593
 subtitle: 'Founded by leading eye specialists, City Eye Hospital [CEH] is a premier specialty eye hospital in Kenya dedicated to making quality eye care accessible and affordable for patients of all ages and background across all our branches:'
 teaser: 'EXPERT EXCEPTIONAL EYE CARE'
 services_cards:
@@ -78,7 +78,7 @@ featured_images:
     enabled: true
   -
     id: lvazzq70
-    image_asset: website-slide-1.png
+    image_asset: slide-1.png
     type: new_set
     enabled: true
   -
@@ -155,23 +155,47 @@ partners:
     enabled: true
 image_1: website-slide-3-1714365659.png
 image_2: website-image-(1).png
-image_3: main-reception.png
+image_3: img_2847.jpg
 customer_review:
   -
     id: lw63y9cj
-    customer_name: 'Jaqueline Mupenzi'
+    customer_name: 'Abigail Nancy'
     customer_profile:
       - avatar.png
-    customer_quote: 'They provide great service facility and Expertise unlike any other place'
+    customer_quote: 'Best frames ever. I really appreciate your services, kindness and generosity.'
     type: new_set
     enabled: true
   -
     id: lw65qxj7
-    customer_name: 'Jaqueline Mupenzi'
-    customer_quote: 'They provide great service facility and Expertise unlike any other place'
+    customer_name: 'Anne Wangui'
+    customer_quote: 'Thank you City Eye Hospital for the excellent service and care you provide to your patients.'
     type: new_set
     enabled: true
     customer_profile:
       - avatar-1715682578.png
+  -
+    id: lw6fjvlu
+    customer_name: 'Nyaga Evan'
+    customer_profile:
+      - avatar-1715693448.png
+    customer_quote: 'I visited you on Monday. I’m happy with the results, thanks for quality and affordable eye care.'
+    type: new_set
+    enabled: true
+  -
+    id: lw6flb6u
+    customer_name: 'Eunice Hillary'
+    customer_profile:
+      - avatar-1715693506.png
+    customer_quote: 'The hospital is very well organized with every department well attended. Very clean hospital.'
+    type: new_set
+    enabled: true
+  -
+    id: lw6fni0m
+    customer_name: 'Naomi Njoroge'
+    customer_profile:
+      - avatar-1715693584.png
+    customer_quote: 'The staff are very hospitable and helpful. Would really recommend other patients. Excellent services.'
+    type: new_set
+    enabled: true
 ---
 Hello , I am testing this functionality

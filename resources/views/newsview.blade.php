@@ -58,70 +58,67 @@
         </section>
         <!-- End Page Title Section -->
 
-        <!-- News Section -->
-        <section class="section blog-wrap">
+        <!-- Flipbook Section -->
+        <section class="section">
             <div class="container">
-                <div class="row">
-                    <!-- News Articles -->
-                    <div class="col-lg-12">
-                        <div class="row">
-                            <!-- News Items -->
-                            @foreach ($content as $item)
-                                <div class="col-lg-4 col-md-6 mb-4">
-                                    <div class="card">
-                                        <img src="images/news/enhance.jpg" class="card-img-top" alt="News Image" />
-                                        <div class="card-body">
-                                            <h5 class="card-title" style="color: #223a66">
-                                                {{ $item->title }}
-                                            </h5>
-                                            <p class="card-text">
-                                                {{ $item->description }}
-                                            </p>
-                                            <!--<a href="{{ $item->news_link }}" class="btn btn-main btn-round-full" target="_blank">Read More</a>-->
-                                            <a onclick="openNewsletter('TKH News at Sunrise 46th Edition')" class="btn btn-main btn-round-full" target="_blank">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            @endforeach
-                            <!-- End News Items -->
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Pagination -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <nav aria-label="Page navigation">
-                            <ul class="pagination justify-content-center">
-                                <li class="page-item disabled">
-                                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-                                </li>
-                                <li class="page-item active" aria-current="page">
-                                    <a class="page-link" href="#">1 <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#">Next</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <!-- End Pagination -->
-
+                <!-- Flipbook Container -->
+                <div id="flipbook" style="width: 100%; height: 800px;"></div>
             </div>
         </section>
-        <!-- End News Section -->
+        <!-- End Flipbook Section -->
 
         <script>
-            function openNewsletter(title) {
-                // Encode article title to pass in URL
-                const encodedTitle = encodeURIComponent(title);
+            // Function to open flipbook with specified title
+            function openFlipbook(title) {
+                // You can modify this function to load the flipbook with a specific title
+                // Example: Load flipbook based on the title passed as a parameter
+                console.log("Opening flipbook for title:", title);
+                
+                // You can use the title to determine which flipbook to load
+                // For now, let's load a sample flipbook (replace this with your logic)
+                const flipbookId = "19"; // Sample flipbook ID
+                const flipbookDataUrl = `https://karenhospital.org/wp-content/uploads/ipages_flipbook/${flipbookId}/config.json`;
+                
+                // Fetch flipbook data and initialize the flipbook
+                $.getJSON(flipbookDataUrl, function(data) {
+                    const images = data.pages.map(page => page.url);
+                    const $flipbookContainer = $("#flipbook");
     
-                // Redirect to newsletter page with encoded title parameter
-                window.location.href = `newsletter.html?title=${encodedTitle}`;
+                    // Initialize Turn.js for flipbook
+                    $flipbookContainer.turn({
+                        width: "100%",
+                        height: 800,
+                        autoCenter: true,
+                        pages: images.length,
+                        when: {
+                            turned: function(event, page, view) {
+                                // Play sound when turning page (replace with your logic)
+                                console.log("Page turned:", page);
+                                playPageTurnSound(); // Function to play sound
+                            }
+                        }
+                    });
+    
+                    // Load flipbook images dynamically
+                    images.forEach((imageUrl, index) => {
+                        const $page = $("<div>").css({
+                            "background-image": `url(${imageUrl})`,
+                            "background-size": "cover"
+                        });
+                        $flipbookContainer.turn("addPage", $page, index + 1);
+                    });
+    
+                    // Function to play page turn sound (replace with your logic)
+                    function playPageTurnSound() {
+                        console.log("Playing page turn sound...");
+                        // Add your code to play the sound effect here
+                        // Example: You can use HTML5 audio element or another library for sound effects
+                    }
+                });
             }
+
+            // Call openFlipbook function with the desired title (replace with actual title)
+            openFlipbook("TKH News at Sunrise 46th Edition");
         </script>
 
         <!-- Essential Scripts ================================================== -->

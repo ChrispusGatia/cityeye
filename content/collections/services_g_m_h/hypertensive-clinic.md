@@ -4,7 +4,7 @@ blueprint: services_g_m_h
 title: 'HyperTensive Clinic'
 author: 14d3b439-c1ca-4786-8ce7-59caffb630ff
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1709494524
+updated_at: 1715752532
 sidebar_title: 'Consulation Fee'
 sidebar_description: |-
   Embark on a journey to optimal health with our expert consultations at a fee that makes quality care accessible to everyone👁️💡
@@ -12,7 +12,7 @@ sidebar_description: |-
   🌟 Fee
 
   Affordable Fee
-sidebar_image: img-3.jpg
+sidebar_image: main-reception-1715752524.png
 body_title: 'Comprehensive Outpatient Services'
 body_description: |-
   Welcome to City Eye Medical Outpatient Clinic – your dedicated facility for high-quality outpatient care.

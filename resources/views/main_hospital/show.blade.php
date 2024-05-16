@@ -77,6 +77,7 @@
                             <li><i class="icofont-check mr-2"></i>Corneal Clinic and Transplant</li>
                             <li><i class="icofont-check mr-2"></i>Glaucoma Clinics and Surgery</li>
                             <li><i class="icofont-check mr-2"></i>Retina Clinic and Surgery</li>
+                            <li><i class="icofont-check mr-2"></i>Priority Care</li>
                             <li><i class="icofont-check mr-2"></i>Optical Shop</li>
                         </ul>
 
@@ -98,7 +99,7 @@
 
                         <div class="sidebar-contatct-info mt-4">
                             <p class="mb-0">🌟 Fee</p>
-                            <h4 class="mb-3">Affordable Fee</h4>
+                            <h4 class="mb-3">Ksh 600</h4>
                         </div>
                         <img src="images/gallery/main-reception.png" alt="Main Hospital Image" class="img-fluid mt-3">
                     </div>

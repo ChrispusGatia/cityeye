@@ -202,12 +202,6 @@
         </div>
     </section>
     
-    
-    
-    
-
-
-
     <section class="section appoinment">
         <div class="container">
             <div class="row align-items-center">

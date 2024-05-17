@@ -4,7 +4,7 @@ blueprint: newsletter
 title: 'Our News Letters'
 author: 14d3b439-c1ca-4786-8ce7-59caffb630ff
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1715778901
+updated_at: 1715941367
 content:
   -
     id: lvp655cw
@@ -19,4 +19,5 @@ content:
     description: 'Educating patients, listening to their  concerns, and...'
     type: new_set
     enabled: true
+    news_link: 'https://www.cityeyehospital.or.ke/assets/pdfs/CEH%20Privacy%20Policy.pdf'
 ---

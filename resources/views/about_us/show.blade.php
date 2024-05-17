@@ -44,6 +44,7 @@
                 </div>
             </div>
         </section>
+        @include('mission.show')
         @foreach ($body_details as $details)
             <section class="section about-page">
                 <div class="container">
@@ -68,7 +69,7 @@
                 </div>
             </section>
         @endforeach
-        @include('mission.show')
+       
         <!-- Essential Scripts -->
         <script src="plugins/jquery/jquery.js"></script>
         <script src="plugins/bootstrap/bootstrap.min.js"></script>

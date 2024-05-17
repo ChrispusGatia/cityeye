@@ -90,7 +90,7 @@
 
                     <div class="col-lg-4">
                         <div class="sidebar-widget schedule-widget mt-5">
-                            <h5 class="mb-4">CConsultation Fee</h5>
+                            <h5 class="mb-4">Consultation Fee</h5>
                             <ul class="list-unstyled">
                                 <li class="d-flex justify-content-between align-items-center">
                                     <span>Embark on a visionary journey to eye health excellence with our specialized
@@ -100,7 +100,7 @@
 
                             <div class="sidebar-contatct-info mt-4">
                                 <p class="mb-0">🌟 Fee</p>
-                                <h4 class="mb-3">Affordable Fee</h4>
+                                <h4 class="mb-3">Ksh 500</h4>
                             </div>
                         </div>
                     </div>

@@ -3,18 +3,32 @@ id: 67cd3992-d836-418c-b015-b1bd110a57db
 blueprint: insuarance
 title: 'Explore Our Accepted Insurances'
 body_title: 'Insurance Coverage'
-body_description: 'Explore the comprehensive insurance coverage provided by City Eye across all branches. We are dedicated to ensuring that your healthcare needs are met with the support of various insurance plans. Feel confident in choosing City Eye for quality medical services.'
+body_description: |-
+  At City Eye Hospital (CEH), helping you attain and maintain good vision and eye health is our priority. From the moment you walk into any of our branches, we will strive to treat you with kindness and compassion, responding to your eye care needs sincerely and professionally. For your convenience, City Eye Hospital offers the option to securely pay your bill via insurance, M-PESA or VISA. Please note that we do not accept payment in the form of cash or personal cheques.
+
+  **Insurance Guide**
+  Eye/vision cover tends to be an additional/opt-in component in several health insurance covers.
+  Some covers require predetermination of medical necessity before eye care is rendered.
+  You may wish to contact your insurance company to verify if eye care is a covered benefit in your health insurance plan.
 card_section:
   -
     id: ltc289fj
     card_image: services-1.jpg
     card_description: |-
-      Main Branch
-      Our Main Branch is equipped to accept a variety of insurance plans to ensure that you can access quality healthcare.
-
-      Insurance Company A
-      Insurance Company B
-      Insurance Company C
+      **Our insurance partners at Main Hospital:**
+      - Armed Forces
+      - AAR
+      - BUPA
+      - CIC
+      - Cigna (Vanbreda International)
+      - First Assurance
+      - Heritage
+      - Jubilee
+      - JW Seagon / AXA / Exeter
+      - Kenya Airforce
+      - Mic Global Risks
+      - Minet (excluding TSC, Kenya Police)
+      - Saham Assurance
     type: new_set
     enabled: true
   -
@@ -24,9 +38,8 @@ card_section:
       Nyeri Branch
       Our Nyeri Branch is committed to providing healthcare services with convenience.
 
-      Insurance Company X
-      Insurance Company Y
-      Insurance Company Z
+      **Our insurance partners at Main Hospital:**
+      - NHIF
     type: new_set
     enabled: true
   -
@@ -42,5 +55,5 @@ card_section:
     type: new_set
     enabled: true
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1709503897
+updated_at: 1715755404
 ---

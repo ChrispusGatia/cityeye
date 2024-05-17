@@ -56,7 +56,7 @@
                             <div class="divider my-4"></div>
                             {!! $body_description !!}
 
-                            <h3 class="mt-5 mb-4">Key Features</h3>
+                            <h3 class="mt-5 mb-4">This includes:</h3>
                             <div class="divider my-4"></div>
                             <ul class="list-unstyled department-service">
                                 @foreach ($features as $content)
@@ -64,7 +64,7 @@
                                 @endforeach
                             </ul>
 
-                            <a href="appointment" class="btn btn-main-2 btn-round-full">Schedule a Test <i
+                            <a href="bookappointment" class="btn btn-main-2 btn-round-full">Schedule a Test <i
                                     class="icofont-simple-right ml-2  "></i></a>
                         </div>
                     </div>
@@ -79,14 +79,14 @@
                                     <span>9:00 AM - 5:00 PM</span>
                                 </li>
                                 <li class="d-flex justify-content-between align-items-center">
-                                    <span>Sunday</span>
+                                    <span>Saturday & Sunday</span>
                                     <span>Closed</span>
                                 </li>
                             </ul>
 
                             <div class="sidebar-contatct-info mt-4">
                                 <p class="mb-0">Need Assistance?</p>
-                                <h3>+23-4565-65768</h3>
+                                <h3>+254(0)111 032 200</h3>
                             </div>
                         </div>
                     </div>

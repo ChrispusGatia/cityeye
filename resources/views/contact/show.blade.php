@@ -153,6 +153,8 @@
                         <h5>Nyeri Hospital- Call Us</h5>
                         <p><i class="icofont-support mr-3" style="font-size:12px;"></i>
                             +254 (0) 114 079 245<br>
+                            <i class="icofont-support mr-3" style="font-size:12px;"></i>
+                            +254 (0) 780777705<br>
                             <i class="icofont-email mr-2" style="font-size:12px;"></i>
                             info.nyeri@cityeyehospital.or.ke<br>
                             <i class="icofont-location-pin" style="font-size:12px;"></i>

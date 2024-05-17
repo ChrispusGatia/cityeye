@@ -73,7 +73,7 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="service.html" id="dropdown02"
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown02"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About <i
                                     class="icofont-thin-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown02">
@@ -96,7 +96,7 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="department.html" id="dropdown02"
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown02"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Branches
                                 <i class="icofont-thin-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown02">
@@ -164,7 +164,7 @@
                                 Clinic</a></li>
                         <li><a class="dropdown-item" href="/labs">Laboratory Services</a>
                         </li>
-                        <li><a class="dropdown-item" href="/labs">Pharmacy</a>
+                        <li><a class="dropdown-item" href="/pharmacy">Pharmacy</a>
                         </li>
                         <li><a class="dropdown-item" href="/othermedicalconditions">Other
                             Medical Conditions</a></li>
@@ -175,7 +175,7 @@
             </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="department.html" id="dropdown02" data-toggle="dropdown"
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">Patient Resources
                     <i class="icofont-thin-down"></i></a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown02">
@@ -183,7 +183,7 @@
                         <a class="dropdown-item" href="/privacy">Privacy Policy</a>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="/insurance">Insuarance</a>
+                        <a class="dropdown-item" href="/insurance">Insurance</a>
                     </li>
 
                     <li>
@@ -202,7 +202,7 @@
             </li>
 
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="doctor.html" id="dropdown03" data-toggle="dropdown"
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">Our Team <i class="icofont-thin-down"></i></a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown03">
                     <li><a class="dropdown-item" href="doctors">Doctors</a></li>
@@ -241,7 +241,7 @@
             </li>
 
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="blog-sidebar.html" id="dropdown05" data-toggle="dropdown"
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">News <i class="icofont-thin-down"></i></a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown05">
                     {{-- <li>

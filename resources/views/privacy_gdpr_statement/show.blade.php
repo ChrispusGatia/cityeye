@@ -108,7 +108,7 @@
                                     right
                                     to access, rectify, and delete your information. If you have any questions or
                                     requests
-                                    regarding your data, please contact us at hr@cityeyehosptial.or.ke</p>
+                                    regarding your data, please contact us at <a href="mailto:dpo@cityeyehospital.or.ke">dpo@cityeyehospital.or.ke</a></p>
 
 
 
@@ -129,7 +129,7 @@
                                 <h4>8. Contact Us</h4>
                                 <p>If you have questions or concerns about this Privacy and GDPR Compliance Statement or
                                     our
-                                    data handling practices, please contact us at hr@cityeyehosptial.or.ke</p>
+                                    data handling practices, please contact us at <a href="mailto:dpo@cityeyehospital.or.ke">dpo@cityeyehospital.or.ke</a></p>
                             </div>
 
                             <!-- End of Privacy Policy content -->

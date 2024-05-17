@@ -16,9 +16,9 @@ card_section:
   -
     id: lvoyeqan
     card_title: 'Legal notification'
-    card_description: 'We are registered with the Office of the Data Protection Commissioner (ODPC). If you would like to look at our registration, please go to the Data Protection register on the ODPC website or use the link: [https://www.odpc.go.ke/registered-data-processors-and-controllers/](https://www.odpc.go.ke/registered-data-processors-and-controllers/)'
+    card_description: 'We are registered with the Office of the Data Protection Commissioner (ODPC). If you would like to look at our registration, please go to the Data Protection register on the ODPC website or use the link: [https://www.odpc.go.ke/registered-data-handlers/](https://www.odpc.go.ke/registered-data-handlers/)'
     type: new_set
     enabled: true
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1714636820
+updated_at: 1715753735
 ---

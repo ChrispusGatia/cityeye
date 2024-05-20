@@ -93,7 +93,7 @@
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <select class="form-control" id="time" name="time" required>
-                                                <option>Select Preffered Time</option>
+                                                <option>Select preferred Time</option>
                                                 <option>Anytime</option>
                                                 <option>Morning Hours</option>
                                                 <option>Afternoon Hours</option>

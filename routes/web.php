@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Mail\AppointmentConfirmation;
 use App\Mail\ContactMe;
 use App\Mail\BookMe;
 /*
@@ -37,11 +38,15 @@ Route::post('/contact', function () {
 
 Route::post('/bookappointment', function () {
     $data = request(['name', 'email', 'doctor', 'date', 'time', 'phone', 'message']);
-    
+
     try {
+        // Send email to the hospital
         Mail::to('crypusgatia@cityeyehospital.or.ke')->send(new BookMe($data));
-        return redirect('/bookappointment')->with('flash', 'Your request to book an appointment has been sent. 
-        A member of our team will get back to you to confirm your appointment booking. Thank you.');
+        
+        // Send confirmation email to the user
+        Mail::to($data['email'])->send(new AppointmentConfirmation($data));
+
+        return redirect('/bookappointment')->with('flash', 'Your request to book an appointment has been sent. A member of our team will get back to you to confirm your appointment booking. Thank you.');
     } catch (\Exception $e) {
         // Log the error for debugging
         \Log::error('Failed to send email: ' . $e->getMessage());

@@ -102,7 +102,7 @@
                             </div>
                         </div>
                         <div class="content mt-3">
-                            <h4 class="mb-0"><a href="#">Thomas Henry</a></h4>
+                            <h4 class="mb-0"><a href="#">Dr. Amos Kibata</a></h4>
                             <p><i class="icofont-eye"></i> Retina Specialist</p>
                         </div>
                     </div>
@@ -116,7 +116,7 @@
                             </div>
                         </div>
                         <div class="content mt-3">
-                            <h4 class="mb-0"><a href="#">Harrision Samuel</a></h4>
+                            <h4 class="mb-0"><a href="#">Dr. Muchai Gachago</a></h4>
                             <p><i class="icofont-eye"></i> Retina Specialist</p>
                         </div>
                     </div>
@@ -130,7 +130,7 @@
                             </div>
                         </div>
                         <div class="content mt-3">
-                            <h4 class="mb-0"><a href="#">Alexandar James</a></h4>
+                            <h4 class="mb-0"><a href="#">Dr. Catherine Kareko</a></h4>
                             <p><i class="icofont-eye"></i> Retina Specialist</p>
                         </div>
                     </div>
@@ -202,8 +202,8 @@
                             </div>
                         </div>
                         <div class="content mt-3">
-                            <h4 class="mb-0"><a href="#">HarissonThomas </a></h4>
-                            <p><i class="icofont-eye"></i> Glaucoma Specialist</p>
+                            <h4 class="mb-0"><a href="#">Dr. Muchai Gachago </a></h4>
+                            <p><i class="icofont-eye"></i> Retina Specialist</p>
                         </div>
                     </div>
                 </div>
@@ -232,8 +232,8 @@
                             </div>
                         </div>
                         <div class="content mt-3">
-                            <h4 class="mb-0"><a href="#">Henry Forth</a></h4>
-                            <p>hematology</p>
+                            <h4 class="mb-0"><a href="#">Dr. Catherine Kareko</a></h4>
+                            <p><i class="icofont-eye"></i> Retina Specialist</p>
                         </div>
                     </div>
                 </div>

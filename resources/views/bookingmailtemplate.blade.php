@@ -30,7 +30,7 @@
         @if(isset($dataReceived['doctor']))
         <tr>
             <td style="padding: 20px;">
-                <p style="font-size: 18px; margin-bottom: 8px;"><strong>Preffered Doctor:</strong> {{ $dataReceived['doctor'] }}</p>
+                <p style="font-size: 18px; margin-bottom: 8px;"><strong>Preferred Doctor:</strong> {{ $dataReceived['doctor'] }}</p>
             </td>
         </tr>
         @endif
@@ -46,7 +46,7 @@
         @if(isset($dataReceived['time']))
         <tr>
             <td style="padding: 20px;">
-                <p style="font-size: 18px; margin-bottom: 8px;"><strong>Preffered Time:</strong> {{ $dataReceived['time'] }}</p>
+                <p style="font-size: 18px; margin-bottom: 8px;"><strong>Preferred Time:</strong> {{ $dataReceived['time'] }}</p>
             </td>
         </tr>
         @endif

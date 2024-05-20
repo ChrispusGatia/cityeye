@@ -370,7 +370,7 @@
                             Copyright &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script>.<a href="#!">City Eye Hospital</a>. All Rights Reserved.
+                            </script>.<a href="/">City Eye Hospital</a>. All Rights Reserved.
                         </div>
                     </div>
                     <div class="col-lg-6">

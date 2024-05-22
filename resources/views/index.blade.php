@@ -165,7 +165,6 @@
                 <div class="col-lg-8 mx-auto">
                     <div id="reviewCarousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
-<<<<<<< HEAD
                             @foreach ($customer_review as $key => $review)
                                 <div class="carousel-item {{ $key === 0 ? 'active' : '' }}">
                                     <div class="feature-item mb-4 p-4 border rounded">
@@ -181,18 +180,6 @@
                                                     <i class="icofont-star" style="color: #ddd;"></i>
                                                 @endif
                                             @endfor
-=======
-                            @foreach ($customer_review as $review)
-                                <div class="carousel-item active">
-                                    <div class="review-item text-center">
-                                        <div class="rating">
-                                            @php
-
-                                            @endphp
-                                            @foreach (range(1, $review->stars) as $index)
-                                                <i class="icofont-star" style="color: yellow;"></i>
-                                            @endforeach
->>>>>>> c782aeab5236b0e9c44d460fa343bcf35e842b95
                                         </div>
                                         <!-- Customer profile image -->
                                         <img src="{{ asset($review->customer_profile) }}" alt="{{ $review->customer_name }}" class="img-fluid rounded-circle customer-img">
@@ -202,11 +189,7 @@
                         </div>
                         <!-- Custom styled carousel navigation arrows -->
                         <a class="carousel-control-prev" href="#reviewCarousel" role="button" data-slide="prev">
-<<<<<<< HEAD
                             <span class="carousel-control-prev-icon" aria-hidden="true" style="color: #223a66;"></span>
-=======
-                            <span class="carousel-control-prev-icon" aria-hidden="true" style="color: #223a6;"></span>
->>>>>>> c782aeab5236b0e9c44d460fa343bcf35e842b95
                             <span class="sr-only">Previous</span>
                         </a>
                         <a class="carousel-control-next" href="#reviewCarousel" role="button" data-slide="next">

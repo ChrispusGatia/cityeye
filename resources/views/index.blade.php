@@ -169,11 +169,12 @@
                                 <div class="carousel-item active">
                                     <div class="review-item text-center">
                                         <div class="rating">
-                                            <i class="icofont-star" style="color: yellow;"></i>
-                                            <i class="icofont-star" style="color: yellow;"></i>
-                                            <i class="icofont-star" style="color: yellow;"></i>
-                                            <i class="icofont-star" style="color: yellow;"></i>
-                                            <i class="icofont-star" style="color: yellow;"></i>
+                                            @php
+
+                                            @endphp
+                                            @foreach (range(1, $review->stars) as $index)
+                                                <i class="icofont-star" style="color: yellow;"></i>
+                                            @endforeach
                                         </div>
                                         <h4 class="mt-4 mb-3">{{ $review->customer_name }}</h4>
                                         <img src="{{ asset($review->customer_profile) }}" alt=""
@@ -185,8 +186,7 @@
 
                         </div>
                         <a class="carousel-control-prev" href="#reviewCarousel" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"
-                                style="color: #223a6;"></span>
+                            <span class="carousel-control-prev-icon" aria-hidden="true" style="color: #223a6;"></span>
                             <span class="sr-only">Previous</span>
                         </a>
                         <a class="carousel-control-next" href="#reviewCarousel" role="button" data-slide="next">

@@ -59,7 +59,7 @@
 
     <section class="section service-2">
         <div class="container">
-            <div class="row">
+            <div class="row"> 
                 @foreach ($content as $card)
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="service-block mb-5">

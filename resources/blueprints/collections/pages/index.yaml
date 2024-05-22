@@ -296,6 +296,16 @@ tabs:
                             visibility: visible
                             replicator_preview: true
                             hide_display: false
+                        -
+                          handle: stars
+                          field:
+                            type: integer
+                            display: Stars
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
               type: replicator
               display: 'Customer Review'
               listable: hidden

@@ -150,9 +150,10 @@
                   
                     @foreach($pharmacy_image as $card)
                     <div class="col-md-4 mb-4">
-                        <img src="{{ asset($card->image)}}" alt="Pharmacy Image" class="img-fluid rounded">
+                        <img src="{{ $card->image }}" alt="Pharmacy Image" class="img-fluid rounded">
                     </div>
                      @endforeach
+                     
                    
                 </div>
             </div>

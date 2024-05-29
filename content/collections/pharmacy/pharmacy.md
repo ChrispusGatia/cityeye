@@ -3,7 +3,7 @@ id: e881aea4-a039-439e-8d6c-0e3867f691eb
 blueprint: pharmacy
 title: 'Welcome to City Eye Pharmacy'
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1716984826
+updated_at: 1716988180
 services:
   -
     id: lwrod7r1
@@ -39,7 +39,7 @@ pharmacy_image:
   -
     id: lwroiw8m
     image:
-      - screenshot-2024-05-29-134653.png
+      - screenshot-2024-05-29-134653-1716988172.png
     type: new_set
     enabled: true
   -

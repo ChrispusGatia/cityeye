@@ -53,7 +53,7 @@
                             <div class="divider my-4"></div>
                             {!! $body_description !!}
 
-                            <h3 class="mt-5 mb-4">Our Medical Services</h3>
+                            <h3 class="mt-5 mb-4">Services offered at our Diabetic Clinic include:</h3>
                             <div class="divider my-4"></div>
                             <ul class="list-unstyled department-service">
                                 @foreach ($list_items as $content)

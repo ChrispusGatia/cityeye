@@ -173,16 +173,20 @@
                                         <p class="mb-3">&ldquo;{{ $review->customer_quote }}&rdquo;</p>
                                         <!-- Star rating icons -->
                                         <div class="rating mb-3">
-                                            @for ($i = 0; $i < 5; $i++)
-                                                @if ($i < $review->rating)
+                                            @if($review->stars)
+                                            @foreach (range(1, $review->stars) as $index)
                                                     <i class="icofont-star" style="color: #ffc107;"></i>
-                                                @else
-                                                    <i class="icofont-star" style="color: #ddd;"></i>
-                                                @endif
-                                            @endfor
+                                            @endforeach
+                                            @else
+                                            @foreach(range(1,5) as $index)
+                                            <i class="icofont-star" style="color: #ddd;"></i>
+                                            @endforeach
+                                            @endif
                                         </div>
                                         <!-- Customer profile image -->
-                                        <img src="{{ asset($review->customer_profile) }}" alt="{{ $review->customer_name }}" class="img-fluid rounded-circle customer-img">
+                                        @if($review->customer_image)
+                                        <img src="{{ asset($review->customer_image) }}" alt="{{ $review->customer_name }}" class="img-fluid rounded-circle customer-img">
+                                        @endif
                                     </div>
                                 </div>
                             @endforeach

@@ -1,5 +1,14 @@
 title: Pharmacy
+template: pharmacy/show
+layout: layout
 revisions: false
+route: /pharmacy
+sort_dir: asc
 date_behavior:
   past: public
   future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true

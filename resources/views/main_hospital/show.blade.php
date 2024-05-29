@@ -79,7 +79,7 @@
                             <li><i class="icofont-check mr-2"></i>Retina Clinic and Surgery</li>
                             <li><i class="icofont-check mr-2"></i>Priority Care</li>
                             <li><i class="icofont-check mr-2"></i>Optical Shop</li>
-                        </ul>
+                        </ul>z
 
                         <a href="/all-services" class="btn btn-main-2 btn-round-full">Explore Our Services<i
                                 class="icofont-simple-right ml-2  "></i></a>

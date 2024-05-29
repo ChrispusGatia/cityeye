@@ -3,7 +3,7 @@ id: e881aea4-a039-439e-8d6c-0e3867f691eb
 blueprint: pharmacy
 title: 'Welcome to City Eye Pharmacy'
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1716988180
+updated_at: 1716989658
 services:
   -
     id: lwrod7r1
@@ -75,5 +75,5 @@ sidebar_hours:
     enabled: true
 description: 'At CityEye Pharmacy, we provide a comprehensive range of pharmaceutical services and products to meet your healthcare needs. Our experienced pharmacists are here to offer you personalized advice and support.'
 subtitle: 'Our Services Include:'
-sidebar_title: 'Time Schedule'
+sidebar_title: 'Opening Hours'
 ---

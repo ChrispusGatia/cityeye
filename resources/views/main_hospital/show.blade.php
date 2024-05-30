@@ -69,7 +69,7 @@
                             detachment,
                             corneal disease and macular degeneration.</p>
 
-                        <h3 class="mt-5 mb-4">Eye Care Services Offered</h3>
+                        <h3 class="mt-5 mb-4">Services offered at our Main Branch</h3>
                         <div class="divider my-4"></div>
                         <ul class="list-unstyled department-service">
                             <li><i class="icofont-check mr-2"></i>General Ophthalmology</li>
@@ -79,6 +79,10 @@
                             <li><i class="icofont-check mr-2"></i>Retina Clinic and Surgery</li>
                             <li><i class="icofont-check mr-2"></i>Priority Care</li>
                             <li><i class="icofont-check mr-2"></i>Optical Shop</li>
+                            <li><i class="icofont-check mr-2"></i>Diabetic Clinic</li>
+                            <li><i class="icofont-check mr-2"></i>HyperTensive Clinic</li>
+                            <li><i class="icofont-check mr-2"></i>Pharmacy</li>
+                            <li><i class="icofont-check mr-2"></i>Laboratory Services</li>
                         </ul>
 
                         <a href="/all-services" class="btn btn-main-2 btn-round-full">Explore Our Services<i

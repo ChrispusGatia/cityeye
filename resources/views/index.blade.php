@@ -167,33 +167,57 @@
                         <div class="carousel-inner">
                             @foreach ($customer_review as $key => $review)
                                 <div class="carousel-item {{ $key === 0 ? 'active' : '' }}">
-                                    <div class="feature-item mb-4 p-4 border rounded">
+                                    <div class="feature-item mb-4 p-4 border rounded d-flex flex-column align-items-center">
+                                        <!-- Display customer image -->
+                                        @if($review->customer_image)
+                                        <img src="{{ asset($review->customer_image) }}" alt="{{ $review->customer_name }}" class="img-fluid rounded-circle customer-img mb-3" style="width: 50px; height: 50px;">
+                                        @endif
                                         <!-- Display customer name and review -->
-                                        <h4 class="mt-3 mb-2">{{ $review->customer_name }}</h4>
-                                        <p class="mb-3">&ldquo;{{ $review->customer_quote }}&rdquo;</p>
+                                        <h4 class="mt-3 mb-2 text-center">{{ $review->customer_name }}</h4>
+                                        <p class="mb-3 text-center">&ldquo;{{ $review->customer_quote }}&rdquo;</p>
                                         <!-- Star rating icons -->
-                                        <div class="rating mb-3">
-                                            @for ($i = 0; $i < 5; $i++)
-                                                @if ($i < $review->rating)
+                                        <div class="rating mb-3 text-center">
+                                            @if($review->stars)
+                                            @foreach (range(1, $review->stars) as $index)
                                                     <i class="icofont-star" style="color: #ffc107;"></i>
-                                                @else
-                                                    <i class="icofont-star" style="color: #ddd;"></i>
-                                                @endif
-                                            @endfor
+                                            @endforeach
+                                            @else
+                                            @foreach(range(1,5) as $index)
+                                            <i class="icofont-star" style="color: #ddd;"></i>
+                                            @endforeach
+                                            @endif
                                         </div>
-                                        <!-- Customer profile image -->
-                                        <img src="{{ asset($review->customer_profile) }}" alt="{{ $review->customer_name }}" class="img-fluid rounded-circle customer-img">
                                     </div>
                                 </div>
                             @endforeach
                         </div>
                         <!-- Custom styled carousel navigation arrows -->
-                        <a class="carousel-control-prev" href="#reviewCarousel" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true" style="color: #223a66;"></span>
+                        <a class="carousel-control-prev" href="#reviewCarousel" role="button" data-slide="prev" style="z-index: 2;">
+                            <span class="carousel-control-prev-icon" aria-hidden="true" style="
+                                background-color: #223a66;
+                                width: 25px;
+                                height: 25px;
+                                border-radius: 50%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            ">
+                                <i class="icofont-simple-left" style="color: #fff; font-size: 20px;"></i>
+                            </span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#reviewCarousel" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true" style="color: #223a66;"></span>
+                        <a class="carousel-control-next" href="#reviewCarousel" role="button" data-slide="next" style="z-index: 2;">
+                            <span class="carousel-control-next-icon" aria-hidden="true" style="
+                                background-color: #223a66;
+                                width: 25px;
+                                height: 25px;
+                                border-radius: 50%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            ">
+                                <i class="icofont-simple-right" style="color: #fff; font-size: 20px;"></i>
+                            </span>
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
@@ -300,20 +324,22 @@
                 </div>
             </div>
         </div>
-
+    
         <div class="container">
-            <div class="row clients-logo">
+            <div class="row clients-logo justify-content-center">
                 @foreach ($partners as $partner)
-                    <div class="col-lg-2">
-                        <div class="client-thumb">
-                            <img src="{{ asset($partner->logo) }}" alt="" class="img-fluid">
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 my-3">
+                        <div class="card h-100">
+                            <div class="card-body d-flex align-items-center justify-content-center">
+                                <img src="{{ asset($partner->logo) }}" alt="" class="img-fluid" style="max-width: 100px; max-height: 100px;">
+                            </div>
                         </div>
-
                     </div>
                 @endforeach
             </div>
+        </div>
     </section>
-
+    
 
 
     <!--

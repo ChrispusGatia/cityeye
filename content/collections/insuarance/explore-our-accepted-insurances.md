@@ -38,8 +38,9 @@ card_section:
       Nyeri Branch
       Our Nyeri Branch is committed to providing healthcare services with convenience.
 
-      **Our insurance partners at Main Hospital:**
+      **Our insurance partners at Nyeri Hospital:**
       - NHIF
+      - Other Major Insurances
     type: new_set
     enabled: true
   -
@@ -49,11 +50,45 @@ card_section:
       Appointment Clinic Branch
       Our Main Branch is equipped to accept a variety of insurance plans to ensure that you can access quality healthcare.
 
-      Insurance Company A
-      Insurance Company B
-      Insurance Company C
+      **Our insurance partners at Appointment Clinic Branch:**
+      - Armed Forces
+      - AAR
+      - BUPA
+      - CIC
+      - Cigna (Vanbreda International)
+      - First Assurance
+      - Heritage
+      - Jubilee
+      - JW Seagon / AXA / Exeter
+      - Kenya Airforce
+      - Mic Global Risks
+      - Minet (excluding TSC, Kenya Police)
+      - Saham Assurance
+    type: new_set
+    enabled: true
+  -
+    id: lwt16b2z
+    card_description: |-
+      Community Vision Center- Ngong Branch
+      Our Main Branch is equipped to accept a variety of insurance plans to ensure that you can access quality healthcare.
+
+      **Our insurance partners at Community Vision Center- Ngong Branch:**
+      - Jubilee
+      - APA
+      - KCB
+      - GA
+      - UAP
+      - Madison
+      - Mtiba-Jubilee
+      - CIC
+      - First Assurance
+      - Liason
+      - Kenbright
+      - Minet (excluding TSC, Kenya Police)
+      - Takaful
+      - Heritage
     type: new_set
     enabled: true
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1715755404
+updated_at: 1717060476
 ---

@@ -270,7 +270,7 @@ tabs:
                             replicator_preview: true
                             hide_display: false
                         -
-                          handle: customer_profile
+                          handle: customer_image
                           field:
                             mode: list
                             container: assets
@@ -279,12 +279,14 @@ tabs:
                             show_filename: true
                             show_set_alt: true
                             type: assets
-                            display: 'Customer Profile'
-                            listable: hidden
+                            display: 'customer image'
+                            listable: true
                             instructions_position: above
                             visibility: visible
                             replicator_preview: true
                             hide_display: false
+                            max_files: 1
+                            min_files: 1
                         -
                           handle: customer_quote
                           field:

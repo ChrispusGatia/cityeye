@@ -60,10 +60,11 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6 text-center">
                     <div class="section-title">
-                        <h2>Doctors</h2>
+                        <h2>Meet Our Doctors</h2>
                         <div class="divider mx-auto my-4"></div>
-                        <p>We provide a wide range of creative services adipisicing elit. Autem maxime rem modi eaque,
-                            voluptate. Beatae officiis neque </p>
+                        <p>
+                            At our eye hospital, our dedicated team offers specialized ophthalmic care for 
+                            exceptional treatment. Meet our esteemed doctors below.</p>
                     </div>
                 </div>
             </div>
@@ -264,7 +265,7 @@
                         <div class="divider mb-4"></div>
                         <h2 class="mb-5 text-lg">We are pleased to offer you the <span class="title-color">chance to
                                 have
-                                the healthy</span></h2>
+                                the healthy vision through our comprehensive eye care services.</span></h2>
                         <a href="/bookappointment" class="btn btn-main-2 btn-round-full">Get appoinment<i
                                 class="icofont-simple-right  ml-2"></i></a>
                     </div>

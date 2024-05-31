@@ -285,7 +285,7 @@
                 <div class="col-lg-4 col-md-4">
                     <div class="counter-stat">
                         <i class="icofont-users"></i>
-                        <span class="h3 counter" data-count="10000" style="color: #223a66;">0</span>+
+                        <span class="h3 counter" data-count="60000" style="color: #223a66;">0</span>+
                         <p style="color: #223a66;">PATIENTS SERVED<br>ANNUALLY</p>
                     </div>
                 </div>

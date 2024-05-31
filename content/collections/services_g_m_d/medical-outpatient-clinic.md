@@ -24,7 +24,7 @@ list_items:
     type: new_set
     enabled: true
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1714641196
+updated_at: 1717146572
 sidebar_title: 'Consulation Fee'
 sidebar_description: |-
   Embark on a journey to optimal health with our expert consultations at a fee that makes quality care accessible to everyone👁️💡
@@ -33,18 +33,42 @@ sidebar_description: |-
 
   Affordable Fee
 sidebar_image: img-3.jpg
-description: |-
-  Glaucoma is the leading cause of blindness worldwide. It often has no symptoms in the early stages.
-  Glaucoma can happen to anyone. It occurs when the pressure within the eye (IOP) is high for prolonged periods. This results in painless and progressive damage to the optic nerve, resulting in vision loss.
+service_description: |-
+  Glaucoma is the leading cause of blindness worldwide. It often has no symptoms in the early stages. Glaucoma can happen to anyone. It occurs when the pressure within the eye (IOP) is high for prolonged periods. This results in painless and progressive damage to the optic nerve, resulting in vision loss.
 
-  Treatment of Glaucoma
-  Vision loss from glaucoma is not reversible with treatment. The symptoms of glaucoma can also be mild or even non-existent until the disease has silently and gradually worsened to a severe stage. This is why regular eye exams are important.
+  **Treatment of Glaucoma**
+  Vision loss from glaucoma is not reversible with treatment. The symptoms of glaucoma can also be mild or even non-existent until the disease has silently and gradually worsened to a severe stage. This is why **regular eye exams are important**.
   The glaucoma specialists at City Eye Hospital provide extensive glaucoma eye care that comprises glaucoma evaluation and testing, and management of intraocular pressure and treatment.
-  Our extensive glaucoma exam includes:
-  Measuring the pressure in your eye (tonometry)
-  Testing your peripheral (side) vision (visual field test)
-  Measuring the thickness of your cornea (pachymetry)
-  Inspecting your eye’s drainage angle (gonioscopy)
-  Examining your optic nerve (ophthalmoscopy)
-  Checking the thickness of your optic nerve fibres
+subtitle: 'Our extensive glaucoma exam includes:'
+services:
+  -
+    id: lwugon42
+    service_name: 'Measuring the pressure in your eye (tonometry)'
+    type: new_set
+    enabled: true
+  -
+    id: lwugoruy
+    service_name: 'Testing your peripheral (side) vision (visual field test)'
+    type: new_set
+    enabled: true
+  -
+    id: lwugovw2
+    service_name: 'Measuring the thickness of your cornea (pachymetry)'
+    type: new_set
+    enabled: true
+  -
+    id: lwugp02a
+    service_name: 'Inspecting your eye’s drainage angle (gonioscopy)'
+    type: new_set
+    enabled: true
+  -
+    id: lwugp4g3
+    service_name: 'Examining your optic nerve (ophthalmoscopy)'
+    type: new_set
+    enabled: true
+  -
+    id: lwugpa3w
+    service_name: 'Checking the thickness of your optic nerve fibres'
+    type: new_set
+    enabled: true
 ---

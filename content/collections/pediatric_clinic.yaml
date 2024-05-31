@@ -1,5 +1,14 @@
 title: 'Pediatric Clinic'
+template: pediatric_clinic/show
+layout: layout
 revisions: false
+route: /pediatric_clinic
+sort_dir: asc
 date_behavior:
   past: public
   future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true

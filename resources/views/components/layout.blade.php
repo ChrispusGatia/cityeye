@@ -164,7 +164,7 @@
                         </li>
                         <li><a class="dropdown-item" href="/pharmacy">Pharmacy</a>
                         </li>
-                        <li><a class="dropdown-item" href="/#">Pediatric Services</a></li>
+                        <li><a class="dropdown-item" href="/pediatric_clinic">Pediatric Services</a></li>
                         <li><a class="dropdown-item" href="/othermedicalconditions">Other
                             Medical Conditions</a></li>
                     </ul>

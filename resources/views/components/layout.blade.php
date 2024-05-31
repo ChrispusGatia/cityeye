@@ -146,6 +146,7 @@
                                                 <li><a class="dropdown-item" href="/retina_specialist">Retina Clinic
                                                         and
                                                         Surgery</a></li>
+                                                        
                                                 <li><a class="dropdown-item" href="/opticalshop">Optical Shop</a></li>
                                                 <li><a class="dropdown-item" href="/outreach">Outreach Program</a>
                                                 </li>
@@ -163,6 +164,7 @@
                         </li>
                         <li><a class="dropdown-item" href="/pharmacy">Pharmacy</a>
                         </li>
+                        <li><a class="dropdown-item" href="/#">Pediatric Services</a></li>
                         <li><a class="dropdown-item" href="/othermedicalconditions">Other
                             Medical Conditions</a></li>
                     </ul>

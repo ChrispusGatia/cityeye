@@ -159,6 +159,8 @@
                                             class="icofont-simple-right ml-2"></i></a></li>
                                 <li><a href="/retina_specialist">Retina Clinic and Surgery<i
                                             class="icofont-simple-right ml-2"></i></a></li>
+                                <li><a href="/#">Pediatric Services<i
+                                            class="icofont-simple-right ml-2"></i></a></li>
                                 <li><a href="/opticalshop">Optical Shop<i class="icofont-simple-right ml-2"></i></a>
                                 </li>
                                 <li><a href="/outreach">Outreach Program<i class="icofont-simple-right ml-2"></i></a>
@@ -176,14 +178,13 @@
                         <div id="general-ophthalmology" class="service-description">
                             <h2>{{ $title }}</h2>
                             <div class="divider my-4"></div>
-                            <p>{{ $description }}</p>
-                            <p>Our Services Include:</p>
+                            <p>{!! $service_description !!}</p>
+                            <p>{{ $sub_title }}</p>
                             <ul>
-                                <li>Comprehensive eye exams</li>
-                                <li>Diagnosis and treatment of eye diseases</li>
-                                <li>Glasses and contact lens prescriptions</li>
-                                <li>Management of common eye conditions</li>
+                                @foreach ($services as $service)
+                                <li>{{ $service->service_name}}</li>
                                 <!-- Add more services here -->
+                                @endforeach
                             </ul>
                             <a href="all-services" class="btn btn-main-2 btn-round-full">Explore Our Services <i
                                     class="icofont-simple-right ml-2"></i></a>

@@ -1,0 +1,5 @@
+title: 'Pediatric Clinic'
+revisions: false
+date_behavior:
+  past: public
+  future: private

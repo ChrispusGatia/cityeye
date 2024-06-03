@@ -62,3 +62,20 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+          -
+            handle: foundation_image
+            field:
+              mode: list
+              container: assets
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: 'foundation image'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              max_files: 1

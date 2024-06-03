@@ -64,7 +64,7 @@
                 <div class="row">
                     <!-- Placeholder Image - You can replace this with an actual image related to the foundation -->
                     <div class="col-lg-6">
-                        <img src="images/service/img-3.jpg" alt="City Eye Foundation" class="img-fluid">
+                        <img src="{{asset($foundation_image)}}" alt="" class="img-fluid">
                     </div>
 
                     <div class="col-lg-6">

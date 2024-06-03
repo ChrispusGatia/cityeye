@@ -52,20 +52,16 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="department-content mt-5">
-                            <h1 class="text-md">Our Pediatric Services</h1>
+                            <h1 class="text-md">{{ $heading }}</h1>
                             <div class="divider my-4"></div>
-                            <p>We offer a comprehensive range of pediatric services to ensure the health and well-being of your children. Our dedicated team provides expert care in a warm and child-friendly environment.</p>
+                            <p>{!! $description !!}</p>
     
-                            <h3 class="mt-5 mb-4">Services We Offer</h3>
+                            <h3 class="mt-5 mb-4">{{ $sub_title }}</h3>
                             <div class="divider my-4"></div>
                             <ul class="list-unstyled department-service">
-                                <li><i class="icofont-check mr-2"></i>Newborn Baby Care</li>
-                                <li><i class="icofont-check mr-2"></i>Education and Support</li>
-                                <li><i class="icofont-check mr-2"></i>Pediatric Emergency Services</li>
-                                <li><i class="icofont-check mr-2"></i>Pediatric Specialty Care</li>
-                                <li><i class="icofont-check mr-2"></i>Pediatric Urgent Care</li>
-                                <li><i class="icofont-check mr-2"></i>Same-Day Care</li>
-                                <li><i class="icofont-check mr-2"></i>Well-Child Care</li>
+                                @foreach($services as $service)
+                                <li><i class="icofont-check mr-2"></i>{{$service->item}}</li>
+                                @endforeach
                             </ul>
     
                             <a href="/bookappointment" class="btn btn-main-2 btn-round-full">Request An Appointment <i class="icofont-simple-right ml-2"></i></a>
@@ -77,14 +73,15 @@
     
                     <div class="col-lg-4">
                         <div class="sidebar-widget schedule-widget mt-5">
-                            <h5 class="mb-4">Opening Hours</h5>
+                            <h5 class="mb-4">{{$sidebar_title}}</h5>
     
                             <ul class="list-unstyled">
+                                @foreach($sidebar_hours as $days)
                                 <li class="d-flex justify-content-between align-items-center">
-                                    <span>Thursday's Only</span>
-                                    <span>7:30 a.m - 4:00 p.m</span>
+                                    <span>{{$days->week_days}}</span>
+                                    <span>{{$days->time}}</span>
                                 </li>
-                                
+                                @endforeach
                             </ul>
     
                             <div class="sidebar-contact-info mt-4">
@@ -97,27 +94,28 @@
             </div>
         </section>
 
+        
+        @foreach ($other_description as $details)
         <section>
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12 text-center">
-                        <h2 class="title-color mb-4">Finding a Pediatrician Who’s Like Family</h2>
+                        <h2 class="title-color mb-4">{{ $details->card_title }}</h2>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-6">
-                        <p>Extremely busy parents find a Sutter pediatrician who’s like an extension of the family. Get to know the Chawla family and how they met a pediatrician who listens without judgment, is communicative and responsive, and offers the support they need.</p>
-                        <h4>A Doctor Who’s Like Family</h4>
-                        <p>When the Chawlas moved to California, they wanted a pediatrician who felt like family. At Sutter, they extended their support system with a doctor who listened to their needs and advocated for their health.</p>
+                        <p>{!! $details->card_description !!}</p>
                     </div>
                     <div class="col-lg-6">
                         <div class="vision-image">
-                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/r_dXLAvoEfg" frameborder="0" allowfullscreen></iframe>
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{ $details->youtube_id }}" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        @endforeach
     
         <!-- Essential Scripts -->
         <script src="plugins/jquery/jquery.min.js"></script>

@@ -125,7 +125,7 @@
 
                             <div class="sidebar-contatct-info mt-4">
                                 <p class="mb-0">Need Urgent Help?</p>
-                                <h3>+23-4565-65768</h3>
+                                <h3>+254 (0) 114 079 245</h3>
                             </div>
                         </div>
                     </div>
@@ -141,11 +141,11 @@
                                 </li>
                                 <li class="d-flex justify-content-between align-items-center">
                                     <i class="icofont-support mr-3"></i>
-                                    <a href="tel:+254-111-032200">+254 (0) 111 032 200</a>
+                                    <a href="tel:+254-111-032200">+254 (0) 114 079 245</a>
                                 </li>
                                 <li class="d-flex justify-content-between align-items-center">
                                     <i class="icofont-support mr-3"></i>
-                                    <a href="tel:+254-707-777707">+254 (0) 707 777 707</a>
+                                    <a href="tel:+254-707-777707">+254 (0) 780 777 705</a>
                                 </li>
                             </ul>
 

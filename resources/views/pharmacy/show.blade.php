@@ -26,62 +26,7 @@
         <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css" />
     
         <!-- Main Stylesheet -->
-        <link rel="stylesheet" href="css/style.css" />
-        <style>
-            .page-title {
-                background-image: url('/images/pharmacy-bg.jpg');
-                background-size: cover;
-                background-position: center;
-                position: relative;
-                padding: 100px 0;
-            }
-            
-            .page-title .overlay {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background: rgba(0, 0, 0, 0.6);
-            }
-            
-            .text-white {
-                color: #fff !important;
-            }
-            
-            .department-service li {
-                margin-bottom: 10px;
-                font-size: 1.1em;
-                color: #555;
-            }
-            
-            .btn-main-2 {
-                background: #223a66;
-                color: #fff;
-                border-radius: 50px;
-                padding: 10px 20px;
-                transition: background 0.3s;
-            }
-            
-            .btn-main-2:hover {
-                background: #223a66;
-            }
-            
-            .schedule-widget {
-                background: #f9f9f9;
-                padding: 20px;
-                border-radius: 10px;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            }
-            
-            .sidebar-contatct-info h3 {
-                color: #223a66;
-            }
-            
-            .img-fluid {
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            }
-        </style>
+        <link rel="stylesheet" href="css/style.css" />   
     </head>
     
     <body id="top">

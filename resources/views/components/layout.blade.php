@@ -16,7 +16,7 @@
         .fa.fa-twitter {
             font-family: sans-serif;
         }
-    
+
         .fa.fa-twitter::before {
             content: "𝕏";
             font-size: 1.2em;
@@ -51,6 +51,7 @@
                 </div>
             </div>
         </div>
+        
         <nav class="navbar navbar-expand-lg navigation" id="navbar">
             <div class="container">
                 <a class="navbar-brand" href="/">
@@ -179,7 +180,7 @@
                     <i class="icofont-thin-down"></i></a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown02">
                     <li>
-                        <a class="dropdown-item" href="/privacy">Privacy Policy</a>
+                        <a class="dropdown-item" href="/hospital-location">Locate Our Hospitals</a>
                     </li>
                     <li>
                         <a class="dropdown-item" href="/insurance">Insurance</a>
@@ -264,9 +265,6 @@
             </div>
         </nav>
     </header>
-
-
-
 
     {{ $slot }}
     <!-- footer Start -->

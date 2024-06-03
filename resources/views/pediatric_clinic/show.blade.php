@@ -1,14 +1,13 @@
 <x-layout>
     <html lang="en">
-    
     <head>
         <!-- Basic Page Needs ================================================== -->
         <meta charset="utf-8" />
-        <title>CityEye - Pharmacy</title>
+        <title>CityEye - Pediatric Services</title>
     
         <!-- Mobile Specific Metas ================================================== -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="CityEye Pharmacy Page" />
+        <meta name="description" content="CityEye Pediatric Services Page" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
         <meta name="author" content="Themefisher" />
         <meta name="generator" content="Themefisher CityEye HTML Template v1.0" />
@@ -27,61 +26,6 @@
     
         <!-- Main Stylesheet -->
         <link rel="stylesheet" href="css/style.css" />
-        <style>
-            .page-title {
-                background-image: url('/images/pharmacy-bg.jpg');
-                background-size: cover;
-                background-position: center;
-                position: relative;
-                padding: 100px 0;
-            }
-            
-            .page-title .overlay {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background: rgba(0, 0, 0, 0.6);
-            }
-            
-            .text-white {
-                color: #fff !important;
-            }
-            
-            .department-service li {
-                margin-bottom: 10px;
-                font-size: 1.1em;
-                color: #555;
-            }
-            
-            .btn-main-2 {
-                background: #223a66;
-                color: #fff;
-                border-radius: 50px;
-                padding: 10px 20px;
-                transition: background 0.3s;
-            }
-            
-            .btn-main-2:hover {
-                background: #223a66;
-            }
-            
-            .schedule-widget {
-                background: #f9f9f9;
-                padding: 20px;
-                border-radius: 10px;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            }
-            
-            .sidebar-contatct-info h3 {
-                color: #223a66;
-            }
-            
-            .img-fluid {
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            }
-        </style>
     </head>
     
     <body id="top">
@@ -95,66 +39,82 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="block text-center">
-                            <span class="text-white">Our Pharmacy</span>
-                            <h1 class="text-capitalize mb-5 text-lg">City Eye Pharmacy</h1>
+                            <span class="text-white">Our Services</span>
+                            <h1 class="text-capitalize mb-5 text-lg">Pediatric Services</h1>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
     
-        <section class="section pharmacy">
+        <section class="section pediatric">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="department-content mt-5">
-                            <h1 class="text-md">{{ $title }}</h1>
+                            <h1 class="text-md">Our Pediatric Services</h1>
                             <div class="divider my-4"></div>
-                            <p>{!! $description !!}</p>
+                            <p>We offer a comprehensive range of pediatric services to ensure the health and well-being of your children. Our dedicated team provides expert care in a warm and child-friendly environment.</p>
     
-                            <h3 class="mt-5 mb-4">{{ $subtitle }}</h3>
+                            <h3 class="mt-5 mb-4">Services We Offer</h3>
                             <div class="divider my-4"></div>
                             <ul class="list-unstyled department-service">
-                                @foreach($services as $service)
-                                <li><i class="icofont-check mr-2"></i>{{$service->item}}</li>
-                                @endforeach
+                                <li><i class="icofont-check mr-2"></i>Newborn Baby Care</li>
+                                <li><i class="icofont-check mr-2"></i>Education and Support</li>
+                                <li><i class="icofont-check mr-2"></i>Pediatric Emergency Services</li>
+                                <li><i class="icofont-check mr-2"></i>Pediatric Specialty Care</li>
+                                <li><i class="icofont-check mr-2"></i>Pediatric Urgent Care</li>
+                                <li><i class="icofont-check mr-2"></i>Same-Day Care</li>
+                                <li><i class="icofont-check mr-2"></i>Well-Child Care</li>
                             </ul>
     
-                            <a href="/contact" class="btn btn-main-2 btn-round-full">Contact Us <i class="icofont-simple-right ml-2"></i></a>
+                            <a href="/bookappointment" class="btn btn-main-2 btn-round-full">Request An Appointment <i class="icofont-simple-right ml-2"></i></a>
                         </div>
                     </div>
+
+                        
+                   
     
                     <div class="col-lg-4">
                         <div class="sidebar-widget schedule-widget mt-5">
-                            <h5 class="mb-4">{{$sidebar_title}}</h5>
+                            <h5 class="mb-4">Opening Hours</h5>
     
                             <ul class="list-unstyled">
-                                @foreach($sidebar_hours as $days)
                                 <li class="d-flex justify-content-between align-items-center">
-                                    <span>{{$days->week_days}}</span>
-                                    <span>{{$days->time}}</span>
+                                    <span>Thursday's Only</span>
+                                    <span>7:30 a.m - 4:00 p.m</span>
                                 </li>
-                             @endforeach
+                                
                             </ul>
     
-                            <div class="sidebar-contatct-info mt-4">
+                            <div class="sidebar-contact-info mt-4">
                                 <p class="mb-0">Need Assistance?</p>
-                                <h3>+254(0)111 032 200</h3>
+                                <h3> +254(0)714 617 782</h3>
                             </div>
                         </div>
                     </div>
                 </div>
-    
-                <h3 class="mt-5 mb-4 text-center">Our Pharmacy Gallery</h3>
-                <div class="row">
-                  
-                    @foreach($pharmacy_image as $card)
-                    <div class="col-md-4 mb-4">
-                        <img src="{{ $card->image }}" alt="Pharmacy Image" class="img-fluid rounded">
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="title-color mb-4">Finding a Pediatrician Who’s Like Family</h2>
                     </div>
-                     @endforeach
-                     
-                   
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>Extremely busy parents find a Sutter pediatrician who’s like an extension of the family. Get to know the Chawla family and how they met a pediatrician who listens without judgment, is communicative and responsive, and offers the support they need.</p>
+                        <h4>A Doctor Who’s Like Family</h4>
+                        <p>When the Chawlas moved to California, they wanted a pediatrician who felt like family. At Sutter, they extended their support system with a doctor who listened to their needs and advocated for their health.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="vision-image">
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/r_dXLAvoEfg" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -166,5 +126,7 @@
         <script src="js/script.js"></script>
     </body>
     
-    </x-layout>
+    </html>
+    
+ </x-layout>
     

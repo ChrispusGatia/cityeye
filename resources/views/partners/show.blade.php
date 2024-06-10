@@ -15,18 +15,19 @@
 
     </head>
 
-    <div class="row clients-logo">
-        @foreach ($partners as $partner)
-            <div class="col-lg-2">
-                <div class="client-thumb">
-                    <img src="{{ asset($partner->logo) }}" alt="" class="img-fluid" width="300">
+    <div class="container">
+        <div class="row clients-logo justify-content-center">
+            @foreach ($partners as $partner)
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 my-3">
+                    <div class="card h-100">
+                        <div class="card-body d-flex align-items-center justify-content-center">
+                            <img src="{{ asset($partner->logo) }}" alt="" class="img-fluid" style="max-width: 100px; max-height: 100px;">
+                        </div>
+                    </div>
                 </div>
-
-            </div>
-        @endforeach
+            @endforeach
+        </div>
     </div>
-
-
 
     <!--
     Essential Scripts

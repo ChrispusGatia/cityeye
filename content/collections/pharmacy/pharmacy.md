@@ -3,7 +3,7 @@ id: e881aea4-a039-439e-8d6c-0e3867f691eb
 blueprint: pharmacy
 title: 'Welcome to City Eye Pharmacy'
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1716989658
+updated_at: 1717147410
 services:
   -
     id: lwrod7r1
@@ -38,20 +38,17 @@ services:
 pharmacy_image:
   -
     id: lwroiw8m
-    image:
-      - screenshot-2024-05-29-134653-1716988172.png
+    image: screenshot-2024-05-29-134653-1716988172.png
     type: new_set
     enabled: true
   -
     id: lwrpf71x
-    image:
-      - screenshot-2024-05-29-134905.png
+    image: screenshot-2024-05-29-134905.png
     type: new_set
     enabled: true
   -
     id: lwrpfjxk
-    image:
-      - screenshot-2024-05-29-134724.png
+    image: screenshot-2024-05-29-134724.png
     type: new_set
     enabled: true
 sidebar_hours:
@@ -73,7 +70,7 @@ sidebar_hours:
     time: Closed
     type: new_set
     enabled: true
-description: 'At CityEye Pharmacy, we provide a comprehensive range of pharmaceutical services and products to meet your healthcare needs. Our experienced pharmacists are here to offer you personalized advice and support.'
+description: 'We appreciate the importance of having access to trusted and convenient pharmacy services. It is for this reason that we have a full-fledged pharmacy strategically located within our City Eye Hospital premises. Our Pharmacy is well-stocked with the highest quality pharmaceuticals sourced solely from approved suppliers and manufacturers. We guarantee the utmost safety and efficacy while catering to the varied medication needs of those who walk through our doors. When you visit our Pharmacy, expect to be served by professional, friendly and highly trained staff, committed to helping you find the medications you need to achieve the best possible outcomes for your eye health.'
 subtitle: 'Our Services Include:'
 sidebar_title: 'Opening Hours'
 ---

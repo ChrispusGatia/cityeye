@@ -53,6 +53,7 @@
                 </div>
             </div>
         </div>
+        
         <nav class="navbar navbar-expand-lg navigation" id="navbar">
             <div class="container">
                 <a class="navbar-brand" href="/">
@@ -142,6 +143,7 @@
                                                 <li><a class="dropdown-item" href="/retina_specialist">Retina Clinic
                                                         and
                                                         Surgery</a></li>
+                                                        
                                                 <li><a class="dropdown-item" href="/opticalshop">Optical Shop</a></li>
                                                 <li><a class="dropdown-item" href="/outreach">Outreach Program</a>
                                                 </li>
@@ -219,12 +221,120 @@
                         </li>
                     </ul>
                 </div>
+<<<<<<< HEAD
+=======
+                <div class="col-md-6">
+                    <h6>General Services</h6>
+                    <ul class="list-unstyled">
+                        <li><a class="dropdown-item" href="/diabetic_clinic">Diabetic Clinic</a>
+                        </li>
+                        <li><a class="dropdown-item" href="/services_gmh">Hypertensive
+                                Clinic</a></li>
+                        <li><a class="dropdown-item" href="/labs">Laboratory Services</a>
+                        </li>
+                        <li><a class="dropdown-item" href="/pharmacy">Pharmacy</a>
+                        </li>
+                        <li><a class="dropdown-item" href="/pediatric_clinic">Pediatric Services</a></li>
+                        <li><a class="dropdown-item" href="/othermedicalconditions">Other
+                            Medical Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">Patient Resources
+                    <i class="icofont-thin-down"></i></a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown02">
+                    <li>
+                        <a class="dropdown-item" href="/hospital-location">Locate Our Hospitals</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="/insurance">Insurance</a>
+                    </li>
+    
+                    <li>
+                        <a class="dropdown-item" href="/patience-feedback">Patient Feedback</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="/faq">FAQs</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="/testimonial">Testimonials</a>
+                    </li>
+                    <li>
+                        <!--<a class="dropdown-item" href="directions&location">Directions & Location</a>-->
+                    </li>
+                </ul>
+            </li>
+    
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">Our Team <i class="icofont-thin-down"></i></a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                    <li><a class="dropdown-item" href="doctors">Doctors</a></li>
+                    <li><a class="dropdown-item" href="gallery">Care Team</a></li>
+                    {{-- <li><a class="dropdown-item" href="board">Board of Management</a></li>
+                    <li><a class="dropdown-item" href="executive-management">Executive Management</a></li>
+                    <li>
+                        <a class="dropdown-item" href="bookappointment">Book Appoinment</a>
+                    </li> 
+                    <li>
+                        <a class="dropdown-item" href="/gallery">Gallery</a>
+                    </li> --}}
+    
+                    <!--<li class="dropdown dropdown-submenu dropleft">
+                        <a
+                        class="dropdown-item dropdown-toggle"
+                        href="#!"
+                        id="dropdown0501"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        >Sub Menu</a>
+    
+                        <ul class="dropdown-menu" aria-labelledby="dropdown0501">
+                        <li>
+                            <a class="dropdown-item" href="index.html">Submenu 01</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="index.html">Submenu 02</a>
+                        </li>
+                        </ul>
+                    </li>-->
+                </ul>
+            </li>
+    
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">News <i class="icofont-thin-down"></i></a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown05">
+                    {{-- <li>
+                        <a class="dropdown-item" href="newsletter">Newsletters</a>
+                    </li> --}}
+                    <li>
+                        <a class="dropdown-item" href="/newsletter">Newsletters</a>
+                    </li>
+                    <li>
+                        <!--<a class="dropdown-item" href="news&events">Events & Celebrations</a>-->
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="/education">Educational Materials</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/contact">Contact</a>
+            </li>
+            </ul>
+            </div>
+>>>>>>> 59c3d6faf840f488216fe4b65a5f1ceb014dd86f
             </div>
         </nav>
     </header>
-
-
-
 
     {{ $slot }}
     <!-- footer Start -->

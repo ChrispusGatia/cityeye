@@ -39,6 +39,7 @@
                 bottom: 20px;
                 left: 20px;
                 z-index: 1000;
+                width: 300px;
                 display: flex;
                 flex-direction: row;
                 align-items: center;
@@ -285,7 +286,7 @@
                 <div class="col-lg-4 col-md-4">
                     <div class="counter-stat">
                         <i class="icofont-users"></i>
-                        <span class="h3 counter" data-count="10000" style="color: #223a66;">0</span>+
+                        <span class="h3 counter" data-count="60000" style="color: #223a66;">0</span>+
                         <p style="color: #223a66;">PATIENTS SERVED<br>ANNUALLY</p>
                     </div>
                 </div>
@@ -365,40 +366,70 @@
         });
     </script>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        setTimeout(function() {
+            showFirstTestimonial();
+        }, 5000); // Wait for 5 seconds before showing first testimonial
+
+        function showFirstTestimonial() {
+            showTestimonial(
+                '<h4 style="margin: 0 0 10px 0; font-size: 18px; color: #f4f9fc;">Amazing service!</h4>' +
+                '<span style="display: block; margin-bottom: 10px; font-size: 14px; color: #f4f9fc;">Anne Wangui</span>' +
+                '<p style="margin: 0; font-size: 16px; color: #eff0f;">Thank you City Eye Hospital for the excellent service and care you provide to your patients.</p>',
+                function() {
+                    setTimeout(showSecondTestimonial, 1000); // Wait for 1 second before showing second testimonial
+                }
+            );
+        }
+
+        function showSecondTestimonial() {
+            showTestimonial(
+                '<h4 style="margin: 0 0 10px 0; font-size: 18px; color: #f4f9fc;">Highly recommend!</h4>' +
+                '<span style="display: block; margin-bottom: 10px; font-size: 14px; color: #f4f9fc;">John Doe</span>' +
+                '<p style="margin: 0; font-size: 16px; color: #eff0f;">City Eye Hospital offers exceptional service and professional care. I am very satisfied.</p>'
+            );
+        }
+
+        function showTestimonial(content, callback) {
+            // Create a container for notifications
+            var notificationContainer = document.createElement('div');
+            notificationContainer.style.position = 'fixed';
+            notificationContainer.style.bottom = '20px';
+            notificationContainer.style.left = '20px';
+            notificationContainer.style.width = '300px';
+            notificationContainer.style.zIndex = '1000';
+            document.body.appendChild(notificationContainer);
+
+            // Create a notification div
+            var notification = document.createElement('div');
+            notification.className = 'alert';
+            notification.style.backgroundColor = '#223a66';
+            notification.style.border = '2px solid #e12454';
+            notification.style.borderRadius = '10px';
+            notification.style.color = '#eff0f';
+            notification.style.padding = '15px';
+            notification.style.boxShadow = '0 2px 5px rgba(0, 0, 0, 0.1)';
+            notification.style.marginBottom = '10px';
+
+            // Add testimonial content to the notification
+            notification.innerHTML = content;
+
+            // Append the notification to the container
+            notificationContainer.appendChild(notification);
+
+            // After a delay, remove the notification
             setTimeout(function() {
-                showTestimonials();
-            }, 5000); // Wait for 5 seconds before showing testimonials
+                notificationContainer.removeChild(notification);
+                // Remove the container if no notifications are left
+                if (notificationContainer.childNodes.length === 0) {
+                    document.body.removeChild(notificationContainer);
+                }
+                if (callback) callback(); // Call the callback function if provided
+            }, 5000); // Display the notification for 5 seconds
+        }
+    });
+</script>
 
-            function showTestimonials() {
-                // Create a container for notifications
-                var notificationContainer = document.createElement('div');
-                notificationContainer.className = 'testimonial-notifications';
-                document.body.appendChild(notificationContainer);
-
-                // Create a notification div
-                var notification = document.createElement('div');
-                notification.className = 'testimonial-notification';
-
-                // Add testimonial content to the notification
-                notification.innerHTML =
-                    '<h4>Amazing service!</h4><span>John Partho</span><p>They provide great service facility consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.</p>';
-
-
-                // Append the notification to the container
-                notificationContainer.appendChild(notification);
-
-                // After a delay, remove the notification
-                setTimeout(function() {
-                    notificationContainer.removeChild(notification);
-                    // Remove the container if no notifications are left
-                    if (notificationContainer.childNodes.length === 0) {
-                        document.body.removeChild(notificationContainer);
-                    }
-                }, 5000); // Display the notification for 5 seconds
-            }
-        });
-    </script>
     <script src="js/script.js"></script>
 </x-layout>

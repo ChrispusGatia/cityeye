@@ -60,7 +60,7 @@
           }
       
           body {
-            padding-top: 50px; /* Adjust this value for mobile view */
+            padding-top: 100px; /* Adjust this value for mobile view */
           }
         }
       </style>
@@ -223,7 +223,7 @@
                                 <i class="icofont-thin-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown02">
                                 <li>
-                                    <a class="dropdown-item" href="/privacy">Privacy Policy</a>
+                                    <a class="dropdown-item" href="/hospital-location">Our Hospital Locations</a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="/insurance">Insurance</a>

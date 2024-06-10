@@ -29,41 +29,57 @@
           z-index: 1001;
           top: 0;
         }
-      
-        .header-top-bar.hidden {
-          top: -50px; /* Adjust this value based on the height of the top bar */
-        }
-      
-        #navbar {
-          transition: top 0.3s;
-          top: 50px; /* Adjust this value based on the height of the top bar */
-          position: fixed;
-          width: 100%;
-          z-index: 1000;
-        }
-      
-        body {
-          padding-top: 100px; /* Adjust this value based on the combined height of the top bar and navbar */
-        }
-      
-        @media (max-width: 767px) {
-          .header-top-bar {
-            top: 0;
-          }
-      
-          .header-top-bar.hidden {
-            top: -100px; /* Adjust this value for mobile view */
-          }
-      
-          #navbar {
-            top: 0;
-          }
-      
-          body {
-            padding-top: 100px; /* Adjust this value for mobile view */
-          }
-        }
       </style>
+      <style>
+        .header-top-bar {
+            transition: top 0.3s;
+            position: fixed;
+            width: 100%;
+            z-index: 1001;
+            top: 0;
+        }
+
+        .header-top-bar.hidden {
+            top: -65px;
+        }
+
+        #navbar {
+            transition: top 0.3s;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+            top: 50px; /* Start below the header top bar */
+        }
+
+        body {
+            padding-top: 100px; /* Adjust this value based on the combined height of the top bar and navbar */
+        }
+
+        @media (max-width: 767px) {
+            .header-top-bar {
+                display: none;
+            }
+
+            #navbar {
+                top: 0; /* Navbar at the top when header-top-bar is hidden */
+            }
+
+            body {
+                padding-top: 50px; /* Adjust this value based on the height of the navbar */
+            }
+        }
+
+        .slider-container {
+            max-width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .carousel-inner img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
       
       
       
@@ -405,47 +421,67 @@
     </footer>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-          var headerTopBar = document.querySelector('.header-top-bar');
-          var navbar = document.getElementById('navbar');
-          var lastScrollTop = 0;
-          var headerHeight = headerTopBar.offsetHeight;
-          var navbarCollapse = document.querySelector('.navbar-collapse');
-      
-          // Ensure initial positions
-          headerTopBar.classList.remove('hidden');
-          navbar.style.top = headerHeight + 'px';
-      
-          window.addEventListener('scroll', function() {
-            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      
-            if (scrollTop > lastScrollTop && scrollTop > headerHeight) {
-              // Scrolling down
-              headerTopBar.classList.add('hidden');
-              navbar.style.top = '0';
-            } else if (scrollTop < lastScrollTop && scrollTop > headerHeight) {
-              // Scrolling up
-              headerTopBar.classList.add('hidden');
-              navbar.style.top = '0';
-            } else if (scrollTop <= headerHeight) {
-              // Near the top
-              headerTopBar.classList.remove('hidden');
-              navbar.style.top = headerHeight + 'px';
+        document.addEventListener('DOMContentLoaded', function () {
+            var headerTopBar = document.querySelector('.header-top-bar');
+            var navbar = document.getElementById('navbar');
+            var lastScrollTop = 0;
+            var headerHeight = headerTopBar.offsetHeight;
+            var navbarCollapse = document.querySelector('.navbar-collapse');
+
+            function handleScroll() {
+                if (window.innerWidth > 767) {
+                    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+                    if (scrollTop > lastScrollTop && scrollTop > headerHeight) {
+                        // Scrolling down
+                        headerTopBar.classList.add('hidden');
+                        navbar.style.top = '0';
+                    } else if (scrollTop < lastScrollTop && scrollTop > headerHeight) {
+                        // Scrolling up
+                        headerTopBar.classList.add('hidden');
+                        navbar.style.top = '0';
+                    } else if (scrollTop <= headerHeight) {
+                        // Near the top
+                        headerTopBar.classList.remove('hidden');
+                        navbar.style.top = headerHeight + 'px';
+                    }
+                    lastScrollTop = scrollTop;
+                }
             }
-      
-            lastScrollTop = scrollTop;
-          });
-      
-          // Handle navbar collapse
-          document.querySelector('.navbar-toggler').addEventListener('click', function() {
-            if (navbarCollapse.classList.contains('show')) {
-              navbarCollapse.classList.remove('show');
+
+            window.addEventListener('scroll', handleScroll);
+
+            // Handle navbar collapse for mobile view
+            document.querySelector('.navbar-toggler').addEventListener('click', function () {
+                if (navbarCollapse.classList.contains('show')) {
+                    navbarCollapse.classList.remove('show');
+                } else {
+                    navbarCollapse.classList.add('show');
+                }
+            });
+
+            // Ensure proper display on window resize
+            window.addEventListener('resize', function () {
+                if (window.innerWidth <= 767) {
+                    headerTopBar.style.display = 'none';
+                    navbar.style.top = '0';
+                } else {
+                    headerTopBar.style.display = 'block';
+                    handleScroll(); // Reapply scroll logic for larger screens
+                }
+            });
+
+            // Initial load adjustment
+            if (window.innerWidth <= 767) {
+                headerTopBar.style.display = 'none';
+                navbar.style.top = '0';
             } else {
-              navbarCollapse.classList.add('show');
+                headerTopBar.style.display = 'block';
+                navbar.style.top = headerHeight + 'px';
             }
-          });
         });
-      </script>
+    </script>
+        
       
       
     

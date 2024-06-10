@@ -85,33 +85,36 @@
             .carousel-control-next-icon {
                 background-image: none;
             }
+            
         </style>
 
     </head>
 
     <!-- header End -->
 
-    <!-- Slider Start -->
-@if ($featured_images)
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-        @foreach ($featured_images as $index => $image)
-            <div class="carousel-item {{ $index == 0 ? 'active' : '' }}">
-                <img class="d-block w-100" src="{{ asset($image->image_asset) }}" alt="Image">
-            </div>
-        @endforeach
-        <!-- Add more slider items as needed -->
+    @if ($featured_images)
+<div class="slider-container">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            @foreach ($featured_images as $index => $image)
+                <div class="carousel-item {{ $index == 0 ? 'active' : '' }}">
+                    <img class="d-block w-100" src="{{ asset($image->image_asset) }}" alt="Image">
+                </div>
+            @endforeach
+            <!-- Add more slider items as needed -->
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true">&lt;</span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true">&gt;</span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true">&lt;</span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true">&gt;</span>
-        <span class="sr-only">Next</span>
-    </a>
 </div>
 @endif
+
 
     <section class="features ">
         <div class="container">

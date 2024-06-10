@@ -59,27 +59,59 @@
                 text-overflow: ellipsis;
             }
         </style>
-
+        <style>
+            .carousel-control-prev,
+            .carousel-control-next {
+                font-size: 52px;
+                font-weight: bold;
+                
+                width: 50px;
+                height: 50px;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                color: white; /* Arrow color */
+            }
+        
+            .carousel-control-prev {
+                left: 0;
+            }
+        
+            .carousel-control-next {
+                right: 0;
+            }
+        
+            .carousel-control-prev-icon,
+            .carousel-control-next-icon {
+                background-image: none;
+            }
+        </style>
 
     </head>
 
     <!-- header End -->
 
     <!-- Slider Start -->
-    @if ($featured_images)
-        <section class="slider" style="max-height: 550px; overflow: hidden;">
-            <div class="slick-carousel">
-                @foreach ($featured_images as $image)
-                    <img src="{{ asset($image->image_asset) }}" alt="Image">
-                @endforeach
-                <!-- Add more slider items as needed -->
+@if ($featured_images)
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        @foreach ($featured_images as $index => $image)
+            <div class="carousel-item {{ $index == 0 ? 'active' : '' }}">
+                <img class="d-block w-100" src="{{ asset($image->image_asset) }}" alt="Image">
             </div>
-        </section>
-        <!-- Slider End -->
-    @endif
-
-
-
+        @endforeach
+        <!-- Add more slider items as needed -->
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true">&lt;</span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true">&gt;</span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+@endif
 
     <section class="features ">
         <div class="container">
@@ -359,9 +391,9 @@
         $(document).ready(function() {
             $('.slick-carousel').slick({
                 autoplay: true,
-                autoplaySpeed: 5000,
+                autoplaySpeed: 3000,
                 dots: true,
-                arrows: false
+                arrows: true // Changed arrows to true to show navigation arrows
             });
         });
     </script>

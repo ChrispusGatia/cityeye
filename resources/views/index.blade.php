@@ -386,8 +386,8 @@
         function showSecondTestimonial() {
             showTestimonial(
                 '<h4 style="margin: 0 0 10px 0; font-size: 18px; color: #f4f9fc;">Highly recommend!</h4>' +
-                '<span style="display: block; margin-bottom: 10px; font-size: 14px; color: #f4f9fc;">John Doe</span>' +
-                '<p style="margin: 0; font-size: 16px; color: #eff0f;">City Eye Hospital offers exceptional service and professional care. I am very satisfied.</p>'
+                '<span style="display: block; margin-bottom: 10px; font-size: 14px; color: #f4f9fc;">Eunice Hillary</span>' +
+                '<p style="margin: 0; font-size: 16px; color: #eff0f;">The hospital is very well organized with every department well attended. Very clean hospital.</p>'
             );
         }
 

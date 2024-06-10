@@ -21,7 +21,53 @@
             content: "𝕏";
             font-size: 1.2em;
         }
-    </style>
+    
+        .header-top-bar {
+          transition: top 0.3s;
+          position: fixed;
+          width: 100%;
+          z-index: 1001;
+          top: 0;
+        }
+      
+        .header-top-bar.hidden {
+          top: -50px; /* Adjust this value based on the height of the top bar */
+        }
+      
+        #navbar {
+          transition: top 0.3s;
+          top: 50px; /* Adjust this value based on the height of the top bar */
+          position: fixed;
+          width: 100%;
+          z-index: 1000;
+        }
+      
+        body {
+          padding-top: 100px; /* Adjust this value based on the combined height of the top bar and navbar */
+        }
+      
+        @media (max-width: 767px) {
+          .header-top-bar {
+            top: 0;
+          }
+      
+          .header-top-bar.hidden {
+            top: -100px; /* Adjust this value for mobile view */
+          }
+      
+          #navbar {
+            top: 0;
+          }
+      
+          body {
+            padding-top: 50px; /* Adjust this value for mobile view */
+          }
+        }
+      </style>
+      
+      
+      
+    </head>
 </head>
 
 <body>
@@ -32,7 +78,8 @@
                     <div class="col-lg-6">
                         <ul class="top-bar-info list-inline-item pl-0 mb-0">
                             <li class="list-inline-item">
-                                <a href="mailto:support@gmail.com"><i class="icofont-email mr-3"></i>info@cityeyehospital.or.ke</a>
+                                <a href="mailto:support@gmail.com"><i
+                                        class="icofont-email mr-3"></i>info@cityeyehospital.or.ke</a>
                             </li>
                             <li class="list-inline-item">
                                 <i class="icofont-location-pin mr-2"></i>Ngong Road, Nairobi, Kenya
@@ -45,35 +92,34 @@
                                 <span>Call Now : </span>
                                 <span>+254(0)111 032 200</span>
                             </a>
-                            <a href="/bookappointment" type="button" class="btn btn-danger btn-lg ml-2">Book Appointment</a>
+                            <a href="/bookappointment" type="button" class="btn btn-danger btn-lg ml-2">Book
+                                Appointment</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         
-        <nav class="navbar navbar-expand-lg navigation" id="navbar">
+        <nav class="navbar navbar-expand-lg navigation" id="navbar" style="position: fixed; top: 0; width: 100%; z-index: 1000; background-color: white;;">
             <div class="container">
                 <a class="navbar-brand" href="/">
                     <img src="{{ asset('images/logo1.png') }}" width="200" class="img-fluid" />
                 </a>
-    
-                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
-                    data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false"
-                    aria-label="Toggle navigation">
+
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmain"
+                    aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="icofont-navigation-menu"></span>
                 </button>
-    
+
                 <div class="collapse navbar-collapse" id="navbarmain">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
                             <a class="nav-link" href="/">Home</a>
                         </li>
-    
+
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdown02"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About <i
-                                    class="icofont-thin-down"></i></a>
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">About <i class="icofont-thin-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown02">
                                 <li>
                                     <a class="dropdown-item" href="/about_us">Who We Are</a>
@@ -81,9 +127,6 @@
                                 <li>
                                     <a class="dropdown-item" href="/our_history">Our History</a>
                                 </li>
-                                <!--<li>
-                                    <a class="dropdown-item" href="/mission">Mission & Vision</a>
-                                </li>-->
                                 <li>
                                     <a class="dropdown-item" href="ourfoundation">Our Foundation</a>
                                 </li>
@@ -92,10 +135,10 @@
                                 </li>
                             </ul>
                         </li>
-    
+
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdown02"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Branches
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Our Branches
                                 <i class="icofont-thin-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown02">
                                 <li>
@@ -104,7 +147,7 @@
                                 <li>
                                     <a class="dropdown-item" href="/nyeri_hospital">Nyeri Hospital</a>
                                 </li>
-    
+
                                 <li>
                                     <a class="dropdown-item" href="/appointment-clinic">Appointment Clinic</a>
                                 </li>
@@ -121,8 +164,7 @@
                                 </li>
                             </ul>
                         </li>
-    
-    
+
                         <li class="nav-item dropdown">
                             <a class="mega-menu-link nav-link dropdown-toggle" href="#" id="dropdown02"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services <span
@@ -151,117 +193,82 @@
                                                 <li><a class="dropdown-item" href="/opticalshop">Optical Shop</a></li>
                                                 <li><a class="dropdown-item" href="/outreach">Outreach Program</a>
                                                 </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h6>General Services</h6>
+                                            <ul class="list-unstyled">
+                                                <li><a class="dropdown-item" href="/diabetic_clinic">Diabetic
+                                                        Clinic</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="/services_gmh">Hypertensive
+                                                        Clinic</a></li>
+                                                <li><a class="dropdown-item" href="/labs">Laboratory Services</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="/pharmacy">Pharmacy</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="/pediatric_clinic">Pediatric Services</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="/othermedicalconditions">Other
+                                                        Medical Conditions</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown02"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Patient Resources
+                                <i class="icofont-thin-down"></i></a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown02">
+                                <li>
+                                    <a class="dropdown-item" href="/privacy">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/insurance">Insurance</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="/patience-feedback">Patient Feedback</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/faq">FAQs</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/testimonial">Testimonials</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown03"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Team <i
+                                    class="icofont-thin-down"></i></a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                                <li><a class="dropdown-item" href="doctors">Doctors</a></li>
+                                <li><a class="dropdown-item" href="gallery">Care Team</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown05"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News <i
+                                    class="icofont-thin-down"></i></a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown05">
+                                <li>
+                                    <a class="dropdown-item" href="/newsletter">Newsletters</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/education">Educational Materials</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact">Contact</a>
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-6">
-                    <h6>General Services</h6>
-                    <ul class="list-unstyled">
-                        <li><a class="dropdown-item" href="/diabetic_clinic">Diabetic Clinic</a>
-                        </li>
-                        <li><a class="dropdown-item" href="/services_gmh">Hypertensive
-                                Clinic</a></li>
-                        <li><a class="dropdown-item" href="/labs">Laboratory Services</a>
-                        </li>
-                        <li><a class="dropdown-item" href="/pharmacy">Pharmacy</a>
-                        </li>
-                        <li><a class="dropdown-item" href="/pediatric_clinic">Pediatric Services</a></li>
-                        <li><a class="dropdown-item" href="/othermedicalconditions">Other
-                            Medical Conditions</a></li>
-                    </ul>
-                </div>
-            </div>
-            </div>
-            </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">Patient Resources
-                    <i class="icofont-thin-down"></i></a>
-                <ul class="dropdown-menu" aria-labelledby="dropdown02">
-                    <li>
-                        <a class="dropdown-item" href="/hospital-location">Locate Our Hospitals</a>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="/insurance">Insurance</a>
-                    </li>
-    
-                    <li>
-                        <a class="dropdown-item" href="/patience-feedback">Patient Feedback</a>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="/faq">FAQs</a>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="/testimonial">Testimonials</a>
-                    </li>
-                    <li>
-                        <!--<a class="dropdown-item" href="directions&location">Directions & Location</a>-->
-                    </li>
-                </ul>
-            </li>
-    
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">Our Team <i class="icofont-thin-down"></i></a>
-                <ul class="dropdown-menu" aria-labelledby="dropdown03">
-                    <li><a class="dropdown-item" href="doctors">Doctors</a></li>
-                    <li><a class="dropdown-item" href="gallery">Care Team</a></li>
-                    {{-- <li><a class="dropdown-item" href="board">Board of Management</a></li>
-                    <li><a class="dropdown-item" href="executive-management">Executive Management</a></li>
-                    <li>
-                        <a class="dropdown-item" href="bookappointment">Book Appoinment</a>
-                    </li> 
-                    <li>
-                        <a class="dropdown-item" href="/gallery">Gallery</a>
-                    </li> --}}
-    
-                    <!--<li class="dropdown dropdown-submenu dropleft">
-                        <a
-                        class="dropdown-item dropdown-toggle"
-                        href="#!"
-                        id="dropdown0501"
-                        role="button"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                        >Sub Menu</a>
-    
-                        <ul class="dropdown-menu" aria-labelledby="dropdown0501">
-                        <li>
-                            <a class="dropdown-item" href="index.html">Submenu 01</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="index.html">Submenu 02</a>
-                        </li>
-                        </ul>
-                    </li>-->
-                </ul>
-            </li>
-    
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">News <i class="icofont-thin-down"></i></a>
-                <ul class="dropdown-menu" aria-labelledby="dropdown05">
-                    {{-- <li>
-                        <a class="dropdown-item" href="newsletter">Newsletters</a>
-                    </li> --}}
-                    <li>
-                        <a class="dropdown-item" href="/newsletter">Newsletters</a>
-                    </li>
-                    <li>
-                        <!--<a class="dropdown-item" href="news&events">Events & Celebrations</a>-->
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="/education">Educational Materials</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/contact">Contact</a>
-            </li>
-            </ul>
-            </div>
             </div>
         </nav>
     </header>
@@ -284,22 +291,26 @@
 
                         <ul class="list-inline footer-socials mt-4">
                             <li class="list-inline-item">
-                                <a href="https://www.facebook.com/cityeyehospital/"><i class="icofont-facebook"></i></a>
+                                <a href="https://www.facebook.com/cityeyehospital/"><i
+                                        class="icofont-facebook"></i></a>
                             </li>
                             <li class="list-inline-item">
                                 <a href="https://twitter.com/cityeyehospital"><i class="fa fa-twitter"></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="https://www.linkedin.com/company/city-eye-hospital/"><i class="icofont-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/company/city-eye-hospital/"><i
+                                        class="icofont-linkedin"></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="https://www.youtube.com/channel/UCd0X1iikHG5ukaHLLcMiVXQ"><i class="icofont-youtube"></i></a>
+                                <a href="https://www.youtube.com/channel/UCd0X1iikHG5ukaHLLcMiVXQ"><i
+                                        class="icofont-youtube"></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="https://www.instagram.com/cityeyehospital_kenya/"><i class="icofont-instagram"></i></a>
+                                <a href="https://www.instagram.com/cityeyehospital_kenya/"><i
+                                        class="icofont-instagram"></i></a>
                             </li>
                         </ul>
-                        
+
                     </div>
                 </div>
 
@@ -392,6 +403,52 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var headerTopBar = document.querySelector('.header-top-bar');
+          var navbar = document.getElementById('navbar');
+          var lastScrollTop = 0;
+          var headerHeight = headerTopBar.offsetHeight;
+          var navbarCollapse = document.querySelector('.navbar-collapse');
+      
+          // Ensure initial positions
+          headerTopBar.classList.remove('hidden');
+          navbar.style.top = headerHeight + 'px';
+      
+          window.addEventListener('scroll', function() {
+            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      
+            if (scrollTop > lastScrollTop && scrollTop > headerHeight) {
+              // Scrolling down
+              headerTopBar.classList.add('hidden');
+              navbar.style.top = '0';
+            } else if (scrollTop < lastScrollTop && scrollTop > headerHeight) {
+              // Scrolling up
+              headerTopBar.classList.add('hidden');
+              navbar.style.top = '0';
+            } else if (scrollTop <= headerHeight) {
+              // Near the top
+              headerTopBar.classList.remove('hidden');
+              navbar.style.top = headerHeight + 'px';
+            }
+      
+            lastScrollTop = scrollTop;
+          });
+      
+          // Handle navbar collapse
+          document.querySelector('.navbar-toggler').addEventListener('click', function() {
+            if (navbarCollapse.classList.contains('show')) {
+              navbarCollapse.classList.remove('show');
+            } else {
+              navbarCollapse.classList.add('show');
+            }
+          });
+        });
+      </script>
+      
+      
+    
 </body>
 
 </html>

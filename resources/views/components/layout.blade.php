@@ -30,7 +30,7 @@
           top: 0;
         }
       </style>
-      <style>
+     <style>
         .header-top-bar {
             transition: top 0.3s;
             position: fixed;
@@ -44,11 +44,14 @@
         }
 
         #navbar {
-            transition: top 0.3s;
+            transition: top 0.3s, box-shadow 0.3s;
             position: fixed;
             width: 100%;
             z-index: 1000;
             top: 50px; /* Start below the header top bar */
+            background-color: white; /* Background color for card-like appearance */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Bold shadow */
+            padding: 10px 0; /* Padding for card-like effect */
         }
 
         body {
@@ -80,8 +83,7 @@
             height: auto;
         }
     </style>
-      
-      
+       
       
     </head>
 </head>
@@ -425,8 +427,9 @@
             var headerTopBar = document.querySelector('.header-top-bar');
             var navbar = document.getElementById('navbar');
             var lastScrollTop = 0;
-            var headerHeight = headerTopBar.offsetHeight;
+            var headerHeight= headerTopBar.offsetHeight;
             var navbarCollapse = document.querySelector('.navbar-collapse');
+            var navbarToggler = document.querySelector('.navbar-toggler');
 
             function handleScroll() {
                 if (window.innerWidth > 767) {
@@ -452,11 +455,13 @@
             window.addEventListener('scroll', handleScroll);
 
             // Handle navbar collapse for mobile view
-            document.querySelector('.navbar-toggler').addEventListener('click', function () {
+            navbarToggler.addEventListener('click', function () {
                 if (navbarCollapse.classList.contains('show')) {
                     navbarCollapse.classList.remove('show');
+                    navbarToggler.setAttribute('aria-expanded', 'false'); // Reset aria-expanded attribute
                 } else {
                     navbarCollapse.classList.add('show');
+                    navbarToggler.setAttribute('aria-expanded', 'true'); // Set aria-expanded attribute
                 }
             });
 
@@ -465,6 +470,7 @@
                 if (window.innerWidth <= 767) {
                     headerTopBar.style.display = 'none';
                     navbar.style.top = '0';
+                    navbarCollapse.classList.remove('show'); // Ensure collapse is hidden on resize
                 } else {
                     headerTopBar.style.display = 'block';
                     handleScroll(); // Reapply scroll logic for larger screens
@@ -481,8 +487,12 @@
             }
         });
     </script>
-        
-      
+
+    
+    
+    
+    
+    
       
     
 </body>

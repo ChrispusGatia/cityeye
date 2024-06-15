@@ -121,8 +121,8 @@
         <nav class="navbar navbar-expand-lg navigation" id="navbar" style="position: fixed; top: 0; width: 100%; z-index: 1000; background-color: white;;">
             <div class="container">
                 <a class="navbar-brand" href="/">
-                    <img src="{{ asset('images/logo1.png') }}" width="200" class="img-fluid" />
-                </a>
+                    <img src="{{ asset('images/logo1.png') }}" style="width: 200px; height: auto;" class="img-fluid" />
+                </a>                
 
                 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmain"
                     aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
@@ -424,23 +424,28 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            var headerTopBar = document.querySelector('.header-top-bar');
+            var headerTopBar = document.querySelector('.header-top-bar'); // Adjusted to match your actual structure
             var navbar = document.getElementById('navbar');
             var lastScrollTop = 0;
-            var headerHeight= headerTopBar.offsetHeight;
+            var headerHeight = headerTopBar.offsetHeight; // Adjusted to match your actual structure
             var navbarCollapse = document.querySelector('.navbar-collapse');
             var navbarToggler = document.querySelector('.navbar-toggler');
-
+    
             function handleScroll() {
-                if (window.innerWidth > 767) {
-                    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
+                var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    
+                if (window.innerWidth <= 767) {
+                    // On mobile view
+                    navbar.style.top = '0';
+                    headerTopBar.style.display = 'none';
+                } else {
+                    // On desktop view
                     if (scrollTop > lastScrollTop && scrollTop > headerHeight) {
                         // Scrolling down
                         headerTopBar.classList.add('hidden');
                         navbar.style.top = '0';
                     } else if (scrollTop < lastScrollTop && scrollTop > headerHeight) {
-                        // Scrolling up
+                        // Scrolling up near the top
                         headerTopBar.classList.add('hidden');
                         navbar.style.top = '0';
                     } else if (scrollTop <= headerHeight) {
@@ -448,35 +453,48 @@
                         headerTopBar.classList.remove('hidden');
                         navbar.style.top = headerHeight + 'px';
                     }
-                    lastScrollTop = scrollTop;
                 }
+    
+                lastScrollTop = scrollTop;
             }
-
+    
             window.addEventListener('scroll', handleScroll);
-
+    
             // Handle navbar collapse for mobile view
-            navbarToggler.addEventListener('click', function () {
+            navbarToggler.addEventListener('click', function (event) {
+                event.stopPropagation(); // Prevent click event from bubbling up to document
                 if (navbarCollapse.classList.contains('show')) {
                     navbarCollapse.classList.remove('show');
-                    navbarToggler.setAttribute('aria-expanded', 'false'); // Reset aria-expanded attribute
+                    document.body.classList.remove('overflow-hidden'); // Optional: Enable scrolling when menu is closed
                 } else {
                     navbarCollapse.classList.add('show');
-                    navbarToggler.setAttribute('aria-expanded', 'true'); // Set aria-expanded attribute
+                    document.body.classList.add('overflow-hidden'); // Optional: Disable scrolling when menu is open
                 }
             });
-
+    
+            // Close the navbar menu when clicking outside
+            document.addEventListener('click', function (event) {
+                var isClickInsideNavbar = navbarCollapse.contains(event.target);
+                var isNavbarToggler = navbarToggler.contains(event.target);
+                if (!isClickInsideNavbar && !isNavbarToggler && navbarCollapse.classList.contains('show')) {
+                    navbarCollapse.classList.remove('show');
+                    document.body.classList.remove('overflow-hidden'); // Optional: Enable scrolling when menu is closed
+                }
+            });
+    
             // Ensure proper display on window resize
             window.addEventListener('resize', function () {
-                if (window.innerWidth <= 767) {
-                    headerTopBar.style.display = 'none';
-                    navbar.style.top = '0';
-                    navbarCollapse.classList.remove('show'); // Ensure collapse is hidden on resize
+                if (window.innerWidth > 767) {
+                    handleScroll(); // Apply scroll logic for larger screens
+                    navbarCollapse.classList.remove('show');
+                    document.body.classList.remove('overflow-hidden'); // Optional: Enable scrolling on larger screens
                 } else {
-                    headerTopBar.style.display = 'block';
-                    handleScroll(); // Reapply scroll logic for larger screens
+                    headerTopBar.style.display = 'none'; // Ensure headerTopBar is hidden on mobile
+                    navbar.style.position = 'fixed';
+                    navbar.style.top = headerHeight + 'px';
                 }
             });
-
+    
             // Initial load adjustment
             if (window.innerWidth <= 767) {
                 headerTopBar.style.display = 'none';
@@ -486,15 +504,7 @@
                 navbar.style.top = headerHeight + 'px';
             }
         });
-    </script>
-
-    
-    
-    
-    
-    
-      
-    
+    </script>   
 </body>
 
 </html>

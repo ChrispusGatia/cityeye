@@ -200,28 +200,80 @@
 
 
 
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-12.5">
-                <div class="section-title text-center">
-                    <h2>Google Map Directions</h2>
-                    <div class="divider mx-auto my-4"></div>
-
-                    <div class="google-map ">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4743.502116636985!2d36.80408283879087!3d-1.2983866077723598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10ea15cd9e7d%3A0x90f3bd97e5159bfc!2sCity%20Eye%20Hospital!5e0!3m2!1sen!2ske"
-                            width="1300" height="450" style="border:0;" allowfullscreen=""
-                            loading="lazy"></iframe>
+    <section class="contact-info pb-0">
+        <div class="container">
+    
+            <!-- Insert the new code block here, above the existing row -->
+            <div class="row justify-content-center">
+                <div class="col-lg-12.5">
+                    <div class="section-title text-center">
+                        <h2>Google Map Directions</h2>
+                        <div class="divider mx-auto my-4"></div>
+    
                     </div>
                 </div>
             </div>
+            <!-- End of new code block -->
+    
+            <div class="row">
+                <div class="col-lg-4">
+                    <!-- Sidebar with Hospital Locations -->
+                    <div class="contact-block mb-4 mb-lg-0">
+                        <i class="icofont-map"></i>
+                        <h5>Branch Locations</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="hospital-location"
+                                    data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4743.502116636985!2d36.80408283879087!3d-1.2983866077723598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10ea15cd9e7d%3A0x90f3bd97e5159bfc!2sCity%20Eye%20Hospital!5e0!3m2!1sen!2ske"
+                                    data-title="Main Hospital">Main Hospital</a></li>
+                            <!-- Add similar links for other branches -->
+                            <li><a href="#" class="hospital-location"
+                                    data-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15958.826965279353!2d36.9598526!3d-0.42850249999999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18286146732cdb53%3A0x45becfcac6fb63ab!2sCity%20Eye%20Hospital%20-%20Nyeri!5e0!3m2!1sen!2ske!4v1669289149340!5m2!1sen!2ske"
+                                    data-title="Nyeri Hospital">Nyeri Hospital</a></li>
+                            <li><a href="#" class="hospital-location"
+                                    data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3553.615025574336!2d36.8044979838882!3d-1.2958189771624877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10c1c8deb29f%3A0x1addc640ec7641a0!2sRalph%20Bunche%20Rd%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1631535375080!5m2!1sen!2ske"
+                                    data-title="Appointment Clinic">Appointment Clinic</a></li>
+                            <li><a href="#" class="hospital-location"
+                                    data-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.788688278033!2d36.6572366!3d-1.3583221!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f034453812b63%3A0x5b18f2d50bfe9691!2sCity%20Eye%20Hospital%20-%20Ngong%20Milele%20Mall!5e0!3m2!1sen!2ske!4v1685612866572!5m2!1sen!2ske"
+                                    data-title="VC Ngong">VC Ngong</a></li>
+                        </ul>
+                        <span class="btn btn-primary btn-block">Click on a branch name</span>
+                    </div>
+                </div>
+    
+                <div class="col-lg-8">
+                    <!-- Google Map Container -->
+                    <div id="branchMap" style="height: 450px;"></div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+    
 
 
-    <!-- footer Start -->
+<!-- JavaScript to handle branch map display -->
+<script>
+    // Function to load and display the branch map
+    function loadBranchMap(src, title) {
+        var mapContainer = document.getElementById('branchMap');
+        mapContainer.innerHTML = '<iframe src="' + src +
+            '" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>';
+    }
 
-    <!-- footer End -->
+    // Load Main Hospital map by default
+    loadBranchMap(
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4743.502116636985!2d36.80408283879087!3d-1.2983866077723598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10ea15cd9e7d%3A0x90f3bd97e5159bfc!2sCity%20Eye%20Hospital!5e0!3m2!1sen!2ske",
+        "Main Hospital");
+
+    // Event listener for branch links
+    document.querySelectorAll('.hospital-location').forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            var mapSrc = this.getAttribute('data-src');
+            var branchTitle = this.getAttribute('data-title');
+            loadBranchMap(mapSrc, branchTitle);
+        });
+    });
+</script>
 
 
 

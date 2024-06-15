@@ -436,20 +436,28 @@
     
                 if (window.innerWidth <= 767) {
                     // On mobile view
-                    navbar.style.top = '0';
-                    headerTopBar.style.display = 'none';
+                    if (navbarCollapse.classList.contains('show')) {
+                        // Mobile view with menu open
+                        navbar.style.position = 'absolute';
+                        navbar.style.top = scrollTop + 'px';
+                        navbar.style.overflowY = 'auto'; // Allow scrolling within the navbar
+                        navbar.style.height = '100vh'; // Set full height for scrolling
+                    } else {
+                        // Mobile view with menu closed
+                        navbar.style.position = 'fixed';
+                        navbar.style.top = '0';
+                        navbar.style.overflowY = 'hidden'; // Disable vertical scroll
+                        navbar.style.height = 'auto'; // Reset height
+                    }
+                    headerTopBar.style.display = 'none'; // Hide the top bar on mobile
                 } else {
                     // On desktop view
                     if (scrollTop > lastScrollTop && scrollTop > headerHeight) {
                         // Scrolling down
                         headerTopBar.classList.add('hidden');
                         navbar.style.top = '0';
-                    } else if (scrollTop < lastScrollTop && scrollTop > headerHeight) {
-                        // Scrolling up near the top
-                        headerTopBar.classList.add('hidden');
-                        navbar.style.top = '0';
-                    } else if (scrollTop <= headerHeight) {
-                        // Near the top
+                    } else if (scrollTop < lastScrollTop || scrollTop <= headerHeight) {
+                        // Scrolling up or near the top
                         headerTopBar.classList.remove('hidden');
                         navbar.style.top = headerHeight + 'px';
                     }
@@ -466,19 +474,16 @@
                 if (navbarCollapse.classList.contains('show')) {
                     navbarCollapse.classList.remove('show');
                     document.body.classList.remove('overflow-hidden'); // Optional: Enable scrolling when menu is closed
+                    navbar.style.position = 'fixed'; // Ensure navbar stays fixed when menu is closed
+                    navbar.style.top = '0'; // Ensure navbar remains at the top
+                    handleScroll(); // Reapply scroll logic after closing menu
                 } else {
                     navbarCollapse.classList.add('show');
                     document.body.classList.add('overflow-hidden'); // Optional: Disable scrolling when menu is open
-                }
-            });
-    
-            // Close the navbar menu when clicking outside
-            document.addEventListener('click', function (event) {
-                var isClickInsideNavbar = navbarCollapse.contains(event.target);
-                var isNavbarToggler = navbarToggler.contains(event.target);
-                if (!isClickInsideNavbar && !isNavbarToggler && navbarCollapse.classList.contains('show')) {
-                    navbarCollapse.classList.remove('show');
-                    document.body.classList.remove('overflow-hidden'); // Optional: Enable scrolling when menu is closed
+                    navbar.style.position = 'absolute'; // Ensure navbar position is absolute when menu is open
+                    navbar.style.top = window.pageYOffset + 'px'; // Adjust top based on current scroll position
+                    navbar.style.overflowY = 'auto'; // Allow scrolling within the navbar
+                    navbar.style.height = '100vh'; // Set full height for scrolling
                 }
             });
     
@@ -491,20 +496,29 @@
                 } else {
                     headerTopBar.style.display = 'none'; // Ensure headerTopBar is hidden on mobile
                     navbar.style.position = 'fixed';
-                    navbar.style.top = headerHeight + 'px';
+                    navbar.style.top = '0';
+                    navbar.style.overflowY = 'hidden'; // Reset overflow on resize
+                    navbar.style.height = 'auto'; // Reset height on resize
                 }
             });
     
             // Initial load adjustment
             if (window.innerWidth <= 767) {
                 headerTopBar.style.display = 'none';
+                navbar.style.position = 'fixed';
                 navbar.style.top = '0';
+                navbar.style.overflowY = 'hidden'; // Initial setup for mobile view
+                navbar.style.height = 'auto'; // Initial setup for mobile view
             } else {
                 headerTopBar.style.display = 'block';
+                navbar.style.position = 'fixed';
                 navbar.style.top = headerHeight + 'px';
             }
         });
-    </script>   
+    </script>
+    
+    
+    
 </body>
 
 </html>

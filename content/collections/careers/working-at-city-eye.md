@@ -14,9 +14,9 @@ careers:
     id: lusfmq8k
     title: 'Working at City eye'
     description: 'Working at City eye'
-    apply_link: 'https://www.youtube.com/watch?v=laXhTcko-lg'
+    apply_link: 'https://docs.google.com/forms/d/e/1FAIpQLSexjt83qkEu0YvKtHg7C9tJa4XV5-LVDjp01lp9wzbzv6LbNg/viewform'
     type: new_set
     enabled: true
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1713790046
+updated_at: 1718633629
 ---

@@ -79,7 +79,7 @@
                                 <div class="job-item">
                                     <h3>{{ $career->title }}</h3>
                                     <p>{!! $career->description !!}</p>
-                                    <a href="{{ $career->apply_link }}" class="btn btn-primary">Apply Now</a>
+                                    <a href="{{ $career->apply_link }}" class="btn btn-primary" target="_blank">Apply Now</a>
                                 </div>
                             </div>
                         </div>

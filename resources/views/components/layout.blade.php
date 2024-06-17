@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CityEye- Health Care</title>
+    <title>City Eye Hospital- Eye Care</title>
     <!-- Add your CSS links here -->
     <link href="{{ asset('plugins/bootstrap/bootstrap.min.css') }}" rel="stylesheet">
 

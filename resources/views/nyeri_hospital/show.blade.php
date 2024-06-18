@@ -57,7 +57,7 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="department-content mt-5">
-                            <h3 class="text-md">Our Mbuni Road Branch (Nyeri Town)</h3>
+                            <h3 class="text-md">Nyeri Branch</h3>
                             <div class="divider my-4"></div>
                             <p class="lead">City Eye Hospital (CEH) opened its first satellite branch in Nyeri in
                                 2022.
@@ -78,8 +78,8 @@
                                 <li><i class="icofont-check mr-2"></i>General Ophthalmology</li>
                                 <li><i class="icofont-check mr-2"></i>Cataract Surgery</li>
                                 <li><i class="icofont-check mr-2"></i>Corneal Transplants</li>
-                                <li><i class="icofont-check mr-2"></i>Glaucoma Clinics and Surgery</li>
-                                <li><i class="icofont-check mr-2"></i>Retina Clinic and Surgery</li>
+                                <li><i class="icofont-check mr-2"></i>Glaucoma Clinic and Surgeries</li>
+                                <li><i class="icofont-check mr-2"></i>Retina Clinic and Surgeries</li>
                                 <li><i class="icofont-check mr-2"></i>Optical Shop</li>
                             </ul>
 

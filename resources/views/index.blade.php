@@ -138,7 +138,7 @@
                             <span>THE CARE TO EXPECT </span>
                             <h4 class="mb-3">Personalised</h4>
                             <p class="mb-4">At CEH, you will receive a tailored treatment plan in a
-                                calm and confortable environment where you can freely ask questions
+                                calm and comfortable environment where you can freely ask questions
                                 and seek clarification.</p>
                         </div>
 
@@ -329,7 +329,7 @@
                 <div class="col-lg-4 col-md-4">
                     <div class="counter-stat">
                         <i class="icofont-doctor"></i>
-                        <span class="h3 counter" data-count="5" style="color: #223a66;">0</span>+
+                        <span class="h3 counter" data-count="10" style="color: #223a66;">0</span>+
                         <p style="color: #223a66;">EYE SPECIALISTS AT<br>YOUR SERVICE</p>
                     </div>
                 </div>

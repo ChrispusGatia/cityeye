@@ -76,8 +76,8 @@
                             <li><i class="icofont-check mr-2"></i>General Ophthalmology</li>
                             <li><i class="icofont-check mr-2"></i>Cataract Surgery</li>
                             <li><i class="icofont-check mr-2"></i>Corneal Clinic and Transplant</li>
-                            <li><i class="icofont-check mr-2"></i>Glaucoma Clinics and Surgery</li>
-                            <li><i class="icofont-check mr-2"></i>Retina Clinic and Surgery</li>
+                            <li><i class="icofont-check mr-2"></i>Glaucoma Clinic and Surgeries</li>
+                            <li><i class="icofont-check mr-2"></i>Retina Clinic and Surgeries</li>
                             <li><i class="icofont-check mr-2"></i>Optical Shop</li>
                             <li><i class="icofont-check mr-2"></i>Pediatrics services</li>                          
                         </ul>

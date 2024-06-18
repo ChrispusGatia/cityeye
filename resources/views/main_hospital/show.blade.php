@@ -67,7 +67,7 @@
                             our Main Hospital offers comprehensive medical and surgical care for eye-related concerns
                             and conditions, including advanced eye treatment for cataracts, glaucoma, retinal
                             detachment,
-                            corneal disease and macular degeneration.</p>
+                            corneal disease and diabetic retinopathy.</p>
 
                         <h3 class="mt-5 mb-4">Services offered at our Main Branch</h3>
                         <div class="divider my-4"></div>
@@ -75,8 +75,8 @@
                             <li><i class="icofont-check mr-2"></i>General Ophthalmology</li>
                             <li><i class="icofont-check mr-2"></i>Cataract Surgery</li>
                             <li><i class="icofont-check mr-2"></i>Corneal Clinic and Transplant</li>
-                            <li><i class="icofont-check mr-2"></i>Glaucoma Clinics and Surgery</li>
-                            <li><i class="icofont-check mr-2"></i>Retina Clinic and Surgery</li>
+                            <li><i class="icofont-check mr-2"></i>Glaucoma Clinic and Surgeries</li>
+                            <li><i class="icofont-check mr-2"></i>Retina Clinic and Surgeries</li>
                             <li><i class="icofont-check mr-2"></i>Priority Care</li>
                             <li><i class="icofont-check mr-2"></i>Optical Shop</li>
                             <li><i class="icofont-check mr-2"></i>Diabetic Clinic</li>

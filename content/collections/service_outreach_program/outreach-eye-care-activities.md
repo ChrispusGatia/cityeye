@@ -12,7 +12,7 @@ card_section:
       Our cataract outreaches are mainly done through community camps held at central locations in the community, such as churches, county government hospitals and social halls. The local community gets access to free eye screening at the camps. Those identified to have cataracts benefit from subsidized surgical interventions. A cataract is an opacity of the natural eye lens that can lead to blindness if left untreated. However, it can be treated successfully through surgical interventions when caught early. Our cataract outreaches, made possible thanks to the support of our partners—the Fred Hollows Foundation and our very own CEH Foundation—also conduct community eye health awareness forums where we disseminate information on the causes, symptoms and treatment of cataracts.
     type: new_set
     enabled: true
-    card_image: download.jpg
+    card_image: cataract.png
   -
     id: lxei0msw
     card_description: |-
@@ -22,6 +22,7 @@ card_section:
       They also get a chance to get an eye screening and treatment on site. Where the staff members need more specialised intervention, they are referred to our facilities for further treatment.
     type: new_set
     enabled: true
+    card_image: outreach_images/corporate-outreache.jpeg
   -
     id: lxei1mgw
     card_description: |-
@@ -32,6 +33,34 @@ card_section:
       Those found with complications are referred for treatment while those that are found to not have any complications are advised on the importance of having regular eye screening when one is diabetic, as early diagnosis and treatment of diabetic eye disease is crucial in preventing blindness.
     type: new_set
     enabled: true
+    card_image: outreach_images/diabetic-retinopathy-outreache.jpeg
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1718358118
+updated_at: 1718714104
+outreach_images:
+  -
+    id: lxkcqerz
+    image: outreach_images/img7.jpeg
+    type: new_set
+    enabled: true
+  -
+    id: lxkdhgg2
+    image: outreach_images/img1.jpeg
+    type: new_set
+    enabled: true
+  -
+    id: lxkducl5
+    image: outreach_images/img_5195.jpg
+    type: new_set
+    enabled: true
+outreach_videos:
+  -
+    id: lxkdb9ws
+    youtube_id: gDw6yv4m_Rc
+    type: new_set
+    enabled: true
+  -
+    id: lxkdgp2l
+    youtube_id: eCpZWe30PNo
+    type: new_set
+    enabled: true
 ---

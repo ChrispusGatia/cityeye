@@ -4,9 +4,9 @@ blueprint: pediatric_clinic
 title: 'Pediatric Clinic'
 author: 14d3b439-c1ca-4786-8ce7-59caffb630ff
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1718361127
+updated_at: 1718686882
 description: |-
-  City Eye Hospital's paediatric eye care specialists and support staff are committed to enabling you access to world-class eye care for your child, from early childhood all through adolescence and young adulthood. This is in our continued quest to Whether you are looking for paediatric eye care for an ongoing condition or a growing concern or want to confirm that your child’s vision development is on track, City Eye Hospital will deliver the care you need in a welcoming environment. 
+  City Eye Hospital's pediatric eye care specialists and support staff are committed to enabling you access to world-class eye care for your child, from early childhood all through adolescence and young adulthood. This is in our continued quest to Whether you are looking for pediatric eye care for an ongoing condition or a growing concern or want to confirm that your child’s vision development is on track, City Eye Hospital will deliver the care you need in a welcoming environment. 
   All this is in our continued quest to ensure eye issues are diagnosed and treated as early as possible. City Eye Hospital offers specialist treatment across a wide spectrum of common and complex childhood issues and conditions, including:
 sub_title: Treatments
 services:

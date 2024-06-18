@@ -370,7 +370,7 @@
                         <div class="footer-contact-block mb-4">
                             <div class="icon d-flex align-items-center">
                                 <i class="icofont-email mr-3"></i>
-                                <span class="h6 mb-0">Support Available for 24/7</span>
+                                <span class="h6 mb-0">Get a reply within 24 hours.</span>
                             </div>
                             <h4 class="mt-2">
                                 <a href="mailto:info@cityeyehospital.or.ke">info@cityeyehospital.or.ke</a>

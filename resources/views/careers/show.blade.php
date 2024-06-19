@@ -1,13 +1,12 @@
 <x-layout>
-
     <head>
         <!-- Basic Page Needs ================================================== -->
         <meta charset="utf-8" />
-        <title>CityEye - Careers</title>
+        <title>City Eye Hospital - Careers</title>
 
         <!-- Mobile Specific Metas ================================================== -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="CityEye Careers Page" />
+        <meta name="description" content="Explore current job openings at City Eye Hospital. Join our team and contribute to eye care excellence.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
         <meta name="author" content="Themefisher" />
         <meta name="generator" content="Themefisher CityEye HTML Template v1.0" />
@@ -26,10 +25,42 @@
 
         <!-- Main Stylesheet -->
         <link rel="stylesheet" href="css/style.css" />
+
+        <style>
+            .job-item p {
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 5; /* Limit to 5 lines */
+                overflow: hidden;
+                text-overflow: ellipsis; /* Show ellipsis (...) for overflow */
+                margin-bottom: 0;
+            }
+
+            .read-more-link {
+                display: inline-block;
+                margin-top: 10px;
+                color: #223a66;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+
+            @media (max-width: 768px) {
+                .job-item p {
+                    -webkit-line-clamp: unset; /* Show full content on mobile */
+                    overflow: visible;
+                }
+
+                .read-more-link {
+                    display: inline-block; /* Show read more link on mobile */
+                }
+                .btn-main {
+                    margin-top: 30px;
+                }
+            }
+        </style>
     </head>
 
     <body id="top">
-
         <section class="page-title bg-1">
             <div class="overlay"></div>
             <div class="container">
@@ -54,8 +85,7 @@
                             <div class="divider mx-auto my-4"></div>
                             <!-- Privacy Policy Link -->
                             <p class="mb-0">
-                                Before applying, please read <a href="gdprstatement" class="text-primary">Our Privacy &
-                                    GDPR Statement</a>.
+                                Before applying, please read <a href="gdprstatement" class="text-primary">Our Privacy & GDPR Statement</a>.
                             </p>
                         </div>
                     </div>
@@ -69,27 +99,60 @@
 
                 <!-- Improved Job Listings (Card-based and Side-by-Side) -->
                 <div class="container">
-                    @php $count = 0 @endphp
-                    @foreach ($careers as $career)
-                        @if ($count % 2 == 0)
-                            <div class="row">
-                        @endif
-                        <div class="col-lg-6">
-                            <div class="feature-item mb-4">
-                                <div class="job-item">
-                                    <h3>{{ $career->title }}</h3>
-                                    <p>{!! $career->description !!}</p>
-                                    <a href="{{ $career->apply_link }}" class="btn btn-primary" target="_blank">Apply Now</a>
+                    @php $careersArray = $careers->value(); @endphp
+                    @if (empty($careersArray))
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="no-job-openings text-center">
+                                    <h4 class="text-muted mb-4">No job openings at the moment</h4>
+                                    <p class="text-muted">Please check back later or follow us on social media to stay updated on new opportunities.</p>
                                 </div>
                             </div>
                         </div>
-                        @php $count++ @endphp
-                        @if ($count % 2 == 0 || $loop->last)
-                </div>
-                @endif
-                @endforeach
-            </div>
+                    @else
+                        @php $count = 0 @endphp
+                        @foreach ($careersArray as $career)
+                            @if ($count % 2 == 0)
+                                <div class="row">
+                            @endif
+                            <div class="col-lg-6">
+                                <div class="feature-item mb-4">
+                                    <div class="job-item">
+                                        <h3>{{ $career['title'] }}</h3>
+                                        <p>{!! Str::limit(strip_tags($career['description']), 200, '...') !!}
+                                        <a href="#" class="read-more-link" data-toggle="modal" data-target="#jobModal{{ $loop->index }}">Read More</a></p>
+                                        <a href="{{ $career['apply_link'] }}" class="btn btn-main btn-sm btn-round-full d-flex justify-content-center" target="_blank">Apply Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            @php $count++ @endphp
+                            @if ($count % 2 == 0 || $loop->last)
+                                </div>
+                            @endif
 
+                            <!-- Modal -->
+                            <div class="modal fade" id="jobModal{{ $loop->index }}" tabindex="-1" role="dialog" aria-labelledby="jobModalLabel{{ $loop->index }}" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="jobModalLabel{{ $loop->index }}">{{ $career['title'] }}</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            {!! $career['description'] !!}
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        @endforeach
+                    @endif
+                </div>
+            </div>
         </section>
 
         <!-- Footer Start -->
@@ -107,6 +170,5 @@
         <script src="plugins/google-map/gmap.js"></script>
 
         <script src="js/script.js"></script>
-
     </body>
 </x-layout>

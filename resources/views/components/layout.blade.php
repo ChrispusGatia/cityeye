@@ -373,8 +373,8 @@
                                 <span class="h6 mb-0">Get a reply within 24 hours.</span>
                             </div>
                             <h4 class="mt-2">
-                                <!--<a href="mailto:info@cityeyehospital.or.ke">info@cityeyehospital.or.ke</a>-->
-                                <span class="h6 mb-0">info@cityeyehospital.or.ke</span>
+                                <a href="mailto:info@cityeyehospital.or.ke">info@cityeyehospital.or.ke</a>
+                                <!--<span class="h6 mb-0">info@cityeyehospital.or.ke</span>-->
                             </h4>
                         </div>
 

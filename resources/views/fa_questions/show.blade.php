@@ -35,6 +35,12 @@
             }
         </style>
 
+        <!-- Secure HTTP Headers -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;">
+        <meta http-equiv="X-Content-Type-Options" content="nosniff">
+        <meta http-equiv="X-Frame-Options" content="DENY">
+        <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+
         <!-- Structured Data for SEO -->
         <script type="application/ld+json">
         {
@@ -44,10 +50,10 @@
                 @foreach ($card_section as $key => $content)
                 {
                     "@type": "Question",
-                    "name": "{{ $content->card_title }}",
+                    "name": "{{ addslashes($content->card_title) }}",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "{{ strip_tags($content->card_description) }}"
+                        "text": "{{ addslashes(strip_tags($content->card_description)) }}"
                     }
                 } @if (!$loop->last) , @endif
                 @endforeach
@@ -64,7 +70,7 @@
                     <div class="col-md-12">
                         <div class="block text-center">
                             <span class="text-white">Frequently Asked Questions</span>
-                            <h1 class="text-capitalize mb-5 text-lg">{{ $title }}</h1>
+                            <h1 class="text-capitalize mb-5 text-lg">{{ addslashes($title) }}</h1>
                         </div>
                     </div>
                 </div>
@@ -77,9 +83,9 @@
                     <div class="col-lg-12">
                         <!-- Section Title -->
                         <div class="section-title text-center">
-                            <h2 class="mb-4">{{ $body_title }}</h2>
+                            <h2 class="mb-4">{{ addslashes($body_title) }}</h2>
                             <div class="divider mx-auto my-4"></div>
-                            {!! $body_description !!}
+                            {!! strip_tags($body_description, '<p><a><b><i><ul><ol><li><strong><em><br>') !!}
                         </div>
                     </div>
                 </div>
@@ -95,14 +101,14 @@
                                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                                 data-target="#collapse{{ $key }}" aria-expanded="false"
                                                 aria-controls="collapse{{ $key }}">
-                                                {{ $content->card_title }}
+                                                {{ addslashes($content->card_title) }}
                                             </button>
                                         </h5>
                                     </div>
                                     <div id="collapse{{ $key }}" class="collapse"
                                         aria-labelledby="faq{{ $key }}" data-parent="#faqAccordion">
                                         <div class="card-body">
-                                            {!! $content->card_description !!}
+                                            {!! strip_tags($content->card_description, '<p><a><b><i><ul><ol><li><strong><em><br>') !!}
                                         </div>
                                     </div>
                                 </div>

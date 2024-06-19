@@ -265,7 +265,7 @@
                         </li>
                     </ul>
                 </div>
-                <<<<<<< HEAD=======<div class="col-md-6">
+                <div class="col-md-6">
                     <h6>General Services</h6>
                     <ul class="list-unstyled">
                         <li><a class="dropdown-item" href="/diabetic_clinic">Diabetic Clinic</a>

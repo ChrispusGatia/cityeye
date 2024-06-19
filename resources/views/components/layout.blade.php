@@ -461,7 +461,8 @@
                                 <span class="h6 mb-0">Support Available for 24/7</span>
                             </div>
                             <h4 class="mt-2">
-                                <a href="mailto:info@cityeyehospital.or.ke">info@cityeyehospital.or.ke</a>
+                                <!--<a href="mailto:info@cityeyehospital.or.ke">info@cityeyehospital.or.ke</a>-->
+                                <span class="h6 mb-0">info@cityeyehospital.or.ke</span>
                             </h4>
                         </div>
 

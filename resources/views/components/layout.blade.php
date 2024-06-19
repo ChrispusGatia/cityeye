@@ -91,7 +91,53 @@
         }
     </style>
 
+    <script>
+        < script >
+            // Create the iframe element
+            const iframe = document.createElement("iframe");
 
+        // Function to apply styles to the iframe
+        const iframeStyles = (styleString) => {
+            const style = document.createElement('style');
+            style.textContent = styleString;
+            document.head.append(style);
+        }
+
+        // Apply styles to the iframe
+        iframeStyles(`
+        .chat-frame {
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            border: none;
+        }
+    `);
+
+        // Set iframe source and add class
+        iframe.src = "http://localhost:3000/chatbot";
+        iframe.classList.add('chat-frame');
+
+        // Append iframe to the document body
+        document.body.appendChild(iframe);
+
+        // Listen for messages from the iframe
+        window.addEventListener("message", (e) => {
+            // Check the origin of the message
+            if (e.origin !== "http://localhost:3000") return;
+
+            // Parse the message data
+            let dimensions = JSON.parse(e.data);
+
+            // Set iframe dimensions based on the message data
+            iframe.width = dimensions.width;
+            iframe.height = dimensions.height;
+
+            // Send a message to the iframe (if needed)
+            iframe.contentWindow.postMessage("73576568-c8d9-4191-9386-87bc58360d0f", "http://localhost:3000/");
+        });
+    </script>
+
+    </script>
 </head>
 </head>
 
@@ -484,11 +530,11 @@
                 if (navbarCollapse.classList.contains('show')) {
                     navbarCollapse.classList.remove('show');
                     document.body.classList.remove(
-                    'overflow-hidden'); // Optional: Enable scrolling when menu is closed
+                        'overflow-hidden'); // Optional: Enable scrolling when menu is closed
                 } else {
                     navbarCollapse.classList.add('show');
                     document.body.classList.add(
-                    'overflow-hidden'); // Optional: Disable scrolling when menu is open
+                        'overflow-hidden'); // Optional: Disable scrolling when menu is open
                 }
             });
 
@@ -499,7 +545,7 @@
                 if (!isClickInsideNavbar && !isNavbarToggler && navbarCollapse.classList.contains('show')) {
                     navbarCollapse.classList.remove('show');
                     document.body.classList.remove(
-                    'overflow-hidden'); // Optional: Enable scrolling when menu is closed
+                        'overflow-hidden'); // Optional: Enable scrolling when menu is closed
                 }
             });
 
@@ -509,7 +555,7 @@
                     handleScroll(); // Apply scroll logic for larger screens
                     navbarCollapse.classList.remove('show');
                     document.body.classList.remove(
-                    'overflow-hidden'); // Optional: Enable scrolling on larger screens
+                        'overflow-hidden'); // Optional: Enable scrolling on larger screens
                     headerTopBar.style.display = 'block';
                     navbar.style.position = 'fixed';
                     navbar.style.top = headerHeight + 'px';

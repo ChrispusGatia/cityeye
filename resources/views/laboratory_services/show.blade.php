@@ -3,7 +3,7 @@
     <head>
         <!-- Basic Page Needs ================================================== -->
         <meta charset="utf-8" />
-        <title>CityEye - Careers</title>
+        <title>City Eye Hospital - laboratory</title>
 
         <!-- Mobile Specific Metas ================================================== -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -64,7 +64,7 @@
                                 @endforeach
                             </ul>
 
-                            <a href="bookappointment" class="btn btn-main-2 btn-round-full">Schedule a Test <i
+                            <a href="/contact" class="btn btn-main-2 btn-round-full">Schedule a Test <i
                                     class="icofont-simple-right ml-2  "></i></a>
                         </div>
                     </div>

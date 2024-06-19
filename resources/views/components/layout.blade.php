@@ -23,6 +23,50 @@
         }
     </style>
 </head>
+<script>
+    // Create the iframe element
+    const iframe = document.createElement("iframe");
+
+    // Function to apply styles to the iframe
+    const iframeStyles = (styleString) => {
+        const style = document.createElement('style');
+        style.textContent = styleString;
+        document.head.append(style);
+    }
+
+    // Apply styles to the iframe
+    iframeStyles(`
+        .chat-frame {
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            border: none;
+        }
+    `);
+
+    // Set iframe source and add class
+    iframe.src = "http://localhost:3000/chatbot";
+    iframe.classList.add('chat-frame');
+
+    // Append iframe to the document body
+    document.body.appendChild(iframe);
+
+    // Listen for messages from the iframe
+    window.addEventListener("message", (e) => {
+        // Check the origin of the message
+        if (e.origin !== "http://localhost:3000") return;
+
+        // Parse the message data
+        let dimensions = JSON.parse(e.data);
+
+        // Set iframe dimensions based on the message data
+        iframe.width = dimensions.width;
+        iframe.height = dimensions.height;
+
+        // Send a message to the iframe (if needed)
+        iframe.contentWindow.postMessage("73576568-c8d9-4191-9386-87bc58360d0f", "http://localhost:3000/");
+    });
+</script>
 
 <body>
     <header style="position: fixed; top: 0; width: 100%; z-index: 1000; background-color: white;;">
@@ -53,7 +97,7 @@
                 </div>
             </div>
         </div>
-        
+
         <nav class="navbar navbar-expand-lg navigation" id="navbar">
             <div class="container">
                 <a class="navbar-brand" href="/">
@@ -143,7 +187,7 @@
                                                 <li><a class="dropdown-item" href="/retina_specialist">Retina Clinic
                                                         and
                                                         Surgery</a></li>
-                                                        
+
                                                 <li><a class="dropdown-item" href="/opticalshop">Optical Shop</a></li>
                                                 <li><a class="dropdown-item" href="/outreach">Outreach Program</a>
                                                 </li>
@@ -221,9 +265,7 @@
                         </li>
                     </ul>
                 </div>
-<<<<<<< HEAD
-=======
-                <div class="col-md-6">
+                <<<<<<< HEAD=======<div class="col-md-6">
                     <h6>General Services</h6>
                     <ul class="list-unstyled">
                         <li><a class="dropdown-item" href="/diabetic_clinic">Diabetic Clinic</a>
@@ -236,9 +278,9 @@
                         </li>
                         <li><a class="dropdown-item" href="/pediatric_clinic">Pediatric Services</a></li>
                         <li><a class="dropdown-item" href="/othermedicalconditions">Other
-                            Medical Conditions</a></li>
+                                Medical Conditions</a></li>
                     </ul>
-                </div>
+            </div>
             </div>
             </div>
             </div>
@@ -254,7 +296,7 @@
                     <li>
                         <a class="dropdown-item" href="/insurance">Insurance</a>
                     </li>
-    
+
                     <li>
                         <a class="dropdown-item" href="/patience-feedback">Patient Feedback</a>
                     </li>
@@ -269,7 +311,7 @@
                     </li>
                 </ul>
             </li>
-    
+
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">Our Team <i class="icofont-thin-down"></i></a>
@@ -284,7 +326,7 @@
                     <li>
                         <a class="dropdown-item" href="/gallery">Gallery</a>
                     </li> --}}
-    
+
                     <!--<li class="dropdown dropdown-submenu dropleft">
                         <a
                         class="dropdown-item dropdown-toggle"
@@ -307,7 +349,7 @@
                     </li>-->
                 </ul>
             </li>
-    
+
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">News <i class="icofont-thin-down"></i></a>
@@ -331,7 +373,7 @@
             </li>
             </ul>
             </div>
->>>>>>> 59c3d6faf840f488216fe4b65a5f1ceb014dd86f
+            >>>>>>> 59c3d6faf840f488216fe4b65a5f1ceb014dd86f
             </div>
         </nav>
     </header>

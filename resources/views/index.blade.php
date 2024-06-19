@@ -4,7 +4,7 @@
         <!-- Basic Page Needs
   ================================================== -->
         <meta charset="utf-8" />
-        <title>CityEye- Health Care</title>
+        <title>City Eye Hospital- Eye Care</title>
 
         <!-- Mobile Specific Metas
   ================================================== -->

@@ -373,7 +373,8 @@
                                 <span class="h6 mb-0">Get a reply within 24 hours.</span>
                             </div>
                             <h4 class="mt-2">
-                                <a href="mailto:info@cityeyehospital.or.ke">info@cityeyehospital.or.ke</a>
+                                <!--<a href="mailto:info@cityeyehospital.or.ke">info@cityeyehospital.or.ke</a>-->
+                                <span class="h6 mb-0">info@cityeyehospital.or.ke</span>
                             </h4>
                         </div>
 
@@ -382,7 +383,8 @@
                                 <i class="icofont-support mr-3"></i>
                                 <span class="h6 mb-0">Mon to Fri : 06:30 a.m - 05:00 p.m</span>
                             </div>
-                            <h4 class="mt-2"><a href="tel:+254 0111 032 200">+254(0)111 032 200</a></h4>
+                            <!--<h4 class="mt-2"><a href="tel:+254 0111 032 200">+254(0)111 032 200</a></h4>-->
+                            <span class="h6 mb-0">+254(0)111 032 200</span>
                         </div>
                     </div>
                 </div>

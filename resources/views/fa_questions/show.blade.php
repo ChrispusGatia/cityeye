@@ -1,13 +1,12 @@
 <x-layout>
-
     <head>
         <!-- Basic Page Needs ================================================== -->
         <meta charset="utf-8" />
-        <title>CityEye - Careers</title>
+        <title>City Eye Hospital - FAQ</title>
 
         <!-- Mobile Specific Metas ================================================== -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="CityEye Careers Page" />
+        <meta name="description" content="Frequently Asked Questions - CityEye" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
         <meta name="author" content="Themefisher" />
         <meta name="generator" content="Themefisher CityEye HTML Template v1.0" />
@@ -26,10 +25,38 @@
 
         <!-- Main Stylesheet -->
         <link rel="stylesheet" href="css/style.css" />
+
+        <!-- Custom CSS for Left Alignment on Mobile -->
+        <style>
+            @media (max-width: 767.98px) {
+                .faq-question {
+                    text-align: left;
+                }
+            }
+        </style>
+
+        <!-- Structured Data for SEO -->
+        <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                @foreach ($card_section as $key => $content)
+                {
+                    "@type": "Question",
+                    "name": "{{ $content->card_title }}",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "{{ strip_tags($content->card_description) }}"
+                    }
+                } @if (!$loop->last) , @endif
+                @endforeach
+            ]
+        }
+        </script>
     </head>
 
     <body id="top">
-
         <section class="page-title bg-1">
             <div class="overlay"></div>
             <div class="container">
@@ -63,7 +90,7 @@
                             <!-- Question sections -->
                             @foreach ($card_section as $key => $content)
                                 <div class="card">
-                                    <div class="card-header" id="faq{{ $key }}">
+                                    <div class="card-header faq-question" id="faq{{ $key }}">
                                         <h5 class="mb-0">
                                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                                 data-target="#collapse{{ $key }}" aria-expanded="false"
@@ -81,12 +108,12 @@
                                 </div>
                             @endforeach
                         </div>
-
                     </div>
                 </div>
             </div>
         </section>
 
-
+        <!-- Bootstrap JavaScript -->
+        <script src="plugins/bootstrap/bootstrap.min.js"></script>
     </body>
 </x-layout>

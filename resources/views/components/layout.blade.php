@@ -265,7 +265,8 @@
                         </li>
                     </ul>
                 </div>
-                <<<<<<< HEAD=======<div class="col-md-6">
+
+                <div class="col-md-6">
                     <h6>General Services</h6>
                     <ul class="list-unstyled">
                         <li><a class="dropdown-item" href="/diabetic_clinic">Diabetic Clinic</a>
@@ -280,7 +281,7 @@
                         <li><a class="dropdown-item" href="/othermedicalconditions">Other
                                 Medical Conditions</a></li>
                     </ul>
-            </div>
+                </div>
             </div>
             </div>
             </div>
@@ -373,7 +374,7 @@
             </li>
             </ul>
             </div>
-            >>>>>>> 59c3d6faf840f488216fe4b65a5f1ceb014dd86f
+
             </div>
         </nav>
     </header>
@@ -460,8 +461,7 @@
                                 <span class="h6 mb-0">Support Available for 24/7</span>
                             </div>
                             <h4 class="mt-2">
-                                <!--<a href="mailto:info@cityeyehospital.or.ke">info@cityeyehospital.or.ke</a>-->
-                                <span class="h6 mb-0">info@cityeyehospital.or.ke</span>
+                                <a href="mailto:info@cityeyehospital.or.ke">info@cityeyehospital.or.ke</a>
                             </h4>
                         </div>
 
@@ -470,8 +470,7 @@
                                 <i class="icofont-support mr-3"></i>
                                 <span class="h6 mb-0">Mon to Fri : 06:30 a.m - 05:00 p.m</span>
                             </div>
-                            <!--<h4 class="mt-2"><a href="tel:+254 0111 032 200">+254(0)111 032 200</a></h4>-->
-                            <span class="h6 mb-0">+254(0)111 032 200</span>
+                            <h4 class="mt-2"><a href="tel:+254 0111 032 200">+254(0)111 032 200</a></h4>
                         </div>
                     </div>
                 </div>

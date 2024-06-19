@@ -4,7 +4,7 @@ blueprint: about_u
 title: 'Who we are'
 author: 14d3b439-c1ca-4786-8ce7-59caffb630ff
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1713769086
+updated_at: 1718703508
 template_field: about_us/whoweare
 body_details:
   -
@@ -26,14 +26,14 @@ mission_card_section:
     id: lvalngw6
     description: |-
       **Our Mission**
-      - To provide accessible and quality eye care.
+      - Our mission is to transform lives by providing access to quality eyecare through hospitals, vision centers, an ophthalmic education institute, the City Eye Foundation and outreach activities.
     type: new_set
     enabled: true
   -
     id: lvaln0au
     description: |-
       **Our Vision**
-      - To reduce needless blindness in the East African region.
+      - To be the preferred eyecare provider in sub-Saharan Africa.
     type: new_set
     enabled: true
   -

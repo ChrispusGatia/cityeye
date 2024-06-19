@@ -4,7 +4,7 @@ blueprint: newsletter
 title: 'Our News Letters'
 author: 14d3b439-c1ca-4786-8ce7-59caffb630ff
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1715941367
+updated_at: 1718632559
 content:
   -
     id: lvp655cw
@@ -13,6 +13,7 @@ content:
     type: new_set
     enabled: true
     news_link: 'https://www.cityeyehospital.or.ke/assets/pdfs/CEH%20Privacy%20Policy.pdf'
+    news_pdf: city-eye-hospital-article.pdf
   -
     id: lw7ubs82
     title: 'Talking to patients about their new spectacles'
@@ -20,4 +21,5 @@ content:
     type: new_set
     enabled: true
     news_link: 'https://www.cityeyehospital.or.ke/assets/pdfs/CEH%20Privacy%20Policy.pdf'
+    news_pdf: patienteducation_2.7_low-res-(1).pdf
 ---

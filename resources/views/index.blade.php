@@ -59,26 +59,60 @@
                 text-overflow: ellipsis;
             }
         </style>
-
+        <style>
+            .carousel-control-prev,
+            .carousel-control-next {
+                font-size: 52px;
+                font-weight: bold;
+                
+                width: 50px;
+                height: 50px;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                color: white; /* Arrow color */
+            }
+        
+            .carousel-control-prev {
+                left: 0;
+            }
+        
+            .carousel-control-next {
+                right: 0;
+            }
+        
+            .carousel-control-prev-icon,
+            .carousel-control-next-icon {
+                background-image: none;
+            }
+            
+        </style>
 
     </head>
 
     <!-- header End -->
 
-    <!-- Slider Start -->
     @if ($featured_images)
-        <section class="slider" style="max-height: 550px; overflow: hidden;">
-            <div class="slick-carousel">
-                @foreach ($featured_images as $image)
-                    <img src="{{ asset($image->image_asset) }}" alt="Image">
+    <div class="slider-container">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                @foreach ($featured_images as $index => $image)
+                <div class="carousel-item {{ $index == 0 ? 'active' : '' }}">
+                    <img class="d-block w-100" src="{{ asset($image->image_asset) }}" alt="Image">
+                </div>
                 @endforeach
-                <!-- Add more slider items as needed -->
             </div>
-        </section>
-        <!-- Slider End -->
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true">&lt;</span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true">&gt;</span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
     @endif
-
-
 
 
     <section class="features ">
@@ -104,7 +138,7 @@
                             <span>THE CARE TO EXPECT </span>
                             <h4 class="mb-3">Personalised</h4>
                             <p class="mb-4">At CEH, you will receive a tailored treatment plan in a
-                                calm and confortable environment where you can freely ask questions
+                                calm and comfortable environment where you can freely ask questions
                                 and seek clarification.</p>
                         </div>
 
@@ -295,7 +329,7 @@
                 <div class="col-lg-4 col-md-4">
                     <div class="counter-stat">
                         <i class="icofont-doctor"></i>
-                        <span class="h3 counter" data-count="5" style="color: #223a66;">0</span>+
+                        <span class="h3 counter" data-count="10" style="color: #223a66;">0</span>+
                         <p style="color: #223a66;">EYE SPECIALISTS AT<br>YOUR SERVICE</p>
                     </div>
                 </div>
@@ -359,9 +393,9 @@
         $(document).ready(function() {
             $('.slick-carousel').slick({
                 autoplay: true,
-                autoplaySpeed: 5000,
+                autoplaySpeed: 3000,
                 dots: true,
-                arrows: false
+                arrows: true // Changed arrows to true to show navigation arrows
             });
         });
     </script>
@@ -386,8 +420,8 @@
         function showSecondTestimonial() {
             showTestimonial(
                 '<h4 style="margin: 0 0 10px 0; font-size: 18px; color: #f4f9fc;">Highly recommend!</h4>' +
-                '<span style="display: block; margin-bottom: 10px; font-size: 14px; color: #f4f9fc;">John Doe</span>' +
-                '<p style="margin: 0; font-size: 16px; color: #eff0f;">City Eye Hospital offers exceptional service and professional care. I am very satisfied.</p>'
+                '<span style="display: block; margin-bottom: 10px; font-size: 14px; color: #f4f9fc;">Eunice Hillary</span>' +
+                '<p style="margin: 0; font-size: 16px; color: #eff0f;">The hospital is very well organized with every department well attended. Very clean hospital.</p>'
             );
         }
 

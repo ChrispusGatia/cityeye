@@ -7,7 +7,7 @@ body_description: "Explore City Eye Hospital's FAQs for answers to common querie
 card_section:
   -
     id: ltc2y5g7
-    card_title: 'Do you have branches outside nairobi ?'
+    card_title: 'Do you have branches outside Nairobi?'
     card_description: |-
       Yes, City Eye Hospital has several branches, each strategically located for your convenience:
 
@@ -21,14 +21,13 @@ card_section:
     enabled: true
   -
     id: ltc2yl7y
-    card_title: 'What area does Cityeye specializes in ?'
+    card_title: 'What areas does City Eye specialize in?'
     card_description: |-
-      With specialised ophthalmologists, optometrists, licensed opticians and highly trained staff, we provide an extensive range of medical services. Our range of specialities include:
+      With specialized ophthalmologists, optometrists, licensed opticians and highly trained staff, we provide an extensive range of medical services. Our range of specialities include:
       - Retina specialist
       - Corneal specialist
-      - Paediatric specialist
-      - Oculoplastic specialist
-      - LASIK consultations
+      - Pediatric specialist
+      - Glaucoma specialist
       - Optical consultations and eyeglass
     type: new_set
     enabled: true
@@ -55,5 +54,5 @@ card_section:
     type: new_set
     enabled: true
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1714638580
+updated_at: 1718687467
 ---

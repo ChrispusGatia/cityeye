@@ -92,9 +92,8 @@
     </style>
 
     <script>
-        < script >
-            // Create the iframe element
-            const iframe = document.createElement("iframe");
+        // Create the iframe element
+        const iframe = document.createElement("iframe");
 
         // Function to apply styles to the iframe
         const iframeStyles = (styleString) => {
@@ -137,7 +136,6 @@
         });
     </script>
 
-    </script>
 </head>
 </head>
 

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CityEye- Health Care</title>
+    <title>City Eye Hospital- Eye Care</title>
     <!-- Add your CSS links here -->
     <link href="{{ asset('plugins/bootstrap/bootstrap.min.css') }}" rel="stylesheet">
 
@@ -21,55 +21,82 @@
             content: "𝕏";
             font-size: 1.2em;
         }
-    </style>
-</head>
-<script>
-    // Create the iframe element
-    const iframe = document.createElement("iframe");
 
-    // Function to apply styles to the iframe
-    const iframeStyles = (styleString) => {
-        const style = document.createElement('style');
-        style.textContent = styleString;
-        document.head.append(style);
-    }
-
-    // Apply styles to the iframe
-    iframeStyles(`
-        .chat-frame {
+        .header-top-bar {
+            transition: top 0.3s;
             position: fixed;
-            bottom: 50px;
-            right: 50px;
-            border: none;
+            width: 100%;
+            z-index: 1001;
+            top: 0;
         }
-    `);
+    </style>
+    <style>
+        .header-top-bar {
+            transition: top 0.3s;
+            position: fixed;
+            width: 100%;
+            z-index: 1001;
+            top: 0;
+        }
 
-    // Set iframe source and add class
-    iframe.src = "http://localhost:3000/chatbot";
-    iframe.classList.add('chat-frame');
+        .header-top-bar.hidden {
+            top: -65px;
+        }
 
-    // Append iframe to the document body
-    document.body.appendChild(iframe);
+        #navbar {
+            transition: top 0.3s, box-shadow 0.3s;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+            top: 50px;
+            /* Start below the header top bar */
+            background-color: white;
+            /* Background color for card-like appearance */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+            /* Bold shadow */
+            padding: 10px 0;
+            /* Padding for card-like effect */
+        }
 
-    // Listen for messages from the iframe
-    window.addEventListener("message", (e) => {
-        // Check the origin of the message
-        if (e.origin !== "http://localhost:3000") return;
+        body {
+            padding-top: 100px;
+            /* Adjust this value based on the combined height of the top bar and navbar */
+        }
 
-        // Parse the message data
-        let dimensions = JSON.parse(e.data);
+        @media (max-width: 767px) {
+            .header-top-bar {
+                display: none;
+            }
 
-        // Set iframe dimensions based on the message data
-        iframe.width = dimensions.width;
-        iframe.height = dimensions.height;
+            #navbar {
+                top: 0;
+                /* Navbar at the top when header-top-bar is hidden */
+            }
 
-        // Send a message to the iframe (if needed)
-        iframe.contentWindow.postMessage("73576568-c8d9-4191-9386-87bc58360d0f", "http://localhost:3000/");
-    });
-</script>
+            body {
+                padding-top: 50px;
+                /* Adjust this value based on the height of the navbar */
+            }
+        }
+
+        .slider-container {
+            max-width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .carousel-inner img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+
+
+</head>
+</head>
 
 <body>
-    <header style="position: fixed; top: 0; width: 100%; z-index: 1000; background-color: white;;">
+    <header class="sticky-top bg-light">
         <div class="header-top-bar">
             <div class="container">
                 <div class="row align-items-center">
@@ -98,10 +125,11 @@
             </div>
         </div>
 
-        <nav class="navbar navbar-expand-lg navigation" id="navbar">
+        <nav class="navbar navbar-expand-lg navigation" id="navbar"
+            style="position: fixed; top: 0; width: 100%; z-index: 1000; background-color: white;;">
             <div class="container">
                 <a class="navbar-brand" href="/">
-                    <img src="{{ asset('images/logo1.png') }}" width="200" class="img-fluid" />
+                    <img src="{{ asset('images/logo1.png') }}" style="width: 200px; height: auto;" class="img-fluid" />
                 </a>
 
                 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmain"
@@ -205,6 +233,9 @@
                                                 </li>
                                                 <li><a class="dropdown-item" href="/pharmacy">Pharmacy</a>
                                                 </li>
+                                                <li><a class="dropdown-item" href="/pediatric_clinic">Pediatric
+                                                        Services</a>
+                                                </li>
                                                 <li><a class="dropdown-item" href="/othermedicalconditions">Other
                                                         Medical Conditions</a></li>
                                             </ul>
@@ -219,7 +250,7 @@
                                 <i class="icofont-thin-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown02">
                                 <li>
-                                    <a class="dropdown-item" href="/privacy">Privacy Policy</a>
+                                    <a class="dropdown-item" href="/hospital-location">Our Hospital Locations</a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="/insurance">Insurance</a>
@@ -265,115 +296,6 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-6">
-                    <h6>General Services</h6>
-                    <ul class="list-unstyled">
-                        <li><a class="dropdown-item" href="/diabetic_clinic">Diabetic Clinic</a>
-                        </li>
-                        <li><a class="dropdown-item" href="/services_gmh">Hypertensive
-                                Clinic</a></li>
-                        <li><a class="dropdown-item" href="/labs">Laboratory Services</a>
-                        </li>
-                        <li><a class="dropdown-item" href="/pharmacy">Pharmacy</a>
-                        </li>
-                        <li><a class="dropdown-item" href="/pediatric_clinic">Pediatric Services</a></li>
-                        <li><a class="dropdown-item" href="/othermedicalconditions">Other
-                                Medical Conditions</a></li>
-                    </ul>
-                </div>
-            </div>
-            </div>
-            </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">Patient Resources
-                    <i class="icofont-thin-down"></i></a>
-                <ul class="dropdown-menu" aria-labelledby="dropdown02">
-                    <li>
-                        <a class="dropdown-item" href="/hospital-location">Locate Our Hospitals</a>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="/insurance">Insurance</a>
-                    </li>
-
-                    <li>
-                        <a class="dropdown-item" href="/patience-feedback">Patient Feedback</a>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="/faq">FAQs</a>
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="/testimonial">Testimonials</a>
-                    </li>
-                    <li>
-                        <!--<a class="dropdown-item" href="directions&location">Directions & Location</a>-->
-                    </li>
-                </ul>
-            </li>
-
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">Our Team <i class="icofont-thin-down"></i></a>
-                <ul class="dropdown-menu" aria-labelledby="dropdown03">
-                    <li><a class="dropdown-item" href="doctors">Doctors</a></li>
-                    <li><a class="dropdown-item" href="gallery">Care Team</a></li>
-                    {{-- <li><a class="dropdown-item" href="board">Board of Management</a></li>
-                    <li><a class="dropdown-item" href="executive-management">Executive Management</a></li>
-                    <li>
-                        <a class="dropdown-item" href="bookappointment">Book Appoinment</a>
-                    </li> 
-                    <li>
-                        <a class="dropdown-item" href="/gallery">Gallery</a>
-                    </li> --}}
-
-                    <!--<li class="dropdown dropdown-submenu dropleft">
-                        <a
-                        class="dropdown-item dropdown-toggle"
-                        href="#!"
-                        id="dropdown0501"
-                        role="button"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                        >Sub Menu</a>
-    
-                        <ul class="dropdown-menu" aria-labelledby="dropdown0501">
-                        <li>
-                            <a class="dropdown-item" href="index.html">Submenu 01</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="index.html">Submenu 02</a>
-                        </li>
-                        </ul>
-                    </li>-->
-                </ul>
-            </li>
-
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">News <i class="icofont-thin-down"></i></a>
-                <ul class="dropdown-menu" aria-labelledby="dropdown05">
-                    {{-- <li>
-                        <a class="dropdown-item" href="newsletter">Newsletters</a>
-                    </li> --}}
-                    <li>
-                        <a class="dropdown-item" href="/newsletter">Newsletters</a>
-                    </li>
-                    <li>
-                        <!--<a class="dropdown-item" href="news&events">Events & Celebrations</a>-->
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="/education">Educational Materials</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/contact">Contact</a>
-            </li>
-            </ul>
-            </div>
-            >>>>>>> 59c3d6faf840f488216fe4b65a5f1ceb014dd86f
             </div>
         </nav>
     </header>
@@ -457,7 +379,7 @@
                         <div class="footer-contact-block mb-4">
                             <div class="icon d-flex align-items-center">
                                 <i class="icofont-email mr-3"></i>
-                                <span class="h6 mb-0">Support Available for 24/7</span>
+                                <span class="h6 mb-0">Get a reply within 24 hours.</span>
                             </div>
                             <h4 class="mt-2">
                                 <a href="mailto:info@cityeyehospital.or.ke">info@cityeyehospital.or.ke</a>
@@ -510,6 +432,108 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var headerTopBar = document.querySelector('.header-top-bar'); // Adjusted to match your actual structure
+            var navbar = document.getElementById('navbar');
+            var lastScrollTop = 0;
+            var headerHeight = headerTopBar.offsetHeight; // Adjusted to match your actual structure
+            var navbarCollapse = document.querySelector('.navbar-collapse');
+            var navbarToggler = document.querySelector('.navbar-toggler');
+
+            function handleScroll() {
+                var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+                if (window.innerWidth <= 767) {
+                    // On mobile view
+                    headerTopBar.style.display = 'none';
+                    if (scrollTop > lastScrollTop) {
+                        // Scrolling down
+                        navbar.style.position = 'relative';
+                    } else {
+                        // Scrolling up
+                        navbar.style.position = 'fixed';
+                        navbar.style.top = '0';
+                    }
+                } else {
+                    // On desktop view
+                    if (scrollTop > lastScrollTop && scrollTop > headerHeight) {
+                        // Scrolling down
+                        headerTopBar.classList.add('hidden');
+                        navbar.style.top = '0';
+                    } else if (scrollTop < lastScrollTop && scrollTop > headerHeight) {
+                        // Scrolling up near the top
+                        headerTopBar.classList.add('hidden');
+                        navbar.style.top = '0';
+                    } else if (scrollTop <= headerHeight) {
+                        // Near the top
+                        headerTopBar.classList.remove('hidden');
+                        navbar.style.top = headerHeight + 'px';
+                    }
+                }
+
+                lastScrollTop = scrollTop;
+            }
+
+            window.addEventListener('scroll', handleScroll);
+
+            // Handle navbar collapse for mobile view
+            navbarToggler.addEventListener('click', function(event) {
+                event.stopPropagation(); // Prevent click event from bubbling up to document
+                if (navbarCollapse.classList.contains('show')) {
+                    navbarCollapse.classList.remove('show');
+                    document.body.classList.remove(
+                    'overflow-hidden'); // Optional: Enable scrolling when menu is closed
+                } else {
+                    navbarCollapse.classList.add('show');
+                    document.body.classList.add(
+                    'overflow-hidden'); // Optional: Disable scrolling when menu is open
+                }
+            });
+
+            // Close the navbar menu when clicking outside
+            document.addEventListener('click', function(event) {
+                var isClickInsideNavbar = navbarCollapse.contains(event.target);
+                var isNavbarToggler = navbarToggler.contains(event.target);
+                if (!isClickInsideNavbar && !isNavbarToggler && navbarCollapse.classList.contains('show')) {
+                    navbarCollapse.classList.remove('show');
+                    document.body.classList.remove(
+                    'overflow-hidden'); // Optional: Enable scrolling when menu is closed
+                }
+            });
+
+            // Ensure proper display on window resize
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 767) {
+                    handleScroll(); // Apply scroll logic for larger screens
+                    navbarCollapse.classList.remove('show');
+                    document.body.classList.remove(
+                    'overflow-hidden'); // Optional: Enable scrolling on larger screens
+                    headerTopBar.style.display = 'block';
+                    navbar.style.position = 'fixed';
+                    navbar.style.top = headerHeight + 'px';
+                } else {
+                    headerTopBar.style.display = 'none'; // Ensure headerTopBar is hidden on mobile
+                    navbar.style.position = 'fixed';
+                    navbar.style.top = '0';
+                }
+            });
+
+            // Initial load adjustment
+            if (window.innerWidth <= 767) {
+                headerTopBar.style.display = 'none';
+                navbar.style.position = 'fixed';
+                navbar.style.top = '0';
+            } else {
+                headerTopBar.style.display = 'block';
+                navbar.style.position = 'fixed';
+                navbar.style.top = headerHeight + 'px';
+            }
+        });
+    </script>
+
+
 </body>
 
 </html>

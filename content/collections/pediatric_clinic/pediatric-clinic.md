@@ -4,7 +4,7 @@ blueprint: pediatric_clinic
 title: 'Pediatric Clinic'
 author: 14d3b439-c1ca-4786-8ce7-59caffb630ff
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1718686882
+updated_at: 1719237488
 description: |-
   City Eye Hospital's pediatric eye care specialists and support staff are committed to enabling you access to world-class eye care for your child, from early childhood all through adolescence and young adulthood. This is in our continued quest to Whether you are looking for pediatric eye care for an ongoing condition or a growing concern or want to confirm that your child’s vision development is on track, City Eye Hospital will deliver the care you need in a welcoming environment. 
   All this is in our continued quest to ensure eye issues are diagnosed and treated as early as possible. City Eye Hospital offers specialist treatment across a wide spectrum of common and complex childhood issues and conditions, including:
@@ -57,10 +57,10 @@ other_description:
     id: lwyy61wu
     card_title: 'Finding a Pediatrician Who’s Like Family'
     card_description: |-
-      Extremely busy parents find a Sutter pediatrician who’s like an extension of the family. Get to know the Chawla family and how they met a pediatrician who listens without judgment, is communicative and responsive, and offers the support they need.
+      Busy parents have found a trusted ally in City Eye Hospital's Pediatrician, who feel like an extension of the family. Discover how families have connected with Pediatrician who listen without judgment, communicate effectively, and provide the essential support they need.
 
       **A Doctor Who’s Like Family**
-      When the Chawlas moved to California, they wanted a pediatrician who felt like family. At Sutter, they extended their support system with a doctor who listened to their needs and advocated for their health.
+      When families move to the city, they seek an Pediatrician who feels like part of their own. At City Eye Hospital, they expand their support network with doctors who attentively listen to their concerns and diligently advocate for their eye health.
     youtube_id: ln-ljCoeNgY
     type: new_set
     enabled: true

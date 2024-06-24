@@ -187,7 +187,7 @@
 
                         <ul class="list-unstyled">
                             <li class="d-flex justify-content-between align-items-center">
-                                <span>Monday - Thur :</span>
+                                <span>Monday - Friday :</span>
                                 <span>6:30 a.m - 5:00 p.m</span>
                             </li>
                             <li class="d-flex justify-content-between align-items-center">

@@ -51,7 +51,7 @@ careers:
       **Equal Opportunity**
       City Eye Hospital is an equal-opportunity employer and welcomes candidates from diverse backgrounds.
     type: new_set
-    enabled: true
+    enabled: false
     apply_link: 'https://docs.google.com/forms/d/e/1FAIpQLSexjt83qkEu0YvKtHg7C9tJa4XV5-LVDjp01lp9wzbzv6LbNg/viewform'
   -
     id: lusfmq8k
@@ -87,7 +87,7 @@ careers:
       Join us on our mission to improve eye health and change lives! Don't miss this incredible opportunity to become an essential part of our eye healthcare team. Apply today and take your first step towards a rewarding career in eye care.
     apply_link: 'https://docs.google.com/forms/d/e/1FAIpQLSexjt83qkEu0YvKtHg7C9tJa4XV5-LVDjp01lp9wzbzv6LbNg/viewform'
     type: new_set
-    enabled: true
+    enabled: false
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1718783904
+updated_at: 1718796102
 ---

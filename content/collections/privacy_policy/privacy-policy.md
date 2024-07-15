@@ -16,7 +16,7 @@ card_section:
   -
     id: lvoyeqan
     card_title: 'Legal notification'
-    card_description: 'We are registered with the Office of the Data Protection Commissioner (ODPC). If you would like to look at our registration, please go to the Data Protection register on the ODPC website or use the link: [https://www.odpc.go.ke/registered-data-handlers/](https://www.odpc.go.ke/registered-data-handlers/)'
+    card_description: 'We are registered with the Office of the Data Protection Commissioner (ODPC). If you would like to look at our registration, please go to the Data Protection register on the ODPC website or use the link: [https://www.odpc.go.ke/registered-data-handlers/](https://www.odpc.go.ke/registered-data-handlers/){:target="_blank"}'
     type: new_set
     enabled: true
   -
@@ -41,7 +41,7 @@ card_section:
   -
     id: lxk044r4
     card_title: 'Individual Rights'
-    card_description: 'You have certain rights regarding your personal data under the GDPR, including the right to access, rectify, information, object, rectification, data portability and delete your information. If you have any questions or requests regarding your data, please contact us at [dpo@cityeyehospital.or.ke](dpo@cityeyehospital.or.ke)'
+    card_description: 'You have certain rights regarding your personal data under the GDPR, including the right to access, rectify, information, object, rectification, data portability and delete your information. If you have any questions or requests regarding your data, please contact us at [dpo@cityeyehospital.or.ke](dpo@cityeyehospital.or.ke){:target="_blank"}'
     type: new_set
     enabled: true
   -
@@ -53,15 +53,15 @@ card_section:
   -
     id: lxk05gm7
     card_title: 'Changes to this Statement'
-    card_description: 'We may update this Privacy Policy from time to time. Please check this page for any changes or updates. To read more and gain a deeper understanding of our privacy policy, click on the "Read More" link. [Read More](https://www.cityeyehospital.or.ke/assets/pdfs/CEH%20Privacy%20Policy.pdf)'
+    card_description: 'We may update this Privacy Policy from time to time. Please check this page for any changes or updates. To read more and gain a deeper understanding of our privacy policy, click on the "Read More" link. [Read More](https://www.cityeyehospital.or.ke/assets/pdfs/CEH%20Privacy%20Policy.pdf){:target="_blank"}'
     type: new_set
     enabled: true
   -
     id: lxk0aamt
     card_title: 'Contact Us'
-    card_description: 'If you wish to exercise any of our rights above, please contact us on [dpo@cityeyehospital.or.ke](dpo@cityeyehospital.or.ke) We will seek to deal with your request without undue delay and in any event in accordance with the Data Protection Act, 2019 and the Data Protection (General) Regulations, 2021.'
+    card_description: 'If you wish to exercise any of our rights above, please contact us on [dpo@cityeyehospital.or.ke](dpo@cityeyehospital.or.ke){:target="_blank"} We will seek to deal with your request without undue delay and in any event in accordance with the Data Protection Act, 2019 and the Data Protection (General) Regulations, 2021.'
     type: new_set
     enabled: true
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1718691255
+updated_at: 1721050204
 ---

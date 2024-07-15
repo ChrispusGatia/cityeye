@@ -53,7 +53,7 @@
                             <div class="divider my-4"></div>
                             {!! $body_description !!}
 
-                            <h3 class="mt-5 mb-4">The General Practitioners at City Eye Hospital provide:</h3>
+                            <h3 class="mt-5 mb-4">Services Offered Include:</h3>
                             <div class="divider my-4"></div>
                             <ul class="list-unstyled department-service">
                                 @foreach ($list_items as $content)

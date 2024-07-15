@@ -3,11 +3,11 @@
     <head>
         <!-- Basic Page Needs ================================================== -->
         <meta charset="utf-8" />
-        <title>CityEye - Pediatric Services</title>
+        <title>CityEye - Paediatric Services</title>
     
         <!-- Mobile Specific Metas ================================================== -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="CityEye Pediatric Services Page" />
+        <meta name="description" content="CityEye Paediatric Services Page" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
         <meta name="author" content="Themefisher" />
         <meta name="generator" content="Themefisher CityEye HTML Template v1.0" />
@@ -40,14 +40,14 @@
                     <div class="col-md-12">
                         <div class="block text-center">
                             <span class="text-white">Our Services</span>
-                            <h1 class="text-capitalize mb-5 text-lg">Pediatric Services</h1>
+                            <h1 class="text-capitalize mb-5 text-lg">Paediatric Services</h1>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
     
-        <section class="section pediatric">
+        <section class="section Paediatric">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8">

@@ -277,7 +277,7 @@
                                                 </li>
                                                 <li><a class="dropdown-item" href="/pharmacy">Pharmacy</a>
                                                 </li>
-                                                <li><a class="dropdown-item" href="/pediatric_clinic">Pediatric
+                                                <li><a class="dropdown-item" href="/pediatric_clinic">Paediatric
                                                         Services</a>
                                                 </li>
                                                 <li><a class="dropdown-item" href="/othermedicalconditions">Other
@@ -304,7 +304,7 @@
                                     <a class="dropdown-item" href="/patience-feedback">Patient Feedback</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="/faq">FAQs</a>
+                                    <a class="dropdown-item" href="/faq">FAQS</a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="/testimonial">Testimonials</a>
@@ -409,7 +409,7 @@
                             <li><a href="careers">Careers</a></li>
                             <li><a href="contact">Contact US </a></li>
                             <li><a href="/privacy">Privacy Policy</a></li>
-                            <li><a href="/faq">FAQs</a></li>
+                            <li><a href="/faq">FAQS</a></li>
                             <li><a href="/bookappointment">Book Appointment</a></li>
                         </ul>
                     </div>

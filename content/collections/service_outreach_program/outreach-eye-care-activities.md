@@ -3,7 +3,7 @@ id: c57b5484-b9aa-4d69-8063-bbd39dc55037
 blueprint: service_outreach_program
 title: 'Outreach Eye Care Activities'
 body_title: 'Bringing Eye Care to Your Community'
-body_description: 'At City Eye Hospital, we recognize that affordability and accessibility are essential part of making quality eye care accessible and in turn, achieve our ultimate vision of reducing needless blindness in East Africa. Our Outreach Program seeks to broaden the reach of world-class eye care, with a focus on cataract, corporate and diabetic retinopathy outreaches.'
+body_description: 'The City Eye Hospital Outreach Program seeks to broaden the reach of quality eye care, with a focus on cataract, corporate and diabetic retinopathy outreaches.'
 card_section:
   -
     id: ltc11dw8
@@ -35,7 +35,7 @@ card_section:
     enabled: true
     card_image: outreach_images/diabetic-retinopathy-outreache.jpeg
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1718714104
+updated_at: 1721039689
 outreach_images:
   -
     id: lxkcqerz

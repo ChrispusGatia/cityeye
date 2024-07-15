@@ -70,7 +70,7 @@
                             <a href="/main_hospital">walk-in branch.</a>
                         </p>
 
-                        <h3 class="mt-5 mb-4">Eye Care Services Offered</h3>
+                        <h3 class="mt-5 mb-4">Services Offered at Our Appointment Clinic</h3>
                         <div class="divider my-4"></div>
                         <ul class="list-unstyled department-service">
                             <li><i class="icofont-check mr-2"></i>General Ophthalmology</li>

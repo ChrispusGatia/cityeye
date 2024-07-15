@@ -3,7 +3,10 @@ id: ea612229-7d25-45f6-a625-3ca79b979a54
 blueprint: other_medical_condition
 title: 'Other Medical Conditions'
 body_title: 'General Practitioners (GPs)'
-body_description: 'Eye health is connected to your overall health. An eye exam not only shows the status of your vision health but can also reveal the onset of serious health conditions, such as diabetes, heart disease, high cholesterol and high blood pressure. The experienced General Practitioners (GPs) at City Eye Hospital work together with our eye specialists to provide our patients and their families access to friendly, convenient and affordable primary and continuing medical care. Our GPs ensure we at City Eye Hospital can provide comprehensive holistic medical care for the whole family.'
+body_description: |-
+  Eye health is connected to your overall health. An eye exam not only shows the status of your vision health but can also reveal the onset of serious health conditions, such as diabetes, heart disease, high cholesterol and high blood pressure.
+
+  The experienced General Practitioners (GPs) at City Eye Hospital work together with our eye specialists to provide our patients and their families access to friendly, convenient and affordable primary and continuing medical care. Our GPs ensure we at City Eye Hospital can provide comprehensive holistic medical care for the whole family.
 list_items:
   -
     id: ltbwng0w
@@ -38,6 +41,6 @@ list_items:
 sidebar_title: 'Testing sidebar Title'
 sidebar_description: 'Testing sidebar Description'
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1716964747
+updated_at: 1721041021
 card_image: about-4-1709494582.jpg
 ---

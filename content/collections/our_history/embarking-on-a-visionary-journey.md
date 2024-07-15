@@ -10,7 +10,7 @@ card_section:
     card_description: |-
       <h4>UHEAL Opens Its Doors</h4>
 
-      The journey of what was to become the leading specialist eye hospital in the East African region began in 2009 when Upper Hill Eye and Laser Centre (UHEAL), a state-of-the-art eye diagnostic centre equipped with an ultramodern eye theatre, opened its doors to patients at Upper Hill Medical Centre, Nairobi Kenya.
+      The journey of what was to become one of the leading specialist eye hospitals in Sub-Saharan Africa began in 2009 when Upper Hill Eye and Laser Centre (UHEAL), a state-of-the-art eye diagnostic centre equipped with an ultramodern eye theatre, opened its doors to patients at Upper Hill Medical Centre in Nairobi.
     type: new_set
     enabled: true
   -
@@ -19,7 +19,7 @@ card_section:
     card_description: |-
       <h4>The Foundation is Born</h4>
 
-      UHEAL, led by Dr. Kibata Githeko, an Ophthalmologist specializing in Paediatric and Vitreo-Retinal Surgery, recognized the urgent need for early intervention in diabetic eye complications. Together with the World Diabetes Foundation, they launched an eye care foundation targeting underserved communities through outreach clinics, aiming to prevent blindness and improve community health.
+      UHEAL, led by Dr. Kibata Githeko, an Ophthalmologist specializing in Paediatric and Vitreo-Retinal Surgery, recognized the urgent need for early intervention in diabetic eye complications. In partnership with the World Diabetes Foundation, UHEAL launched an eye care foundation to serve underserved communities through outreach clinics.
     type: new_set
     enabled: true
   -
@@ -28,7 +28,7 @@ card_section:
     card_description: |-
       <h4>CEH is Launched</h4>
 
-      Realising the growing demand for our services across patients from all walks of life, we established our general hospital City Eye Hospital (CEH) in 2015. Conveniently located along Ngong Road, CEH was initially launched as an affiliate of UHEAL. Three years later, UHEAL acquired CEH. The merger saw the UHEAL branch in Upper Hill Medical Centre transformed into CEH’s Appointment-only Clinic and the Ngong Road branch into CEH’s Walk-in General Hospital.
+      City Eye Hospital (CEH) is established to serve the growing demand for quality and affordable eye care. Conveniently located along Ngong Road, CEH was initially launched as an affiliate of UHEAL. Three years later, UHEAL acquired CEH. The merger saw the UHEAL branch at Upper Hill Medical Centre transformed into CEH’s Appointment-only Clinic and the Ngong Road branch into CEH’s walk-in Main Hospital.
     type: new_set
     enabled: true
   -
@@ -37,7 +37,7 @@ card_section:
     card_description: |-
       <h4>Speciality Training Incorporated</h4>
 
-      To improve the number of well-trained eye care professionals in the region, CEH commenced its training programme: providing a rotational centre to equip students with the latest techniques in ophthalmic practice, starting with ophthalmic nursing students at the Kenya Medical Training College in 2017 and ophthalmology resident students at the University of Nairobi in 2019.
+      To improve the number of well-trained eye care professionals in the region, CEH launched its training department to provide a rotational centre that equips students with the latest techniques in ophthalmic practice, starting with ophthalmic nursing students at the Kenya Medical Training College in 2017 and ophthalmology resident students at the University of Nairobi in 2019.
     type: new_set
     enabled: true
   -
@@ -61,5 +61,5 @@ card_section:
 author: 14d3b439-c1ca-4786-8ce7-59caffb630ff
 template: our_history/show
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1713430348
+updated_at: 1721036991
 ---

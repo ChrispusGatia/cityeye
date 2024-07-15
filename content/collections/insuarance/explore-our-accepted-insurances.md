@@ -3,13 +3,7 @@ id: 67cd3992-d836-418c-b015-b1bd110a57db
 blueprint: insuarance
 title: 'Explore Our Accepted Insurances'
 body_title: 'Insurance Coverage'
-body_description: |-
-  At City Eye Hospital (CEH), helping you attain and maintain good vision and eye health is our priority. From the moment you walk into any of our branches, we will strive to treat you with kindness and compassion, responding to your eye care needs sincerely and professionally. For your convenience, City Eye Hospital offers the option to securely pay your bill via insurance, M-PESA or VISA. Please note that we do not accept payment in the form of cash or personal cheques.
-
-  **Insurance Guide**
-  Eye/vision cover tends to be an additional/opt-in component in several health insurance covers.
-  Some covers require predetermination of medical necessity before eye care is rendered.
-  You may wish to contact your insurance company to verify if eye care is a covered benefit in your health insurance plan.
+body_description: 'Eye/vision cover tends to be an additional/opt-in component in several health insurance covers. Some covers require predetermination of medical necessity before eye care is rendered. You may wish to contact your insurance company to verify if eye care is a covered benefit in your health insurance plan. Please note we accept M-PESA and VISA payments too; we do not accept payment in the form of cash or personal cheques.'
 card_section:
   -
     id: ltc289fj
@@ -90,5 +84,5 @@ card_section:
     type: new_set
     enabled: true
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1717060476
+updated_at: 1721041247
 ---

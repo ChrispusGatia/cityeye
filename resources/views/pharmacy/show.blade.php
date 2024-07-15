@@ -41,7 +41,7 @@
                     <div class="col-md-12">
                         <div class="block text-center">
                             <span class="text-white">Our Pharmacy</span>
-                            <h1 class="text-capitalize mb-5 text-lg">City Eye Pharmacy</h1>
+                            <h1 class="text-capitalize mb-5 text-lg">City Eye Hospital Pharmacy</h1>
                         </div>
                     </div>
                 </div>

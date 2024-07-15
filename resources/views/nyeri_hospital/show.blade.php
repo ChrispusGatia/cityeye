@@ -72,7 +72,7 @@
                                 of eye care services found at our <a href="/main_hospital"> General Hospital</a> and <a
                                     href="/appointment-clinic"> Appointment Clinic in Nairobi</a>.</p>
 
-                            <h3 class="mt-5 mb-4">Eye Care Services Offered</h3>
+                            <h3 class="mt-5 mb-4">Services Offered at Our Nyeri Branch</h3>
                             <div class="divider my-4"></div>
                             <ul class="list-unstyled department-service">
                                 <li><i class="icofont-check mr-2"></i>General Ophthalmology</li>

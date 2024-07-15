@@ -9,17 +9,17 @@ body_description: |-
 features:
   -
     id: ltby4u18
-    feature_name: 'Clinical biochemistry: Liver function, renal profile, diabetic profile, lipid profile, thyroid profile, and electrolytes analysis, etc.'
+    feature_name: 'Clinical biochemistry: liver function, renal profile, diabetic profile, lipid profile, thyroid profile, and electrolytes analysis, etc.'
     type: new_set
     enabled: true
   -
     id: ltby561o
-    feature_name: 'Ocular microbiology: Tests for infection of the structures of the eye, be it from trauma, disease, etc.'
+    feature_name: 'Ocular microbiology: tests for infection of the structures of the eye, be it from trauma, disease, etc.'
     type: new_set
     enabled: true
   -
     id: ltby5box
-    feature_name: 'Haematology and Clinical Pathology: Tests that cover blood tests and bodily tissues.'
+    feature_name: 'Haematology and clinical pathology: tests that cover blood tests and bodily tissues.'
     type: new_set
     enabled: true
 card_images:
@@ -39,5 +39,5 @@ card_images:
     type: new_set
     enabled: true
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1716963184
+updated_at: 1721040387
 ---

@@ -134,7 +134,7 @@
                     <div class="col-md-12">
                         <div class="block text-center">
                             <span class="text-white">Our Services</span>
-                            <h1 class="text-capitalize mb-5 text-lg">Corneal Clinic and Transplant</h1>
+                            <h1 class="text-capitalize mb-5 text-lg">Corneal Clinic & Transplant</h1>
                         </div>
                     </div>
                 </div>

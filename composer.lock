@@ -6452,6 +6452,7 @@
         },
         {
             "name": "symfony/string",
+<<<<<<< HEAD
             "version": "v7.1.2",
             "source": {
                 "type": "git",
@@ -6462,6 +6463,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/string/zipball/14221089ac66cf82e3cf3d1c1da65de305587ff8",
                 "reference": "14221089ac66cf82e3cf3d1c1da65de305587ff8",
+=======
+            "version": "v6.4.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/string.git",
+                "reference": "76792dbd99690a5ebef8050d9206c60c59e681d7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/string/zipball/76792dbd99690a5ebef8050d9206c60c59e681d7",
+                "reference": "76792dbd99690a5ebef8050d9206c60c59e681d7",
+>>>>>>> origin/dev_kevin
                 "shasum": ""
             },
             "require": {
@@ -6519,7 +6532,11 @@
                 "utf8"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/string/tree/v7.1.2"
+=======
+                "source": "https://github.com/symfony/string/tree/v6.4.9"
+>>>>>>> origin/dev_kevin
             },
             "funding": [
                 {
@@ -6535,7 +6552,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-06-28T09:27:18+00:00"
+=======
+            "time": "2024-06-28T09:25:38+00:00"
+>>>>>>> origin/dev_kevin
         },
         {
             "name": "symfony/translation",

@@ -70,7 +70,7 @@
                                 and first-class diagnostic testing and eye care treatment to all, including those
                                 residing outside the capital.</p>
 
-                            <h3 class="mt-5 mb-4">Eye Care Services Offered</h3>
+                            <h3 class="mt-5 mb-4">Services Offered at Our Vision Centre</h3>
                             <div class="divider my-4"></div>
                             <ul class="list-unstyled department-service">
                                 <li><i class="icofont-check mr-2"></i>Eye Exams: Regular eye exams and vision screening

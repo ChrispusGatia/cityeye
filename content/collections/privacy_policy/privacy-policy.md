@@ -41,7 +41,7 @@ card_section:
   -
     id: lxk044r4
     card_title: 'Individual Rights'
-    card_description: 'You have certain rights regarding your personal data under the GDPR, including the right to access, rectify, information, object, rectification, data portability and delete your information. If you have any questions or requests regarding your data, please contact us at [dpo@cityeyehospital.or.ke](dpo@cityeyehospital.or.ke){:target="_blank"}'
+    card_description: 'You have certain rights regarding your personal data under the GDPR, including the right to access, rectify, information, object, rectification, data portability and delete your information. If you have any questions or requests regarding your data, please contact us at [dpo@cityeyehospital.or.ke](mailto:dpo@cityeyehospital.or.ke)'
     type: new_set
     enabled: true
   -
@@ -59,9 +59,9 @@ card_section:
   -
     id: lxk0aamt
     card_title: 'Contact Us'
-    card_description: 'If you wish to exercise any of our rights above, please contact us on [dpo@cityeyehospital.or.ke](dpo@cityeyehospital.or.ke){:target="_blank"} We will seek to deal with your request without undue delay and in any event in accordance with the Data Protection Act, 2019 and the Data Protection (General) Regulations, 2021.'
+    card_description: 'If you wish to exercise any of our rights above, please contact us on [dpo@cityeyehospital.or.ke](mailto:dpo@cityeyehospital.or.ke) We will seek to deal with your request without undue delay and in any event in accordance with the Data Protection Act, 2019 and the Data Protection (General) Regulations, 2021.'
     type: new_set
     enabled: true
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1721050204
+updated_at: 1721051108
 ---

@@ -12,6 +12,16 @@
     <script src="{{ asset('plugins/bootstrap/bootstrap.min.js') }}"></script>
     @include('_links')
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16651053038"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-16651053038');
+    </script>
+
     <style>
         .fa.fa-twitter {
             font-family: sans-serif;
@@ -135,9 +145,8 @@
             iframe.contentWindow.postMessage("73576568-c8d9-4191-9386-87bc58360d0f", "http://localhost:3000/");
         });
     </script>
+</head>
 
-</head>
-</head>
 
 <body>
     <header class="sticky-top bg-light">

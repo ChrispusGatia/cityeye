@@ -26,7 +26,7 @@ Route::post('/contact', function () {
     $data = request(['name', 'email', 'subject', 'phone', 'message']);
     
     try {
-        Mail::to('crypusgatia@cityeyehospital.or.ke')->send(new ContactMe($data));
+        Mail::to('youremail.com')->send(new ContactMe($data));
         return redirect('/contact')->with('flash', 'Your message was sent successfully!');
     } catch (\Exception $e) {
         // Log the error for debugging
@@ -41,7 +41,7 @@ Route::post('/bookappointment', function () {
 
     try {
         // Send email to the hospital
-        Mail::to('crypusgatia@cityeyehospital.or.ke')->send(new BookMe($data));
+        Mail::to('youremail.com')->send(new BookMe($data));
         
         // Send confirmation email to the user
         Mail::to($data['email'])->send(new AppointmentConfirmation($data));

@@ -306,7 +306,7 @@
                                     <a class="dropdown-item" href="/hospital-location">Our Hospital Locations</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="/insurance">Insurance</a>
+                                    <!--<a class="dropdown-item" href="/insurance">Insurance</a>-->
                                 </li>
 
                                 <li>

@@ -101,11 +101,11 @@
                             </li>
                         </ul>
 
-                        <div class="sidebar-contatct-info mt-4">
+                        <!--<div class="sidebar-contatct-info mt-4">
                             <p class="mb-0">🌟 Fee</p>
                             <h4 class="mb-3">Ksh 600</h4>
                         </div>
-                        <img src="images/gallery/main-reception.png" alt="Main Hospital Image" class="img-fluid mt-3">
+                        <img src="images/gallery/main-reception.png" alt="Main Hospital Image" class="img-fluid mt-3">-->
                     </div>
                 </div>
 
@@ -223,8 +223,7 @@
                 </div>
             </div>
         </div>
-
-
+        
         @include('partners.show')
 
     </section>

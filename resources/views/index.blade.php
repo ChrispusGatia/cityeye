@@ -290,10 +290,10 @@
 
                         <div class="text-center mb-4">
                             <!-- Placeholder image or your preferred image -->
-                            <img src="images/service/img2.png" alt="City Eye Hospital" class="img-fluid">
+                            <!--<img src="images/service/img2.png" alt="City Eye Hospital" class="img-fluid">-->
                         </div>
                         <div class="text-center">
-                            <a href="/bookappointment" class="btn btn-main-2 btn-round-full">Make Appointment<i
+                            <a href="/bookappointment" class="btn btn-main-2 btn-round-full">Book Appointment<i
                                     class="icofont-simple-right ml-2"></i></a>
                         </div>
                     </div>

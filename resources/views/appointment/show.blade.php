@@ -136,7 +136,7 @@
                                     <textarea name="message" id="message" class="form-control" rows="6" placeholder="Your Message"></textarea>
                                 </div>
 
-                                <button type="submit" class="btn btn-main btn-round-full">Make Appointment <i
+                                <button type="submit" class="btn btn-main btn-round-full">Book Appointment <i
                                         class="icofont-simple-right ml-2"></i></button>
                             </form>
                         </div>

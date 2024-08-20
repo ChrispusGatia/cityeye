@@ -98,11 +98,11 @@
                             </li>
                         </ul>
 
-                        <div class="sidebar-contatct-info mt-4">
+                        <!--<div class="sidebar-contatct-info mt-4">
                             <p class="mb-0">🌟 Fee</p>
                             <h4 class="mb-3">Ksh 4000</h4>
                         </div>
-                        <img src="images/gallery/ap-reception.jpg" alt="Main Hospital Image" class="img-fluid mt-3">
+                        <img src="images/gallery/ap-reception.jpg" alt="Main Hospital Image" class="img-fluid mt-3">-->
                     </div>
                 </div>
 

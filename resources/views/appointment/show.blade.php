@@ -61,84 +61,84 @@
                                 You can schedule an appointment at our Appointment Clinic 
                                 (located on the 3rd Floor of Upper Hill Medical Centre, Ralph Bunche Road, Nairobi)
                                  by filling in the form below.</p>
-                            <form id="appointment-form" class="appointment-form" method="post" action="/bookappointment">
-                                @csrf
-                                <!-- form message -->
-                                <div class="row">
-                                    <div class="col-12">
-                                         @if(session('flash'))
-                                         <div class="alert alert-success contact__msg" role="alert">
-                                            {{ session('flash') }}
-                                        </div>
-                                        @endif
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <input name="name" id="name" type="text" class="form-control"
-                                                placeholder="Patient's Full Name" required>
+                                 <form id="appointment-form" class="appointment-form" method="post" action="/bookappointment">
+                                    @csrf
+                                    <!-- form message -->
+                                    <div class="row">
+                                        <div class="col-12">
+                                            @if(session('flash'))
+                                            <div class="alert alert-success contact__msg" role="alert">
+                                                {{ session('flash') }}
+                                            </div>
+                                            @endif
                                         </div>
                                     </div>
-
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <input name="email" id="email" type="text" class="form-control"
-                                                placeholder="Your Email" required>
+                        
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input name="name" id="name" type="text" class="form-control"
+                                                    placeholder="Patient's Full Name" required
+                                                    pattern="[a-zA-Z\s]+" title="Please enter a valid name.">
+                                            </div>
+                                        </div>
+                        
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input name="email" id="email" type="email" class="form-control"
+                                                    placeholder="Your Email" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <select class="form-control" id="doctor" name="doctor" required>
+                                                    <option value="">Select Doctor</option>
+                                                    <option value="Dr. Kibata">Dr. Kibata</option>
+                                                    <option value="Dr. Muchai">Dr. Muchai</option>
+                                                    <option value="Dr. Kareko">Dr. Kareko</option>
+                                                    <option value="Dr. Njoya">Dr. Njoya</option>
+                                                    <option value="Dr. Njuguna">Dr. Njuguna</option>
+                                                    <option value="Dr. Mashep">Dr. Mashep</option>
+                                                    <option value="Dr. Korir">Dr. Korir</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                        
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input name="date" id="date" type="date" class="form-control"
+                                                    placeholder="dd/mm/yyyy" min="<?php echo date('Y-m-d'); ?>" required>
+                                            </div>
+                                        </div>
+                        
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <select class="form-control" id="time" name="time" required>
+                                                    <option value="">Select Preferred Time</option>
+                                                    <option value="Anytime">Anytime</option>
+                                                    <option value="Morning Hours">Morning Hours</option>
+                                                    <option value="Afternoon Hours">Afternoon Hours</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                        
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input name="phone" id="phone" type="tel" class="form-control"
+                                                    placeholder="Phone Number" required
+                                                    pattern="\d{10}" title="Please enter a valid phone number with 10 digits.">
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <select class="form-control" id="doctor" name="doctor">
-                                                <option>Select Doctors</option>
-                                                <option>Dr. Kibata</option>
-                                                <option>Dr. Muchai</option>
-                                                <option>Dr. Kareko</option>
-                                                <option>Dr. Njoya</option>
-                                                <option>Dr. Njuguna</option>
-                                                <option>Dr. Mashep</option>
-                                                <option>Dr. Korir</option>
-                                                <!-- Add more options as needed -->
-                                            </select>
-                                        </div>
+                        
+                                    <div class="form-group mb-4">
+                                        <textarea name="message" id="message" class="form-control" rows="6"
+                                            placeholder="Your Message"></textarea>
                                     </div>
-
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <input name="date" id="date" type="date" class="form-control"
-                                                placeholder="dd/mm/yyyy" min="<?php echo date('Y-m-d'); ?>" required>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <select class="form-control" id="time" name="time" required>
-                                                <option>Select Preffered Time</option>
-                                                <option>Anytime</option>
-                                                <option>Morning Hours</option>
-                                                <option>Afternoon Hours</option>
-                                            </select>
-                                        </div>
-                                    </div>
-
-                                    
-
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <input name="phone" id="phone" type="tel" class="form-control"
-                                                placeholder="Phone Number" required>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="form-group mb-4">
-                                    <textarea name="message" id="message" class="form-control" rows="6" placeholder="Your Message"></textarea>
-                                </div>
-
-                                <button type="submit" class="btn btn-main btn-round-full">Make Appointment <i
-                                        class="icofont-simple-right ml-2"></i></button>
-                            </form>
+                        
+                                    <button type="submit" class="btn btn-main btn-round-full">Book Appointment <i
+                                            class="icofont-simple-right ml-2"></i></button>
+                                </form>           
                         </div>
                     </div>
                 </div>

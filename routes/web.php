@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 use App\Mail\AppointmentConfirmation;
 use App\Mail\ContactMe;
 use App\Mail\BookMe;
@@ -21,11 +23,27 @@ use App\Mail\BookMe;
 
 // Route::statamic('whoweare', 'whoweare');
 
+Route::post('/contact', function (Request $request) {
+    // Validate the incoming request data
+    $validated = $request->validate([
+        'name' => 'required|string|max:255',
+        'email' => 'required|email',
+        'subject' => 'required|string|max:255',
+        'phone' => 'required|digits:10',
+        'message' => 'required|string|max:500',
+        //'g-recaptcha-response' => 'required|captcha',
+    ]);
 
-Route::post('/contact', function () {
-    $data = request(['name', 'email', 'subject', 'phone', 'message']);
-    
     try {
+        // Sanitize the data
+        $data = [
+            'name' => e($validated['name']),
+            'email' => e($validated['email']),
+            'subject' => e($validated['subject']),
+            'phone' => e($validated['phone']),
+            'message' => e($validated['message']),
+        ];
+
         Mail::to('youremail.com')->send(new ContactMe($data));
         return redirect('/contact')->with('flash', 'Your message was sent successfully!');
     } catch (\Exception $e) {
@@ -36,10 +54,31 @@ Route::post('/contact', function () {
 });
 
 
-Route::post('/bookappointment', function () {
-    $data = request(['name', 'email', 'doctor', 'date', 'time', 'phone', 'message']);
+Route::post('/bookappointment', function (Request $request) {
+    // Validate the incoming request data
+    $validated = $request->validate([
+        'name' => 'required|string|max:255',
+        'email' => 'required|email',
+        'doctor' => 'required|string|max:255',
+        'date' => 'required|date|after_or_equal:today',
+        'time' => 'required|string|max:50',
+        'phone' => 'required|digits:10',
+        'message' => 'nullable|string|max:500',
+        //'g-recaptcha-response' => 'required|captcha',
+    ]);
 
     try {
+        // Sanitize the data
+        $data = [
+            'name' => e($validated['name']),
+            'email' => e($validated['email']),
+            'doctor' => e($validated['doctor']),
+            'date' => e($validated['date']),
+            'time' => e($validated['time']),
+            'phone' => e($validated['phone']),
+            'message' => e($validated['message']),
+        ];
+
         // Send email to the hospital
         Mail::to('youremail.com')->send(new BookMe($data));
         

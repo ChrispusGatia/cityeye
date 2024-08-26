@@ -82,15 +82,16 @@
                                     @endif
                                 </div>
                             </div>
-    
+                
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <input name="name" id="name" type="text" class="form-control"
-                                            placeholder="Your Full Name" required>
+                                            placeholder="Your Full Name" required
+                                            pattern="[a-zA-Z\s]+" title="Please enter a valid name.">
                                     </div>
                                 </div>
-    
+                
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <input name="email" id="email" type="email" class="form-control"
@@ -105,22 +106,23 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <input name="phone" id="phone" type="text" class="form-control"
-                                            placeholder="Your Phone Number" required>
+                                        <input name="phone" id="phone" type="tel" class="form-control"
+                                            placeholder="Your Phone Number" required
+                                            pattern="\d{10}" title="Please enter a valid phone number with 10 digits.">
                                     </div>
                                 </div>
                             </div>
-    
+                
                             <div class="form-group-2 mb-4">
                                 <textarea name="message" id="message" class="form-control" rows="8"
                                     placeholder="Your Message" required></textarea>
                             </div>
-    
+                
                             <div>
                                 <input class="btn btn-main btn-round-full" name="submit" type="submit"
                                     value="Send Message">
                             </div>
-                        </form>
+                        </form>       
                     </div>
                 </div>
             </div>

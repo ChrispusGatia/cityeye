@@ -61,159 +61,70 @@
                     </div>
                 </div>
 
-                <!-- Filter Buttons -->
-                <div class="col-12 text-center mb-5">
-                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                        <label class="btn active">
-                            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All Doctors
-                        </label>
-                        <label class="btn">
-                            <input type="radio" name="shuffle-filter" value="cat1" />Retina
-                        </label>
-                        <label class="btn">
-                            <input type="radio" name="shuffle-filter" value="cat2" />Cornea
-                        </label>
-                        <label class="btn">
-                            <input type="radio" name="shuffle-filter" value="cat3" />Glaucoma
-                        </label>
-                        <label class="btn">
-                            <input type="radio" name="shuffle-filter" value="cat4" />Cataract
-                        </label>
-                        <label class="btn">
-                            <input type="radio" name="shuffle-filter" value="cat5" />Pediatric
-                        </label>
+                 <!-- Filter Buttons -->
+<div class="col-12 text-center mb-5">
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <label class="btn active">
+            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All Doctors
+        </label>
+        <label class="btn">
+            <input type="radio" name="shuffle-filter" value="Retina" />Retina
+        </label>
+        <label class="btn">
+            <input type="radio" name="shuffle-filter" value="Cornea" />Cornea
+        </label>
+        <label class="btn">
+            <input type="radio" name="shuffle-filter" value="Glaucoma" />Glaucoma
+        </label>
+        <label class="btn">
+            <input type="radio" name="shuffle-filter" value="Cataract" />Cataract
+        </label>
+        <label class="btn">
+            <input type="radio" name="shuffle-filter" value="Paediatric" />Paediatric
+        </label>
+        <label class="btn">
+            <input type="radio" name="shuffle-filter" value="Ophthalmologist" />Ophthalmologist
+        </label>
+    </div>
+</div>
+
+<!-- Doctors Listing -->
+<div class="row shuffle-wrapper portfolio-gallery">
+    @foreach ($doctor_details as $doctor)
+        @php
+            // Ensure $specialities is treated as an array
+            $specialities = is_array($doctor->specialities) ? $doctor->specialities : explode(',', $doctor->specialities);
+
+            // Generate a string for the data-groups attribute using correct JSON formatting
+            $dataGroups = json_encode($specialities);
+        @endphp
+        <div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item" 
+             data-groups="{{ $dataGroups }}">
+            <div class="position-relative doctor-inner-box">
+                <div class="doctor-profile">
+                    <div class="doctor-img">
+                        <!-- Fetch the correct image URL -->
+                        <img src="{{ asset($doctor->doctors_image) }}" alt="{{ $doctor->doctors_name }}" class="img-fluid w-100">
                     </div>
                 </div>
-
-                <!-- Doctors Listing -->
-                <div class="row shuffle-wrapper portfolio-gallery">
-                    <div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item" data-groups="[&quot;cat1&quot;]">
-                        <div class="position-relative doctor-inner-box">
-                            <div class="doctor-profile">
-                                <div class="doctor-img">
-                                    <img src="images/team/" alt="doctor-image" class="img-fluid w-100">
-                                </div>
-                            </div>
-                            <div class="content mt-3">
-                                <h4 class="mb-0"><a href="#">Dr. Amos Kibata</a></h4>
-                                <p><i class="icofont-eye"></i> Retina Specialist</p>
-                            </div>
-                        </div>
+                <div class="content mt-3 text-center">
+                    <h4 class="mb-0"><a href="#">{{ $doctor->doctors_name }}</a></h4>
+                    <p class="text-muted">{{ $doctor->job_title }}</p>
+                    <p class="text-primary mb-2">
+                        {{ implode(', ', $specialities) }}
+                    </p>
+                    <div class="doctor-social">
+                        <a href="{{ $doctor->linkedin_profile }}" target="_blank" class="text-primary">
+                            <i class="icofont-linkedin"></i> LinkedIn
+                        </a>
                     </div>
-
-                    <div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item" data-groups="[&quot;cat1&quot;]">
-                        <div class="position-relative doctor-inner-box">
-                            <div class="doctor-profile">
-                                <div class="doctor-img">
-                                    <img src="images/team/" alt="doctor-image" class="img-fluid w-100">
-                                </div>
-                            </div>
-                            <div class="content mt-3">
-                                <h4 class="mb-0"><a href="#">Dr. Muchai Gachago</a></h4>
-                                <p><i class="icofont-eye"></i> Retina Specialist</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item" data-groups="[&quot;cat1&quot;]">
-                        <div class="position-relative doctor-inner-box">
-                            <div class="doctor-profile">
-                                <div class="doctor-img">
-                                    <img src="images/team/" alt="doctor-image" class="img-fluid w-100">
-                                </div>
-                            </div>
-                            <div class="content mt-3">
-                                <h4 class="mb-0"><a href="#">Dr. Catherine Kareko</a></h4>
-                                <p><i class="icofont-eye"></i> Retina Specialist</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item" data-groups="[&quot;cat3&quot;]">
-                        <div class="position-relative doctor-inner-box">
-                            <div class="doctor-profile">
-                                <div class="doctor-img">
-                                    <img src="images/team/" alt="doctor-image" class="img-fluid w-100">
-                                </div>
-                            </div>
-                            <div class="content mt-3">
-                                <h4 class="mb-0"><a href="#">Dr. Wendy Njoya</a></h4>
-                                <p><i class="icofont-eye"></i> Glaucoma Specialist</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item" data-groups="[&quot;cat3&quot;]">
-                        <div class="position-relative doctor-inner-box">
-                            <div class="doctor-profile">
-                                <div class="doctor-img">
-                                    <img src="images/team/" alt="doctor-image" class="img-fluid w-100">
-                                </div>
-                            </div>
-                            <div class="content mt-3">
-                                <h4 class="mb-0"><a href="#">Dr. Wanjiku Muthee</a></h4>
-                                <p><i class="icofont-eye"></i> Glaucoma Specialist</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item" data-groups="[&quot;cat2&quot;]">
-                        <div class="position-relative doctor-inner-box">
-                            <div class="doctor-profile">
-                                <div class="doctor-img">
-                                    <img src="images/team/" alt="doctor-image" class="img-fluid w-100">
-                                </div>
-                            </div>
-                            <div class="content mt-3">
-                                <h4 class="mb-0"><a href="#">Dr. Alexandria Mashep</a></h4>
-                                <p><i class="icofont-eye"></i> Cornea Specialist</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item" data-groups="[&quot;cat4&quot;]">
-                        <div class="position-relative doctor-inner-box">
-                            <div class="doctor-profile">
-                                <div class="doctor-img">
-                                    <img src="images/team/" alt="doctor-image" class="img-fluid w-100">
-                                </div>
-                            </div>
-                            <div class="content mt-3">
-                                <h4 class="mb-0"><a href="#">Betty Mbeche</a></h4>
-                                <p><i class="icofont-eye"></i> Cataract Surgeon</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item" data-groups="[&quot;cat4&quot;]">
-                        <div class="position-relative doctor-inner-box">
-                            <div class="doctor-profile">
-                                <div class="doctor-img">
-                                    <img src="images/team/" alt="doctor-image" class="img-fluid w-100">
-                                </div>
-                            </div>
-                            <div class="content mt-3">
-                                <h4 class="mb-0"><a href="#">George Ohito</a></h4>
-                                <p><i class="icofont-eye"></i> Cataract Surgeon</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item" data-groups="[&quot;cat5&quot;]">
-                        <div class="position-relative doctor-inner-box">
-                            <div class="doctor-profile">
-                                <div class="doctor-img">
-                                    <img src="images/team/" alt="doctor-image" class="img-fluid w-100">
-                                </div>
-                            </div>
-                            <div class="content mt-3">
-                                <h4 class="mb-0"><a href="#">Dr. Margaret Njuguna</a></h4>
-                                <p><i class="icofont-eye"></i> Pediatric and Squint Specialist</p>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
+            </div>
+        </div>
+    @endforeach
+</div>
+
+
             </div>
         </section>
 
@@ -225,12 +136,33 @@
                         <div class="cta-content">
                             <div class="divider mb-4"></div>
                             <h2 class="mb-5 text-lg">We are pleased to offer you the <span class="title-color">chance to have the healthy vision through our comprehensive eye care services.</span></h2>
-                            <a href="/bookappointment" class="btn btn-main-2 btn-round-full">Get appointment <i class="icofont-simple-right ml-2"></i></a>
+                            <a href="/bookappointment" class="btn btn-main-2 btn-round-full">Book Appointment <i class="icofont-simple-right ml-2"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+
+        <!-- JavaScript for Filtering -->
+        <script>
+        document.querySelectorAll('input[name="shuffle-filter"]').forEach(radio => {
+            radio.addEventListener('change', function() {
+                const filterValue = this.value;
+                const items = document.querySelectorAll('.shuffle-item');
+                
+                items.forEach(item => {
+                    const groups = JSON.parse(item.getAttribute('data-groups'));
+                    if (filterValue === 'all' || groups.includes(filterValue)) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+
 
         <!-- Essential Scripts -->
         <script src="plugins/jquery/jquery.js"></script>

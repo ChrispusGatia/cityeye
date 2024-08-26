@@ -1,0 +1,18 @@
+super: true
+name: 'Marketing Team'
+id: 14d3b439-c1ca-4786-8ce7-59caffb630ff
+password_hash: $2y$10$6IQ1X/Pq1MCnOcSqkdsvv.Ly06IaluPiBffhTgHlkRLvLWRJ/RUI.
+preferences:
+  collections:
+    pages:
+      after_save: create_another
+      columns:
+        - title
+        - slug
+        - status
+        - body_details
+        - template_field
+    services:
+      after_save: create_another
+    about_us:
+      after_save: continue_editing

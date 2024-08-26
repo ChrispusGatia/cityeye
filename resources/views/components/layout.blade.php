@@ -462,7 +462,7 @@
                             </script>.<a href="/">City Eye Hospital</a>. All Rights Reserved.
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <!--<div class="col-lg-6">
                         <div class="subscribe-form text-lg-right mt-5 mt-lg-0">
                             <form action="#" class="subscribe">
                                 <input type="text" class="form-control"
@@ -472,7 +472,7 @@
                                 </button>
                             </form>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
 
                 <div class="row">

@@ -80,7 +80,7 @@
                             <input type="radio" name="shuffle-filter" value="cat4" />Cataract
                         </label>
                         <label class="btn">
-                            <input type="radio" name="shuffle-filter" value="cat5" />Pediatric
+                            <input type="radio" name="shuffle-filter" value="cat5" />Paediatric
                         </label>
                     </div>
                 </div>
@@ -97,6 +97,15 @@
                             <div class="content mt-3">
                                 <h4 class="mb-0"><a href="#">Dr. Amos Kibata</a></h4>
                                 <p><i class="icofont-eye"></i> Retina Specialist</p>
+                                <div class="doctor-summary mt-3">
+                                    <p><strong>Professional Summary</strong></p>
+                                    <p>MP&DB, Masters, Ophthalmology
+                                    Consultant Ophthalmologist / Retina Surgeon / Paediatric Eye Surgeon
+                                    <strong>Medical Board Number:</strong> 3934
+                                </div>
+                                <div class="doctor-social mt-2">
+                                    <a href="https://www.linkedin.com/in/amos-kibata" target="_blank" class="text-primary mx-2"><i class="icofont-linkedin"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>

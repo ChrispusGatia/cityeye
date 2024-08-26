@@ -108,7 +108,7 @@
                     </div>
                 </div>
                 <div class="content mt-3 text-center">
-                    <h4 class="mb-0"><a href="#">{{ $doctor->doctors_name }}</a></h4>
+                    <h4 class="mb-0">{{ $doctor->doctors_name }}</h4>
                     <p class="text-muted">{{ $doctor->job_title }}</p>
                     <p class="text-primary mb-2">
                         {{ implode(', ', $specialities) }}

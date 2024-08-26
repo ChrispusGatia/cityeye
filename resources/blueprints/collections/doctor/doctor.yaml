@@ -1,4 +1,4 @@
-title: Doctor
+title: Doctors
 tabs:
   main:
     display: Main
@@ -13,3 +13,91 @@ tabs:
               required: true
               validate:
                 - required
+          -
+            handle: doctor_details
+            field:
+              collapse: false
+              previews: true
+              fullscreen: true
+              sets:
+                new_set_group:
+                  display: 'New Set Group'
+                  instructions: null
+                  icon: null
+                  sets:
+                    new_set:
+                      display: 'New Set'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: doctors_name
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: "Doctor's Name"
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                        -
+                          handle: job_title
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Job Title'
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                        -
+                          handle: specialities
+                          field:
+                            antlers: false
+                            type: textarea
+                            display: Specialities
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                        -
+                          handle: linkedin_profile
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'LinkedIn Profile'
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                        -
+                          handle: doctors_image
+                          field:
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: "Doctor's Image"
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                            max_files: 1
+              type: replicator
+              display: 'Doctor Details'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false

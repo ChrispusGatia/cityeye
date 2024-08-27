@@ -53,7 +53,7 @@ card_section:
   -
     id: lxk05gm7
     card_title: 'Changes to this Statement'
-    card_description: 'We may update this Privacy Policy from time to time. Please check this page for any changes or updates. To read more and gain a deeper understanding of our privacy policy, click on the "Read More" link. [Read More](https://www.cityeyehospital.or.ke/assets/pdfs/CEH%20Privacy%20Policy.pdf){:target="_blank"}'
+    card_description: 'We may update this Privacy Policy from time to time. Please check this page for any changes or updates. To read more and gain a deeper understanding of our privacy policy, click on the "Read More" link. [Read More](https://www.cityeyehospital.or.ke/privacy){:target="_blank"}'
     type: new_set
     enabled: true
   -
@@ -63,5 +63,5 @@ card_section:
     type: new_set
     enabled: true
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1721051108
+updated_at: 1724665221
 ---

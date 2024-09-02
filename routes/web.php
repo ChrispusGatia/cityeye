@@ -44,7 +44,7 @@ Route::post('/contact', function (Request $request) {
             'message' => e($validated['message']),
         ];
 
-        Mail::to('youremail.com')->send(new ContactMe($data));
+        Mail::to('info@cityeyehospital.or.ke')->send(new ContactMe($data));
         return redirect('/contact')->with('flash', 'Your message was sent successfully!');
     } catch (\Exception $e) {
         // Log the error for debugging
@@ -80,7 +80,7 @@ Route::post('/bookappointment', function (Request $request) {
         ];
 
         // Send email to the hospital
-        Mail::to('youremail.com')->send(new BookMe($data));
+        Mail::to('appointments@cityeyehospital.or.ke')->send(new BookMe($data));
         
         // Send confirmation email to the user
         Mail::to($data['email'])->send(new AppointmentConfirmation($data));

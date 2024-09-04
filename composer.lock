@@ -6454,6 +6454,7 @@
         },
         {
             "name": "symfony/string",
+
             "version": "v7.1.4",
             "source": {
                 "type": "git",
@@ -6464,7 +6465,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/string/zipball/6cd670a6d968eaeb1c77c2e76091c45c56bc367b",
                 "reference": "6cd670a6d968eaeb1c77c2e76091c45c56bc367b",
-                "shasum": ""
+
             },
             "require": {
                 "php": ">=8.2",
@@ -6521,7 +6522,11 @@
                 "utf8"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/string/tree/v7.1.4"
+=======
+                "source": "https://github.com/symfony/string/tree/v6.4.11"
+>>>>>>> 3b783ed9ceb61028bcbc6ac56352302f2e1bd952
             },
             "funding": [
                 {
@@ -6537,7 +6542,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-08-12T09:59:40+00:00"
+=======
+            "time": "2024-08-12T09:55:28+00:00"
+>>>>>>> 3b783ed9ceb61028bcbc6ac56352302f2e1bd952
         },
         {
             "name": "symfony/translation",

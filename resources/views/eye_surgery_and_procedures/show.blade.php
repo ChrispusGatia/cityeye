@@ -159,7 +159,7 @@
                                             class="icofont-simple-right ml-2"></i></a></li>
                                 <li><a href="/retina_specialist">Retina Clinic and Surgery<i
                                             class="icofont-simple-right ml-2"></i></a></li>
-                                <li><a href="/#">Pediatric Services<i
+                                <li><a href="/#">Paediatric Services<i
                                             class="icofont-simple-right ml-2"></i></a></li>
                                 <li><a href="/opticalshop">Optical Shop<i class="icofont-simple-right ml-2"></i></a>
                                 </li>

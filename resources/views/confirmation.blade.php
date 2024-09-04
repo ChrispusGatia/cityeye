@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Appointment Request Received</title>
+    <title>Appointment Request Received - No Reply Needed!</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -51,6 +51,17 @@
             font-size: 16px;
             color: #555555;
         }
+        .note {
+            background-color: #d1ecf1; /* Light blue background */
+            color: #0c5460; /* Dark blue text */
+            padding: 15px;
+            border: 1px solid #bee5eb;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .note strong {
+            color: #0c5460; /* Dark blue text for emphasis */
+        }
     </style>
 </head>
 <body>
@@ -69,7 +80,9 @@
                 <li><strong>Phone Number:</strong> {{ $dataReceived['phone'] }}</li>
                 <li><strong>Your Message:</strong> {{ $dataReceived['message'] }}</li>
             </ul>
-            <p><strong>Note:</strong> This is an automated email from a noreply address. Please do not reply to this email as it is unattended. If you have any questions or need further assistance, please call us at <strong>0714 617 782</strong>.</p>
+            <div class="note">
+                <p><strong>Note:</strong> This is an automated email from a noreply address. Please do not reply to this email as it is unattended. If you have any questions or need further assistance, please call us at <strong>0714 617 782 or 0736 329 348</strong>.</p>
+            </div>
             <div class="card-footer">
                 <p>Thank you,</p>
                 <p>City Eye Hospital Team</p>

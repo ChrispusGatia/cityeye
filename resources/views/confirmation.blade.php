@@ -73,7 +73,7 @@
             <div class="card-footer">
                 <p>Thank you,</p>
                 <p>City Eye Hospital Team</p>
-                <p>Call Us: 0714 617 782</p>
+                <p>Call Us: 0714 617 782 or 0736 329 348</p>
             </div>
         </div>
     </div>

@@ -56,9 +56,9 @@
 <body>
     <div class="container">
         <div class="card">
-            <h1>Appointment Request Received</h1>
+            <h1>Appointment Request Received!</h1>
             <p>Dear {{ $dataReceived['name'] }},</p>
-            <p>Thank you for requesting an appointment with City Eye Hospital. We have received your request and one of our team members will get back to you shortly to confirm your booking.</p>
+            <p>Thank you for requesting an appointment with City Eye Hospital. We have received your request, and one of our team members will get back to you shortly to confirm your booking.</p>
             <p>Here are the details of your request:</p>
             <ul>
                 <li><strong>Patient Name:</strong> {{ $dataReceived['name'] }}</li>
@@ -69,6 +69,7 @@
                 <li><strong>Phone Number:</strong> {{ $dataReceived['phone'] }}</li>
                 <li><strong>Your Message:</strong> {{ $dataReceived['message'] }}</li>
             </ul>
+            <p><strong>Note:</strong> This is an automated email from a noreply address. Please do not reply to this email as it is unattended. If you have any questions or need further assistance, please call us at <strong>0714 617 782</strong>.</p>
             <div class="card-footer">
                 <p>Thank you,</p>
                 <p>City Eye Hospital Team</p>

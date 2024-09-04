@@ -20,6 +20,20 @@
         <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css" />
         <!-- Main Stylesheet -->
         <link rel="stylesheet" href="css/style.css" />
+
+        <style>
+            .note-message {
+                color: #004085; /* Dark blue color for a professional look */
+                background-color: #cce5ff; /* Light blue background for emphasis */
+                padding: 8px;
+                border: 1px solid #b8daff; /* Light blue border */
+                border-radius: 4px;
+                display: none; /* Hide by default */
+                margin-top: 5px;
+                font-size: 14px; /* Slightly smaller font size */
+            }
+        </style>
+        
     </head>
 
     <body id="top">
@@ -120,13 +134,17 @@
                                                     <option value="Morning Hours">Morning Hours</option>
                                                     <option value="Afternoon Hours">Afternoon Hours</option>
                                                 </select>
+                                                <!-- Professional Note below the select box -->
+                                                <small class="form-text text-muted">
+                                                    <span id="noteMessage" class="note-message">Please be aware that the preferred time you select is subject to change based on availability. We will do our best to accommodate your request.</span>
+                                                </small>
                                             </div>
-                                        </div>
+                                        </div>   
                         
                                         <div class="col-lg-6">
                                             <div class="form-group">
                                                 <input name="phone" id="phone" type="tel" class="form-control"
-                                                    placeholder="Phone Number" required
+                                                    placeholder="Your Phone Number" required
                                                     pattern="\d{10}" title="Please enter a valid phone number with 10 digits.">
                                             </div>
                                         </div>
@@ -148,7 +166,6 @@
 
         <!-- ... (remaining code) ... -->
 
-
         <!-- Essential Scripts -->
         <script src="plugins/jquery/jquery.js"></script>
         <script src="plugins/bootstrap/bootstrap.min.js"></script>
@@ -158,6 +175,17 @@
         <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY"></script>
         <script src="plugins/google-map/gmap.js"></script>
         <script src="js/script.js"></script>
+
+        <script>
+            document.getElementById('time').addEventListener('change', function() {
+                var noteMessage = document.getElementById('noteMessage');
+                if (this.value) {
+                    noteMessage.style.display = 'block'; // Show message when a time is selected
+                } else {
+                    noteMessage.style.display = 'none'; // Hide message when no time is selected
+                }
+            });
+        </script>
 
     </body>
 

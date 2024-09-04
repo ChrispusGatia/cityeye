@@ -76,7 +76,9 @@
                 <li><strong>Email:</strong> {{ $dataReceived['email'] }}</li>
                 <li><strong>Preferred Doctor:</strong> {{ $dataReceived['doctor'] }}</li>
                 <li><strong>Date of Appointment:</strong> {{ $dataReceived['date'] }}</li>
-                <li><strong>Preferred Time:</strong> {{ $dataReceived['time'] }}</li>
+                <li><strong>Preferred Time:</strong> {{ $dataReceived['time'] }}
+                    <br><span style="color: #856404; background-color: #fff3cd; padding: 5px; border: 1px solid #ffeeba; border-radius: 4px; display: block; margin-top: 5px;">Please note that the preferred time you selected is subject to availability and may be adjusted. We will do our best to accommodate your request.</span>
+                </li>
                 <li><strong>Phone Number:</strong> {{ $dataReceived['phone'] }}</li>
                 <li><strong>Your Message:</strong> {{ $dataReceived['message'] }}</li>
             </ul>

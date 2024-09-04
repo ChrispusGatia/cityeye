@@ -32,7 +32,7 @@ class BookMe extends Mailable
      */
     public function build()
     {
-        return $this->subject('Appointment Booking')
+        return $this->subject('New Booking Alert!')
                     ->view('bookingmailtemplate')
                     ->with([
                         'data' => $this->dataReceived,

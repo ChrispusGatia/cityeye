@@ -32,7 +32,7 @@ class AppointmentConfirmation extends Mailable
       */
      public function build()
      {
-         return $this->subject('Appointment Request Received')
+         return $this->subject('Appointment Request Received - No Reply Needed!')
                     ->view('confirmation');
      }
  }

@@ -69,7 +69,7 @@
         <div class="card">
             <h1>Appointment Request Received!</h1>
             <p>Dear {{ $dataReceived['name'] }},</p>
-            <p>Thank you for requesting an appointment with City Eye Hospital. We have received your request, and one of our team members will get back to you shortly to confirm your booking.</p>
+            <p>Thank you for your interest in our services. We have received your request, and one of our team members will get back to you shortly to confirm your booking.</p>
             <p>Here are the details of your request:</p>
             <ul>
                 <li><strong>Patient Name:</strong> {{ $dataReceived['name'] }}</li>

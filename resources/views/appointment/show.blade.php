@@ -44,7 +44,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="block text-center">
-                            <span class="text-white">Book your Seat</span>
+                            <span class="text-white">Book Appointment</span>
                             <h1 class="text-capitalize mb-5 text-lg">Appointment at AP Clinic</h1>
                         </div>
                     </div>
@@ -136,7 +136,7 @@
                                                 </select>
                                                 <!-- Professional Note below the select box -->
                                                 <small class="form-text text-muted">
-                                                    <span id="noteMessage" class="note-message">Please be aware that the preferred time you select is subject to change based on availability. We will do our best to accommodate your request.</span>
+                                                    <span id="noteMessage" class="note-message">Please be aware that the preferred date and time you select is subject to change based on availability. We will do our best to accommodate your request.</span>
                                                 </small>
                                             </div>
                                         </div>   

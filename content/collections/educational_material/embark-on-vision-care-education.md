@@ -7,11 +7,18 @@ body_description: "Welcome to City Eye Hospital's educational hub. Discover valu
 card_section:
   -
     id: ltcmooh4
-    card_image: cornea.jpg
-    card_description: "Explore the intricacies of the eye's anatomy and learn about each part's functions for better understanding of eye health."
-    youtube_id: FlCG2Z9bnTM
+    card_image: general.jpg
+    card_description: '**Common Eye Health Problems Explained by Dr. Wanjiku | Expert Tips for Clear Vision. Watch now to keep your eyes healthy and strong!**'
+    youtube_id: IHpekbq9KOc
+    type: new_set
+    enabled: true
+  -
+    id: m0m3cqth
+    card_image: intravitreal-injection.png
+    card_description: '**Intravitreal Avastin Procedure performed by Dr. Ohito, our expert cataract surgeon. How It Helps Preserve Vision | City Eye Hospital**'
+    youtube_id: d2CoPg4iF3o
     type: new_set
     enabled: true
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1723094545
+updated_at: 1725348037
 ---

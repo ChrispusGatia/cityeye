@@ -27,17 +27,17 @@ card_images:
     id: ltby5dbi
     type: new_set
     enabled: true
-    image: screenshot-2024-05-29-090147-1716963060.png
+    image: lab-(3).jpg
   -
     id: lwrfh87n
-    image: screenshot-2024-05-29-091245.png
+    image: lab.jpg
     type: new_set
     enabled: true
   -
     id: lwrfhglm
-    image: screenshot-2024-05-29-090641.png
+    image: lab-(4)-1725531009.jpg
     type: new_set
     enabled: true
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1721040387
+updated_at: 1725963482
 ---

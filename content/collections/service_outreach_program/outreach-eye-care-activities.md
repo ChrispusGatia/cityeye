@@ -35,7 +35,7 @@ card_section:
     enabled: true
     card_image: outreach_images/diabetic-retinopathy-outreache.jpeg
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1721039689
+updated_at: 1725945075
 outreach_images:
   -
     id: lxkcqerz

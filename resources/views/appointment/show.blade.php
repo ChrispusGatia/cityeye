@@ -84,6 +84,12 @@
                                             <div class="alert alert-success contact__msg" role="alert">
                                                 {{ session('flash') }}
                                             </div>
+                                            <!-- Google Ads Conversion Tracking Script -->
+                                            <script>
+                                            gtag('event', 'conversion', {
+                                                'send_to': 'AW-16651053038/-uPxCL-1tNEZEO7P64M-'
+                                            });
+                                            </script>
                                             @endif
                                         </div>
                                     </div>

@@ -9,7 +9,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="CityEye - Your Vision, Our Passion" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
-        <meta name="author" content="Themefisher" />
+        <meta name="keywords" content="City Eye Hospital, optical shop, eye care services, eye glasses, contact lenses, designer eyewear, sunglasses, eye exams , vision testing, eyewear accessories,
+         optometrist services, Affordable glasses, Children's eyeglasses, Prescription sunglasses, Lens replacement, Lens coating, Vision correction vision care">
+        <meta name="author" content="City Eye Hospital" />
         <meta name="generator" content="Themefisher CityEye HTML Template v1.0" />
 
         <!-- theme meta -->

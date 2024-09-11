@@ -16,3 +16,5 @@ preferences:
       after_save: create_another
     about_us:
       after_save: continue_editing
+    videos:
+      after_save: create_another

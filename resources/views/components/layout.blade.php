@@ -4,9 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>City Eye Hospital- Eye Care</title>
+    <meta name="description" content="City Eye Hospital offers comprehensive eye care services including eye exams, treatments, and surgeries. Our experienced team provides top-notch eye care with state-of-the-art technology.">
+    <meta name="keywords" content="City Eye Hospital, eye care, eye exams, eye treatments, eye surgeries, ophthalmology, retina clinic , glaucoma clinic, cornea clinic, cataract, optical shop, vision care">
+    <meta name="author" content="City Eye Hospital">
+
+    <title>City Eye Hospital - Eye Care</title>
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="City Eye Hospital - Eye Care">
+    <meta property="og:description" content="City Eye Hospital offers comprehensive eye care services including eye exams, treatments, and surgeries. Our experienced team provides top-notch eye care with state-of-the-art technology.">
+    <!--<meta property="og:image" content="{{ asset('images/og-image.jpg') }}">-->
+    <meta property="og:url" content="https://www.cityeyehospital.or.ke">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="City Eye Hospital - Eye Care">
+    <meta name="twitter:description" content="City Eye Hospital offers comprehensive eye care services including eye exams, treatments, and surgeries. Our experienced team provides top-notch eye care with state-of-the-art technology.">
+    <!--<meta name="twitter:image" content="{{ asset('images/twitter-card-image.jpg') }}">-->
+
+    <!-- Canonical Link -->
+    <link rel="canonical" href="https://www.cityeyehospital.or.ke">
+
     <!-- Add your CSS links here -->
     <link href="{{ asset('plugins/bootstrap/bootstrap.min.css') }}" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Hospital",
+      "name": "City Eye Hospital",
+      "url": "https://www.cityeyehospital.or.ke",
+      "logo": "{{ asset('images/logo.png') }}",
+      "description": "City Eye Hospital offers comprehensive eye care services including eye exams, treatments, and surgeries. Our experienced team provides top-notch eye care with state-of-the-art technology.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Ngong Road Opposite Traffic Police Station",
+        "addressLocality": "Nairobi",
+        "addressRegion": "Nairobi County",
+        "postalCode": "00100",
+        "addressCountry": "Kenya"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "telephone": "+254(0)111 032 200 ",
+        "email": "info@cityeyehospital.or.ke"
+      }
+    }
+    </script>
 
     <!-- JavaScript -->
     <script src="{{ asset('plugins/bootstrap/bootstrap.min.js') }}"></script>

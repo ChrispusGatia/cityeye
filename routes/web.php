@@ -47,11 +47,6 @@ Route::post('/contact', function (Request $request) {
 
         // Flash success message with conversion tracking script
         session()->flash('flash', 'Your message was sent successfully!');
-        
-        // Inject the event snippet for Google conversions
-       // echo "<script>
-               // gtag('event', 'conversion', {'send_to': 'AW-16651053038/-uPxCL-1tNEZEO7P64M-'});
-             // </script>";
 
         return redirect('/contact');
     } catch (\Exception $e) {
@@ -94,11 +89,6 @@ Route::post('/bookappointment', function (Request $request) {
 
         // Flash success message with conversion tracking script
         session()->flash('flash', 'Your request to book an appointment has been sent. A member of our team will get back to you to confirm your appointment booking. Thank you.');
-        
-        // Inject the event snippet for Google conversions
-       // echo "<script>
-                // gtag('event', 'conversion', {'send_to': 'AW-16651053038/-uPxCL-1tNEZEO7P64M-'});
-              // </script>";
 
         return redirect('/bookappointment');
     } catch (\Exception $e) {

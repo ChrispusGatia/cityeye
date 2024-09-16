@@ -23,8 +23,8 @@ use App\Mail\BookMe;
 
 // Route::statamic('whoweare', 'whoweare');
 
+// Contact form route with rate limiting (e.g., 1 request per minute)
 Route::post('/contact', function (Request $request) {
-    // Validate the incoming request data
     $validated = $request->validate([
         'name' => 'required|string|max:255',
         'email' => 'required|email',
@@ -34,7 +34,6 @@ Route::post('/contact', function (Request $request) {
     ]);
 
     try {
-        // Sanitize the data
         $data = [
             'name' => e($validated['name']),
             'email' => e($validated['email']),
@@ -43,22 +42,20 @@ Route::post('/contact', function (Request $request) {
             'message' => e($validated['message']),
         ];
 
+        // Send email
         Mail::to('info@cityeyehospital.or.ke')->send(new ContactMe($data));
 
-        // Flash success message with conversion tracking script
         session()->flash('flash', 'Your message was sent successfully!');
 
         return redirect('/contact');
     } catch (\Exception $e) {
-        // Log the error for debugging
         \Log::error('Failed to send email: ' . $e->getMessage());
         return redirect('/contact')->with('flash', 'Failed to send message. Please try again later.');
     }
-});
+})->middleware('throttle:1,1'); // 1 request per minute per user
 
-
+// Booking form route with rate limiting (e.g., 1 request per minute)
 Route::post('/bookappointment', function (Request $request) {
-    // Validate the incoming request data
     $validated = $request->validate([
         'name' => 'required|string|max:255',
         'email' => 'required|email',
@@ -70,7 +67,6 @@ Route::post('/bookappointment', function (Request $request) {
     ]);
 
     try {
-        // Sanitize the data
         $data = [
             'name' => e($validated['name']),
             'email' => e($validated['email']),
@@ -81,19 +77,14 @@ Route::post('/bookappointment', function (Request $request) {
             'message' => e($validated['message']),
         ];
 
-        // Send email to the hospital
         Mail::to('appointments@cityeyehospital.or.ke')->send(new BookMe($data));
-        
-        // Send confirmation email to the user
         Mail::to($data['email'])->send(new AppointmentConfirmation($data));
 
-        // Flash success message with conversion tracking script
-        session()->flash('flash', 'Your request to book an appointment has been sent. A member of our team will get back to you to confirm your appointment booking. Thank you.');
+        session()->flash('flash', 'Your request to book an appointment has been sent.');
 
         return redirect('/bookappointment');
     } catch (\Exception $e) {
-        // Log the error for debugging
         \Log::error('Failed to send email: ' . $e->getMessage());
         return redirect('/bookappointment')->with('flash', 'Failed to send message. Please try again later.');
     }
-});
+})->middleware('throttle:1,1'); // 1 request per minute per user

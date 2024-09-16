@@ -4,6 +4,7 @@ namespace App\Exceptions;
 
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Throwable;
+use Illuminate\Http\Exceptions\ThrottleRequestsException;
 
 class Handler extends ExceptionHandler
 {
@@ -26,5 +27,28 @@ class Handler extends ExceptionHandler
         $this->reportable(function (Throwable $e) {
             //
         });
+    }
+
+    /**
+     * Render an exception into an HTTP response.
+     *
+     * @param \Illuminate\Http\Request $request
+     * @param \Throwable $exception
+     * @return \Illuminate\Http\Response
+     */
+    public function render($request, Throwable $exception)
+    {
+        // Handle throttle (rate-limiting) exception
+        if ($exception instanceof ThrottleRequestsException) {
+            $retryAfter = $exception->getHeaders()['Retry-After'] ?? 60; // Default to 60 seconds if not provided
+
+            // Flash message to the session
+            session()->flash('error', 'Too many requests! Please wait ' . $retryAfter . ' seconds before trying again.');
+
+            // Redirect back to the form with the flashed message
+            return redirect()->back();
+        }
+
+        return parent::render($request, $exception);
     }
 }

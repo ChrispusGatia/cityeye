@@ -86,6 +86,12 @@
                                     });
                                     </script>
                                     @endif
+
+                                    @if(session('error'))
+                                    <div class="alert alert-danger contact__msg" role="alert">
+                                        {{ session('error') }}
+                                    </div>
+                                    @endif
                                 </div>
                             </div>
                 

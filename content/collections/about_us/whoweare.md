@@ -4,7 +4,7 @@ blueprint: about_u
 title: 'Who we are'
 author: 14d3b439-c1ca-4786-8ce7-59caffb630ff
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1721038171
+updated_at: 1726565025
 template_field: about_us/whoweare
 body_details:
   -
@@ -16,7 +16,6 @@ body_details:
       <p style="font-size: large">In addition to having world-class expertise in every aspect of eye care, we ensure our facilities are well-equipped with the latest technology to continuously provide advanced and affordable clinical care in a patient-friendly environment.</p>
     type: new_set
     enabled: true
-    youtube_id: r_dXLAvoEfg
 mission_vision_title: 'Our Goal And Dream'
 mission_vision_body_title: 'Our Mission, Vision, and Core Values'
 mission_and_vision_body_description: 'City Eye Hospital (CEH) is committed to providing accessible, high-quality eye care in Sub-Saharan Africa. Guided by our core values of faith, people-centricity, and excellence, we aim to minimize needless blindness, fostering a culture of compassion and continuous improvement.'

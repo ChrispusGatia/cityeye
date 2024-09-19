@@ -79,7 +79,7 @@
                             <li><i class="icofont-check mr-2"></i>Glaucoma Clinic and Surgeries</li>
                             <li><i class="icofont-check mr-2"></i>Retina Clinic and Surgeries</li>
                             <li><i class="icofont-check mr-2"></i>Optical Shop</li>
-                            <li><i class="icofont-check mr-2"></i>Pediatrics services</li>                          
+                            <li><i class="icofont-check mr-2"></i>Paediatrics services</li>                          
                         </ul>
 
                         <a href="all-services" class="btn btn-main-2 btn-round-full">Explore Our Services<i
@@ -89,48 +89,82 @@
 
                 <div class="col-lg-4">
                     <div class="sidebar-widget schedule-widget mt-5">
-                        <h5 class="mb-4">Consultation Fee</h5>
-
+                        <h5 class="mb-4">Hospital Directions</h5>
+                
                         <ul class="list-unstyled">
                             <li class="d-flex justify-content-between align-items-center">
-                                <span>Embark on a visionary journey to eye health excellence with our specialized
-                                    consultations at an unbeatable fee👁️💡</span>
+                                <i class="icofont-location-pin"></i>
+                                <a href="https://www.google.com/maps?q=Ralph+Bunche+Rd,+Nairobi&hl=en&ll=-1.2958189,36.8044979&z=17" target="_blank" class="text-decoration-none text-color">
+                                    <span>Upper Hill Medical Centre,</span>
+                                </a>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center">
+                                <i class="icofont-location-pin"></i>
+                                <a href="https://www.google.com/maps?q=Ralph+Bunche+Rd,+Nairobi&hl=en&ll=-1.2958189,36.8044979&z=17" target="_blank" class="text-decoration-none text-color">
+                                    <span>3rd Floor, Ralph Bunche Road,</span>
+                                </a>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center">
+                                <i class="icofont-location-pin"></i>
+                                <a href="https://www.google.com/maps?q=Ralph+Bunche+Rd,+Nairobi&hl=en&ll=-1.2958189,36.8044979&z=17" target="_blank" class="text-decoration-none text-color">
+                                    <span>Nairobi.</span>
+                                </a>
                             </li>
                         </ul>
-
-                        <!--<div class="sidebar-contatct-info mt-4">
-                            <p class="mb-0">🌟 Fee</p>
-                            <h4 class="mb-3">Ksh 4000</h4>
+                
+                        <div class="sidebar-contact-info mt-4">
+                            <p class="mb-0">Need Urgent Help?</p>
+                            <h3>+254 (0) 714 617 782</h3>
                         </div>
-                        <img src="images/gallery/ap-reception.jpg" alt="Main Hospital Image" class="img-fluid mt-3">-->
                     </div>
                 </div>
-
+                
                 <div class="col-lg-4">
                     <div class="sidebar-widget schedule-widget mt-5">
-                        <h5 class="mb-4">Hospital Directions</h5>
-
+                        <h5 class="mb-4">Hospital Branches</h5>
+                
                         <ul class="list-unstyled">
                             <li class="d-flex justify-content-between align-items-center">
-                                <i class="icofont-location-pin"></i>
-                                <span>Upper Hill Medical Centre,</span>
+                                <!-- Branch Icon, no hyperlink -->
+                                <i class="icofont-building-alt"></i>
+                                <!-- Branch name is hyperlinked -->
+                                <a href="/main_hospital" target="_blank" class="text-decoration-none text-color">
+                                    <span>City Eye Hospital - Main Branch</span>
+                                </a>
                             </li>
                             <li class="d-flex justify-content-between align-items-center">
-                                <i class="icofont-location-pin"></i>
-                                <span>3rd Floor, Ralph Bunche Road,</span>
+                                <!-- Branch Icon, no hyperlink -->
+                                <i class="icofont-building-alt"></i>
+                                <!-- Branch name is hyperlinked -->
+                                <a href="/nyeri_hospital" target="_blank" class="text-decoration-none text-color">
+                                    <span>City Eye Hospital - Nyeri Branch</span>
+                                </a>
                             </li>
                             <li class="d-flex justify-content-between align-items-center">
-                                <i class="icofont-location-pin"></i>
-                                <span>Nairobi.</span>
+                                <!-- Branch Icon, no hyperlink -->
+                                <i class="icofont-building-alt"></i>
+                                <!-- Branch name is hyperlinked -->
+                                <a href="/appointment-clinic" target="_blank" class="text-decoration-none text-color">
+                                    <span>City Eye Hospital - Appt. Clinic</span>
+                                </a>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center">
+                                <!-- Branch Icon, no hyperlink -->
+                                <i class="icofont-building-alt"></i>
+                                <!-- Branch name is hyperlinked -->
+                                <a href="/ceh_community" target="_blank" class="text-decoration-none text-color">
+                                    <span>City Eye Hospital - Vision Centre</span>
+                                </a>
                             </li>
                         </ul>
-
-                        <div class="sidebar-contatct-info mt-4">
+                
+                        <div class="sidebar-contact-info mt-4">
                             <p class="mb-0">Need Urgent Help?</p>
-                            <h3> +254(0)714 617 782</h3>
+                            <h3> +254 (0) 714 617 782</h3>
                         </div>
                     </div>
                 </div>
+                
 
                 <div class="col-lg-4">
                     <div class="sidebar-widget schedule-widget mt-5">

@@ -92,45 +92,78 @@
 
                 <div class="col-lg-4">
                     <div class="sidebar-widget schedule-widget mt-5">
-                        <h5 class="mb-4">Consultation Fee</h5>
-
-                        <ul class="list-unstyled">
-                            <li class="d-flex justify-content-between align-items-center">
-                                <span>Embark on a visionary journey to eye health excellence with our specialized
-                                    consultations at an unbeatable fee👁️💡</span>
-                            </li>
-                        </ul>
-
-                        <!--<div class="sidebar-contatct-info mt-4">
-                            <p class="mb-0">🌟 Fee</p>
-                            <h4 class="mb-3">Ksh 600</h4>
-                        </div>
-                        <img src="images/gallery/main-reception.png" alt="Main Hospital Image" class="img-fluid mt-3">-->
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="sidebar-widget schedule-widget mt-5">
                         <h5 class="mb-4">Hospital Directions</h5>
-
+                
                         <ul class="list-unstyled">
                             <li class="d-flex justify-content-between align-items-center">
                                 <i class="icofont-location-pin"></i>
-                                <span>Ngong Road,</span>
+                                <a href="https://www.google.com/maps?q=City+Eye+Hospital,+-1.296242,36.807784" target="_blank" class="text-decoration-none text-color">
+                                    <span>Ngong Road,</span>
+                                </a>
                             </li>
                             <li class="d-flex justify-content-between align-items-center">
                                 <i class="icofont-location-pin"></i>
-                                <span>Opposite Traffic Police Station,</span>
+                                <a href="https://www.google.com/maps?q=City+Eye+Hospital,+-1.296242,36.807784" target="_blank" class="text-decoration-none text-color">
+                                    <span>Opposite Traffic Police Station,</span>
+                                </a>
                             </li>
                             <li class="d-flex justify-content-between align-items-center">
                                 <i class="icofont-location-pin"></i>
-                                <span>Nairobi.</span>
+                                <a href="https://www.google.com/maps?q=City+Eye+Hospital,+-1.296242,36.807784" target="_blank" class="text-decoration-none text-color">
+                                    <span>Nairobi.</span>
+                                </a>
                             </li>
                         </ul>
-
-                        <div class="sidebar-contatct-info mt-4">
+                
+                        <div class="sidebar-contact-info mt-4">
                             <p class="mb-0">Need Urgent Help?</p>
                             <h3>+254(0)111 032 200</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="sidebar-widget schedule-widget mt-5">
+                        <h5 class="mb-4">Hospital Branches</h5>
+                
+                        <ul class="list-unstyled">
+                            <li class="d-flex justify-content-between align-items-center">
+                                <!-- Branch Icon, no hyperlink -->
+                                <i class="icofont-building-alt"></i>
+                                <!-- Branch name is hyperlinked -->
+                                <a href="/main_hospital" target="_blank" class="text-decoration-none text-color">
+                                    <span>City Eye Hospital - Main Branch</span>
+                                </a>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center">
+                                <!-- Branch Icon, no hyperlink -->
+                                <i class="icofont-building-alt"></i>
+                                <!-- Branch name is hyperlinked -->
+                                <a href="/nyeri_hospital" target="_blank" class="text-decoration-none text-color">
+                                    <span>City Eye Hospital - Nyeri Branch</span>
+                                </a>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center">
+                                <!-- Branch Icon, no hyperlink -->
+                                <i class="icofont-building-alt"></i>
+                                <!-- Branch name is hyperlinked -->
+                                <a href="/appointment-clinic" target="_blank" class="text-decoration-none text-color">
+                                    <span>City Eye Hospital - Appt. Clinic</span>
+                                </a>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center">
+                                <!-- Branch Icon, no hyperlink -->
+                                <i class="icofont-building-alt"></i>
+                                <!-- Branch name is hyperlinked -->
+                                <a href="/ceh_community" target="_blank" class="text-decoration-none text-color">
+                                    <span>City Eye Hospital - Vision Centre</span>
+                                </a>
+                            </li>
+                        </ul>
+                
+                        <div class="sidebar-contact-info mt-4">
+                            <p class="mb-0">Need Urgent Help?</p>
+                            <h3> +254 (0) 111 032 270</h3>
                         </div>
                     </div>
                 </div>

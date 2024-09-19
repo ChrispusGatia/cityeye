@@ -199,7 +199,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="contact-block mb-4 mb-lg-0">
                             <i class="icofont-live-support"></i>
-                            <h5>VC Ngong - Call Us</h5>
+                            <h5>Vision Center Ngong - Call Us</h5>
                             <p>
                                 <i class="icofont-support mr-3" style="font-size:12px;"></i>
                                 +254 (0) 114 524 718<br>

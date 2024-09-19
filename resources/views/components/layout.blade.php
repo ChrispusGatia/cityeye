@@ -214,7 +214,10 @@
                                         class="icofont-email mr-3"></i>info@cityeyehospital.or.ke</a>
                             </li>
                             <li class="list-inline-item">
-                                <i class="icofont-location-pin mr-2"></i>Ngong Road, Nairobi, Kenya
+                                <i class="icofont-location-pin mr-2"></i>
+                                <a href="https://www.google.com/maps?q=City+Eye+Hospital,+-1.296242,36.807784" target="_blank" class="text-decoration-none text-color">
+                                    Ngong Road, Nairobi, Kenya
+                                </a>
                             </li>
                         </ul>
                     </div>

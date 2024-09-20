@@ -119,7 +119,7 @@
                                             <div class="form-group">
                                                 <select class="form-control" id="doctor" name="doctor" required>
                                                     <option value="">Select Doctor</option>
-                                                    <option value="Dr. Kibata">Dr. Kibata</option>
+                                                    <!--<option value="Dr. Kibata">Dr. Kibata</option>-->
                                                     <option value="Dr. Muchai">Dr. Muchai</option>
                                                     <option value="Dr. Kareko">Dr. Kareko</option>
                                                     <option value="Dr. Njoya">Dr. Njoya</option>

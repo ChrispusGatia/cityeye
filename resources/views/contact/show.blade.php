@@ -249,7 +249,7 @@
                                         data-title="Appointment Clinic">Appointment Clinic</a></li>
                                 <li><a href="#" class="hospital-location"
                                         data-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.788688278033!2d36.6572366!3d-1.3583221!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f034453812b63%3A0x5b18f2d50bfe9691!2sCity%20Eye%20Hospital%20-%20Ngong%20Milele%20Mall!5e0!3m2!1sen!2ske!4v1685612866572!5m2!1sen!2ske"
-                                        data-title="VC Ngong">VC Ngong</a></li>
+                                        data-title="VC Ngong">Vision Center Ngong</a></li>
                             </ul>
                             <span class="btn btn-primary btn-block">Click on a branch name</span>
                         </div>

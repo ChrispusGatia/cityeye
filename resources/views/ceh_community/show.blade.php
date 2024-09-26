@@ -220,16 +220,16 @@
                             <h5 class="mb-4">Time Schedule</h5>
                             <ul class="list-unstyled">
                                 <li class="d-flex justify-content-between align-items-center">
-                                    <span>Monday - Thur :</span>
-                                    <span>8:00 a.m - 5:00 p.m</span>
-                                </li>
-                                <li class="d-flex justify-content-between align-items-center">
-                                    <span>Friday :</span>
-                                    <span>8:00 a.m - 4:00 p.m</span>
+                                    <span>Monday - Fri :</span>
+                                    <span>9:00 a.m - 6:00 p.m</span>
                                 </li>
                                 <li class="d-flex justify-content-between align-items-center">
                                     <span>Saturday :</span>
-                                    <span>9:00 a.m - 1:00 p.m</span>
+                                    <span>9:00 a.m - 2:00 p.m</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center">
+                                    <span>Sunday's & Public Holidays:</span>
+                                    <span>Closed</span>
                                 </li>
                             </ul>
 

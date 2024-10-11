@@ -5,7 +5,7 @@ title: Home
 template: index
 author: 14d3b439-c1ca-4786-8ce7-59caffb630ff
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1726577685
+updated_at: 1728628933
 subtitle: 'Founded by leading eye specialists, City Eye Hospital [CEH] is a premier specialty eye hospital in Kenya dedicated to making quality eye care accessible and affordable for patients of all ages and backgrounds across all our branches.'
 teaser: 'EXPERT EXCEPTIONAL EYE CARE'
 services_cards:
@@ -68,21 +68,17 @@ services_cards:
 featured_images:
   -
     id: lta4g6cu
-    image_asset: web-banner-(3).png
+    image_asset: avoid-the-rush.png
     type: new_set
     enabled: true
   -
     id: luqh8ptd
-    image_asset: 1.-website-home-page-banner.jpg
-    type: new_set
-    enabled: true
-  -
-    id: m16fmcp1
+    image_asset: 2.-website-banner-1726644176.png
     type: new_set
     enabled: true
   -
     id: lvazzq70
-    image_asset: website-slide-1-1716189234.png
+    image_asset: web-banner-2-(1).png
     type: new_set
     enabled: true
   -
@@ -167,9 +163,7 @@ partners:
     logo: insurances/visionspring.png
     type: new_set
     enabled: true
-image_1: img_2847.jpg
-image_2: website-image-(1).png
-image_3: whatsapp-image-2024-05-09-at-1.36.26-pm-1715925260.jpeg
+image_1: dr.-k-min.jpg
 customer_review:
   -
     id: lw63y9cj
@@ -253,5 +247,7 @@ customer_review:
     stars: 5
     type: new_set
     enabled: true
+image_2: website-slide-2.png
+image_3: whatsapp-image-2024-05-09-at-1.36.26-pm.jpeg
 ---
 Hello , I am testing this functionality

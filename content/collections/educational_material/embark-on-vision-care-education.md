@@ -19,6 +19,27 @@ card_section:
     youtube_id: d2CoPg4iF3o
     type: new_set
     enabled: true
+  -
+    id: m1ys51h1
+    card_image: "dr.-ng'an'ga-1728291730.png"
+    card_description: "**Common Eye Problems Explained by Dr. Ng'ang'a**"
+    youtube_id: gg6FpSdm6S0
+    type: new_set
+    enabled: true
+  -
+    id: m1yt0w9m
+    card_image: intravitreal-avastine.png
+    card_description: '**Intravitreal Avastin Procedure: How it Helps  Preserve Vision**'
+    youtube_id: d2CoPg4iF3o
+    type: new_set
+    enabled: true
+  -
+    id: m1yt4mxt
+    card_image: dr.-wanjiku.png
+    card_description: '**Common Eye Health Problems Explained by Dr. Wanjiku | Expert Tips for Clear Vision**'
+    youtube_id: IHpekbq9KOc
+    type: new_set
+    enabled: true
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1725348037
+updated_at: 1728293848
 ---

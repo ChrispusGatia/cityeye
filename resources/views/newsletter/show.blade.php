@@ -131,8 +131,7 @@
                                         <p class="card-text">
                                             {{ $item->description }}
                                         </p>
-                                        <!--<button onclick="openFlipbook('{{ asset($item->news_pdf) }}')" class="btn btn-main btn-round-full">Read More</button>-->
-                                        <a href="/newsblogs/{{ Str::slug($item->title) }}" type="button" class="btn btn-main btn-round-full">Read More</a>
+                                        <a href="{{ route('newsblogs.show', Str::slug($item->title)) }}" class="btn btn-main btn-round-full">Read More</a>
                                     </div>
                                     <div class="card-footer">
                                         <small class="text-muted"><i class="icofont-calendar mr-1"></i>{{ $item['publishing_date']->format('d M Y') }}</small>

@@ -131,6 +131,7 @@
                                         <p class="card-text">
                                             {{ $item->description }}
                                         </p>
+                                        <!--<a href="/newsblogs" class="btn btn-main btn-round-full">Read More</a>-->
                                         <a href="{{ route('newsblogs.show', Str::slug($item->title)) }}" class="btn btn-main btn-round-full">Read More</a>
                                     </div>
                                     <div class="card-footer">

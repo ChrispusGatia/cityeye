@@ -28,6 +28,6 @@ class NewsBlogController extends Controller
         }
 
         // If the blog exists, return the blog view with the content
-        return view('newsblog', ['blog' => $blog]);
+        return view('newsblogs', ['blog' => $blog]);
     }
 }

@@ -25,7 +25,7 @@ use App\Mail\BookMe;
 
 // Contact form route with rate limiting (e.g., 1 request per minute)
 
-Route::get('/newsblogs/{slug}', [NewsBlogController::class, 'show'])->name('newsblogs.show');
+Route::get('/newsblogs/{slug}', [App\Http\Controllers\NewsBlogController::class, 'show'])->name('newsblogs.show');
 
 
 

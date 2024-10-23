@@ -220,7 +220,7 @@
                             <h5 class="mb-4">Time Schedule</h5>
                             <ul class="list-unstyled">
                                 <li class="d-flex justify-content-between align-items-center">
-                                    <span>Monday - Fri :</span>
+                                    <span>Monday - Friday :</span>
                                     <span>9:00 a.m - 6:00 p.m</span>
                                 </li>
                                 <li class="d-flex justify-content-between align-items-center">

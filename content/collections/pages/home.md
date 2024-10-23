@@ -5,7 +5,7 @@ title: Home
 template: index
 author: 14d3b439-c1ca-4786-8ce7-59caffb630ff
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1728628933
+updated_at: 1729669087
 subtitle: 'Founded by leading eye specialists, City Eye Hospital [CEH] is a premier specialty eye hospital in Kenya dedicated to making quality eye care accessible and affordable for patients of all ages and backgrounds across all our branches.'
 teaser: 'EXPERT EXCEPTIONAL EYE CARE'
 services_cards:
@@ -249,5 +249,28 @@ customer_review:
     enabled: true
 image_2: website-slide-2.png
 image_3: whatsapp-image-2024-05-09-at-1.36.26-pm.jpeg
+testimonials:
+  -
+    id: m2lgc18w
+    type: new_set
+    enabled: true
+    youtube_id: IHpekbq9KOc
+    testimonial_quote: 'Cataract Surgery'
+    doctors_name: 'Dr. George Ohito'
+    posting_date: '2024-10-23'
+  -
+    id: m2lizzx8
+    type: new_set
+    enabled: true
+    posting_date: '2024-10-23'
+  -
+    id: m2lkb58s
+    type: new_set
+    enabled: true
+  -
+    id: m2lkb7we
+    type: new_set
+    enabled: true
+testimonial_description: 'Watch what our customers have to say, along with their experiences with our doctors.'
 ---
 Hello , I am testing this functionality

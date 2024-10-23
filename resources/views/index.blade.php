@@ -87,6 +87,7 @@
             }
             
         </style>
+        
 
     </head>
 
@@ -162,36 +163,32 @@
     <section class="section about">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-8 col-sm-12">
                     <div class="about-img">
-                        <img src="{{ asset($image_1) }}" alt="" class="img-fluid">
-                        <img src="{{ asset($image_2) }}" alt="" class="img-fluid mt-4">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="about-img mt-4 mt-lg-0">
-                        <img src="{{ asset($image_3) }}" alt="" class="img-fluid">
+                        <img src="{{ asset($image_1) }}" alt="" class="img-fluid" style="width: 100%; height: auto;">
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="about-content pl-4 mt-4 mt-lg-0">
                         <h2 class="title-color">{{ $teaser }}</h2>
                         <p class="mt-4 mb-5">{{ $subtitle }}</p>
-
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    
 
-    <section class="section reviews gray-bg">
+    <section class="section reviews gray-bg" style="border-bottom: 20px solid #fff; padding-bottom: 50px;">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7 text-center">
                     <div class="section-title">
-                        <h2>Customer Reviews</h2>
+                        <h2>Testimonials</h2>
                         <div class="divider mx-auto my-4"></div>
-                        <p>See what our customers are saying about us.</p>
+                        
+                            <p>{!! $testimonial_description !!}</p>
+                        
                     </div>
                 </div>
             </div>
@@ -200,68 +197,55 @@
                 <div class="col-lg-8 mx-auto">
                     <div id="reviewCarousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
-                            @foreach ($customer_review as $key => $review)
-                                <div class="carousel-item {{ $key === 0 ? 'active' : '' }}">
-                                    <div class="feature-item mb-4 p-4 border rounded d-flex flex-column align-items-center">
-                                        <!-- Display customer image -->
-                                        @if($review->customer_image)
-                                        <img src="{{ asset($review->customer_image) }}" alt="{{ $review->customer_name }}" class="img-fluid rounded-circle customer-img mb-3" style="width: 50px; height: 50px;">
+                            @php $testimonialChunks = collect($testimonials)->chunk(2); @endphp
+    
+                            @foreach ($testimonialChunks as $key => $testimonialChunk)
+                                <div class="carousel-item {{ $key == 0 ? 'active' : '' }}">
+                                    <div class="row">
+                                        @foreach ($testimonialChunk as $testimonial)
+                                            <div class="col-md-6 mb-4">
+                                                <div class="card h-100 gallery-item">
+                                                    <div class="embed-responsive embed-responsive-16by9">
+                                                        <iframe class="embed-responsive-item" 
+                                                                src="https://www.youtube.com/embed/{{ $testimonial['youtube_id'] }}" 
+                                                                allowfullscreen>
+                                                        </iframe>
+                                                    </div>
+                                                    <div class="card-body text-center">
+                                                        <blockquote class="testimonial-quote">
+                                                            "{{ $testimonial['testimonial_quote'] }}"
+                                                        </blockquote>
+                                                        <h4 class="mt-3 mb-1">{{ $testimonial['customer_name'] }}</h4>
+                                                        <p><strong>Doctor:</strong> {{ $testimonial['doctors_name'] }}</p>
+                                                        <p class="text-muted"><i class="icofont-calendar mr-1"></i>{{ $testimonial['posting_date'] }}</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        @endforeach
+                                        @if ($testimonialChunk->count() == 1)
+                                            <!-- Add a blank space if only one video in a slide -->
+                                            <div class="col-md-6 mb-4">
+                                                <div class="card h-100 gallery-item">
+                                                    <div class="embed-responsive embed-responsive-16by9">
+                                                        <div class="embed-responsive-item"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         @endif
-                                        <!-- Display customer name and review -->
-                                        <h4 class="mt-3 mb-2 text-center">{{ $review->customer_name }}</h4>
-                                        <p class="mb-3 text-center">&ldquo;{{ $review->customer_quote }}&rdquo;</p>
-                                        <!-- Star rating icons -->
-                                        <div class="rating mb-3 text-center">
-                                            @if($review->stars)
-                                            @foreach (range(1, $review->stars) as $index)
-                                                    <i class="icofont-star" style="color: #ffc107;"></i>
-                                            @endforeach
-                                            @else
-                                            @foreach(range(1,5) as $index)
-                                            <i class="icofont-star" style="color: #ddd;"></i>
-                                            @endforeach
-                                            @endif
-                                        </div>
                                     </div>
                                 </div>
                             @endforeach
                         </div>
-                        <!-- Custom styled carousel navigation arrows -->
-                        <a class="carousel-control-prev" href="#reviewCarousel" role="button" data-slide="prev" style="z-index: 2;">
-                            <span class="carousel-control-prev-icon" aria-hidden="true" style="
-                                background-color: #223a66;
-                                width: 25px;
-                                height: 25px;
-                                border-radius: 50%;
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-                            ">
-                                <i class="icofont-simple-left" style="color: #fff; font-size: 20px;"></i>
-                            </span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#reviewCarousel" role="button" data-slide="next" style="z-index: 2;">
-                            <span class="carousel-control-next-icon" aria-hidden="true" style="
-                                background-color: #223a66;
-                                width: 25px;
-                                height: 25px;
-                                border-radius: 50%;
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-                            ">
-                                <i class="icofont-simple-right" style="color: #fff; font-size: 20px;"></i>
-                            </span>
-                            <span class="sr-only">Next</span>
-                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     
-    <section class="section appoinment">
+     
+    
+    
+    <!--<section class="section appoinment">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 ">
@@ -290,7 +274,7 @@
 
                         <div class="text-center mb-4">
                             <!-- Placeholder image or your preferred image -->
-                            <!--<img src="images/service/img2.png" alt="City Eye Hospital" class="img-fluid">-->
+                            <!--<img src="images/service/img2.png" alt="City Eye Hospital" class="img-fluid">--
                         </div>
                         <div class="text-center">
                             <a href="/bookappointment" class="btn btn-main-2 btn-round-full">Book Appointment<i
@@ -301,7 +285,7 @@
 
             </div>
         </div>
-    </section>
+    </section>-->
 
     <section class="section testimonial-2 gray-bg">
         <div class="container">

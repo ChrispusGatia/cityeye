@@ -123,7 +123,7 @@
                             @foreach ($content as $item)
                             <div class="col-lg-4 col-md-6 mb-4">
                                 <div class="card">
-                                    <img src="images/news/enhance.jpg" class="card-img-top" alt="News Image" />
+                                    <img src="{{ asset($item->thumbnail_image) }}" class="card-img-top" alt="{{ $item->title }}" />
                                     <div class="card-body">
                                         <h5 class="card-title" style="color: #223a66">
                                             {{ $item->title }}
@@ -131,7 +131,11 @@
                                         <p class="card-text">
                                             {{ $item->description }}
                                         </p>
-                                        <button onclick="openFlipbook('{{ asset($item->news_pdf) }}')" class="btn btn-main btn-round-full">Read More</button>
+                                        <a href="/newsblogs" class="btn btn-main btn-round-full">Read More</a>
+                                        <!--<a href="{{ route('newsblogs.show', Str::slug($item->title)) }}" class="btn btn-main btn-round-full">Read More</a>-->
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted"><i class="icofont-calendar mr-1"></i>{{ $item['publishing_date']->format('d M Y') }}</small>
                                     </div>
                                 </div>
                             </div>
@@ -142,24 +146,16 @@
                 </div>
 
                 <!-- Pagination -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <nav aria-label="Page navigation">
-                            <ul class="pagination justify-content-center">
-                                <li class="page-item disabled">
-                                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-                                </li>
-                                <li class="page-item active" aria-current="page">
-                                    <a class="page-link" href="#">1 <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#">Next</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
+                <div class="col-lg-12 col-md-12">
+                    <nav class="pagination justify-content-center">
+                        <div class="nav-links">
+                            <span aria-current="page" class="page-numbers current">1</span>
+                            <a class="page-numbers" href="#!">2</a>
+                            <a class="page-numbers" href="#!">3</a>
+                            <a class="page-numbers" href="#!"><i
+                                    class="icofont-thin-double-right"></i></a>
+                        </div>
+                    </nav>
                 </div>
                 <!-- End Pagination -->
 
@@ -167,53 +163,9 @@
         </section>
         <!-- End News Section -->
 
-        <!-- Flipbook Modal -->
-        <div id="flipbookModal" class="flipbook-modal">
-            <div class="flipbook-content">
-                <span class="close-btn" onclick="closeFlipbook()">&times;</span>
-                <iframe id="pdfViewer" src="" frameborder="0" width="100%" height="100%"></iframe>
-                <div id="errorMessage" class="error-message"></div>
-            </div>
-        </div>
-
         <!-- Essential Scripts ================================================== -->
         <script src="plugins/jquery/jquery.min.js"></script>
         <script src="plugins/bootstrap/bootstrap.min.js"></script>
-
-        <script>
-            // Function to open PDF in modal
-            function openFlipbook(pdfUrl) {
-                const modal = document.getElementById('flipbookModal');
-                const pdfViewer = document.getElementById('pdfViewer');
-                const errorMessage = document.getElementById('errorMessage');
-                
-                if (pdfUrl) {
-                    pdfViewer.src = pdfUrl; // Set PDF viewer iframe source
-                    errorMessage.textContent = ''; // Clear any previous error messages
-                    modal.style.display = "block"; // Show the flipbook modal
-                } else {
-                    errorMessage.textContent = 'Error: PDF not available.'; // Show error message if PDF URL is empty
-                }
-            }
-
-            // Function to close flipbook modal
-            function closeFlipbook() {
-                const modal = document.getElementById('flipbookModal');
-                const pdfViewer = document.getElementById('pdfViewer');
-                
-                pdfViewer.src = ''; // Clear PDF viewer iframe source
-
-                modal.style.display = "none"; // Hide the flipbook modal
-            }
-
-            // Close the modal if user clicks outside the flipbook content
-            window.addEventListener('click', function(event) {
-                const modal = document.getElementById('flipbookModal');
-                if (event.target === modal) {
-                    closeFlipbook();
-                }
-            });
-        </script>
     </body>
 
 </x-layout>

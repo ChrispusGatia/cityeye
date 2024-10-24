@@ -30,6 +30,23 @@ tabs:
                       icon: null
                       fields:
                         -
+                          handle: thumbnail_image
+                          field:
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: 'Thumbnail Image'
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                            max_files: 1
+                        -
                           handle: title
                           field:
                             input_type: text
@@ -54,22 +71,22 @@ tabs:
                             replicator_preview: true
                             hide_display: false
                         -
-                          handle: news_pdf
+                          handle: publishing_date
                           field:
-                            mode: list
-                            container: assets
-                            restrict: false
-                            allow_uploads: true
-                            show_filename: true
-                            show_set_alt: true
-                            type: assets
-                            display: 'News pdf'
+                            mode: single
+                            inline: false
+                            full_width: false
+                            columns: 1
+                            rows: 1
+                            time_enabled: false
+                            time_seconds_enabled: false
+                            type: date
+                            display: 'Publishing Date'
                             listable: hidden
                             instructions_position: above
                             visibility: visible
                             replicator_preview: true
                             hide_display: false
-                            max_files: 1
               type: replicator
               display: Content
               listable: hidden

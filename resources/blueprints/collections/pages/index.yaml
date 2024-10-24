@@ -83,40 +83,6 @@ tabs:
               replicator_preview: true
               hide_display: false
           -
-            handle: image_2
-            field:
-              mode: list
-              container: assets
-              restrict: false
-              allow_uploads: true
-              show_filename: true
-              show_set_alt: true
-              type: assets
-              display: 'image 2'
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
-              max_files: 1
-          -
-            handle: image_3
-            field:
-              mode: list
-              container: assets
-              restrict: false
-              allow_uploads: true
-              show_filename: true
-              show_set_alt: true
-              type: assets
-              display: 'image 3'
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
-              max_files: 1
-          -
             handle: subtitle
             field:
               antlers: false
@@ -241,7 +207,19 @@ tabs:
               replicator_preview: true
               hide_display: false
           -
-            handle: customer_review
+            handle: testimonial_description
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Testimonial Description'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: testimonials
             field:
               collapse: false
               previews: true
@@ -258,6 +236,29 @@ tabs:
                       icon: null
                       fields:
                         -
+                          handle: youtube_id
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Youtube ID'
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                        -
+                          handle: testimonial_quote
+                          field:
+                            antlers: false
+                            type: textarea
+                            display: 'Testimonial quote'
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                        -
                           handle: customer_name
                           field:
                             input_type: text
@@ -270,46 +271,36 @@ tabs:
                             replicator_preview: true
                             hide_display: false
                         -
-                          handle: customer_image
+                          handle: doctors_name
                           field:
-                            mode: list
-                            container: assets
-                            restrict: false
-                            allow_uploads: true
-                            show_filename: true
-                            show_set_alt: true
-                            type: assets
-                            display: 'customer image'
-                            listable: true
-                            instructions_position: above
-                            visibility: visible
-                            replicator_preview: true
-                            hide_display: false
-                            max_files: 1
-                            min_files: 1
-                        -
-                          handle: customer_quote
-                          field:
+                            input_type: text
                             antlers: false
-                            type: textarea
-                            display: 'Customer quote'
+                            type: text
+                            display: "Doctor's Name"
                             listable: hidden
                             instructions_position: above
                             visibility: visible
                             replicator_preview: true
                             hide_display: false
                         -
-                          handle: stars
+                          handle: posting_date
                           field:
-                            type: integer
-                            display: Stars
+                            mode: single
+                            inline: false
+                            full_width: false
+                            columns: 1
+                            rows: 1
+                            time_enabled: false
+                            time_seconds_enabled: false
+                            type: date
+                            display: 'Posting Date'
                             listable: hidden
                             instructions_position: above
                             visibility: visible
                             replicator_preview: true
                             hide_display: false
               type: replicator
-              display: 'Customer Review'
+              display: Testimonials
               listable: hidden
               instructions_position: above
               visibility: visible

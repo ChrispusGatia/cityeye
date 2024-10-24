@@ -24,6 +24,11 @@ use App\Mail\BookMe;
 // Route::statamic('whoweare', 'whoweare');
 
 // Contact form route with rate limiting (e.g., 1 request per minute)
+
+Route::get('/newsblogs/{slug}', [App\Http\Controllers\NewsBlogController::class, 'show'])->name('newsblogs.show');
+
+
+
 Route::post('/contact', function (Request $request) {
     $validated = $request->validate([
         'name' => 'required|string|max:255',

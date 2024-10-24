@@ -4,7 +4,7 @@ blueprint: news_blog
 title: 'News & Blogs'
 author: 14d3b439-c1ca-4786-8ce7-59caffb630ff
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1729685940
+updated_at: 1729695613
 content:
   -
     id: m2lq925h

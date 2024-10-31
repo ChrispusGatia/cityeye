@@ -5,7 +5,7 @@ title: Home
 template: index
 author: 14d3b439-c1ca-4786-8ce7-59caffb630ff
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1730114007
+updated_at: 1730378631
 subtitle: 'Founded by leading eye specialists, City Eye Hospital [CEH] is a premier specialty eye hospital in Kenya dedicated to making quality eye care accessible and affordable for patients of all ages and backgrounds across all our branches.'
 teaser: 'EXPERT EXCEPTIONAL EYE CARE'
 services_cards:
@@ -256,7 +256,16 @@ testimonials:
     enabled: true
     youtube_id: ahdlxEVLA_Q
     posting_date: '2024-10-23'
+    testimonial_quote: 'A Happy Customer!'
     customer_name: "Joseph Mung'ara"
+  -
+    id: m2x7jij2
+    type: new_set
+    enabled: true
+    youtube_id: d2CoPg4iF3o
+    testimonial_quote: 'Intravitreal Avastin Procedure'
+    posting_date: '2024-10-31'
+    doctors_name: 'Dr. George Ohito'
 testimonial_description: 'Watch what our customers have to say, along with their experiences with our doctors.'
 ---
 Hello , I am testing this functionality

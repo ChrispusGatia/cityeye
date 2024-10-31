@@ -87,6 +87,50 @@
             }
             
         </style>
+        <style>
+            .video-gallery-container {
+              display: flex;
+            }
+          
+            .video-gallery-player {
+              flex: 3;
+            }
+          
+            .video-gallery-list {
+              flex: 1;
+              max-height: 500px;
+              overflow-y: auto;
+              border-left: 1px solid #ccc;
+              padding-left: 15px;
+            }
+          
+            .video-item {
+              display: flex;
+              align-items: center;
+              text-decoration: none;
+              color: #333;
+              margin-bottom: 10px;
+            }
+          
+            .video-item:hover .video-item-title {
+              color: #007bff;
+            }
+          
+            .video-item-thumbnail img {
+              width: 60px;
+              height: 45px;
+              object-fit: cover;
+              border-radius: 4px;
+            }
+          
+            .video-item-title {
+              font-size: 14px;
+              line-height: 1.2;
+              margin-left: 10px;
+              font-weight: 600;
+            }
+          </style>
+          
         
 
     </head>
@@ -181,111 +225,55 @@
 
     <section class="section reviews gray-bg" style="border-bottom: 20px solid #fff; padding-bottom: 50px;">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-7 text-center">
-                    <div class="section-title">
-                        <h2>Testimonials</h2>
-                        <div class="divider mx-auto my-4"></div>
-                        
-                            <p>{!! $testimonial_description !!}</p>
-                        
+          <!-- Section Title -->
+          <header class="section-header text-center">
+            <h2>Testimonials</h2>
+            <div class="divider mx-auto my-4"></div>
+            <p>{!! $testimonial_description !!}</p>
+          </header>
+      
+          <div class="video-gallery-container d-flex">
+            <!-- Video Player -->
+            <div class="video-gallery-player col-lg-9">
+              <div id="reviewCarousel" class="carousel" data-ride="false">
+                <div class="carousel-inner">
+                  @php $testimonialChunks = collect($testimonials)->chunk(2); @endphp
+      
+                  @foreach ($testimonialChunks as $key => $testimonialChunk)
+                    <div class="carousel-item {{ $key == 0 ? 'active' : '' }}">
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <iframe 
+                          class="embed-responsive-item"
+                          src="{{ !empty($testimonialChunk[0]['youtube_id']) ? 'https://www.youtube.com/embed/' . $testimonialChunk[0]['youtube_id'] : '' }}"
+                          frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          allowfullscreen>
+                        </iframe>
+                      </div>
+                      
                     </div>
+                  @endforeach
                 </div>
+              </div>
             </div>
-    
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <div id="reviewCarousel" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            @php $testimonialChunks = collect($testimonials)->chunk(2); @endphp
-    
-                            @foreach ($testimonialChunks as $key => $testimonialChunk)
-                                <div class="carousel-item {{ $key == 0 ? 'active' : '' }}">
-                                    <div class="row">
-                                        @foreach ($testimonialChunk as $testimonial)
-                                            <div class="col-md-6 mb-4">
-                                                <div class="card h-100 gallery-item">
-                                                    <div class="embed-responsive embed-responsive-16by9">
-                                                        <iframe class="embed-responsive-item" 
-                                                                src="https://www.youtube.com/embed/{{ $testimonial['youtube_id'] }}" 
-                                                                allowfullscreen>
-                                                        </iframe>
-                                                    </div>
-                                                    <div class="card-body text-center">
-                                                        <blockquote class="testimonial-quote">
-                                                           {{ $testimonial['testimonial_quote'] }}
-                                                        </blockquote>
-                                                        <h4 class="mt-3 mb-1">{{ $testimonial['customer_name'] }}</h4>
-                                                        <p>{{ $testimonial['doctors_name'] }}</p>
-                                                        <p class="text-muted"><i class="icofont-calendar mr-1"></i>{{ $testimonial['posting_date'] }}</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        @endforeach
-                                        @if ($testimonialChunk->count() == 1)
-                                            <!-- Add a blank space if only one video in a slide -->
-                                            <div class="col-md-6 mb-4">
-                                                <div class="card h-100 gallery-item">
-                                                    <div class="embed-responsive embed-responsive-16by9">
-                                                        <div class="embed-responsive-item"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        @endif
-                                    </div>
-                                </div>
-                            @endforeach
-                        </div>
-                    </div>
-                </div>
-            </div>
+      
+            <!-- Video List Sidebar -->
+            <div class="video-gallery-list col-lg-3 pl-3">
+              @foreach ($testimonials as $testimonial)
+                <a class="video-item d-flex align-items-center mb-3" href="#" onclick="playVideo('{{ $testimonial['youtube_id'] }}', event)">
+                  <div class="video-item-thumbnail mr-2">
+                    <img src="https://img.youtube.com/vi/{{ $testimonial['youtube_id'] }}/default.jpg" alt="{{ $testimonial['customer_name'] }} thumbnail" class="img-fluid">
+                  </div>
+                  <div class="video-item-title">
+                    {{ $testimonial['customer_name'] ?? $testimonial['doctors_name'] }} - {{ $testimonial['testimonial_quote'] }}<br>
+                    <small class="text-muted">Posted on {{ $testimonial['posting_date'] }}</small>
+                  </div>
+                </a>
+              @endforeach
+            </div>    
+          </div>
         </div>
-    </section>
-    
-     
-    
-    
-    <!--<section class="section appoinment">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 ">
-                    <div class="appoinment-content">
-                        <img src="images/service/img-1.jpg" alt="" class="img-fluid">
-                        <div class="emergency">
-                            <h2 style="font-size: 22px; font-weight: bold;">Contact CEH Appointment Clinic</h2>
-                            <p><i class="icofont-phone" style="color: white; font-weight: bold;"></i>
-                                <span style="color: white; font-weight: bold; font-size: 20px;">+254 0714 617
-                                    782</span>
-                                / <span style="color: white; font-weight: bold; font-size: 20px;">+254 0736 329
-                                    348</span>
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-md-10">
-                    <div class="appoinment-wrap mt-5 mt-lg-0">
-                        <h2 class="mb-2 title-color">Book Appointment</h2>
-                        <p class="mb-4">Thank you for choosing City Eye Hospital. You can schedule an
-                            appointment at our Appointment Clinic (located on the 3rd Floor of Upper Hill
-                            Medical Centre, Ralph Bunche Road, Nairobi) by
-                            clicking the button below.</p>
-
-                        <div class="text-center mb-4">
-                            <!-- Placeholder image or your preferred image -->
-                            <!--<img src="images/service/img2.png" alt="City Eye Hospital" class="img-fluid">--
-                        </div>
-                        <div class="text-center">
-                            <a href="/bookappointment" class="btn btn-main-2 btn-round-full">Book Appointment<i
-                                    class="icofont-simple-right ml-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>-->
+      </section>
 
     <section class="section testimonial-2 gray-bg">
         <div class="container">
@@ -372,6 +360,22 @@
     <!-- Google Map -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA"></script>
     <script src="plugins/google-map/gmap.js"></script>
+
+
+    <script>
+        function playVideo(youtubeId, event) {
+          // Prevent the default link behavior
+          event.preventDefault();
+      
+          // Select the iframe in the active carousel item and update its src
+          const videoFrame = document.querySelector('#reviewCarousel .carousel-item.active iframe');
+          videoFrame.src = `https://www.youtube.com/embed/${youtubeId}`;
+      
+          // Optionally, you could add autoplay here
+          videoFrame.src += '?autoplay=1';
+        }
+      </script>
+
 
     <script>
         $(document).ready(function() {

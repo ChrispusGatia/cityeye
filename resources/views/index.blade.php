@@ -108,12 +108,12 @@
               display: flex;
               align-items: center;
               text-decoration: none;
-              color: #333;
+              color: #223a66;
               margin-bottom: 10px;
             }
           
             .video-item:hover .video-item-title {
-              color: #007bff;
+              color: #e12454;
             }
           
             .video-item-thumbnail img {
@@ -226,11 +226,11 @@
     <section class="section reviews gray-bg" style="border-bottom: 20px solid #fff; padding-bottom: 50px;">
         <div class="container">
           <!-- Section Title -->
-          <header class="section-header text-center">
+          <div class="section-title text-center">
             <h2>Testimonials</h2>
             <div class="divider mx-auto my-4"></div>
             <p>{!! $testimonial_description !!}</p>
-          </header>
+          </div>
       
           <div class="video-gallery-container d-flex">
             <!-- Video Player -->

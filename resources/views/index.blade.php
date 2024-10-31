@@ -213,10 +213,10 @@
                                                     </div>
                                                     <div class="card-body text-center">
                                                         <blockquote class="testimonial-quote">
-                                                            "{{ $testimonial['testimonial_quote'] }}"
+                                                           {{ $testimonial['testimonial_quote'] }}
                                                         </blockquote>
                                                         <h4 class="mt-3 mb-1">{{ $testimonial['customer_name'] }}</h4>
-                                                        <p><strong>Doctor:</strong> {{ $testimonial['doctors_name'] }}</p>
+                                                        <p>{{ $testimonial['doctors_name'] }}</p>
                                                         <p class="text-muted"><i class="icofont-calendar mr-1"></i>{{ $testimonial['posting_date'] }}</p>
                                                     </div>
                                                 </div>

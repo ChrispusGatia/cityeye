@@ -5,7 +5,7 @@ title: Home
 template: index
 author: 14d3b439-c1ca-4786-8ce7-59caffb630ff
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1730378631
+updated_at: 1730722342
 subtitle: 'Founded by leading eye specialists, City Eye Hospital [CEH] is a premier specialty eye hospital in Kenya dedicated to making quality eye care accessible and affordable for patients of all ages and backgrounds across all our branches.'
 teaser: 'EXPERT EXCEPTIONAL EYE CARE'
 services_cards:
@@ -68,24 +68,24 @@ services_cards:
 featured_images:
   -
     id: lta4g6cu
-    image_asset: avoid-the-rush.png
+    image_asset: banners/1.-wellness---web-banners---week-1-min.jpg
     type: new_set
     enabled: true
   -
     id: luqh8ptd
-    image_asset: 2.-website-banner-1726644176.png
+    image_asset: banners/5.-wellness---web-banners---week-2-min.jpg
     type: new_set
     enabled: true
   -
     id: lvazzq70
-    image_asset: web-banner-2-(1).png
+    image_asset: banners/11.-wellness---web-banners---week-3-min.jpg
     type: new_set
     enabled: true
   -
     id: lta4fzyg
-    image_asset: bg-1-1709384857.jpg
+    image_asset: banners/14.-wellness---web-banners---week-4-min.jpg
     type: new_set
-    enabled: false
+    enabled: true
 subfooter_title: 'Partners who support us'
 partners:
   -
@@ -266,6 +266,36 @@ testimonials:
     testimonial_quote: 'Intravitreal Avastin Procedure'
     posting_date: '2024-10-31'
     doctors_name: 'Dr. George Ohito'
-testimonial_description: 'Watch what our customers have to say, along with their experiences with our doctors.'
+  -
+    id: m32thncm
+    youtube_id: IHpekbq9KOc
+    testimonial_quote: 'Common Eye Health Problems Explained.'
+    posting_date: '2024-11-04'
+    type: new_set
+    enabled: true
+    doctors_name: 'Dr. Wanjiku'
+  -
+    id: m32tjpjr
+    youtube_id: gg6FpSdm6S0
+    testimonial_quote: 'Common Eye Problems Explained.'
+    posting_date: '2024-11-04'
+    type: new_set
+    enabled: true
+    doctors_name: "Dr. Ng'ang'a"
+  -
+    id: m32tu0pk
+    youtube_id: L9-w-vwSRsc
+    testimonial_quote: 'Free Eye Check-Up at Embakasi | Patient Journey'
+    posting_date: '2024-11-04'
+    type: new_set
+    enabled: true
+  -
+    id: m32ucjpi
+    youtube_id: xfgAcamaa4w
+    testimonial_quote: 'A tour of City Eye Hospital, Nyeri'
+    posting_date: '2024-11-04'
+    type: new_set
+    enabled: true
+testimonial_description: 'Watch what our patients have to say, along with their experiences with our doctors.'
 ---
 Hello , I am testing this functionality

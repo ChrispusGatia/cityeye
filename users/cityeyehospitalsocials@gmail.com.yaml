@@ -22,3 +22,4 @@ preferences:
     assets:
       mode: grid
       per_page: 500
+  locale: en

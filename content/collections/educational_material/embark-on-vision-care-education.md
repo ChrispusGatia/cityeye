@@ -11,14 +11,14 @@ card_section:
     card_description: '**Common Eye Health Problems Explained by Dr. Wanjiku | Expert Tips for Clear Vision. Watch now to keep your eyes healthy and strong!**'
     youtube_id: IHpekbq9KOc
     type: new_set
-    enabled: true
+    enabled: false
   -
     id: m0m3cqth
     card_image: intravitreal-injection.png
     card_description: '**Intravitreal Avastin Procedure performed by Dr. Ohito, our expert cataract surgeon. How It Helps Preserve Vision | City Eye Hospital**'
     youtube_id: d2CoPg4iF3o
     type: new_set
-    enabled: true
+    enabled: false
   -
     id: m1ys51h1
     card_image: "dr.-ng'an'ga-1728291730.png"
@@ -41,5 +41,5 @@ card_section:
     type: new_set
     enabled: true
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1728293848
+updated_at: 1731590224
 ---

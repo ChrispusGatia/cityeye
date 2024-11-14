@@ -4,7 +4,7 @@ blueprint: news_blog
 title: 'News & Blogs'
 author: 14d3b439-c1ca-4786-8ce7-59caffb630ff
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1729695613
+updated_at: 1731496680
 content:
   -
     id: m2lq925h
@@ -46,7 +46,7 @@ content:
         enabled: true
     type: new_set
     enabled: true
-    blog_image: general.jpg
+    blog_image: main-thumnail---blog-min-1731496580.jpg
     publishing_date: '2024-10-23'
     sub_title: 'As a patient, you can play a crucial role in ensuring your own safety:'
 ---

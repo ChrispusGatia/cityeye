@@ -18,6 +18,12 @@ preferences:
       after_save: continue_editing
     videos:
       after_save: create_another
+    news_blogs:
+      columns:
+        - title
+        - status
+        - slug
+        - content
   assets:
     assets:
       mode: grid

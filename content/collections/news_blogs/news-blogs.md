@@ -1,10 +1,10 @@
 ---
 id: f41c0062-f437-4113-a973-7a24c15a08e5
 blueprint: news_blog
-title: 'News & Blogs'
+title: 'Ensuring Safe and Quality Care at City Eye Hospital'
 author: 14d3b439-c1ca-4786-8ce7-59caffb630ff
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1729695613
+updated_at: 1731654323
 content:
   -
     id: m2lq925h

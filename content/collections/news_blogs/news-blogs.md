@@ -4,7 +4,11 @@ blueprint: news_blog
 title: 'Ensuring Safe and Quality Care at City Eye Hospital'
 author: 14d3b439-c1ca-4786-8ce7-59caffb630ff
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
+<<<<<<< HEAD
 updated_at: 1731654323
+=======
+updated_at: 1731496680
+>>>>>>> 3c8ad5884ccb05dc11a91e1c6b4bea87489a4b3e
 content:
   -
     id: m2lq925h
@@ -46,7 +50,7 @@ content:
         enabled: true
     type: new_set
     enabled: true
-    blog_image: general.jpg
+    blog_image: main-thumnail---blog-min-1731496580.jpg
     publishing_date: '2024-10-23'
     sub_title: 'As a patient, you can play a crucial role in ensuring your own safety:'
 ---

@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use App\Http\Controllers\NewsAndBlogsController;
 use App\Mail\AppointmentConfirmation;
 use App\Mail\ContactMe;
 use App\Mail\BookMe;
@@ -24,8 +25,9 @@ use App\Mail\BookMe;
 // Route::statamic('whoweare', 'whoweare');
 
 // Contact form route with rate limiting (e.g., 1 request per minute)
-
-Route::get('/newsblogs/{slug}', [App\Http\Controllers\NewsBlogController::class, 'show'])->name('newsblogs.show');
+ 
+Route::get('/news_and_blogs', [NewsAndBlogsController::class, 'index']);
+Route::get('/news-and-blogs/{slug}', [NewsAndBlogsController::class, 'show'])->name('news_and_blogs.show');
 
 
 

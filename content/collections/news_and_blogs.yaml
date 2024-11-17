@@ -1,9 +1,8 @@
-title: 'News & Blogs'
-template: 'news&blogs/show'
+title: 'News And Blogs'
+template: news_and_blogs/index
 layout: layout
 revisions: false
-route: '/news&blogs'
-slugs: false
+routes: '/news_and_blogs'
 sort_dir: asc
 date_behavior:
   past: public

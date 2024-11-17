@@ -116,32 +116,46 @@
         <section class="section blog-wrap">
             <div class="container">
                 <div class="row">
-                    <!-- News Articles -->
-                    <div class="col-lg-12">
-                        <div class="row">
-                            <!-- News Items -->
-                            @foreach ($content as $item)
-                            <div class="col-lg-4 col-md-6 mb-4">
-                                <div class="card">
-                                    <img src="{{ asset($item->thumbnail_image) }}" class="card-img-top" alt="{{ $item->title }}" />
-                                    <div class="card-body">
-                                        <h5 class="card-title" style="color: #223a66">
-                                            {{ $item->title }}
-                                        </h5>
-                                        <p class="card-text">
-                                            {{ $item->description }}
-                                        </p>
-                                        <a href="/newsblogs" class="btn btn-main btn-round-full">Read More</a>
-                                        <!--<a href="{{ route('newsblogs.show', Str::slug($item->title)) }}" class="btn btn-main btn-round-full">Read More</a>-->
-                                    </div>
-                                    <div class="card-footer">
-                                        <small class="text-muted"><i class="icofont-calendar mr-1"></i>{{ $item['publishing_date']->format('d M Y') }}</small>
-                                    </div>
+                    <!-- News Items -->
+                    @php
+                        // Fetch all entries from the "news_and_blogs" collection
+                        $entries = \Statamic\Facades\Entry::query()->where('collection', 'news_and_blogs')->get();
+                    @endphp
+                
+                    @foreach ($entries as $entry)
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card">
+                                <!-- Retrieve the asset URL -->
+                                @if ($entry->get('blog_image'))
+                                  <img src="{{ '/assets/' . $entry->get('blog_image') }}" class="card-img-top" alt="{{ $entry->get('title') }}" />
+                                @else
+                                    <!-- Fallback image -->
+                                    <img src="/path/to/default-image.jpg" class="card-img-top" alt="Default Image" />
+                                @endif
+                                <div class="card-body">
+                                    <h5 class="card-title" style="color: #223a66">
+                                        {{ $entry->get('title') }}
+                                    </h5>
+                                    <p class="card-text">
+                                        <!-- Retrieve and truncate content -->
+                                        {!! \Illuminate\Support\Str::limit(strip_tags($entry->augmentedValue('blog_content')), 100) !!}
+
+                                    </p>
+                                    <a href="{{ route('news_and_blogs.show', $entry->slug()) }}" class="btn btn-main btn-round-full">Read More</a>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">
+                                        <i class="icofont-calendar mr-1"></i>{{ \Carbon\Carbon::parse($entry->get('posting_date'))->format('d F Y') }}
+                                    </small>
                                 </div>
                             </div>
-                            @endforeach
-                            <!-- End News Items -->
                         </div>
+                    @endforeach
+                    <!-- End News Items -->
+                </div>
+                
+                
+                        
                     </div>
                 </div>
 

@@ -195,13 +195,13 @@ tabs:
         display: 'New Section'
         fields:
           -
-            handle: slug
+            handle: slug_field
             field:
               from: title
               generate: true
               show_regenerate: false
               type: slug
-              display: Slug
+              display: 'Slug Field'
               listable: hidden
               instructions_position: above
               visibility: visible

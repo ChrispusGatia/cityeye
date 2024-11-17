@@ -394,7 +394,7 @@
                                     class="icofont-thin-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown05">
                                 <li>
-                                    <a class="dropdown-item" href="/newsletter">Newsletters</a>
+                                    <a class="dropdown-item" href="{{ url('/news_and_blogs') }}">Newsletters</a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="/education">Educational Materials</a>

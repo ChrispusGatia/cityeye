@@ -129,7 +129,7 @@
                                                 {{ \Carbon\Carbon::parse($relatedPost->get('posting_date'))->format('d M Y') }}
                                             </span>
                                             <h6 class="my-2">
-                                                <a href="{{ $relatedPost->url() }}">
+                                                <a href="{{ route('news_and_blogs.show', $relatedPost->slug()) }}" class="title-color">
                                                     {{ $relatedPost->get('title') }}
                                                 </a>
                                             </h6>

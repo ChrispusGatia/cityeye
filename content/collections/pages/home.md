@@ -5,7 +5,7 @@ title: Home
 template: index
 author: 14d3b439-c1ca-4786-8ce7-59caffb630ff
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1730722342
+updated_at: 1732602201
 subtitle: 'Founded by leading eye specialists, City Eye Hospital [CEH] is a premier specialty eye hospital in Kenya dedicated to making quality eye care accessible and affordable for patients of all ages and backgrounds across all our branches.'
 teaser: 'EXPERT EXCEPTIONAL EYE CARE'
 services_cards:
@@ -67,6 +67,11 @@ services_cards:
     enabled: false
 featured_images:
   -
+    id: m3r0kw70
+    image_asset: open-day---web-banner-min.jpg
+    type: new_set
+    enabled: true
+  -
     id: lta4g6cu
     image_asset: banners/1.-wellness---web-banners---week-1-min.jpg
     type: new_set
@@ -111,11 +116,6 @@ partners:
   -
     id: lta4plo0
     logo: insurances/gainsurance.jpg
-    type: new_set
-    enabled: true
-  -
-    id: luqhc1gh
-    logo: insurances/nhif.jpg
     type: new_set
     enabled: true
   -
@@ -294,6 +294,30 @@ testimonials:
     youtube_id: xfgAcamaa4w
     testimonial_quote: 'A tour of City Eye Hospital, Nyeri'
     posting_date: '2024-11-04'
+    type: new_set
+    enabled: true
+  -
+    id: m3y1tkzf
+    youtube_id: npQaHavCkxQ
+    testimonial_quote: 'Managing Diabetes with Ease'
+    doctors_name: 'Dr. Katambo'
+    posting_date: '2024-11-26'
+    type: new_set
+    enabled: true
+  -
+    id: m3y1zouc
+    youtube_id: gPQRWwGOZM4
+    testimonial_quote: 'Understanding Diabetic Retinopathy'
+    doctors_name: 'Dr. Kareko'
+    posting_date: '2024-11-26'
+    type: new_set
+    enabled: true
+  -
+    id: m3y23yxo
+    youtube_id: qEUpf1Ek7jM
+    testimonial_quote: "City Eye Hospital's Comprehensive Wellness Package"
+    doctors_name: Dr.Kareko
+    posting_date: '2024-11-26'
     type: new_set
     enabled: true
 testimonial_description: 'Watch what our patients have to say, along with their experiences with our doctors.'

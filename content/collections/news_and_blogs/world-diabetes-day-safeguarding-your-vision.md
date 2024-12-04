@@ -4,13 +4,13 @@ blueprint: news_and_blog
 title: 'World Diabetes Day: Safeguarding Your Vision'
 author: 14d3b439-c1ca-4786-8ce7-59caffb630ff
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1731835981
+updated_at: 1731849903
 blog_title: 'World Diabetes Day: Safeguarding Your Vision—The Importance of Eye Health in Diabetes Management'
 blog_content:
   -
     type: paragraph
     attrs:
-      textAlign: left
+      textAlign: justify
     content:
       -
         type: text
@@ -18,7 +18,7 @@ blog_content:
   -
     type: paragraph
     attrs:
-      textAlign: left
+      textAlign: justify
     content:
       -
         type: text
@@ -37,7 +37,7 @@ blog_content:
   -
     type: paragraph
     attrs:
-      textAlign: left
+      textAlign: justify
     content:
       -
         type: text
@@ -92,7 +92,7 @@ blog_content:
   -
     type: paragraph
     attrs:
-      textAlign: left
+      textAlign: justify
     content:
       -
         type: text
@@ -117,7 +117,7 @@ blog_content:
           -
             type: paragraph
             attrs:
-              textAlign: left
+              textAlign: justify
             content:
               -
                 type: text
@@ -134,7 +134,7 @@ blog_content:
           -
             type: paragraph
             attrs:
-              textAlign: left
+              textAlign: justify
             content:
               -
                 type: text
@@ -151,7 +151,7 @@ blog_content:
           -
             type: paragraph
             attrs:
-              textAlign: left
+              textAlign: justify
             content:
               -
                 type: text
@@ -168,7 +168,7 @@ blog_content:
           -
             type: paragraph
             attrs:
-              textAlign: left
+              textAlign: justify
             content:
               -
                 type: text
@@ -182,7 +182,7 @@ blog_content:
   -
     type: paragraph
     attrs:
-      textAlign: left
+      textAlign: justify
     content:
       -
         type: text
@@ -201,7 +201,7 @@ blog_content:
   -
     type: paragraph
     attrs:
-      textAlign: left
+      textAlign: justify
     content:
       -
         type: text
@@ -217,7 +217,7 @@ blog_content:
           -
             type: paragraph
             attrs:
-              textAlign: left
+              textAlign: justify
             content:
               -
                 type: text
@@ -234,7 +234,7 @@ blog_content:
           -
             type: paragraph
             attrs:
-              textAlign: left
+              textAlign: justify
             content:
               -
                 type: text
@@ -251,7 +251,7 @@ blog_content:
           -
             type: paragraph
             attrs:
-              textAlign: left
+              textAlign: justify
             content:
               -
                 type: text
@@ -265,7 +265,7 @@ blog_content:
   -
     type: paragraph
     attrs:
-      textAlign: left
+      textAlign: justify
     content:
       -
         type: text
@@ -290,7 +290,7 @@ blog_content:
           -
             type: paragraph
             attrs:
-              textAlign: left
+              textAlign: justify
             content:
               -
                 type: text
@@ -307,7 +307,7 @@ blog_content:
           -
             type: paragraph
             attrs:
-              textAlign: left
+              textAlign: justify
             content:
               -
                 type: text
@@ -324,7 +324,7 @@ blog_content:
           -
             type: paragraph
             attrs:
-              textAlign: left
+              textAlign: justify
             content:
               -
                 type: text
@@ -341,7 +341,7 @@ blog_content:
           -
             type: paragraph
             attrs:
-              textAlign: left
+              textAlign: justify
             content:
               -
                 type: text
@@ -355,7 +355,7 @@ blog_content:
   -
     type: paragraph
     attrs:
-      textAlign: left
+      textAlign: justify
     content:
       -
         type: text
@@ -374,7 +374,7 @@ blog_content:
   -
     type: paragraph
     attrs:
-      textAlign: left
+      textAlign: justify
     content:
       -
         type: text
@@ -393,7 +393,7 @@ blog_content:
   -
     type: paragraph
     attrs:
-      textAlign: left
+      textAlign: justify
     content:
       -
         type: text
@@ -412,7 +412,7 @@ blog_content:
   -
     type: paragraph
     attrs:
-      textAlign: left
+      textAlign: justify
     content:
       -
         type: text

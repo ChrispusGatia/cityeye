@@ -4,13 +4,13 @@ blueprint: news_and_blog
 title: 'Ensuring Safe and Quality Care at City Eye Hospital'
 author: 14d3b439-c1ca-4786-8ce7-59caffb630ff
 updated_by: 14d3b439-c1ca-4786-8ce7-59caffb630ff
-updated_at: 1731847316
+updated_at: 1732883292
 blog_title: 'Ensuring Safe and Quality Care at City Eye Hospital'
 blog_content:
   -
     type: paragraph
     attrs:
-      textAlign: left
+      textAlign: justify
     content:
       -
         type: text
@@ -18,7 +18,7 @@ blog_content:
   -
     type: paragraph
     attrs:
-      textAlign: left
+      textAlign: justify
     content:
       -
         type: text
@@ -26,7 +26,7 @@ blog_content:
   -
     type: paragraph
     attrs:
-      textAlign: left
+      textAlign: justify
     content:
       -
         type: text

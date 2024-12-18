@@ -461,7 +461,7 @@
                             <li><a href="/ourfoundation">Our Foundation</a></li>
                             <li><a href="/donate">Donate</a></li>
                             <li><a href="/hospital-location">Hospital Locations</a></li>
-                            <li><a href="/newsletter">News & Insights</a></li>
+                            <li><a href="/news_and_blogs">News & Insights</a></li>
                         </ul>
                     </div>
                 </div>

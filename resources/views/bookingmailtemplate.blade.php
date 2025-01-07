@@ -53,6 +53,26 @@
             font-size: 14px;
             line-height: 1.5;
         }
+        .notice {
+            font-size: 14px;
+            color: #333;
+            background-color: #ffecec;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #ffcccc;
+            margin-top: 15px;
+        }
+        .reply-button {
+            background-color: #223a66;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+            font-size: 14px;
+            margin-left: 10px;
+            transition: background-color 0.3s;
+        }
         .note {
             color: #223a66;
             background-color: #cce5ff;
@@ -81,7 +101,12 @@
 
             @if(isset($dataReceived['email']))
             <p class="section-title">Patient Email:</p>
-            <p>{{ $dataReceived['email'] }}</p>
+            <p>
+                <a href="mailto:{{ $dataReceived['email'] }}">{{ $dataReceived['email'] }}</a>
+                <button class="reply-button btn btn-primary d-flex align-items-center"><i class="bi bi-arrow-left me-2"></i>
+                Click the Email To Reply</button>
+
+            </p>
             @endif
 
             @if(isset($dataReceived['doctor']))
@@ -112,6 +137,9 @@
             <p class="section-title">Message from the Patient:</p>
             <p class="message">{{ $dataReceived['message'] }}</p>
             @endif
+        </div>
+        <div class="notice">
+            <strong>Notice:</strong> This email is sent from a <strong>noreply</strong> address. Please reply to the email indicated in the form to send your response.
         </div>
     </div>
 </body>

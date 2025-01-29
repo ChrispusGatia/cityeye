@@ -224,6 +224,9 @@
                                 <span>6:30 a.m - 5:00 p.m</span>
                             </li>
                             <li class="d-flex justify-content-between align-items-center">
+                                
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center">
                                 <span>Weekends & Public Holidays :</span>
                                 <span>Closed</span>
                             </li>

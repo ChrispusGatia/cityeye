@@ -124,8 +124,8 @@
                                                     <option value="Dr. Kareko">Dr. Kareko</option>
                                                     <option value="Dr. Njoya">Dr. Njoya</option>
                                                     <option value="Dr. Njuguna">Dr. Njuguna</option>
-                                                    <option value="Dr. Mashep">Dr. Mashep</option>
-                                                    <!--<option value="Dr. Korir">Dr. Korir</option>-->
+                                                    <!--<option value="Dr. Mashep">Dr. Mashep</option>
+                                                    <option value="Dr. Korir">Dr. Korir</option>-->
                                                     <option value="Any Available Doctor">Any Available Doctor</option>
                                                 </select>
                                             </div>

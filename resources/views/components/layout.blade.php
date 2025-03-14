@@ -422,8 +422,10 @@
                         </div>
                         <h4> Our Quest</h4>
                         <p>
-                            City Eye Hospital is dedicated to delivering top-notch, secure,
-                            and cost-effective eye care services to all patients who rely on our expertise.
+                            At City Eye Hospital (CEH), we are committed to providing high-quality, 
+                            safe, and affordable eye care for all. With a focus on expert treatment 
+                            and patient well-being, we strive to make world-class vision care accessible 
+                            to everyone who trusts us with their sight.
                         </p>
 
                         <ul class="list-inline footer-socials mt-4">

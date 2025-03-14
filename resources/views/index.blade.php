@@ -169,8 +169,8 @@
                             <div class="feature-icon mb-4">
                                 <i class="icofont-surgeon-alt"></i>
                             </div>
-                            <span> ELITE EYE SPECIALISTS</span>
-                            <h4 class="mb-3">Specialised</h4>
+                            <!--<span> ELITE EYE SPECIALISTS</span>-->
+                            <h4 class="mb-3">ELITE EYE SPECIALISTS</h4>
                             <p class="mb-4">City Eye Hospital (CEH) is home to top ophthalmologists 
                                 in Kenya and is dedicated to providing world-class eye care. 
                                 Our team of highly trained eye specialists in Nairobi is committed 
@@ -182,8 +182,8 @@
                             <div class="feature-icon mb-4">
                                 <i class="icofont-surgeon-alt"></i>
                             </div>
-                            <span>PERSONALIZED & PATIENT-CENTERED CARE</span>
-                            <h4 class="mb-3">Personalised</h4>
+                            <!--<span>PERSONALIZED & PATIENT-CENTERED CARE</span>-->
+                            <h4 class="mb-3">PERSONALIZED & PATIENT-CENTERED CARE</h4>
                             <p class="mb-4">At City Eye Hospital (CEH), we provide personalized eye care 
                                 tailored to your unique needs. Our calm and comfortable environment 
                                 ensures you feel at ease, with our eye specialists ready to answer your 
@@ -194,8 +194,8 @@
                             <div class="feature-icon mb-4">
                                 <i class="icofont-surgeon-alt"></i>
                             </div>
-                            <span>COMPREHENSIVE & ACCESSIBLE EXTENSIVE CARE</span>
-                            <h4 class="mb-3">Comprehensive</h4>
+                            <!--<span>COMPREHENSIVE & ACCESSIBLE EXTENSIVE CARE</span>-->
+                            <h4 class="mb-3">COMPREHENSIVE & ACCESSIBLE EXTENSIVE CARE</h4>
                             <p>City Eye Hospital (CEH) offers world-class, comprehensive eye care, 
                                 treating a full range of eye conditions and symptoms. 
                                 Our facilities are easily accessible via both private and public transport, 

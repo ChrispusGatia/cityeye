@@ -195,7 +195,7 @@
                                 <i class="icofont-surgeon-alt"></i>
                             </div>
                             <!--<span>COMPREHENSIVE & ACCESSIBLE EXTENSIVE CARE</span>-->
-                            <h4 class="mb-3">COMPREHENSIVE & ACCESSIBLE EXTENSIVE CARE</h4>
+                            <h4 class="mb-3">COMPREHENSIVE & ACCESSIBLE CARE</h4>
                             <p>City Eye Hospital (CEH) offers world-class, comprehensive eye care, 
                                 treating a full range of eye conditions and symptoms. 
                                 Our facilities are easily accessible via both private and public transport, 

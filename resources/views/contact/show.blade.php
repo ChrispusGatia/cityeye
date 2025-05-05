@@ -57,7 +57,7 @@
         <!-- Contact Form Section -->
 <section style="background-color: #f8f9fa; padding: 60px 0;">
     <div style="max-width: 1140px; margin: 0 auto; padding: 0 15px;">
-        <div style="text-align: center; margin-bottom: 40px;">
+        <div style="text-align: center; margin-bottom: 40px;" class="section-title text-center">
             <h2 class="mb-4" style="font-size: 2rem; margin-bottom: 10px;">Contact Us</h2>
             <div class="divider mx-auto my-4"></div>
             <p style="color: #6c757d; font-size: 1rem;">Feel free to reach out to City Eye for any inquiries, assistance, or information. Our team is here to help you. We look forward to hearing from you!</p>

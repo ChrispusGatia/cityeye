@@ -52,93 +52,68 @@
                 </div>
             </div>
         </section>
-    
+        <!-- End of Page Title -->
+         
         <!-- Contact Form Section -->
-        <section class="contact-form-wrap section">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <div class="section-title text-center">
-                            <h2 class="text-md mb-2">Contact us</h2>
-                            <div class="divider mx-auto my-4"></div>
-                            <p class="mb-5">Feel free to reach out to City Eye for any inquiries, assistance, or
-                                information. Our dedicated team is here to provide prompt and helpful support. Contact us via
-                                phone, email, or visit our office – we look forward to hearing from you soon!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <form id="contact-form" action="/contact" method="post">
-                            <!-- CSRF Token -->
-                            @csrf
-                            <!-- form message -->
-                            <div class="row">
-                                <div class="col-12">
-                                    @if(session('flash'))
-                                    <div class="alert alert-success contact__msg" role="alert">
-                                        {{ session('flash') }}
-                                    </div>
-                                    <!-- Google Ads Conversion Tracking Script -->
-                                    <script>
-                                    gtag('event', 'conversion', {
-                                        'send_to': 'AW-16651053038/-uPxCL-1tNEZEO7P64M-'
-                                    });
-                                    </script>
-                                    @endif
+<section style="background-color: #f8f9fa; padding: 60px 0;">
+    <div style="max-width: 1140px; margin: 0 auto; padding: 0 15px;">
+        <div style="text-align: center; margin-bottom: 40px;">
+            <h2 style="font-size: 2rem; margin-bottom: 10px;">Contact Us</h2>
+            <div style="width: 60px; height: 3px; background: #007bff; margin: 10px auto;"></div>
+            <p style="color: #6c757d; font-size: 1rem;">Feel free to reach out to City Eye for any inquiries, assistance, or information. Our team is here to help you. We look forward to hearing from you!</p>
+        </div>
 
-                                    @if(session('error'))
-                                    <div class="alert alert-danger contact__msg" role="alert">
-                                        {{ session('error') }}
-                                    </div>
-                                    @endif
-                                </div>
-                            </div>
-                
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <input name="name" id="name" type="text" class="form-control"
-                                            placeholder="Your Full Name" required
-                                            pattern="[a-zA-Z\s]+" title="Please enter a valid name.">
-                                    </div>
-                                </div>
-                
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <input name="email" id="email" type="email" class="form-control"
-                                            placeholder="Your Email Address" required>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <input name="subject" id="subject" type="text" class="form-control"
-                                            placeholder="Your Query Topic" required>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <input name="phone" id="phone" type="tel" class="form-control"
-                                            placeholder="Your Phone Number" required
-                                            pattern="\d{10}" title="Please enter a valid phone number with 10 digits.">
-                                    </div>
-                                </div>
-                            </div>
-                
-                            <div class="form-group-2 mb-4">
-                                <textarea name="message" id="message" class="form-control" rows="8"
-                                    placeholder="Your Message" required></textarea>
-                            </div>
-                
-                            <div>
-                                <input class="btn btn-main btn-round-full" name="submit" type="submit"
-                                    value="Send Message">
-                            </div>
-                        </form>       
+        <div style="max-width: 960px; margin: 0 auto; background-color: #fff; padding: 40px; border-radius: 12px; box-shadow: 0 0 30px rgba(0,0,0,0.05);">
+            <form id="contact-form" action="/contact" method="post">
+                @csrf
+
+                <!-- Flash Messages -->
+                <div style="margin-bottom: 20px;">
+                    @if(session('flash'))
+                    <div style="background-color: #d4edda; color: #155724; padding: 10px 15px; border-radius: 6px;">
+                        {{ session('flash') }}
                     </div>
+                    <script>
+                        gtag('event', 'conversion', {
+                            'send_to': 'AW-16651053038/-uPxCL-1tNEZEO7P64M-'
+                        });
+                    </script>
+                    @endif
+                    @if(session('error'))
+                    <div style="background-color: #f8d7da; color: #721c24; padding: 10px 15px; border-radius: 6px;">
+                        {{ session('error') }}
+                    </div>
+                    @endif
                 </div>
-            </div>
-        </section>
+
+                <!-- Form Fields -->
+                <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+                    <input name="name" id="name" type="text" placeholder="Your Full Name" required pattern="[a-zA-Z\s]+"
+                        title="Please enter a valid name." style="flex: 1 1 45%; padding: 12px; border: 1px solid #ced4da; border-radius: 8px; font-size: 1rem;">
+
+                    <input name="email" id="email" type="email" placeholder="Your Email Address" required
+                        style="flex: 1 1 45%; padding: 12px; border: 1px solid #ced4da; border-radius: 8px; font-size: 1rem;">
+
+                    <input name="subject" id="subject" type="text" placeholder="Your Query Topic" required
+                        style="flex: 1 1 45%; padding: 12px; border: 1px solid #ced4da; border-radius: 8px; font-size: 1rem;">
+
+                    <input name="phone" id="phone" type="tel" placeholder="Your Phone Number" required pattern="\d{10}"
+                        title="Please enter a valid phone number with 10 digits."
+                        style="flex: 1 1 45%; padding: 12px; border: 1px solid #ced4da; border-radius: 8px; font-size: 1rem;">
+
+                    <textarea name="message" id="message" placeholder="Your Message" required rows="6"
+                        style="flex: 1 1 100%; padding: 12px; border: 1px solid #ced4da; border-radius: 8px; font-size: 1rem;"></textarea>
+                </div>
+
+                <div style="text-align: center; margin-top: 30px;">
+                    <input type="submit" value="Send Message" name="submit"
+                        style="background-color: #007bff; border: none; color: white; padding: 12px 40px; font-size: 1.1rem; border-radius: 25px; cursor: pointer; transition: background-color 0.3s ease;">
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
     
         <!-- Contact Information Section -->
         <section class="contact-info pb-0">

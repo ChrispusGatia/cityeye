@@ -107,7 +107,7 @@
 
                 <div style="text-align: center; margin-top: 30px;">
                     <input type="submit" value="Send Message" name="submit"
-                        style="background-color: #007bff; border: none; color: white; padding: 12px 40px; font-size: 1.1rem; border-radius: 25px; cursor: pointer; transition: background-color 0.3s ease;">
+                        style="background-color: #223a66; border: none; color: white; padding: 12px 40px; font-size: 1.1rem; border-radius: 25px; cursor: pointer; transition: background-color 0.3s ease;">
                 </div>
             </form>
         </div>
